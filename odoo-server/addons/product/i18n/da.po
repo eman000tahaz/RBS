@@ -4,10 +4,8 @@
 # 
 # Translators:
 # Martin Trigaux <mat@odoo.com>, 2016
-# Sanne Kristensen <sanne@vkdata.dk>, 2016
 # Jesper Carstensen <info@danodoo.dk>, 2016
 # Morten Schou <ms@msteknik.dk>, 2016
-# Ejner Sønniksen <ejner@vkdata.dk>, 2016
 # Jesper Carstensen <jc@danodoo.dk>, 2016
 # peso <peer.sommerlund@gmail.com>, 2016
 # Pernille Kristensen <pernillekristensen1994@gmail.com>, 2016
@@ -109,12 +107,6 @@ msgid ""
 "                Intel Iris Pro graphics\n"
 "            "
 msgstr ""
-"2.7GHz quad-core Intel Core i5\n"
-"                Turbo Boost up to 3.2GHz\n"
-"                8GB (two 4GB) memory\n"
-"                1TB hard drive\n"
-"                Intel Iris Pro graphics\n"
-"            "
 
 #. module: product
 #: model:product.attribute.value,name:product.product_attribute_value_2
@@ -209,8 +201,8 @@ msgid ""
 "A category of the view type is a virtual category that can be used as the "
 "parent of another category to create a hierarchical structure."
 msgstr ""
-"En kategori på denne \"view-type\" er en virtuel kategori, der kan bruges "
-"som hovedkategori for en anden kategori for at danne en hiearkisk struktur."
+"En kategori på denne \"view-type\" er en virtuel kategori, som kan bruges "
+"som moder for en anden kategori for at danne en hiearkisk struktur."
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_product_description_sale
@@ -220,8 +212,8 @@ msgid ""
 " This description will be copied to every Sale Order, Delivery Order and "
 "Customer Invoice/Refund"
 msgstr ""
-"Beskrivelse af varen, som du gerne vil vise kunden. Beskrivelsen kopieres "
-"til salgsordrer, leveringsordre og kundefaktura/kreditonotaer"
+"Beskrivelse af varen, som du ønsker kunden skal se. Beskrivelsen kopieres "
+"til salgsordrer, leveringer og kundefaktura/kreditonotaer"
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_product_description_purchase
@@ -231,9 +223,6 @@ msgid ""
 "This description will be copied to every Purchase Order, Receipt and Vendor "
 "Bill/Refund."
 msgstr ""
-"En beskrivelse af produktet, som du vil vise til dine leverandører. Denne "
-"beskrivelse kopieres til hver indkøbsordre, kvittering og leverandør "
-"faktura/kreditnota."
 
 #. module: product
 #: model:product.product,website_description:product.product_product_9
@@ -255,14 +244,12 @@ msgid ""
 "A price list contains rules to be evaluated in order to compute\n"
 "                the sales price of the products."
 msgstr ""
-"En prisliste indeholder regler, der skal anvendes for at beregne\n"
-"                salgsprisen på produkterne."
 
 #. module: product
 #: model:product.product,website_description:product.product_product_6
 #: model:product.template,website_description:product.product_product_6_product_template
 msgid "A screen worthy of iPad."
-msgstr "En skærm til iPad."
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_product_type
@@ -273,10 +260,6 @@ msgid ""
 "A service is a non-material product you provide.\n"
 "A digital content is a non-material product you sell online. The files attached to the products are the one that are sold on the e-commerce such as e-books, music, pictures,... The \"Digital Product\" module has to be installed."
 msgstr ""
-"Et lagerført produkt er et produkt, du fører lagerstyring på. App'en \"Lager\" skal installeres.\n"
-"En forbrugsvarer er derimod et produkt, der ikke er lagerstyring på.\n"
-"En ydelse er et ikke-materielt produkt, du leverer.\n"
-"Et digitalt indhold er et ikke-materielt produkt, du sælger online. Filerne knyttet til produkterne er dem der sælges på webshoppen, såsom e-bøger, musik, billeder, ... \"Digital produkt\" modulet skal installeres."
 
 #. module: product
 #: model:product.product,website_description:product.product_product_11
@@ -288,9 +271,6 @@ msgid ""
 "                                    The 2.5-inch Multi-Touch display is nearly twice as big as the display on the previous iPod nano,\n"
 "                                    so you can see more of the music, photos, and videos you love."
 msgstr ""
-"På størrelse med et kreditkort - og kun 5,4 mm tynd - er iPod nano den tyndeste iPod der nogensinde er lavet.\n"
-"                                    2,5-tommers Multi-Touch-skærm er næsten dobbelt så stor som skærmen på den foregående iPod nano,\n"
-"                                    Så du kan se mere af den musik, billeder og videoer, du elsker."
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_pricelist_active
@@ -315,7 +295,7 @@ msgstr "Alle produkter"
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_variant_easy_edit_view
 msgid "All general settings about this product are managed on"
-msgstr "Alle generelle indstillinger på dette produkt foretages på"
+msgstr ""
 
 #. module: product
 #: model:product.product,website_description:product.product_product_8
@@ -324,8 +304,6 @@ msgid ""
 "And at the Apple Online Store, you can configure your iMac with an even more"
 " powerful Intel Core i7 processor, up to 3.5GHz."
 msgstr ""
-"Og i Apple Online Store kan du konfigurere din iMac med en endnu mere "
-"kraftfuld Intel Core i7-processor, op til 3,5 GHz."
 
 #. module: product
 #: model:product.product,website_description:product.product_product_4
@@ -349,7 +327,7 @@ msgstr "Apple In-Ear Headphones"
 #: model:product.product,name:product.product_product_9
 #: model:product.template,name:product.product_product_9_product_template
 msgid "Apple Wireless Keyboard"
-msgstr "Apple trådløse tastatur"
+msgstr "Apple Wireless Keyboard"
 
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_normal_form_view
@@ -372,7 +350,7 @@ msgstr "Arkiveret"
 #. module: product
 #: model:ir.model.fields,help:product.field_product_supplierinfo_sequence
 msgid "Assigns the priority to the list of product vendor."
-msgstr "Tildeler prioriteten til listen over produktleverandør."
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_attribute_line_attribute_id
@@ -384,24 +362,24 @@ msgstr "Egenskab"
 #: model:ir.ui.view,arch_db:product.product_attribute_line_form
 #: model:ir.ui.view,arch_db:product.product_attribute_view_form
 msgid "Attribute Name"
-msgstr "Navn på egenskab"
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_attribute_value_price_extra
 msgid "Attribute Price Extra"
-msgstr "Ekstra pris for egenskab"
+msgstr "Ekstra pris for egenskaben"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_attribute_value_price_ids
 msgid "Attribute Prices"
-msgstr "Priser på egenskab"
+msgstr "Egenskabs priser"
 
 #. module: product
 #: model:ir.actions.act_window,name:product.variants_action
 #: model:ir.model.fields,field_description:product.field_product_attribute_line_value_ids
 #: model:ir.ui.view,arch_db:product.product_attribute_view_form
 msgid "Attribute Values"
-msgstr "Værdier på egenskaber"
+msgstr "Egenskabs værdier"
 
 #. module: product
 #: model:ir.actions.act_window,name:product.attribute_action
@@ -416,14 +394,14 @@ msgstr "Egenskaber"
 #: model:product.product,website_description:product.product_product_5b
 #: model:product.template,website_description:product.product_product_5b_product_template
 msgid "Auxiliary input for portable devices"
-msgstr "Ekstraindgang til bærbare enheder"
+msgstr ""
 
 #. module: product
 #: model:product.product,website_description:product.product_product_5b
 #: model:product.template,website_description:product.product_product_5b_product_template
 msgid ""
 "Auxiliary port lets you connect other audio sources, like an MP3 player"
-msgstr "Ekstraindgang du kan slutte andre lydkilder til, som en MP3-afspiller"
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product_barcode
@@ -439,10 +417,6 @@ msgid ""
 "Cost Price : The base price will be the cost price.\n"
 "Other Pricelist : Computation of the base price based on another Pricelist."
 msgstr ""
-"Grundpris til beregning.\n"
-"Offentlig pris: Grundprisen er salgsprisen.\n"
-"Kostpris: Grundprisen er kostprisen.\n"
-"Andre prislister: Beregning af grundprisen baseret på en anden prisliste."
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_product_list_price
@@ -451,7 +425,7 @@ msgstr ""
 msgid ""
 "Base price to compute the customer price. Sometimes called the catalog "
 "price."
-msgstr "Grundpris for beregning af kundens pris. Også kaldet listeprisen."
+msgstr "Grundpris for beregning af kundens pris. Også kaldet Listeprisen."
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_pricelist_item_base
@@ -462,25 +436,25 @@ msgstr "Baseret på"
 #: model:product.product,name:product.consu_delivery_03
 #: model:product.template,name:product.consu_delivery_03_product_template
 msgid "Basic Computer"
-msgstr "Basis computer"
+msgstr ""
 
 #. module: product
 #: model:product.product,name:product.membership_2
 #: model:product.template,name:product.membership_2_product_template
 msgid "Basic Membership"
-msgstr "Basis medlemskab"
+msgstr ""
 
 #. module: product
 #: model:product.product,website_description:product.product_product_6
 #: model:product.template,website_description:product.product_product_6_product_template
 msgid "Beautiful 7.9‑inch display."
-msgstr "Smuk 7,9 tommer skærm."
+msgstr ""
 
 #. module: product
 #: model:product.product,website_description:product.product_product_8
 #: model:product.template,website_description:product.product_product_8_product_template
 msgid "Beautiful widescreen display."
-msgstr "Smuk widescreen-skærm."
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product_image
@@ -495,7 +469,7 @@ msgstr "Større andel"
 #. module: product
 #: selection:product.uom,uom_type:0
 msgid "Bigger than the reference Unit of Measure"
-msgstr "Større end reference måleenheden"
+msgstr "Større end standard enheden"
 
 #. module: product
 #: model:product.attribute.value,name:product.product_attribute_value_4
@@ -506,7 +480,7 @@ msgstr "Sort"
 #: model:product.product,website_description:product.product_product_5b
 #: model:product.template,website_description:product.product_product_5b_product_template
 msgid "Bluetooth connectivity"
-msgstr "Bluetooth-forbindelse"
+msgstr ""
 
 #. module: product
 #: model:product.product,name:product.product_product_5b
@@ -518,19 +492,19 @@ msgstr "Bose Mini Bluetooth højttaler"
 #: model:product.product,website_description:product.product_product_5b
 #: model:product.template,website_description:product.product_product_5b_product_template
 msgid "Bose Mini Bluetooth Speaker."
-msgstr "Bose Mini Bluetooth-højttaler."
+msgstr ""
 
 #. module: product
 #: model:product.product,description_sale:product.product_product_5b
 #: model:product.template,description_sale:product.product_product_5b_product_template
 msgid "Bose's smallest portable Bluetooth speaker"
-msgstr "Bose er den mindste bærbare Bluetooth-højttaler"
+msgstr "Bose's smallest portable Bluetooth speaker"
 
 #. module: product
 #: model:product.product,website_description:product.product_product_8
 #: model:product.template,website_description:product.product_product_8_product_template
 msgid "Brilliance onscreen. And behind it."
-msgstr "Brilliance onscreen. Og bagved det."
+msgstr ""
 
 #. module: product
 #: model:product.product,website_description:product.product_product_11
@@ -542,14 +516,11 @@ msgid ""
 "                                    The smooth anodized aluminum design makes iPod nano feel as good as it sounds.\n"
 "                                    And iPod nano wouldn’t be iPod nano without gorgeous, hard-to-choose-from color."
 msgstr ""
-"Knapper giver dig mulighed for hurtigt at spille, pause, ændre sange eller justere lydstyrken.\n"
-"                                    Det glatte anodiserede aluminiumsdesign gør at iPod nano føles så godt, som det lyder.\n"
-"                                    Og iPod nano ville ikke være iPod nano uden smukke, svært at vælge imellem faver."
 
 #. module: product
 #: model:ir.ui.view,arch_db:product.view_product_price_list
 msgid "Calculate Product Price per Unit Based on Pricelist Version."
-msgstr "Beregn produktpris pr. stk. baseret på en prisliste"
+msgstr "Beregn varepris pr. stk. baseret på en prisliste-version"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product_purchase_ok
@@ -590,25 +561,25 @@ msgstr "Kategori type"
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_category_form_view
 msgid "Category name"
-msgstr "Kategori navn"
+msgstr ""
 
 #. module: product
 #: code:addons/product/models/product_pricelist.py:427
 #, python-format
 msgid "Category: %s"
-msgstr "Kategori: %s"
+msgstr ""
 
 #. module: product
 #: model:product.product,website_description:product.product_product_5b
 #: model:product.template,website_description:product.product_product_5b_product_template
 msgid "Characteristics"
-msgstr "Kendetegn"
+msgstr ""
 
 #. module: product
 #: model:product.product,website_description:product.product_product_5b
 #: model:product.template,website_description:product.product_product_5b_product_template
 msgid "Charges iPod/iPhone"
-msgstr "Oplader iPod / iPhone"
+msgstr ""
 
 #. module: product
 #: model:product.product,website_description:product.product_product_5b
@@ -617,13 +588,11 @@ msgid ""
 "Charging cradle recharges the battery and serves as a convenient\n"
 "                                    home base for your speaker, and it lets you play while it charges."
 msgstr ""
-"Laderen genoplader batteriet og fungerer som en praktisk\n"
-"                                    hjemmebase til din højttaler, og den lader dig spille, mens den oplader."
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_attribute_create_variant
 msgid "Check this if you want to create multiple variants for this attribute."
-msgstr "Marker dette, hvis du vil oprette flere varianter til denne egenskab."
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_category_child_id
@@ -633,17 +602,17 @@ msgstr "Underkatagorier"
 #. module: product
 #: model:ir.actions.act_window,help:product.product_uom_categ_form_action
 msgid "Click to add a new unit of measure category."
-msgstr "Klik for at tilføje en ny måleenhedskategori."
+msgstr ""
 
 #. module: product
 #: model:ir.actions.act_window,help:product.product_uom_form_action
 msgid "Click to add a new unit of measure."
-msgstr "Klik for at tilføje en ny måleenhed."
+msgstr ""
 
 #. module: product
 #: model:ir.actions.act_window,help:product.product_pricelist_action2
 msgid "Click to create a pricelist."
-msgstr "Klik for at tilføje en ny prisliste."
+msgstr ""
 
 #. module: product
 #: model:ir.actions.act_window,help:product.product_normal_action
@@ -652,12 +621,12 @@ msgstr "Klik for at tilføje en ny prisliste."
 #: model:ir.actions.act_window,help:product.product_template_action_all
 #: model:ir.actions.act_window,help:product.product_variant_action
 msgid "Click to define a new product."
-msgstr "Klik for at oprette en nyt produkt."
+msgstr ""
 
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_variant_easy_edit_view
 msgid "Codes"
-msgstr "Koder"
+msgstr ""
 
 #. module: product
 #: model:product.attribute,name:product.product_attribute_2
@@ -683,14 +652,6 @@ msgid ""
 "iOS7\n"
 "            "
 msgstr ""
-"Farve: Hvid\n"
-"Kapacitet: 16GB\n"
-"Tilslutning: Wifi\n"
-"Smuk 7,9 tommer skærm\n"
-"Over 375.000 apps\n"
-"Ultrahurtig trådløs\n"
-"iOS7\n"
-"            "
 
 #. module: product
 #: model:ir.model,name:product.model_res_company
@@ -710,7 +671,7 @@ msgstr "Virksomhed"
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_pricelist_item_form_view
 msgid "Compute Price"
-msgstr "Beregn pris"
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_pricelist_item_compute_price
@@ -721,13 +682,13 @@ msgstr "Beregnet pris"
 #: model:product.product,name:product.product_product_16
 #: model:product.template,name:product.product_product_16_product_template
 msgid "Computer Case"
-msgstr "Computer sag"
+msgstr "Computer taske"
 
 #. module: product
 #: model:product.product,name:product.product_product_3
 #: model:product.template,name:product.product_product_3_product_template
 msgid "Computer SC234"
-msgstr "Computer SC234"
+msgstr ""
 
 #. module: product
 #: code:addons/product/models/product_template.py:42
@@ -742,8 +703,8 @@ msgid ""
 "Conversion between Units of Measure can only occur if they belong to the "
 "same category. The conversion will be made based on the ratios."
 msgstr ""
-"Konvertering mellem enheder kan kun ske, hvis de tilhører samme kategori. "
-"Konvertering vil ske ud fra forholdstallene."
+"Omregning mellem enheder kan kun ske hvis de tilhører samme kategori. "
+"Omregningen vil ske ud fra forholdstallene."
 
 #. module: product
 #: code:addons/product/models/product_uom.py:89
@@ -774,7 +735,7 @@ msgstr ""
 #. module: product
 #: model:ir.model.fields,help:product.field_product_template_standard_price
 msgid "Cost of the product, in the default unit of measure of the product."
-msgstr "Kostpris for produktet, i standardmåleenhed for produktet."
+msgstr ""
 
 #. module: product
 #: model:product.product,name:product.service_delivery
@@ -785,17 +746,17 @@ msgstr ""
 #. module: product
 #: model:ir.model,name:product.model_res_country_group
 msgid "Country Group"
-msgstr "Landegruppe"
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_pricelist_country_group_ids
 msgid "Country Groups"
-msgstr "Landegrupper"
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_attribute_create_variant
 msgid "Create variant"
-msgstr "Opret variant"
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_attribute_create_uid
@@ -844,11 +805,6 @@ msgid ""
 " about iMac from the inside out. The result is an advanced, elegant all-in-"
 "one computer that’s as much a work of art as it is state of the art."
 msgstr ""
-"At skabe et så forbløffende tyndt design tog nogle lige så fantastiske "
-"præstationer indenfor teknologisk innovation. Vi raffinerede, gentænkte, "
-"eller redesignede alt på iMac indefra og ud. Resultatet er en avanceret, "
-"elegant all-in-one computer, der er lige så meget et kunstværk som det er et"
-" state of the art."
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_pricelist_currency_id
@@ -863,7 +819,7 @@ msgstr "Valuta"
 #: model:product.product,name:product.product_product_5
 #: model:product.template,name:product.product_product_5_product_template
 msgid "Custom Computer (kit)"
-msgstr "Brugerdefineret computer (sæt)"
+msgstr ""
 
 #. module: product
 #: model:product.product,description:product.product_product_27
@@ -875,18 +831,18 @@ msgstr "Kundespecifik bærbar baseret på kundens ønsker"
 #: model:product.product,description:product.product_product_5
 #: model:product.template,description:product.product_product_5_product_template
 msgid "Custom computer shipped in kit."
-msgstr "Brugerdefineret computer afsendt som sæt."
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product_partner_ref
 msgid "Customer Ref"
-msgstr "Kunde ref."
+msgstr ""
 
 #. module: product
 #: model:product.product,name:product.product_delivery_02
 #: model:product.template,name:product.product_delivery_02_product_template
 msgid "Datacard"
-msgstr "Datakort"
+msgstr "Datacard"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_price_history_datetime
@@ -902,7 +858,7 @@ msgstr "Dag(e)"
 #: model:ir.model.fields,help:product.field_product_product_uom_id
 #: model:ir.model.fields,help:product.field_product_template_uom_id
 msgid "Default Unit of Measure used for all stock operation."
-msgstr "Standard måleenhed anvendt på alle lager operationer."
+msgstr "Standard enhed anvendt på alle lager operationer."
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_product_uom_po_id
@@ -911,8 +867,8 @@ msgid ""
 "Default Unit of Measure used for purchase orders. It must be in the same "
 "category than the default unit of measure."
 msgstr ""
-"Standard måleenhed brugt på indkøbsordrer. Skal være samme kategori som "
-"standard måleenhed."
+"Standard enhed brugt på indkøbsordrer. Skal være samme kategori som standard"
+" enhed."
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_supplierinfo_delay
@@ -928,7 +884,7 @@ msgstr "Beskrivelse"
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_template_form_view
 msgid "Description for Quotations"
-msgstr "Tilbudsbeskrivelser"
+msgstr "Tilbuds beskrivelser"
 
 #. module: product
 #: model:product.product,website_description:product.product_product_11
@@ -936,13 +892,13 @@ msgstr "Tilbudsbeskrivelser"
 #: model:product.template,website_description:product.product_product_11_product_template
 #: model:product.template,website_description:product.product_product_11b_product_template
 msgid "Design. The thinnest iPod ever."
-msgstr "Design. Den tyndeste iPod nogensinde."
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_attribute_sequence
 #: model:ir.model.fields,help:product.field_product_attribute_value_sequence
 msgid "Determine the display order"
-msgstr "Afgør visningsrækkefølge"
+msgstr "Afgør visnings rækkefølge"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_attribute_display_name
@@ -967,7 +923,7 @@ msgstr "Vis navn"
 #. module: product
 #: model:product.uom,name:product.product_uom_dozen
 msgid "Dozen(s)"
-msgstr "Dusin(er)"
+msgstr "Dusiner"
 
 #. module: product
 #: model:product.product,description_sale:product.consu_delivery_03
@@ -976,8 +932,6 @@ msgid ""
 "Dvorak keyboard \n"
 "            left-handed mouse"
 msgstr ""
-"Dvorak tastatur \n"
-"            venstrehåndet mus"
 
 #. module: product
 #: model:ir.actions.act_window,help:product.product_pricelist_action2
@@ -986,15 +940,12 @@ msgid ""
 "                product category...) and a computation that easily helps to achieve\n"
 "                any kind of pricing."
 msgstr ""
-"Hver regel indeholder et sæt anvendelseskriterier (datointerval,\n"
-"                produktkategori...) og en beregning, der hjælper med at opnå\n"
-"                enhver form for prisfastsættelse."
 
 #. module: product
 #: model:product.product,website_description:product.product_product_5b
 #: model:product.template,website_description:product.product_product_5b_product_template
 msgid "Efficient, high-quality audio"
-msgstr "Effektiv lyd af høj kvalitet"
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_pricelist_item_date_end
@@ -1005,12 +956,12 @@ msgstr "Slut dato"
 #. module: product
 #: model:ir.model.fields,help:product.field_product_supplierinfo_date_end
 msgid "End date for this vendor price"
-msgstr "Slutdato for denne leverandørpris"
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_pricelist_item_date_end
 msgid "Ending valid for the pricelist item validation"
-msgstr "Gyldig afslutning til validering af prisliste"
+msgstr ""
 
 #. module: product
 #: code:addons/product/models/product.py:43
@@ -1022,7 +973,7 @@ msgstr "Fejl! Du kan ikke oprette rekursive kategorier."
 #: code:addons/product/models/product_attribute.py:97
 #, python-format
 msgid "Error ! You cannot use this attribute with the following value."
-msgstr "Fejl! Du kan ikke bruge denne egenskab med følgende værdi."
+msgstr ""
 
 #. module: product
 #: code:addons/product/models/product.py:302
@@ -1031,7 +982,6 @@ msgid ""
 "Error! It is not allowed to choose more than one value for a given "
 "attribute."
 msgstr ""
-"Fejl! Det er ikke tilladt at vælge mere end én værdi for en given egenskab."
 
 #. module: product
 #: code:addons/product/models/product_pricelist.py:419
@@ -1045,8 +995,7 @@ msgstr "Fejl! Minimums marginen skal være mindre end maksimum marginen."
 msgid ""
 "Error! You cannot assign the Main Pricelist as Other Pricelist in PriceList "
 "Item!"
-msgstr ""
-"Fejl! Du kan ikke tildele hovedprislisten som anden prisliste i prislisten!"
+msgstr "Fejl! Du kan ikke knytte hovedprislisten som andre prislister."
 
 #. module: product
 #: code:addons/product/models/product_template.py:252
@@ -1054,7 +1003,7 @@ msgstr ""
 msgid ""
 "Error: The default Unit of Measure and the purchase Unit of Measure must be "
 "in the same category."
-msgstr "Fejl: Standard måleenhed og indkøbsenhed skal være i samme kategori"
+msgstr "Fejl: Standard enhed og indkøbsenhed skal være i samme kategori"
 
 #. module: product
 #: model:product.product,website_description:product.product_product_6
@@ -1097,48 +1046,48 @@ msgstr ""
 #: model:product.product,description:product.product_product_2
 #: model:product.template,description:product.product_product_2_product_template
 msgid "Example of product to invoice based on delivery."
-msgstr "Eksempel på fakturering af produkt baseret på levering."
+msgstr ""
 
 #. module: product
 #: model:product.product,description:product.service_order_01
 #: model:product.template,description:product.service_order_01_product_template
 msgid "Example of product to invoice on order."
-msgstr "Eksempel på fakturering af produkt på bestilling."
+msgstr ""
 
 #. module: product
 #: model:product.product,description:product.service_cost_01
 #: model:product.template,description:product.service_cost_01_product_template
 msgid "Example of products to invoice based on cost."
-msgstr "Eksempel på fakturering af produkter baseret på kostpris"
+msgstr ""
 
 #. module: product
 #: model:product.product,description:product.product_product_1
 #: model:product.template,description:product.product_product_1_product_template
 msgid "Example of products to invoice based on delivery."
-msgstr "Eksempel på fakturering af produkter baseret på levering."
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_pricelist_item_name
 #: model:ir.model.fields,help:product.field_product_pricelist_item_price
 msgid "Explicit rule name for this pricelist line."
-msgstr "Givent regelnavn for denne prislistelinje"
+msgstr "Bestemt regelnavn for denne prislistelinie"
 
 #. module: product
 #: model:product.product,name:product.service_cost_01
 #: model:product.template,name:product.service_cost_01_product_template
 msgid "External Audit"
-msgstr "Ekstern revision"
+msgstr ""
 
 #. module: product
 #: model:product.product,website_description:product.product_product_6
 #: model:product.template,website_description:product.product_product_6_product_template
 msgid "Fast connections.The world over."
-msgstr "Hurtige forbindelser. Verden over."
+msgstr ""
 
 #. module: product
 #: selection:product.pricelist.item,compute_price:0
 msgid "Fix Price"
-msgstr "Fast pris"
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_pricelist_item_fixed_price
@@ -1151,13 +1100,11 @@ msgid ""
 "For the rule to apply, bought/sold quantity must be greater than or equal to the minimum quantity specified in this field.\n"
 "Expressed in the default unit of measure of the product."
 msgstr ""
-"For at reglen skal gælde, skal købt / solgt mængde være større end eller lig med den minimumsmængde, der er angivet i dette felt.\n"
-"Opsat som standardmåleenhed for produktet."
 
 #. module: product
 #: selection:product.pricelist.item,compute_price:0
 msgid "Formula"
-msgstr "Formular"
+msgstr ""
 
 #. module: product
 #: model:product.product,description_sale:product.product_product_7
@@ -1171,25 +1118,18 @@ msgid ""
 "Weight: 10.2 grams\n"
 "            "
 msgstr ""
-"Hyppighed: 5Hz to 21kHz\n"
-"Udgang: 23 ohms\n"
-"Følsomhed: 109 dB SPL/mW\n"
-"Drivers: two-way balanced armature\n"
-"kabel længde: 1065 mm\n"
-"Vægt: 10.2 grams\n"
-"            "
 
 #. module: product
 #: model:product.product,website_description:product.product_product_8
 #: model:product.template,website_description:product.product_product_8_product_template
 msgid "Friendly to the environment."
-msgstr "Miljøvenlig."
+msgstr ""
 
 #. module: product
 #: model:product.product,name:product.product_product_1
 #: model:product.template,name:product.product_product_1_product_template
 msgid "GAP Analysis Service"
-msgstr "GAP Analyse service"
+msgstr ""
 
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_template_form_view
@@ -1202,7 +1142,7 @@ msgstr "Generelle oplysninger"
 #: model:product.template,website_description:product.product_product_11_product_template
 #: model:product.template,website_description:product.product_product_11b_product_template
 msgid "Genius. Your own personal DJ."
-msgstr "Genialt. Din egen personlige DJ."
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_product_packaging_ids
@@ -1211,8 +1151,8 @@ msgid ""
 "Gives the different ways to package the same product. This has no impact on "
 "the picking order and is mainly used if you use the EDI module."
 msgstr ""
-"Angiver flere måder at pakke det samme produkt. Har ingen indflydelse på "
-"pluk-ordrer og bruges mest i EDI modulet."
+"Angiver flere måder at pakke den samme vare. Har ingen indflydelse på pluk-"
+"ordrer og bruges mest i EDI modulet."
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_pricelist_item_sequence
@@ -1221,15 +1161,15 @@ msgid ""
 " gives highest priority to lowest sequence and stops as soon as a matching "
 "item is found."
 msgstr ""
-"Angiver rækkefølgen som prislistevarene bliver tjekket efter. Laveste tal = "
-"højeste prioritet. Søgningen efter pris stopper, når laveste tal nås i "
-"søgningen (der søges ikke videre)."
+"Angiver rækkefølgen som prislisterne bliver tjekket i. Laveste tal = højeste"
+" prioritet. Søgningen efter pris stopper, når laveste tal nås i søgningen "
+"(der søges ikke videre)."
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_product_sequence
 #: model:ir.model.fields,help:product.field_product_template_sequence
 msgid "Gives the sequence order when displaying a product list"
-msgstr "Giver rækkefølgen, når der vises en produktliste"
+msgstr ""
 
 #. module: product
 #: selection:product.pricelist.item,applied_on:0
@@ -1240,13 +1180,13 @@ msgstr "Globalt"
 #: model:product.product,name:product.membership_0
 #: model:product.template,name:product.membership_0_product_template
 msgid "Gold Membership"
-msgstr "Guld medlemsskab"
+msgstr ""
 
 #. module: product
 #: model:product.product,name:product.product_product_24
 #: model:product.template,name:product.product_product_24_product_template
 msgid "Graphics Card"
-msgstr "Grafikkort"
+msgstr "Graphics Card"
 
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_supplierinfo_search_view
@@ -1312,8 +1252,6 @@ msgid ""
 "How many times this Unit of Measure is bigger than the reference Unit of "
 "Measure in this category: 1 * (this unit) = ratio * (reference unit)"
 msgstr ""
-"Hvor mange gange er denne måleenhed større end referencemængden i denne "
-"kategori: 1 * (denne enhed) = forholdet * (referencenhed)"
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_uom_factor
@@ -1321,9 +1259,6 @@ msgid ""
 "How much bigger or smaller this unit is compared to the reference Unit of "
 "Measure for this category: 1 * (reference unit) = ratio * (this unit)"
 msgstr ""
-"Hvor meget større eller mindre er denne enhed sammenlignet med "
-"referencemåleenhed for denne kategori: 1 * (referencemåleenhed) = forhold * "
-"(denne enhed)"
 
 #. module: product
 #: model:product.product,website_description:product.product_product_11
@@ -1357,14 +1292,13 @@ msgstr "ID"
 #: model:product.product,website_description:product.product_product_6
 #: model:product.template,website_description:product.product_product_6_product_template
 msgid "If it's made for iPad, it's made for iPad mini."
-msgstr "Hvis den er lavet til iPad, er den lavet til iPad mini."
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_pricelist_active
 msgid ""
 "If unchecked, it will allow you to hide the pricelist without removing it."
-msgstr ""
-"Hvis den er umarkeret, vil du kunne skjule prislisten uden at slette den."
+msgstr "Hvis uafmærket, vil du kunne skjule prislisten uden at slette den."
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_product_active
@@ -1372,7 +1306,7 @@ msgstr ""
 msgid ""
 "If unchecked, it will allow you to hide the product without removing it."
 msgstr ""
-"Hvis den er umarkeret, vil du få lov at gemme varen uden at fjerne den."
+"Hvis efterladt uafmærket, vil du få lov at gemme varen uden at fjerne den."
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_template_image
@@ -1386,9 +1320,9 @@ msgid ""
 " It is automatically resized as a 1024x1024px image, with aspect ratio "
 "preserved."
 msgstr ""
-"Billede af produktvarianten (Stort billede af produktskabelon, hvis det er "
-"forkert). Den ændres automatisk som et 1024x1024px billede, med billedformat"
-" bevaret.)"
+"Billede af produktvarianten (Big-sized image of product template if false). "
+"It is automatically resized as a 1024x1024px image, with aspect ratio "
+"preserved."
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_product_image_medium
@@ -1396,8 +1330,8 @@ msgid ""
 "Image of the product variant (Medium-sized image of product template if "
 "false)."
 msgstr ""
-"Billede af produktvarianten  (Mellemstørrelse billede af produktskabelon "
-"hvis det er forkert)."
+"Billede af produktvarianten  (Medium-sized image of product template if "
+"false)."
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_product_image_small
@@ -1405,19 +1339,19 @@ msgid ""
 "Image of the product variant (Small-sized image of product template if "
 "false)."
 msgstr ""
-"Billede af produktvarianten (Lille størrelse billede af produktskabelon hvis"
-" det er forkert)."
+"Billede af produktvarianten (Small-sized image of product template if "
+"false)."
 
 #. module: product
 #: model:product.product,website_description:product.product_product_8
 #: model:product.template,website_description:product.product_product_8_product_template
 msgid "Individually calibrated for true-to-life color."
-msgstr "Individuelt kalibreret for ægte farve."
+msgstr ""
 
 #. module: product
 #: model:ir.model,name:product.model_product_supplierinfo
 msgid "Information about a product vendor"
-msgstr "Oplysninger om en produktleverandør"
+msgstr ""
 
 #. module: product
 #: model:product.product,website_description:product.product_product_7
@@ -1451,19 +1385,19 @@ msgstr "Intern reference"
 #: model:ir.model.fields,help:product.field_product_product_barcode
 #: model:ir.model.fields,help:product.field_product_template_barcode
 msgid "International Article Number used for product identification."
-msgstr "Internationalt varenummer til brug ved vareidentifikation"
+msgstr "International varenummer brug til vare identifikation"
 
 #. module: product
 #: model:product.product,website_description:product.product_product_7
 #: model:product.template,website_description:product.product_product_7_product_template
 msgid "Keep it clean."
-msgstr "Hold det rent."
+msgstr ""
 
 #. module: product
 #: model:product.product,website_description:product.product_product_8
 #: model:product.template,website_description:product.product_product_8_product_template
 msgid "Key Features"
-msgstr "Nøglefunktioner"
+msgstr ""
 
 #. module: product
 #: model:product.product,name:product.product_product_27
@@ -1542,9 +1476,8 @@ msgid ""
 "receipt of the products in your warehouse. Used by the scheduler for "
 "automatic computation of the purchase order planning."
 msgstr ""
-"Ventetid i dage mellem bekræftelsen af købsordren og modtagelsen af "
-"produkterne på dit lager. Bruges af indkøberen til automatisk planlægning af"
-" indkøb."
+"Leveringstid i dage fra indkøbsordrebekræftelse og modtagelse af varerne på "
+"lager. Bruges af behovsberegneren til planlægning på indkøbsordrer."
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_category_parent_left
@@ -1559,7 +1492,7 @@ msgstr "Længde/distance"
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_attribute_attribute_line_ids
 msgid "Lines"
-msgstr "Linjer"
+msgstr "Linier"
 
 #. module: product
 #: model:product.uom,name:product.product_uom_litre
@@ -1570,7 +1503,7 @@ msgstr "Liter"
 #: model:product.product,name:product.consu_delivery_02
 #: model:product.template,name:product.consu_delivery_02_product_template
 msgid "Little server"
-msgstr "Lille server"
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product_packaging_ids
@@ -1581,12 +1514,12 @@ msgstr "Logistiske enheder"
 #. module: product
 #: model:res.groups,name:product.group_uom
 msgid "Manage Multiple Units of Measure"
-msgstr "Håndtering af mange måleenheder"
+msgstr "Håndtering af mange enheder"
 
 #. module: product
 #: model:res.groups,name:product.group_pricelist_item
 msgid "Manage Pricelist Items"
-msgstr "Administrer prislistevare"
+msgstr ""
 
 #. module: product
 #: model:res.groups,name:product.group_stock_packaging
@@ -1596,7 +1529,7 @@ msgstr "Håndtér varepakning"
 #. module: product
 #: model:res.groups,name:product.group_product_variant
 msgid "Manage Product Variants"
-msgstr "Håndtér produktvarianter"
+msgstr ""
 
 #. module: product
 #: model:res.groups,name:product.group_mrp_properties
@@ -1617,7 +1550,7 @@ msgstr "Maks pris margin"
 #: model:ir.model.fields,field_description:product.field_product_product_image_medium
 #: model:ir.model.fields,field_description:product.field_product_template_image_medium
 msgid "Medium-sized image"
-msgstr "Mellemstørrelse billede"
+msgstr "Mellem størrelse billede"
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_template_image_medium
@@ -1626,9 +1559,6 @@ msgid ""
 "128x128px image, with aspect ratio preserved, only when the image exceeds "
 "one of those sizes. Use this field in form views or some kanban views."
 msgstr ""
-"Mellemstort billede af produktet. Den ændres automatisk til et 128x128px "
-"billede, og billedformat bevares kun hvis billedet overstiger en af disse "
-"størrelser. Brug dette felt i formvisninger eller nogle kanbanvisninger."
 
 #. module: product
 #: model:product.attribute,name:product.product_attribute_1
@@ -1638,12 +1568,12 @@ msgstr "Hukommelse"
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_pricelist_item_form_view
 msgid "Min. Margin"
-msgstr "Min. avance"
+msgstr "Min. margin"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_pricelist_item_price_min_margin
 msgid "Min. Price Margin"
-msgstr "Min. pris avance"
+msgstr "Min. pris margin"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_pricelist_item_min_quantity
@@ -1659,13 +1589,13 @@ msgstr "Minimums antal"
 #: model:product.product,website_description:product.product_product_8
 #: model:product.template,website_description:product.product_product_8_product_template
 msgid "More energy efficient."
-msgstr "Mere energieffektive"
+msgstr ""
 
 #. module: product
 #: model:product.product,website_description:product.product_product_5b
 #: model:product.template,website_description:product.product_product_5b_product_template
 msgid "More features."
-msgstr "Flere funktioner."
+msgstr ""
 
 #. module: product
 #: model:product.product,name:product.product_product_20
@@ -1711,7 +1641,7 @@ msgstr "Ny pris ="
 #. module: product
 #: selection:base.config.settings,group_product_variant:0
 msgid "No variants on products"
-msgstr "Ingen varianter på produkter"
+msgstr ""
 
 #. module: product
 #: selection:product.category,type:0
@@ -1738,44 +1668,44 @@ msgstr "Andre prislister"
 #: model:product.product,website_description:product.product_product_6
 #: model:product.template,website_description:product.product_product_6_product_template
 msgid "Over 375,000 apps."
-msgstr "Over 375.000 apps."
+msgstr ""
 
 #. module: product
 #: model:ir.model,name:product.model_product_packaging
 #: model:ir.ui.view,arch_db:product.product_packaging_form_view
 #: model:ir.ui.view,arch_db:product.product_packaging_tree_view
 msgid "Packaging"
-msgstr "Emballering"
+msgstr "Pakning"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_packaging_name
 msgid "Packaging Type"
-msgstr "Emballagetype"
+msgstr ""
 
 #. module: product
 #: model:ir.actions.act_window,name:product.action_packaging_view
 msgid "Packagings"
-msgstr "Emballager"
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_category_parent_id
 msgid "Parent Category"
-msgstr "Hovedkategori"
+msgstr "Moder-kategori"
 
 #. module: product
 #: model:ir.model,name:product.model_res_partner
 msgid "Partner"
-msgstr "Partner"
+msgstr "Kontakt"
 
 #. module: product
 #: selection:product.pricelist.item,compute_price:0
 msgid "Percentage (discount)"
-msgstr "Procentdel (rabat)"
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_pricelist_item_percent_price
 msgid "Percentage Price"
-msgstr "Pris i procent"
+msgstr ""
 
 #. module: product
 #: model:product.category,name:product.product_category_5
@@ -1917,7 +1847,7 @@ msgstr "Vare prisliste"
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product_pricelist_item_ids
 msgid "Pricelist item ids"
-msgstr "Prisliste vare ids"
+msgstr ""
 
 #. module: product
 #: model:ir.actions.act_window,name:product.product_pricelist_action2
@@ -2093,8 +2023,6 @@ msgid ""
 "Products can have several attributes, defining variants (Example: size, "
 "color,...)"
 msgstr ""
-"Produktet kan have flere egenskaber der definere varianterne (f.eks. "
-"størrelse, farve,...)"
 
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_template_search_view
@@ -2222,12 +2150,12 @@ msgstr ""
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_pricelist_item_form_view
 msgid "Rounding Method"
-msgstr "Afrundingsmetode"
+msgstr "Afrundingsmåde"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_uom_rounding
 msgid "Rounding Precision"
-msgstr "Afrunding"
+msgstr "Afrundings nøjagtighed"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product_description_sale
@@ -2652,8 +2580,6 @@ msgid ""
 "The sale price is managed from the product template. Click on the 'Variant "
 "Prices' button to set the extra attribute prices."
 msgstr ""
-"Salgsprisen styres fra produktskabelonen. Klik på knappen 'Variantpriser' "
-"for at angive tillægspriser for egenskaber."
 
 #. module: product
 #: model:product.product,description_sale:product.product_product_9
@@ -2916,7 +2842,7 @@ msgstr ""
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product_price_extra
 msgid "Variant Price Extra"
-msgstr "Tillæg for variant"
+msgstr ""
 
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_template_form_view
@@ -2953,7 +2879,7 @@ msgstr ""
 #. module: product
 #: model:ir.actions.act_window,name:product.product_supplierinfo_type_action
 msgid "Vendor Pricelists"
-msgstr "Leverandørprisliste"
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_supplierinfo_product_code
@@ -3080,8 +3006,6 @@ msgid ""
 "Work with product variant allows you to define some variant of the same "
 "products, an ease the product management in the ecommerce for example"
 msgstr ""
-"Brug produktvarianter for at definere varianter af det samme produkt, og fx "
-"lette håndteringen af produkter ved e-handel hermed. "
 
 #. module: product
 #: model:product.uom.categ,name:product.uom_categ_wtime
@@ -3285,7 +3209,7 @@ msgstr ""
 #. module: product
 #: model:ir.model,name:product.model_product_attribute_value
 msgid "product.attribute.value"
-msgstr "product.attribute.value"
+msgstr ""
 
 #. module: product
 #: model:ir.model,name:product.model_product_price_history

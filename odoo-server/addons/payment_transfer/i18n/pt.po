@@ -24,7 +24,7 @@ msgstr ""
 #: code:addons/payment_transfer/models/payment.py:63
 #, python-format
 msgid "; multiple order found"
-msgstr "; encontradas múltiplas encomendas"
+msgstr "; encontras múltiplas encomendas"
 
 #. module: payment_transfer
 #: code:addons/payment_transfer/models/payment.py:61

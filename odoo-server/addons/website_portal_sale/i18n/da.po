@@ -3,19 +3,16 @@
 # * website_portal_sale
 # 
 # Translators:
-# Sanne Kristensen <sanne@vkdata.dk>, 2016
 # Martin Trigaux <mat@odoo.com>, 2016
 # Morten Schou <ms@msteknik.dk>, 2016
 # Kenneth Hansen <kenneth@vkdata.dk>, 2017
-# Ejner Sønniksen <ejner@vkdata.dk>, 2017
-# Pernille Kristensen <pernillekristensen1994@gmail.com>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.0c\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-09-29 14:01+0000\n"
 "PO-Revision-Date: 2016-09-29 14:01+0000\n"
-"Last-Translator: Pernille Kristensen <pernillekristensen1994@gmail.com>, 2017\n"
+"Last-Translator: Kenneth Hansen <kenneth@vkdata.dk>, 2017\n"
 "Language-Team: Danish (https://www.transifex.com/odoo/teams/41243/da/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -26,7 +23,7 @@ msgstr ""
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.portal_my_invoices
 msgid "<i class=\"fa fa-arrow-circle-right\"/> Pay Now"
-msgstr "<i class=\"fa fa-arrow-circle-right\"/> Betal nu"
+msgstr ""
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.portal_my_orders
@@ -34,8 +31,6 @@ msgid ""
 "<span class=\"label label-danger\"><i class=\"fa fa-fw fa-warning\"/> "
 "Problem</span>"
 msgstr ""
-"<span class=\"label label-danger\"><i class=\"fa fa-fw fa-warning\"/> "
-"Problem</span>"
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.portal_my_orders
@@ -43,8 +38,6 @@ msgid ""
 "<span class=\"label label-default\"><i class=\"fa fa-fw fa-check\"/> "
 "Done</span>"
 msgstr ""
-"<span class=\"label label-default\"><i class=\"fa fa-fw fa-check\"/> "
-"Færdig</span>"
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.portal_my_invoices
@@ -52,8 +45,6 @@ msgid ""
 "<span class=\"label label-default\"><i class=\"fa fa-fw fa-check\"/> "
 "Paid</span>"
 msgstr ""
-"<span class=\"label label-default\"><i class=\"fa fa-fw fa-check\"/> "
-"Betalt</span>"
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.portal_my_quotations
@@ -61,8 +52,6 @@ msgid ""
 "<span class=\"label label-default\"><i class=\"fa fa-fw fa-clock-o\"/> "
 "Expired</span>"
 msgstr ""
-"<span class=\"label label-default\"><i class=\"fa fa-fw fa-clock-o\"/> "
-"Udløbet</span>"
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.portal_my_invoices
@@ -71,8 +60,6 @@ msgid ""
 "<span class=\"label label-default\"><i class=\"fa fa-fw fa-remove\"/> "
 "Cancelled</span>"
 msgstr ""
-"<span class=\"label label-danger label-text-align\"><i class=\"fa fa-fw fa-"
-"times\"/> Annulleret</span>"
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.orders_followup
@@ -80,8 +67,6 @@ msgid ""
 "<span class=\"label label-info orders_label_text_align\"><i class=\"fa fa-fw"
 " fa-clock-o\"/> Waiting</span>"
 msgstr ""
-"<span class=\"label label-info orders_label_text_align\"><i class=\"fa fa-fw"
-" fa-clock-o\"/> Venter</span>"
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.portal_my_orders
@@ -89,8 +74,6 @@ msgid ""
 "<span class=\"label label-info\"><i class=\"fa fa-fw fa-clock-o\"/> "
 "Invoiced</span>"
 msgstr ""
-"<span class=\"label label-info\"><i class=\"fa fa-fw fa-clock-o\"/> "
-"Faktureret</span>"
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.portal_my_invoices
@@ -98,8 +81,6 @@ msgid ""
 "<span class=\"label label-info\"><i class=\"fa fa-fw fa-clock-o\"/> Waiting "
 "for Payment</span>"
 msgstr ""
-"<span class=\"label label-info\"><i class=\"fa fa-fw fa-clock-o\"/> Afventer"
-" betaling</span>"
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.orders_followup
@@ -107,43 +88,41 @@ msgid ""
 "<span class=\"label label-success orders_label_text_align\"><i class=\"fa "
 "fa-fw fa-check\"/> Paid</span>"
 msgstr ""
-"<span class=\"label label-success orders_label_text_align\"><i class=\"fa "
-"fa-fw fa-check\"/> Betalt</span>"
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.orders_followup
 msgid "<strong>Contact</strong>"
-msgstr "<strong>Kontakt</strong>"
+msgstr ""
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.orders_followup
 msgid "<strong>Date:</strong>"
-msgstr "<strong>Dato:</strong>"
+msgstr ""
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.orders_followup
 msgid "<strong>Invoices</strong>"
-msgstr "<strong>Fakturaer</strong>"
+msgstr ""
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.orders_followup
 msgid "<strong>Invoicing Address</strong>"
-msgstr "<strong>Fakturadresse</strong>"
+msgstr ""
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.orders_followup
 msgid "<strong>Product</strong>"
-msgstr "<strong>Produkt</strong>"
+msgstr ""
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.orders_followup
 msgid "<strong>Quantity</strong>"
-msgstr "<strong>Antal</strong>"
+msgstr ""
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.orders_followup
 msgid "<strong>Shipping Address</strong>"
-msgstr "<strong>Leveringsadresse</strong>"
+msgstr ""
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.orders_followup
@@ -153,12 +132,12 @@ msgstr "<strong>Subtotal</strong>"
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.orders_followup
 msgid "<strong>Total:</strong>"
-msgstr "<strong>Total:</strong>"
+msgstr ""
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.orders_followup
 msgid "<strong>Unit Price</strong>"
-msgstr "<strong>Enhedspris</strong>"
+msgstr ""
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.portal_my_invoices
@@ -172,8 +151,6 @@ msgid ""
 "Changing VAT number is not allowed once invoices have been issued for your "
 "account. Please contact us directly for this operation."
 msgstr ""
-"Ændring af momsnummer er ikke tilladt, når der er udstedt fakturaer til din "
-"konto. Kontakt os direkte for denne handling."
 
 #. module: website_portal_sale
 #: code:addons/website_portal_sale/controllers/main.py:184
@@ -182,8 +159,6 @@ msgid ""
 "Changing your name is not allowed once invoices have been issued for your "
 "account. Please contact us directly for this operation."
 msgstr ""
-"Ændring af dit navn er ikke tilladt, når der er udstedt fakturaer til din "
-"konto. Kontakt os direkte for denne handling."
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.portal_my_invoices
@@ -198,12 +173,12 @@ msgstr "Faktura"
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.portal_my_invoices
 msgid "Invoice #"
-msgstr "Faktura #"
+msgstr ""
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.portal_my_invoices
 msgid "Invoice Date"
-msgstr "Fakturadato"
+msgstr "Faktura dato"
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.portal_my_home_menu_sale
@@ -213,12 +188,12 @@ msgstr "Fakturaer"
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.orders_followup
 msgid "My Orders"
-msgstr "Mine ordre"
+msgstr ""
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.orders_followup
 msgid "My Quotes"
-msgstr "Mine tilbud"
+msgstr ""
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.orders_followup
@@ -243,7 +218,7 @@ msgstr "Betal nu"
 #. module: website_portal_sale
 #: model:ir.model,name:website_portal_sale.model_payment_transaction
 msgid "Payment Transaction"
-msgstr "Betalingsoverførsel"
+msgstr "Betalings transaktion"
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.orders_followup
@@ -258,7 +233,7 @@ msgstr "Tilbud #"
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.portal_my_home_menu_sale
 msgid "Quotes"
-msgstr "Tilbud"
+msgstr ""
 
 #. module: website_portal_sale
 #: model:ir.model.fields,field_description:website_portal_sale.field_payment_transaction_sale_order_id
@@ -268,7 +243,7 @@ msgstr "Salgs ordre"
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.portal_my_orders
 msgid "Sale Order #"
-msgstr "Salgsordrer #"
+msgstr ""
 
 #. module: website_portal_sale
 #: model:ir.model,name:website_portal_sale.model_sale_order
@@ -284,30 +259,30 @@ msgstr "Moms"
 #: model:ir.ui.view,arch_db:website_portal_sale.portal_my_home_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.portal_my_invoices
 msgid "There are currently no invoices for your account."
-msgstr "Der er i øjeblikket ingen fakturaer til din konto."
+msgstr ""
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.portal_my_home_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.portal_my_orders
 msgid "There are currently no orders for your account."
-msgstr "Der er i øjeblikket ingen ordrer til din konto."
+msgstr ""
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.portal_my_home_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.portal_my_quotations
 msgid "There are currently no quotes for your account."
-msgstr "Der er i øjeblikket ingen tilbud til din konto."
+msgstr ""
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.portal_my_orders
 #: model:ir.ui.view,arch_db:website_portal_sale.portal_my_quotations
 msgid "Total"
-msgstr "Total"
+msgstr "I alt"
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.orders_followup
 msgid "Untaxed Amount:"
-msgstr "Momsfrit beløb:"
+msgstr ""
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.portal_my_quotations
@@ -318,16 +293,16 @@ msgstr "Gyldig indtil"
 #: model:ir.ui.view,arch_db:website_portal_sale.portal_my_home_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.portal_my_invoices
 msgid "Your Invoices and Payments"
-msgstr "Dine fakturaer og betalinger"
+msgstr ""
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.portal_my_home_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.portal_my_orders
 msgid "Your Orders"
-msgstr "Dine ordrer"
+msgstr ""
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.portal_my_home_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.portal_my_quotations
 msgid "Your Quotes"
-msgstr "Dine tilbud"
+msgstr ""

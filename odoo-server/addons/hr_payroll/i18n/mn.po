@@ -8,14 +8,13 @@
 # Otgonbayar.A <gobi.mn@gmail.com>, 2017
 # Erdenebold Ts <erdenebold10@gmail.com>, 2017
 # Batzul B <batzul.active@gmail.com>, 2017
-# Khishigbat Ganbold <khishigbat@asterisk-tech.mn>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.0c\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-09-07 08:56+0000\n"
 "PO-Revision-Date: 2016-09-07 08:56+0000\n"
-"Last-Translator: Khishigbat Ganbold <khishigbat@asterisk-tech.mn>, 2017\n"
+"Last-Translator: Batzul B <batzul.active@gmail.com>, 2017\n"
 "Language-Team: Mongolian (https://www.transifex.com/odoo/teams/41243/mn/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -40,71 +39,64 @@ msgid ""
 "                \n"
 "* When user cancel payslip the status is 'Rejected'."
 msgstr ""
-"* Цалингийн хуудсыг үүсгэсэн дараа төлөв нь 'Ноорог' байна\n"
-"                 \n"
-"* Хэрэв цалингийн хуудас шалгагдаж байгаа бол төлөв нь 'Хүлээж буй' байна.\n"
-"                 \n"
-"* Хэрэв цалингийн хуудас нь батлагдсан бол 'Хийгдсэн' төлөвтэй болно.\n"
-"                 \n"
-"* Хэрэв хэрэглэгч цалингийн хуудсыг цуцласан бол 'Татгалзсан' төлөвтэй болно."
 
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.report_payslip
 #: model:ir.ui.view,arch_db:hr_payroll.report_payslipdetails
 msgid "<strong>Address</strong>"
-msgstr "<strong>Хаяг</strong>"
+msgstr ""
 
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.report_payslip
 #: model:ir.ui.view,arch_db:hr_payroll.report_payslipdetails
 msgid "<strong>Authorized signature</strong>"
-msgstr "<strong>Баталгаат гарын үсэг</strong>"
+msgstr ""
 
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.report_payslip
 #: model:ir.ui.view,arch_db:hr_payroll.report_payslipdetails
 msgid "<strong>Bank Account</strong>"
-msgstr "<strong>Банкны Данс</strong>"
+msgstr ""
 
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.report_contributionregister
 msgid "<strong>Date From:</strong>"
-msgstr "<strong>Эхлэх огноо :</strong>"
+msgstr ""
 
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.report_payslip
 #: model:ir.ui.view,arch_db:hr_payroll.report_payslipdetails
 msgid "<strong>Date From</strong>"
-msgstr "<strong>Эхлэх огноо</strong>"
+msgstr ""
 
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.report_contributionregister
 msgid "<strong>Date To:</strong>"
-msgstr "<strong>Дуусах огноо:</strong>"
+msgstr ""
 
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.report_payslip
 #: model:ir.ui.view,arch_db:hr_payroll.report_payslipdetails
 msgid "<strong>Date To</strong>"
-msgstr "<strong>Дуусах огноо</strong>"
+msgstr ""
 
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.report_payslip
 #: model:ir.ui.view,arch_db:hr_payroll.report_payslipdetails
 msgid "<strong>Designation</strong>"
-msgstr "<strong>Томилолт</strong>"
+msgstr ""
 
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.report_payslip
 #: model:ir.ui.view,arch_db:hr_payroll.report_payslipdetails
 msgid "<strong>Email</strong>"
-msgstr "<strong>Имэйл</strong>"
+msgstr ""
 
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.report_payslip
 #: model:ir.ui.view,arch_db:hr_payroll.report_payslipdetails
 msgid "<strong>Identification No</strong>"
-msgstr "<strong>Ялгах дугаар</strong>"
+msgstr ""
 
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.report_payslip
@@ -116,12 +108,12 @@ msgstr "<strong>Нэр</strong>"
 #: model:ir.ui.view,arch_db:hr_payroll.report_payslip
 #: model:ir.ui.view,arch_db:hr_payroll.report_payslipdetails
 msgid "<strong>Reference</strong>"
-msgstr "<strong>Код</strong>"
+msgstr ""
 
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.report_contributionregister
 msgid "<strong>Register Name:</strong>"
-msgstr "<strong>Бүртгэлийн Нэр:</strong>"
+msgstr ""
 
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.report_contributionregister
@@ -135,9 +127,6 @@ msgid ""
 "                payment of the employees. It can be the social security, the\n"
 "                estate or anyone that collect or inject money on payslips."
 msgstr ""
-"Суутгал шимтгэлийн төрөл гэдэг нь цалингийн дүнгээс гуравдагч \n"
-"этгээд суутгал шимтгэл авах явдалд хэрэглэгдэнэ. Тухайлбал \n"
-"нийгмийн даатгал, эрүүл мэндийн даатгал, ажилгүйдлийн тэтгэмж гэх мэт."
 
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_form
@@ -243,7 +232,7 @@ msgstr "Цалингийн хуудсыг цуцлах"
 #: code:addons/hr_payroll/models/hr_payroll.py:238
 #, python-format
 msgid "Cannot cancel a payslip that is done."
-msgstr "Хийгдсэн цалингийн хуудсыг цуцлах боломжгүй."
+msgstr ""
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_line_category_id
@@ -277,7 +266,7 @@ msgstr "Дэд зүйлийн Тодорхойлолт"
 #. module: hr_payroll
 #: model:ir.actions.act_window,help:hr_payroll.action_contribution_register_form
 msgid "Click to add a new contribution register."
-msgstr "Шинэ шимтгэлийн төрөл нэмэх бол дарна уу."
+msgstr ""
 
 #. module: hr_payroll
 #: selection:hr.payslip.run,state:0
@@ -348,7 +337,7 @@ msgstr "Тохиргоо"
 #: model:ir.actions.act_window,name:hr_payroll.action_hr_payroll_configuration
 #: model:ir.ui.view,arch_db:hr_payroll.view_hr_payroll_configuration
 msgid "Configure Payroll"
-msgstr "Цалинг тохируулах"
+msgstr ""
 
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_form
@@ -699,9 +688,6 @@ msgid ""
 "for Meal Voucher having fixed amount of 1€ per worked day can have its "
 "quantity defined in expression like worked_days.WORK100.number_of_days."
 msgstr ""
-"Хувь болон тогтмол дүнг тооцоолоход энэ нь хэрэглэгддэг. Тухайлбал: Хоолны "
-"ваучер нь ажилласан өдөр тутамд 1000 төгрөгийн тогтмол дүнтэй бол үүнийг "
-"worked_days.WORK100.number_of_days гэсэн илэрхийллээр илэрхийлж болно."
 
 #. module: hr_payroll
 #: model:ir.model.fields,help:hr_payroll.field_hr_payslip_input_amount
@@ -1446,12 +1432,12 @@ msgstr "Цалингийн хуудсуудыг үүсгэхийн тулд аж
 #: code:addons/hr_payroll/models/hr_payroll.py:838
 #, python-format
 msgid "You must set a contract to create a payslip line."
-msgstr "Цалингийн хуудсын мөр үүсгэхийн тулд гэрээ тохируулах ёстой."
+msgstr ""
 
 #. module: hr_payroll
 #: model:ir.model,name:hr_payroll.model_hr_payroll_config_settings
 msgid "hr.payroll.config.settings"
-msgstr "hr.payroll.config.settings"
+msgstr ""
 
 #. module: hr_payroll
 #: model:ir.model,name:hr_payroll.model_hr_salary_rule
@@ -1461,12 +1447,12 @@ msgstr "hr.salary.rule"
 #. module: hr_payroll
 #: model:ir.model,name:hr_payroll.model_report_hr_payroll_report_contributionregister
 msgid "report.hr_payroll.report_contributionregister"
-msgstr "report.hr_payroll.report_contributionregister"
+msgstr ""
 
 #. module: hr_payroll
 #: model:ir.model,name:hr_payroll.model_report_hr_payroll_report_payslipdetails
 msgid "report.hr_payroll.report_payslipdetails"
-msgstr "report.hr_payroll.report_payslipdetails"
+msgstr ""
 
 #. module: hr_payroll
 #: model:ir.model.fields,help:hr_payroll.field_hr_payslip_line_amount_percentage_base

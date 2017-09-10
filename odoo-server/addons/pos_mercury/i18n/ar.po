@@ -12,7 +12,6 @@
 # Martin Trigaux <mat@odoo.com>, 2016
 # Ali zuaby <ali@zuaby.net>, 2016
 # amrnegm <amrnegm.01@gmail.com>, 2016
-# Yihya Hugirat <hugirat@gmail.com>, 2017
 # Shaima Safar <shaima.safar@open-inside.com>, 2017
 msgid ""
 msgstr ""
@@ -33,7 +32,7 @@ msgstr ""
 #: code:addons/pos_mercury/static/src/xml/pos_mercury.xml:75
 #, python-format
 msgid "&nbsp;&nbsp;APPROVAL CODE:"
-msgstr "&nbsp;&nbsp;رمز الموافقه:"
+msgstr ""
 
 #. module: pos_mercury
 #. openerp-web
@@ -57,7 +56,7 @@ msgstr ""
 #: code:addons/pos_mercury/static/src/xml/pos_mercury.xml:46
 #, python-format
 msgid "ABOVE AMOUNT PURSUANT"
-msgstr "طبقا للمبلغ أعلاه"
+msgstr ""
 
 #. module: pos_mercury
 #. openerp-web
@@ -118,7 +117,7 @@ msgstr "قاريء البطاقة"
 #: code:addons/pos_mercury/static/src/js/pos_mercury.js:196
 #, python-format
 msgid "Clear Text Request Not Supported"
-msgstr "لا يجود دعم لطلب \"النص الواضح\""
+msgstr ""
 
 #. module: pos_mercury
 #: model:ir.actions.act_window,help:pos_mercury.action_configuration_form
@@ -144,21 +143,21 @@ msgstr "فشل في الاتصال"
 #: code:addons/pos_mercury/static/src/js/pos_mercury.js:185
 #, python-format
 msgid "Control failed to find branded serial (password lookup failed)"
-msgstr "أخفق التحكم في العثور على المسلسل المسمى (فشل البحث عن كلمة المرور)"
+msgstr ""
 
 #. module: pos_mercury
 #. openerp-web
 #: code:addons/pos_mercury/static/src/js/pos_mercury.js:202
 #, python-format
 msgid "Could Not Encrypt Response- Call Provider"
-msgstr "تعذر تشفير الاستجابة - إتصل بمزود الخدمة"
+msgstr ""
 
 #. module: pos_mercury
 #. openerp-web
 #: code:addons/pos_mercury/static/src/js/pos_mercury.js:357
 #, python-format
 msgid "Could not read card"
-msgstr "تعذر قراءة البطاقة"
+msgstr ""
 
 #. module: pos_mercury
 #: model:ir.model.fields,field_description:pos_mercury.field_pos_mercury_configuration_create_uid
@@ -196,7 +195,7 @@ msgstr "اسم العرض"
 #: code:addons/pos_mercury/static/src/js/pos_mercury.js:180
 #, python-format
 msgid "Duplicate Serial Number Detected"
-msgstr "تم اكشاف رقم تسلسلي مكرر"
+msgstr ""
 
 #. module: pos_mercury
 #. openerp-web
@@ -217,14 +216,14 @@ msgstr "سلسلة الأوامر فارغة"
 #: code:addons/pos_mercury/static/src/js/pos_mercury.js:638
 #, python-format
 msgid "Error"
-msgstr "خطأ"
+msgstr ""
 
 #. module: pos_mercury
 #. openerp-web
 #: code:addons/pos_mercury/static/src/js/pos_mercury.js:198
 #, python-format
 msgid "Error Occurred While Decrypting Request"
-msgstr "حدث خطأ أثناء فك تشفير الطلب"
+msgstr ""
 
 #. module: pos_mercury
 #. openerp-web
@@ -253,7 +252,7 @@ msgstr "فشل عام"
 #: code:addons/pos_mercury/static/src/js/pos_mercury.js:155
 #, python-format
 msgid "Global API Not Initialized"
-msgstr "لم يتم تهيئة واجهة برمجة التطبيقات العامة"
+msgstr ""
 
 #. module: pos_mercury
 #. openerp-web
@@ -292,7 +291,7 @@ msgstr "المعرف"
 #. module: pos_mercury
 #: model:ir.model.fields,help:pos_mercury.field_pos_mercury_configuration_merchant_id
 msgid "ID of the merchant to authenticate him on the payment provider server"
-msgstr "معرف التاجر لمصادقته على خادم موفر الدفع"
+msgstr ""
 
 #. module: pos_mercury
 #: model:ir.ui.view,arch_db:pos_mercury.view_pos_mercury_configuration_form
@@ -327,7 +326,7 @@ msgstr "الحقول غير كافية"
 #: code:addons/pos_mercury/static/src/js/pos_mercury.js:183
 #, python-format
 msgid "Internal Server Error – Call Provider"
-msgstr "خطأ داخلي في الخادم - إتصل بالمزود"
+msgstr ""
 
 #. module: pos_mercury
 #. openerp-web
@@ -363,14 +362,14 @@ msgstr ""
 #: code:addons/pos_mercury/static/src/js/pos_mercury.js:224
 #, python-format
 msgid "Invalid Batch Number"
-msgstr "رقم الدفعة غير صحيحة"
+msgstr "رقم الدفعة صحيحة"
 
 #. module: pos_mercury
 #. openerp-web
 #: code:addons/pos_mercury/static/src/js/pos_mercury.js:230
 #, python-format
 msgid "Invalid Card Type"
-msgstr "نوع البطاقة غير صحيح"
+msgstr "نوع البطاقة صحيح"
 
 #. module: pos_mercury
 #. openerp-web
@@ -384,14 +383,14 @@ msgstr ""
 #: code:addons/pos_mercury/static/src/js/pos_mercury.js:199
 #, python-format
 msgid "Invalid Check Digit"
-msgstr "أرقام الشيك غير صحيحة"
+msgstr ""
 
 #. module: pos_mercury
 #. openerp-web
 #: code:addons/pos_mercury/static/src/js/pos_mercury.js:219
 #, python-format
 msgid "Invalid Check Type"
-msgstr "نوع الشيك غير صحيح"
+msgstr ""
 
 #. module: pos_mercury
 #. openerp-web
@@ -726,7 +725,7 @@ msgstr ""
 #. module: pos_mercury
 #: model:ir.model,name:pos_mercury.model_pos_order
 msgid "Point of Sale Orders"
-msgstr "طلبات نقطة البيع"
+msgstr ""
 
 #. module: pos_mercury
 #. openerp-web
@@ -813,7 +812,7 @@ msgstr "تمريرها"
 #: code:addons/pos_mercury/static/src/js/pos_mercury.js:177
 #, python-format
 msgid "System Going Offline"
-msgstr "جار قطع الاتصال"
+msgstr ""
 
 #. module: pos_mercury
 #. openerp-web
@@ -924,7 +923,7 @@ msgstr "خطأ غير معروف"
 #: code:addons/pos_mercury/static/src/js/pos_mercury.js:197
 #, python-format
 msgid "Unrecognized Request Format"
-msgstr "بنية الطلب غير معروفة"
+msgstr "طلب الشكل غير المعترف بها"
 
 #. module: pos_mercury
 #: model:ir.ui.view,arch_db:pos_mercury.view_pos_mercury_configuration_form

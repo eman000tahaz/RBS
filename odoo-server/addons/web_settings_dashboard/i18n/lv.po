@@ -158,14 +158,14 @@ msgstr ""
 #: code:addons/web_settings_dashboard/static/src/xml/dashboard.xml:67
 #, python-format
 msgid "Invite"
-msgstr "Uzaicināt"
+msgstr "Invite"
 
 #. module: web_settings_dashboard
 #. openerp-web
 #: code:addons/web_settings_dashboard/static/src/xml/dashboard.xml:65
 #, python-format
 msgid "Invite new users:"
-msgstr "Uzaicināt jaunus lietotājus:"
+msgstr ""
 
 #. module: web_settings_dashboard
 #. openerp-web

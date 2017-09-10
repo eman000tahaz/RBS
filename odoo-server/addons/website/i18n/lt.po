@@ -12,15 +12,14 @@
 # Šarūnas Ažna <sarunas.azna@gmail.com>, 2016
 # Monika Raciunaite <monika.raciunaite@gmail.com>, 2016
 # Antanas Muliuolis <an.muliuolis@gmail.com>, 2017
-# digitouch UAB <digitouchagencyeur@gmail.com>, 2017
-# Aleksandr Jadov <a.jadov@tata.lt>, 2017
+# Aiste Sutkute <digitouchagencyeur@gmail.com>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-23 13:27+0000\n"
 "PO-Revision-Date: 2017-06-23 13:27+0000\n"
-"Last-Translator: Aleksandr Jadov <a.jadov@tata.lt>, 2017\n"
+"Last-Translator: Aiste Sutkute <digitouchagencyeur@gmail.com>, 2017\n"
 "Language-Team: Lithuanian (https://www.transifex.com/odoo/teams/41243/lt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -37,7 +36,7 @@ msgstr "&amp;times;"
 #: model:ir.ui.view,arch_db:website.sitemap_index_xml
 #: model:ir.ui.view,arch_db:website.sitemap_xml
 msgid "&lt;?xml version=\"1.0\" encoding=\"UTF-8\"?&gt;"
-msgstr "&lt;?xml version=\"1.0\" encoding=\"UTF-8\"?&gt;"
+msgstr ""
 
 #. module: website
 #. openerp-web
@@ -60,8 +59,6 @@ msgid ""
 ",\n"
 "                                                      the #1"
 msgstr ""
-",\n"
-"                                                      the #1"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.show_website_info
@@ -69,18 +66,16 @@ msgid ""
 ",\n"
 "                                updated:"
 msgstr ""
-",\n"
-"                                atnaujinta:"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.show_website_info
 msgid ", author:"
-msgstr ", autorius:"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.show_website_info
 msgid ", updated:"
-msgstr ", atnaujinta:"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -97,17 +92,17 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippet_options
 msgid "10s"
-msgstr "10s"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippet_options
 msgid "12"
-msgstr "12"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippet_options
 msgid "1s"
-msgstr "1s"
+msgstr ""
 
 #. module: website
 #. openerp-web
@@ -124,19 +119,19 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippet_options
 msgid "2s"
-msgstr "2s"
+msgstr ""
 
 #. module: website
 #. openerp-web
 #: code:addons/website/static/src/xml/website.seo.xml:62
 #, python-format
 msgid "3. Preview"
-msgstr "3. Preview"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippet_options
 msgid "3s"
-msgstr "3s"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.403
@@ -151,14 +146,14 @@ msgstr "404: Puslapis nerastas!"
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippet_options
 msgid "5s"
-msgstr "5s"
+msgstr ""
 
 #. module: website
 #. openerp-web
 #: code:addons/website/static/src/xml/website.xml:69
 #, python-format
 msgid ":&nbsp;"
-msgstr ":&nbsp;"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_big_picture
@@ -499,17 +494,17 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_comparisons
 msgid "<span>$</span><b style=\"font-size: 60px\">125</b><small>.00</small>"
-msgstr "<span>$</span><b style=\"font-size: 60px\">125</b><small>.00</small>"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_comparisons
 msgid "<span>$</span><b style=\"font-size: 60px\">35</b><small>.00</small>"
-msgstr "<span>$</span><b style=\"font-size: 60px\">35</b><small>.00</small>"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_comparisons
 msgid "<span>$</span><b style=\"font-size: 60px\">65</b><small>.00</small>"
-msgstr "<span>$</span><b style=\"font-size: 60px\">65</b><small>.00</small>"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_button
@@ -517,13 +512,11 @@ msgid ""
 "<span>Contact Us Now</span>\n"
 "                        <i class=\"fa fa-chevron-right\"/>"
 msgstr ""
-"<span>Susisiekti su mumis dabar</span>\n"
-"                        <i class=\"fa fa-chevron-right\"/>"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_share
 msgid "<span>Share</span>"
-msgstr "<span>Dalintis</span>"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -884,7 +877,7 @@ msgstr ""
 #: code:addons/website/static/src/js/website.contentMenu.js:72
 #, python-format
 msgid "Add page in menu"
-msgstr "Pridėti puslapį į meni"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -1473,7 +1466,7 @@ msgstr "Vaizduojamas pavadinimas"
 #: code:addons/website/static/src/xml/website.translator.xml:43
 #, python-format
 msgid "Do not show this dialog later."
-msgstr "Nerodyti šio dialogo vėliau."
+msgstr ""
 
 #. module: website
 #. openerp-web
@@ -1774,7 +1767,7 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "Gengo"
-msgstr "Gengo"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_comparisons
@@ -2125,7 +2118,7 @@ msgstr "Kalbos"
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippet_options
 msgid "Large"
-msgstr "Didelis"
+msgstr ""
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_website___last_update
@@ -2153,7 +2146,7 @@ msgstr "Paskutinį kartą atnaujinta"
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "Launch"
-msgstr "Paleisti"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -2529,7 +2522,7 @@ msgstr ""
 #: code:addons/website/static/src/xml/website.editor.xml:10
 #, python-format
 msgid "Page"
-msgstr "Puslapis"
+msgstr ""
 
 #. module: website
 #: code:addons/website/models/website.py:307
@@ -2542,7 +2535,7 @@ msgstr ""
 #: code:addons/website/static/src/js/website.contentMenu.js:65
 #, python-format
 msgid "Page Title"
-msgstr "Puslapio pavadinimas"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippet_options
@@ -2584,7 +2577,7 @@ msgstr ""
 #. module: website
 #: model:ir.model.fields,help:website.field_website_partner_id
 msgid "Partner-related data of the user"
-msgstr "Su partneriu susiję vartotojo duomenys"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.template_partner_comment
@@ -2604,7 +2597,7 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippet_options
 msgid "People"
-msgstr "Žmonės"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.view_website_config_settings
@@ -3213,7 +3206,7 @@ msgstr ""
 #: model:ir.model.fields,help:website.field_website_config_settings_default_lang_code
 #: model:ir.model.fields,help:website.field_website_default_lang_code
 msgid "This field is used to set/get locales for user"
-msgstr "Šis laukas naudojamas nustatyti / gauti vartotojui vietoves."
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.page_404
@@ -3291,7 +3284,7 @@ msgstr "Versti"
 #: code:addons/website/static/src/xml/website.translator.xml:14
 #, python-format
 msgid "Translate this page"
-msgstr "Išversti šį puslapį"
+msgstr ""
 
 #. module: website
 #. openerp-web
@@ -3359,7 +3352,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:website.publish_short
 #, python-format
 msgid "Unpublished"
-msgstr "Nepublikuota"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -3428,12 +3421,12 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippet_options
 msgid "Very Fast"
-msgstr "Labai greitas"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippet_options
 msgid "Very Slow"
-msgstr "Labai lėtas"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -3868,7 +3861,7 @@ msgstr ""
 #: model:ir.actions.act_window,help:website.action_module_theme
 #: model:ir.actions.act_window,help:website.action_module_website
 msgid "You should try other search criteria."
-msgstr "Jūs turėtumėte pabandyti kitus paieškos kriterijus."
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_banner
@@ -3883,7 +3876,7 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "Your Footer"
-msgstr "Jūsų poraštė"
+msgstr ""
 
 #. module: website
 #. openerp-web
@@ -3900,7 +3893,7 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "Your Main Menu"
-msgstr "Jūsų pagrindinis meniu"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -3910,14 +3903,14 @@ msgstr "Jūsų tikslai"
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_title
 msgid "Your Website Title"
-msgstr "Jūsų tinklalapio pavadinimas"
+msgstr ""
 
 #. module: website
 #. openerp-web
 #: code:addons/website/static/src/xml/website.editor.xml:27
 #, python-format
 msgid "Your current changes will be saved automatically."
-msgstr "Jūsų dabartiniai pakeitimai bus išsaugoti automatiškai."
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -3946,7 +3939,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:website.field_website_config_settings_social_youtube
 #: model:ir.model.fields,field_description:website.field_website_social_youtube
 msgid "Youtube Account"
-msgstr "Youtube paskyra"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -3968,7 +3961,7 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "campaign."
-msgstr "kampanija."
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -3987,12 +3980,12 @@ msgstr ""
 #: code:addons/website/static/src/xml/website.xml:107
 #, python-format
 msgid "e.g. About Us"
-msgstr "pvz. apie mus"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "etc."
-msgstr "ir t. t."
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -4043,35 +4036,35 @@ msgstr "https://plus.google.com/+Odooapps"
 #: model:ir.ui.view,arch_db:website.view_website_config_settings
 #: model:ir.ui.view,arch_db:website.view_website_form
 msgid "https://twitter.com/Odoo"
-msgstr "https://twitter.com/Odoo"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.view_website_config_settings
 msgid "https://www.facebook.com/Odoo"
-msgstr "https://www.facebook.com/Odoo"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.view_website_form
 msgid "https://www.facebook.com/odoo"
-msgstr "https://www.facebook.com/odoo"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.view_website_config_settings
 #: model:ir.ui.view,arch_db:website.view_website_form
 msgid "https://www.linkedin.com/company/odoo"
-msgstr "https://www.linkedin.com/company/odoo"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.view_website_config_settings
 #: model:ir.ui.view,arch_db:website.view_website_form
 msgid "https://www.youtube.com/user/OpenERPonline"
-msgstr "https://www.youtube.com/user/OpenERPonline"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.view_website_config_settings
 #: model:ir.ui.view,arch_db:website.view_website_form
 msgid "https://youraccount.github.io"
-msgstr "https://youraccount.github.io"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -4129,7 +4122,7 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "peek.usertesting.com"
-msgstr "peek.usertesting.com"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -4146,7 +4139,7 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.robots
 msgid "sitemap.xml"
-msgstr "sitemap.xml"
+msgstr ""
 
 #. module: website
 #. openerp-web
@@ -4158,17 +4151,17 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.view_website_config_settings
 msgid "the instructions"
-msgstr "instrukcijos"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "through the content of your pages;"
-msgstr "per Jūsų puslapių turinį;"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.view_website_config_settings
 msgid "to create your key."
-msgstr "sukurti Jūsų raktą."
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -4182,12 +4175,12 @@ msgstr ""
 #: code:addons/website/static/src/xml/website.backend.xml:45
 #, python-format
 msgid "to get more information."
-msgstr "gauti daugiau informacijos."
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "to get started."
-msgstr "pradėti."
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -4204,7 +4197,7 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.menu_search
 msgid "url"
-msgstr "nuoroda"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_comparisons
@@ -4222,7 +4215,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:website.field_website_config_settings_website_id
 #: model:ir.ui.view,arch_db:website.menu_search
 msgid "website"
-msgstr "tinklalapis"
+msgstr ""
 
 #. module: website
 #: model:ir.model,name:website.model_website_config_settings
@@ -4232,12 +4225,12 @@ msgstr "website.config.settings"
 #. module: website
 #: model:ir.model,name:website.model_website_published_mixin
 msgid "website.published.mixin"
-msgstr "website.published.mixin"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "will help you:"
-msgstr "padės Jums:"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.500

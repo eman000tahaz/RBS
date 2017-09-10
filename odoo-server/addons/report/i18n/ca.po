@@ -386,7 +386,7 @@ msgstr "Format de paper"
 #. module: report
 #: model:ir.model.fields,field_description:report.field_base_config_settings_paperformat_id
 msgid "Paper format *"
-msgstr "Format paper *"
+msgstr ""
 
 #. module: report
 #: model:ir.ui.view,arch_db:report.paperformat_view_form
@@ -431,12 +431,12 @@ msgstr "Imprimeix"
 #. module: report
 #: model:ir.model.fields,field_description:report.field_ir_act_report_xml_print_report_name
 msgid "Printed Report Name"
-msgstr "Nombre del informe impreso"
+msgstr ""
 
 #. module: report
 #: model:ir.ui.view,arch_db:report.act_report_xml_view_inherit
 msgid "QWeb views"
-msgstr "Vistes Qweb"
+msgstr ""
 
 #. module: report
 #. openerp-web
@@ -540,8 +540,6 @@ msgid ""
 "Wkhtmltopdf failed (error code: %s). Memory limit too low or maximum file "
 "number of subprocess reached. Message : %s"
 msgstr ""
-"Wkhtmltopdf falló (código de error: %s). Límite de memoria demasiado bajo o "
-"número de archivo máximo de subproceso alcanzado. Mensaje: %s"
 
 #. module: report
 #: code:addons/report/models/report.py:452
@@ -585,9 +583,6 @@ msgid ""
 "shown in html.<br><br><a href=\"http://wkhtmltopdf.org/\" "
 "target=\"_blank\">wkhtmltopdf.org</a>"
 msgstr ""
-"La seva instal·lació de Wkhtmltopdf sembla estar trencat. L'informe es "
-"mostrarà en html. <br><br><a href=\"http://wkhtmltopdf.org/\" "
-"target=\"_blank\">wkhtmltopdf.org</a>"
 
 #. module: report
 #: model:ir.model,name:report.model_base_config_settings
@@ -597,14 +592,14 @@ msgstr "base.config.settings"
 #. module: report
 #: model:ir.model,name:report.model_ir_actions_report_xml
 msgid "ir.actions.report.xml"
-msgstr "ir.actions.report.xml"
+msgstr ""
 
 #. module: report
 #: model:ir.model,name:report.model_ir_qweb_field_barcode
 msgid "ir.qweb.field.barcode"
-msgstr "ir.qweb.field.barcode"
+msgstr ""
 
 #. module: report
 #: model:ir.model,name:report.model_report_abstract_report
 msgid "report.abstract_report"
-msgstr "report.abstract_report"
+msgstr ""

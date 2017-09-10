@@ -9,19 +9,17 @@
 # Jonathan Stein <cgs@image.dk>, 2016
 # Jarnhold Nattestad <nattestads@gmail.com>, 2016
 # Morten Schou <ms@msteknik.dk>, 2016
-# Ejner Sønniksen <ejner@vkdata.dk>, 2016
 # Jesper Carstensen <jc@danodoo.dk>, 2016
 # Hans Henrik Gabelgaard <hhg@gabelgaard.org>, 2016
 # peso <peer.sommerlund@gmail.com>, 2016
 # Pernille Kristensen <pernillekristensen1994@gmail.com>, 2017
-# Sanne Kristensen <sanne@vkdata.dk>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-23 13:27+0000\n"
 "PO-Revision-Date: 2017-06-23 13:27+0000\n"
-"Last-Translator: Sanne Kristensen <sanne@vkdata.dk>, 2017\n"
+"Last-Translator: Pernille Kristensen <pernillekristensen1994@gmail.com>, 2017\n"
 "Language-Team: Danish (https://www.transifex.com/odoo/teams/41243/da/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -96,17 +94,17 @@ msgstr "1. Definer Nøgleord"
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippet_options
 msgid "10s"
-msgstr "10s"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippet_options
 msgid "12"
-msgstr "12"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippet_options
 msgid "1s"
-msgstr "1s"
+msgstr ""
 
 #. module: website
 #. openerp-web
@@ -118,12 +116,12 @@ msgstr "2. Beskriv din side"
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_comparisons
 msgid "24x7 toll-free support"
-msgstr "24x7 momsfri support"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippet_options
 msgid "2s"
-msgstr "2s"
+msgstr ""
 
 #. module: website
 #. openerp-web
@@ -135,7 +133,7 @@ msgstr "3. Forhåndsvisning"
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippet_options
 msgid "3s"
-msgstr "3s"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.403
@@ -150,26 +148,26 @@ msgstr "404: Siden blev ikke fundet!"
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippet_options
 msgid "5s"
-msgstr "5s"
+msgstr ""
 
 #. module: website
 #. openerp-web
 #: code:addons/website/static/src/xml/website.xml:69
 #, python-format
 msgid ":&nbsp;"
-msgstr ":&nbsp;"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_big_picture
 msgid "<b>A Small Subtitle</b>"
-msgstr "<b>En lille undertekst</b>"
+msgstr ""
 
 #. module: website
 #. openerp-web
 #: code:addons/website/static/src/js/website.tour.banner.js:15
 #, python-format
 msgid "<b>Click Edit</b> to start designing your homepage."
-msgstr "<b>Klik rediger</b> for at starte med at designe din hjemmeside."
+msgstr ""
 
 #. module: website
 #. openerp-web
@@ -179,8 +177,6 @@ msgid ""
 "<b>Click on a text</b> to start editing it. <i>It's that easy to edit your "
 "content!</i>"
 msgstr ""
-"<b>Klik på en tekst</b> for at starte med at redigere det. <i>Så nemt er det"
-" at redigere dit indhold!</i>"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_text_block
@@ -207,7 +203,7 @@ msgstr ""
 #: code:addons/website/static/src/js/website.tour.banner.js:72
 #, python-format
 msgid "<b>Install a contact form</b> to improve this page."
-msgstr "<b>Installer en kontaktformular</b> for at forbedre denne side."
+msgstr ""
 
 #. module: website
 #. openerp-web
@@ -217,28 +213,26 @@ msgid ""
 "<b>Install new apps</b> to get more features. Let's install the <i>'Contact "
 "form'</i> app."
 msgstr ""
-"<b>Installer nye apps</b> for at få flere funktioner. Lad os installere "
-"<i>kontaktformular</i> appen."
 
 #. module: website
 #: model:ir.actions.act_window,help:website.action_module_theme
 msgid "<b>No theme module found!</b>"
-msgstr "<b>Intet skabelonmodul fundet!</b>"
+msgstr ""
 
 #. module: website
 #: model:ir.actions.act_window,help:website.action_module_website
 msgid "<b>No website module found!</b>"
-msgstr "<b>Intet webside modul fundet!</b>"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippet_options
 msgid "<b>Set Custom Image...</b>"
-msgstr "<b>Indstil brugerdefineret billede...</b>"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.show_sign_in
 msgid "<b>Sign in</b>"
-msgstr "<b>Log ind</b>"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -246,13 +240,11 @@ msgid ""
 "<br/>\n"
 "                                    Make sure the Advanced Options are set to your country and language."
 msgstr ""
-"<br/>\n"
-"Sørg for, at de avancerede indstillinger er indstillet til dit land og sprog."
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippet_options
 msgid "<i class=\"fa fa-arrows\"/>Background Image Sizing"
-msgstr "<i class=\"fa fa-arrows\"/>Baggrundsbillede størrelse"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippet_options
@@ -262,52 +254,52 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippet_options
 msgid "<i class=\"fa fa-clock-o\"/>Scroll Speed"
-msgstr "<i class=\"fa fa-clock-o\"/>Scrollhastighed"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippet_options
 msgid "<i class=\"fa fa-clock-o\"/>Slideshow speed"
-msgstr "<i class=\"fa fa-clock-o\"/>Diashow hastighed"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippets
 msgid "<i class=\"fa fa-diamond\"/> Feature"
-msgstr "<i class=\"fa fa-diamond\"/>Funktion"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "<i class=\"fa fa-envelope-o\"/> Contact Our Website Experts"
-msgstr "<i class=\"fa fa-envelope-o\"/>Kontakt vore webside eksperter"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippet_options
 msgid "<i class=\"fa fa-expand\"/>Margin"
-msgstr "<i class=\"fa fa-expand\"/>Margin"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippet_options
 msgid "<i class=\"fa fa-eyedropper\"/>Background Color"
-msgstr "<i class=\"fa fa-eyedropper\"/>Baggrundsfarve"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippet_options
 msgid "<i class=\"fa fa-eyedropper\"/>Overlay color"
-msgstr "<i class=\"fa fa-eyedropper\"/>Overlagsfarve"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippets
 msgid "<i class=\"fa fa-indent\"/> Inner content"
-msgstr "<i class=\"fa fa-indent\"/>Indre indhold"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippets
 msgid "<i class=\"fa fa-magic icon-fix\"/> Effect"
-msgstr "<i class=\"fa fa-magic icon-fix\"/>Effekt"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippet_options
 msgid "<i class=\"fa fa-magic\"/>Mode"
-msgstr "<i class=\"fa fa-magic\"/>Tilstand"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippet_options
@@ -317,12 +309,12 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippet_options
 msgid "<i class=\"fa fa-paint-brush\"/>Styling"
-msgstr "<i class=\"fa fa-paint-brush\"/>Styling"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippet_options
 msgid "<i class=\"fa fa-picture-o\"/>Background Image"
-msgstr "<i class=\"fa fa-picture-o\"/>Baggrundsbillede"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.language_selector
@@ -330,48 +322,46 @@ msgid ""
 "<i class=\"fa fa-plus-circle\"/>\n"
 "                Add a language..."
 msgstr ""
-"<i class=\"fa fa-plus-circle\"/>\n"
-"Tilføj et sprog..."
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippet_options
 msgid "<i class=\"fa fa-plus-circle\"/>Add Slide"
-msgstr "<i class=\"fa fa-plus-circle\"/>Tilføj slide"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippet_options
 msgid "<i class=\"fa fa-plus-circle\"/>Add images"
-msgstr "<i class=\"fa fa-plus-circle\"/>Tilføj billeder"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippet_options
 msgid "<i class=\"fa fa-refresh\"/>Re-order"
-msgstr "<i class=\"fa fa-refresh\"/>Flyt rundt"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippet_options
 msgid "<i class=\"fa fa-th\"/>Columns"
-msgstr "<i class=\"fa fa-th\"/>Kolonner"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippets
 msgid "<i class=\"fa fa-th-large\"/> Structure"
-msgstr "<i class=\"fa fa-th-large\"/>Struktur"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.user_navbar
 msgid "<i class=\"fa fa-th-large\"/> WEBSITE <b class=\"caret\"/>"
-msgstr "<i class=\"fa fa-th-large\"/>WEBSIDE<b class=\"caret\"/>"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippet_options
 msgid "<i class=\"fa fa-trash\"/>Remove all images"
-msgstr "<i class=\"fa fa-trash\"/>Fjern alle billeder"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippet_options
 msgid "<i class=\"fa fa-trash-o\"/>Remove Slide"
-msgstr "<i class=\"fa fa-trash-o\"/>Fjern slide"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -380,9 +370,6 @@ msgid ""
 "                        The whole process may take a few hours, some discussions with your colleagues and\n"
 "                    several cups of coffee to go through. But don't worry, you can return to this tool at any time.</i>"
 msgstr ""
-"<i>\n"
-"                        Hele processen kan tage et par timer, nogle diskussioner med dine kolleger og\n"
-" flere kopper kaffe at gå igennem. Men bare rolig, du kan til enhver tid vende tilbage til dette værktøj.</i>"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -391,9 +378,6 @@ msgid ""
 "                        Whether you're a beginner or a pro, we have everything you need to plan, create,\n"
 "                    publish and grow your site, blog or online store.</i>"
 msgstr ""
-"<i>\n"
-"                        Uanset om du er en nybegynder eller en proffs, har vi alt hvad du behøver for at planlægge, oprette,\n"
-" udgive og dyrke dit websted, blog eller online butik.</i>"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -408,18 +392,16 @@ msgid ""
 "<i>Congratulations on taking the leap and deciding to build your own "
 "website!</i>"
 msgstr ""
-"<i>Tillykke med at du tager springer og beslutter at starte din egen "
-"hjemmeside!</i>"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_comparisons
 msgid "<i>Instant setup, satisfied or reimbursed.</i>"
-msgstr "<i>Øjeblikkeligt setup, tilfreds eller refunderet.</i>"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "<i>We wish you a fun time!</i>"
-msgstr "<i>Vi ønsker dig en sjov tid!</i>"
+msgstr ""
 
 #. module: website
 #. openerp-web
@@ -437,19 +419,16 @@ msgid ""
 "to tell a story. Everything you consider writing can be told as a "
 "story.</small>"
 msgstr ""
-"<small class=\"text-muted\">En god måde at fange din læsers opmærksomhed på "
-"er at fortælle en historie. Alt hvad du overvejer at skrive kan fortælles "
-"som en historie.</small>"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_parallax_slider
 msgid "<small>Author of this quote</small>"
-msgstr "<small>Forfatter af dette citat</small>"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_parallax_slider
 msgid "<small>John Doe, CEO</small>"
-msgstr "<small>John Doe, CEO</small>"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -462,18 +441,16 @@ msgid ""
 "<span class=\"fa fa-lightbulb-o fa-2x\"/>\n"
 "                                <strong>Tips for a good domain:</strong>"
 msgstr ""
-"<span class=\"fa fa-lightbulb-o fa-2x\"/>\n"
-"<strong>Tips for et godt domæne:</strong>"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.user_navbar
 msgid "<span class=\"fa fa-pencil\"/>Edit"
-msgstr "<span class=\"fa fa-pencil\"/>Rediger"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.user_navbar
 msgid "<span class=\"fa fa-plus\"/>New"
-msgstr "<span class=\"fa fa-plus\"/>Ny"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -519,17 +496,17 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_comparisons
 msgid "<span>$</span><b style=\"font-size: 60px\">125</b><small>.00</small>"
-msgstr "<span>$</span><b style=\"font-size: 60px\">125</b><small>.00</small>"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_comparisons
 msgid "<span>$</span><b style=\"font-size: 60px\">35</b><small>.00</small>"
-msgstr "<span>$</span><b style=\"font-size: 60px\">35</b><small>.00</small>"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_comparisons
 msgid "<span>$</span><b style=\"font-size: 60px\">65</b><small>.00</small>"
-msgstr "<span>$</span><b style=\"font-size: 60px\">65</b><small>.00</small>"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_button
@@ -537,13 +514,11 @@ msgid ""
 "<span>Contact Us Now</span>\n"
 "                        <i class=\"fa fa-chevron-right\"/>"
 msgstr ""
-"<span>Kontakt os nu</span>\n"
-"                        <i class=\"fa fa-chevron-right\"/>"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_share
 msgid "<span>Share</span>"
-msgstr "<span>Del</span>"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -603,7 +578,7 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "<strong>Blogs</strong>"
-msgstr "<strong>Blogs</strong>"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -618,12 +593,12 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "<strong>Contact Form</strong>"
-msgstr "<strong>Kontaktformular</strong>"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "<strong>Discuss live</strong>"
-msgstr "<strong>Diskuter live</strong>"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -637,12 +612,12 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.http_error_debug
 msgid "<strong>Error message:</strong>"
-msgstr "<strong>Fejlbesked:</strong>"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "<strong>Event Tickets</strong>"
-msgstr "<strong>Event billetter</strong>"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -650,8 +625,6 @@ msgid ""
 "<strong>Find 3 websites that you like</strong> and write down what you like "
 "about them."
 msgstr ""
-"<strong>Find 3 hjemmesider som du kan lide</strong> og skriv ned hvad du kan"
-" lide ved dem."
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -664,7 +637,7 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "<strong>How to get a custom domain name?</strong><br/>"
-msgstr "<strong>Hvordan får man et brugerdefineret domænenavn?</strong><br/>"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -678,22 +651,22 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "<strong>Install</strong> what you need:"
-msgstr "<strong>Installer</strong> hvad du har brug for:"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "<strong>Jobs</strong>"
-msgstr "<strong>Jobs</strong>"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "<strong>Launch a forum</strong>"
-msgstr "<strong>Lancer et forum</strong>"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "<strong>Next actions:</strong>"
-msgstr "<strong>Næste handlinger:</strong>"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -703,12 +676,12 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "<strong>Publish documentation</strong>"
-msgstr "<strong>Udgiv dokumentation</strong>"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "<strong>Publish events</strong>"
-msgstr "<strong>Udgiv events</strong>"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -723,7 +696,7 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "<strong>Send mass mails</strong>"
-msgstr "<strong>Send masse e-mails</strong>"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -735,27 +708,27 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "<strong>Subscriptions</strong>"
-msgstr "<strong>Abonnementer</strong>"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "<strong>The big launch</strong><br/>"
-msgstr "<strong>Den store lancering</strong><br/>"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "<strong>Use Google Webmaster</strong><br/>"
-msgstr "<strong>Brug Google Webmaster</strong><br/>"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "<strong>Use contact forms</strong>"
-msgstr "<strong>Brug kontaktformular</strong>"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "<strong>Use relevant keywords</strong><br/>"
-msgstr "<strong>Brug relevante nøgleord</strong><br/>"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -763,13 +736,11 @@ msgid ""
 "<strong>With that in mind, try to define the structure of your main "
 "menu:</strong>"
 msgstr ""
-"<strong>Med det for øje, så prøv at definere strukturen i din "
-"hovedmenu:</strong>"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "<strong>You own your domain name?</strong><br/>"
-msgstr "<strong>Ejer du dit domænenavn?</strong><br/>"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -779,12 +750,12 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "<strong>eCommerce</strong>"
-msgstr "<strong>Nethandel</strong>"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "@odoo"
-msgstr "@odoo"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_text_block
@@ -794,13 +765,13 @@ msgstr "En stor overskrift"
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_big_picture
 msgid "A Punchy Headline"
-msgstr "En fængende overskrift"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_image_text
 #: model:ir.ui.view,arch_db:website.s_text_image
 msgid "A Section Subtitle"
-msgstr "En sektion undertekst"
+msgstr ""
 
 #. module: website
 #: model:ir.model.fields,help:website.field_ir_act_server_website_published
@@ -814,7 +785,7 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_text_block
 msgid "A good subtitle"
-msgstr "En god undertekst"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_text_block
@@ -822,13 +793,11 @@ msgid ""
 "A great way to catch your reader's attention is to tell a story.\n"
 "                        Everything you consider writing can be told as a story."
 msgstr ""
-"En god måde at fange din læsers opmærksomhed på er at fortælle en historie. \n"
-" Alt hvad du overvejer at skrive kan fortælles som en historie."
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_features
 msgid "A small explanation of this great<br/>feature, in clear words."
-msgstr "En lille forklaring af denne super gode <br/> funktion, i stikord."
+msgstr ""
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_website_config_settings_module_website_version
@@ -877,7 +846,7 @@ msgstr "Tilføj"
 #: model:ir.ui.view,arch_db:website.s_image_gallery
 #, python-format
 msgid "Add Images from the 'Customize' menu"
-msgstr "Tilføj billeder fra \"Tilpas\" menuen"
+msgstr ""
 
 #. module: website
 #. openerp-web
@@ -896,7 +865,7 @@ msgstr "Indtast et godt slogan"
 #: code:addons/website/static/src/xml/website.gallery.xml:18
 #, python-format
 msgid "Add images"
-msgstr "Tilføj billeder"
+msgstr ""
 
 #. module: website
 #. openerp-web
@@ -915,7 +884,7 @@ msgstr "Tilføj side i menuen"
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "Adding relevant and popular keywords"
-msgstr "Tilføjer relevante og populære nøgleord"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.view_website_config_settings
@@ -926,7 +895,7 @@ msgstr "Avanceret"
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid ""
 "Advertise a keyword if you answer YES to the three following questions:"
-msgstr "Annoncer et søgeord, hvis du svarer JA til de tre følgende spørgsmål:"
+msgstr ""
 
 #. module: website
 #. openerp-web
@@ -934,7 +903,6 @@ msgstr "Annoncer et søgeord, hvis du svarer JA til de tre følgende spørgsmål
 #, python-format
 msgid "After having checked how it looks on mobile, <b>close the preview</b>."
 msgstr ""
-"Efter du har tjekket hvordan det ser ud på mobil, <b>luk visningen</b>."
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -948,7 +916,7 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "Aim for a .com and/or your country extension"
-msgstr "Gå efter en .com og / eller din landekode"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_feature_grid
@@ -960,31 +928,29 @@ msgstr ""
 #. module: website
 #: selection:website.config.settings,module_website_version:0
 msgid "Allow multiple versions of the same page (advanced)"
-msgstr "Tillad flere versioner af samme side (avanceret)"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid ""
 "Allows your community to ask and answer questions about their interests"
 msgstr ""
-"Tillader dit fællesskab at spørge og besvare spørgsmål om deres interesser"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.500
 msgid "An error occured while rendering the template"
-msgstr "Der opstod en fejl under udgivelsen af skabelonen"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_title
 msgid "And a great subtitle too"
-msgstr "Og også en god undertekst"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid ""
 "Announce it on social media: Twitter, Facebook, LinkedIn, Youtube, etc."
 msgstr ""
-"Annoncer det på sociale medier: Twitter, Facebook, LinkedIn, Youtube, etc."
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.view_website_config_settings
@@ -995,7 +961,7 @@ msgstr "Anvend"
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "Apply it to your website from your database admin page"
-msgstr "Anvend det på din hjemmeside fra din database admin side"
+msgstr ""
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_ir_attachment_website_url
@@ -1005,12 +971,12 @@ msgstr "Vedhæftning URL"
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "Attract more visitors with a content marketing strategy."
-msgstr "Tiltræk flere besøgende med en content marketing strategi."
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "Attract new leads"
-msgstr "Tiltræk nye leads"
+msgstr ""
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_ir_act_server_website_published
@@ -1020,7 +986,7 @@ msgstr "Synlig på websiten"
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "Avoid special characters"
-msgstr "Undgå specielle tegn"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -1038,12 +1004,12 @@ msgstr "Tilbage"
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "Background image"
-msgstr "Baggrundsbillede"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_banner
 msgid "Banner Odoo Image"
-msgstr "Banner Odoo billede"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_comparisons
@@ -1053,7 +1019,7 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "Be mobile"
-msgstr "Vær mobil"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_comparisons
@@ -1066,29 +1032,26 @@ msgid ""
 "Being clear on why you're creating your site is an essential first step to "
 "ensure your content and structure meet business objectives."
 msgstr ""
-"At være klar over hvorfor du opretter dit websted er et vigtigt første "
-"skridt for at sikre, at dit indhold og din struktur opfylder "
-"forretningsmålene."
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "Best if you have language skills"
-msgstr "Foretrækkes at du har sprogfærdigheder"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippet_options
 msgid "Big"
-msgstr "Stor"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "Boost your online sales with sleek product pages."
-msgstr "Forbedre dit online salg med elegante produktsider."
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "Build awareness and credibility"
-msgstr "Opbyg opmærksomhed og troværdighed"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippet_options
@@ -1218,7 +1181,7 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "Community &amp; Enterprise users:"
-msgstr "Community &amp; Enterprise brugere:"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -1407,7 +1370,7 @@ msgstr ""
 #. module: website
 #: model:ir.ui.menu,name:website.menu_dashboard
 msgid "Dashboard"
-msgstr "Dashboard"
+msgstr "Instrumentbræt"
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_website_config_settings_default_lang_id
@@ -1783,8 +1746,6 @@ msgid ""
 "For the Odoo Team,<br/>\n"
 "                            Fabien Pinckaers, Founder"
 msgstr ""
-"På vegne af Odoo Teamet, <br/>\n"
-" Fabien Pinckaers, Stifter"
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_website_config_settings_module_website_form_editor
@@ -2659,7 +2620,7 @@ msgstr ""
 #. module: website
 #: model:ir.model,name:website.model_web_planner
 msgid "Planner"
-msgstr "Planner"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.theme_customize
@@ -2781,7 +2742,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:website.publish_short
 #, python-format
 msgid "Published"
-msgstr "Udgiv"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.http_error_debug
@@ -3160,7 +3121,7 @@ msgstr ""
 #: model:ir.model.fields,help:website.field_slide_slide_website_url
 #: model:ir.model.fields,help:website.field_website_published_mixin_website_url
 msgid "The full URL to access the document through the website."
-msgstr "Den fulde URL for at få adgang til dokumentet via hjemmesiden."
+msgstr ""
 
 #. module: website
 #: model:ir.model.fields,help:website.field_ir_act_server_website_url
@@ -3575,7 +3536,7 @@ msgstr "Website programmer"
 #. module: website
 #: model:ir.actions.client,name:website.backend_dashboard
 msgid "Website Dashboard"
-msgstr "Dashboard website"
+msgstr ""
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_website_domain
@@ -3678,7 +3639,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:website.field_slide_slide_website_meta_description
 #: model:ir.model.fields,field_description:website.field_website_seo_metadata_website_meta_description
 msgid "Website meta description"
-msgstr "Meta beskrivelse"
+msgstr ""
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_blog_blog_website_meta_keywords
@@ -3699,7 +3660,7 @@ msgstr "Meta beskrivelse"
 #: model:ir.model.fields,field_description:website.field_slide_slide_website_meta_keywords
 #: model:ir.model.fields,field_description:website.field_website_seo_metadata_website_meta_keywords
 msgid "Website meta keywords"
-msgstr "Meta nøgleord"
+msgstr ""
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_blog_blog_website_meta_title
@@ -3720,12 +3681,12 @@ msgstr "Meta nøgleord"
 #: model:ir.model.fields,field_description:website.field_slide_slide_website_meta_title
 #: model:ir.model.fields,field_description:website.field_website_seo_metadata_website_meta_title
 msgid "Website meta title"
-msgstr "Meta titel"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.view_website_tree
 msgid "Websites"
-msgstr "Websitets"
+msgstr ""
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_base_language_install_website_ids
@@ -4131,12 +4092,12 @@ msgstr "ir.attachment"
 #. module: website
 #: model:ir.model,name:website.model_ir_qweb
 msgid "ir.qweb"
-msgstr "ir.qweb"
+msgstr ""
 
 #. module: website
 #: model:ir.model,name:website.model_ir_ui_view
 msgid "ir.ui.view"
-msgstr "ir.ui.view"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -4262,7 +4223,7 @@ msgstr "Hjemmeside"
 #. module: website
 #: model:ir.model,name:website.model_website_config_settings
 msgid "website.config.settings"
-msgstr "website.config.settings"
+msgstr ""
 
 #. module: website
 #: model:ir.model,name:website.model_website_published_mixin

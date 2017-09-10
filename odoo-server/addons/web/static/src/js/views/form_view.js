@@ -942,7 +942,7 @@ var FormView = View.extend(common.FieldManagerMixin, {
         var self = this;
         return this.reload_mutex.exec(function() {
             if (self.dataset.index === null || self.dataset.index === undefined) {
-                self.do_action('reload');
+                self.trigger("previous_view");
                 return $.Deferred().reject().promise();
             }
             if (self.dataset.index < 0) {
@@ -1092,8 +1092,7 @@ var FormView = View.extend(common.FieldManagerMixin, {
                         || field.field.type === 'one2many'
                         || field.field.type === 'many2many'
                         || field.field.type === 'binary'
-                        || field.password
-                        || !_.isEmpty(field.field.depends)) {
+                        || field.password) {
                     return false;
                 }
 

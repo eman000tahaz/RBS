@@ -305,8 +305,6 @@ class Import(models.TransientModel):
         if all(val.lower() in ('true', 'false', 't', 'f', '') for val in preview_values):
             return ['boolean']
         # If all values can be cast to float, type is either float or monetary
-        # Or a date/datetime if it matches the pattern
-        results = []
         try:
             thousand_separator = decimal_separator = False
             for val in preview_values:
@@ -338,7 +336,7 @@ class Import(models.TransientModel):
             if thousand_separator and not options.get('float_decimal_separator'):
                 options['float_thousand_separator'] = thousand_separator
                 options['float_decimal_separator'] = decimal_separator
-            results  = ['float', 'monetary']
+            return ['float', 'monetary']
         except ValueError:
             pass
         # Try to see if all values are a date or datetime
@@ -374,15 +372,13 @@ class Import(models.TransientModel):
         current_date_pattern = check_patterns(date_patterns, preview_values)
         if current_date_pattern:
             options['date_format'] = current_date_pattern
-            results += ['date']
+            return ['date']
 
         current_datetime_pattern = check_patterns(datetime_patterns, preview_values)
         if current_datetime_pattern:
             options['datetime_format'] = current_datetime_pattern
-            results += ['datetime']
+            return ['datetime']
 
-        if results:
-            return results
         return ['text', 'char', 'datetime', 'selection', 'many2one', 'one2many', 'many2many', 'html']
 
     @api.model
@@ -457,7 +453,7 @@ class Import(models.TransientModel):
             :rtype: (None, None) | (list(str), dict(int: list(str)))
         """
         if not options.get('headers'):
-            return [], {}
+            return None, None
 
         headers = next(rows)
         return headers, {
@@ -504,7 +500,7 @@ class Import(models.TransientModel):
                 'headers_type': header_types or False,
                 'preview': preview,
                 'options': options,
-                'advanced_mode': any([len(models.fix_import_export_id_paths(col)) > 1 for col in headers or []]),
+                'advanced_mode': any([len(models.fix_import_export_id_paths(col)) > 1 for col in headers]),
                 'debug': self.user_has_groups('base.group_no_one'),
             }
         except Exception, error:
@@ -619,7 +615,7 @@ class Import(models.TransientModel):
                     for num, line in enumerate(data):
                         if line[index]:
                             try:
-                                line[index] = dt.strftime(dt.strptime(ustr(line[index].strip()).encode('utf-8'), user_format), server_format)
+                                line[index] = dt.strftime(dt.strptime(ustr(line[index]).encode('utf-8'), user_format), server_format)
                             except ValueError, e:
                                 raise ValueError(_("Column %s contains incorrect values. Error in line %d: %s") % (name, num + 1, ustr(e.message)))
                             except Exception, e:

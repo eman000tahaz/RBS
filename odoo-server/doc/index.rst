@@ -17,6 +17,7 @@ Index
     api_integration
     setup
     reference
+    business
 
 .. ifconfig:: todo_include_todos
 

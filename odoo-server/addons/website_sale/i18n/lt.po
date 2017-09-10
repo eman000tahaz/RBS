@@ -12,14 +12,14 @@
 # Rolandas <info@paninfo.lt>, 2016
 # Monika Raciunaite <monika.raciunaite@gmail.com>, 2016
 # Antanas Muliuolis <an.muliuolis@gmail.com>, 2017
-# digitouch UAB <digitouchagencyeur@gmail.com>, 2017
+# Aiste Sutkute <digitouchagencyeur@gmail.com>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-18 14:21+0000\n"
-"PO-Revision-Date: 2017-07-18 14:21+0000\n"
-"Last-Translator: digitouch UAB <digitouchagencyeur@gmail.com>, 2017\n"
+"POT-Creation-Date: 2016-12-09 13:04+0000\n"
+"PO-Revision-Date: 2016-12-09 13:04+0000\n"
+"Last-Translator: Aiste Sutkute <digitouchagencyeur@gmail.com>, 2017\n"
 "Language-Team: Lithuanian (https://www.transifex.com/odoo/teams/41243/lt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -712,7 +712,6 @@ msgid "Abandonned eCommerce Orders"
 msgstr ""
 
 #. module: website_sale
-#: model:ir.model.fields,help:website_sale.field_delivery_carrier_accessory_product_ids
 #: model:ir.model.fields,help:website_sale.field_product_product_accessory_product_ids
 #: model:ir.model.fields,help:website_sale.field_product_template_accessory_product_ids
 msgid ""
@@ -727,7 +726,6 @@ msgid "Accessories: screen, mouse"
 msgstr "Priedai: ekranas, pelė"
 
 #. module: website_sale
-#: model:ir.model.fields,field_description:website_sale.field_delivery_carrier_accessory_product_ids
 #: model:ir.model.fields,field_description:website_sale.field_product_product_accessory_product_ids
 #: model:ir.model.fields,field_description:website_sale.field_product_template_accessory_product_ids
 msgid "Accessory Products"
@@ -741,7 +739,7 @@ msgstr "Aktyvuoti kliento portalą"
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_website_config_settings_module_website_sale_delivery
 msgid "Add Delivery Costs to Online Sales"
-msgstr "Pridėti pristatymo išlaidas internetiniuose pardavimuose"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
@@ -765,7 +763,6 @@ msgid "Address"
 msgstr "Adresas"
 
 #. module: website_sale
-#: model:ir.model.fields,help:website_sale.field_delivery_carrier_availability
 #: model:ir.model.fields,help:website_sale.field_product_product_availability
 #: model:ir.model.fields,help:website_sale.field_product_template_availability
 msgid "Adds an availability status on the web product page."
@@ -800,7 +797,6 @@ msgid ""
 msgstr ""
 
 #. module: website_sale
-#: model:ir.model.fields,field_description:website_sale.field_delivery_carrier_alternative_product_ids
 #: model:ir.model.fields,field_description:website_sale.field_product_product_alternative_product_ids
 #: model:ir.model.fields,field_description:website_sale.field_product_template_alternative_product_ids
 msgid "Alternative Products"
@@ -829,14 +825,12 @@ msgid "Apply multi-currencies"
 msgstr "Taikyti kelias valiutas"
 
 #. module: website_sale
-#: model:ir.model.fields,field_description:website_sale.field_delivery_carrier_availability
 #: model:ir.model.fields,field_description:website_sale.field_product_product_availability
 #: model:ir.model.fields,field_description:website_sale.field_product_template_availability
 msgid "Availability"
 msgstr "Prieinamumas"
 
 #. module: website_sale
-#: model:ir.model.fields,field_description:website_sale.field_delivery_carrier_availability_warning
 #: model:ir.model.fields,field_description:website_sale.field_product_product_availability_warning
 #: model:ir.model.fields,field_description:website_sale.field_product_template_availability_warning
 msgid "Availability Warning"
@@ -890,16 +884,6 @@ msgid "Catalog"
 msgstr "Katalogas"
 
 #. module: website_sale
-#: model:ir.ui.view,arch_db:website_sale.sort
-msgid "Catalog price: decreasing order"
-msgstr ""
-
-#. module: website_sale
-#: model:ir.ui.view,arch_db:website_sale.sort
-msgid "Catalog price: increasing order"
-msgstr ""
-
-#. module: website_sale
 #: model:ir.actions.act_window,help:website_sale.product_public_category_action
 msgid ""
 "Categories are used to browse your products through the\n"
@@ -907,7 +891,6 @@ msgid ""
 msgstr ""
 
 #. module: website_sale
-#: model:ir.model.fields,help:website_sale.field_delivery_carrier_public_categ_ids
 #: model:ir.model.fields,help:website_sale.field_product_product_public_categ_ids
 #: model:ir.model.fields,help:website_sale.field_product_template_public_categ_ids
 msgid ""
@@ -1173,14 +1156,12 @@ msgid ""
 msgstr ""
 
 #. module: website_sale
-#: model:ir.model.fields,field_description:website_sale.field_delivery_carrier_website_description
 #: model:ir.model.fields,field_description:website_sale.field_product_product_website_description
 #: model:ir.model.fields,field_description:website_sale.field_product_template_website_description
 msgid "Description for the website"
-msgstr ""
+msgstr "Tinklalapio aprašymas"
 
 #. module: website_sale
-#: model:ir.model.fields,help:website_sale.field_delivery_carrier_website_sequence
 #: model:ir.model.fields,help:website_sale.field_product_product_website_sequence
 #: model:ir.model.fields,help:website_sale.field_product_template_website_sequence
 msgid "Determine the display order in the Website E-commerce"
@@ -1425,7 +1406,6 @@ msgid "Image Name"
 msgstr "Paveikslėlio pavadinimas"
 
 #. module: website_sale
-#: model:ir.model.fields,field_description:website_sale.field_delivery_carrier_product_image_ids
 #: model:ir.model.fields,field_description:website_sale.field_product_product_product_image_ids
 #: model:ir.model.fields,field_description:website_sale.field_product_template_product_image_ids
 #: model:ir.ui.view,arch_db:website_sale.product_template_form_view
@@ -1519,7 +1499,6 @@ msgstr "Paskutinį kartą keista"
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_res_partner_last_website_so_id
-#: model:ir.model.fields,field_description:website_sale.field_res_users_last_website_so_id
 msgid "Last Online Sale Order"
 msgstr ""
 
@@ -1855,16 +1834,20 @@ msgid "Prefered by some customers"
 msgstr ""
 
 #. module: website_sale
-#: code:addons/website_sale/controllers/backend.py:65
-#, python-format
-msgid "Previous Sales"
-msgstr ""
-
-#. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.cart_lines
 #: model:ir.ui.view,arch_db:website_sale.payment
 msgid "Price"
 msgstr "Suma"
+
+#. module: website_sale
+#: model:ir.ui.view,arch_db:website_sale.sort
+msgid "Price <i class=\"fa fa-arrow-down\" aria-hidden=\"true\"/>"
+msgstr "Kaina <i class=\"fa fa-arrow-down\" aria-hidden=\"true\"/>"
+
+#. module: website_sale
+#: model:ir.ui.view,arch_db:website_sale.sort
+msgid "Price <i class=\"fa fa-arrow-up\" aria-hidden=\"true\"/>"
+msgstr "Kaina <i class=\"fa fa-arrow-up\" aria-hidden=\"true\"/>"
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_website_pricelist_ids
@@ -2046,21 +2029,23 @@ msgstr ""
 
 #. module: website_sale
 #: model:ir.model,name:website_sale.model_rating_rating
-#: model:ir.model.fields,field_description:website_sale.field_delivery_carrier_rating_ids
 #: model:ir.model.fields,field_description:website_sale.field_product_product_rating_ids
 msgid "Rating"
 msgstr "Vertinimas"
 
 #. module: website_sale
-#: model:ir.model.fields,field_description:website_sale.field_delivery_carrier_rating_last_value
 #: model:ir.model.fields,field_description:website_sale.field_product_product_rating_last_value
 msgid "Rating Last Value"
 msgstr ""
 
 #. module: website_sale
-#: model:ir.model.fields,field_description:website_sale.field_delivery_carrier_rating_count
 #: model:ir.model.fields,field_description:website_sale.field_product_product_rating_count
 msgid "Rating count"
+msgstr ""
+
+#. module: website_sale
+#: model:ir.model.fields,help:website_sale.field_product_product_rating_last_value
+msgid "Rating value: 0=Unhappy, 10=Happy"
 msgstr ""
 
 #. module: website_sale
@@ -2087,12 +2072,6 @@ msgstr ""
 #: model:ir.ui.view,arch_db:website_sale.products_item
 msgid "Sale"
 msgstr "Pardavimas"
-
-#. module: website_sale
-#: code:addons/website_sale/controllers/backend.py:61
-#, python-format
-msgid "Sales"
-msgstr "Pardavimai"
 
 #. module: website_sale
 #. openerp-web
@@ -2347,14 +2326,12 @@ msgid "Size"
 msgstr "Dydis"
 
 #. module: website_sale
-#: model:ir.model.fields,field_description:website_sale.field_delivery_carrier_website_size_x
 #: model:ir.model.fields,field_description:website_sale.field_product_product_website_size_x
 #: model:ir.model.fields,field_description:website_sale.field_product_template_website_size_x
 msgid "Size X"
 msgstr "Dydis X"
 
 #. module: website_sale
-#: model:ir.model.fields,field_description:website_sale.field_delivery_carrier_website_size_y
 #: model:ir.model.fields,field_description:website_sale.field_product_product_website_size_y
 #: model:ir.model.fields,field_description:website_sale.field_product_template_website_size_y
 msgid "Size Y"
@@ -2411,7 +2388,7 @@ msgstr "Speakers"
 #. module: website_sale
 #: selection:website.config.settings,sale_pricelist_setting_split_2:0
 msgid "Specific prices per customer segment, currency, etc."
-msgstr "Konkrečios kainos klientų segmentui, valiutai ir pan."
+msgstr ""
 
 #. module: website_sale
 #: model:ir.model.fields,help:website_sale.field_website_config_settings_sale_pricelist_setting_split_2
@@ -2446,7 +2423,6 @@ msgid "Style Name"
 msgstr ""
 
 #. module: website_sale
-#: model:ir.model.fields,field_description:website_sale.field_delivery_carrier_website_style_ids
 #: model:ir.model.fields,field_description:website_sale.field_product_product_website_style_ids
 #: model:ir.model.fields,field_description:website_sale.field_product_template_website_style_ids
 #: model:ir.ui.view,arch_db:website_sale.website_sale
@@ -2464,7 +2440,6 @@ msgid "Subtotal:"
 msgstr "Tarpinė suma:"
 
 #. module: website_sale
-#: model:ir.model.fields,help:website_sale.field_delivery_carrier_alternative_product_ids
 #: model:ir.model.fields,help:website_sale.field_product_product_alternative_product_ids
 #: model:ir.model.fields,help:website_sale.field_product_template_alternative_product_ids
 msgid ""
@@ -2556,7 +2531,6 @@ msgid ""
 msgstr ""
 
 #. module: website_sale
-#: model:ir.model.fields,help:website_sale.field_delivery_carrier_website_url
 #: model:ir.model.fields,help:website_sale.field_product_product_website_url
 msgid "The full URL to access the document through the website."
 msgstr "Pilna nuoroda pasiekti dokumentą per svetainę."
@@ -2683,7 +2657,6 @@ msgid "View Cart ("
 msgstr "Rodyti krepšelį ("
 
 #. module: website_sale
-#: model:ir.model.fields,field_description:website_sale.field_delivery_carrier_website_published
 #: model:ir.model.fields,field_description:website_sale.field_product_product_website_published
 msgid "Visible in Website"
 msgstr "Prieinama tinklalapyje"
@@ -2710,7 +2683,6 @@ msgid "Website Categories"
 msgstr "Internetinės svetainės kategorijos"
 
 #. module: website_sale
-#: model:ir.model.fields,field_description:website_sale.field_delivery_carrier_website_message_ids
 #: model:ir.model.fields,field_description:website_sale.field_product_product_website_message_ids
 #: model:ir.model.fields,field_description:website_sale.field_product_template_website_message_ids
 msgid "Website Comments"
@@ -2724,7 +2696,6 @@ msgstr ""
 
 #. module: website_sale
 #: model:ir.model,name:website_sale.model_product_public_category
-#: model:ir.model.fields,field_description:website_sale.field_delivery_carrier_public_categ_ids
 #: model:ir.model.fields,field_description:website_sale.field_product_product_public_categ_ids
 #: model:ir.model.fields,field_description:website_sale.field_product_template_public_categ_ids
 msgid "Website Product Category"
@@ -2736,7 +2707,6 @@ msgid "Website Public Categories"
 msgstr ""
 
 #. module: website_sale
-#: model:ir.model.fields,field_description:website_sale.field_delivery_carrier_website_sequence
 #: model:ir.model.fields,field_description:website_sale.field_product_product_website_sequence
 #: model:ir.model.fields,field_description:website_sale.field_product_template_website_sequence
 msgid "Website Sequence"
@@ -2748,38 +2718,32 @@ msgid "Website Shop"
 msgstr ""
 
 #. module: website_sale
-#: model:ir.model.fields,field_description:website_sale.field_delivery_carrier_website_url
 #: model:ir.model.fields,field_description:website_sale.field_product_product_website_url
 msgid "Website URL"
 msgstr "Svetainės adresas"
 
 #. module: website_sale
-#: model:ir.model.fields,field_description:website_sale.field_delivery_carrier_website_meta_description
 #: model:ir.model.fields,field_description:website_sale.field_product_product_website_meta_description
 msgid "Website meta description"
 msgstr "Interneto svetainės meta aprašymas"
 
 #. module: website_sale
-#: model:ir.model.fields,field_description:website_sale.field_delivery_carrier_website_meta_keywords
 #: model:ir.model.fields,field_description:website_sale.field_product_product_website_meta_keywords
 msgid "Website meta keywords"
 msgstr "Interneto svetainės meta raktiniai žodžiai"
 
 #. module: website_sale
-#: model:ir.model.fields,field_description:website_sale.field_delivery_carrier_website_meta_title
 #: model:ir.model.fields,field_description:website_sale.field_product_product_website_meta_title
 msgid "Website meta title"
 msgstr "Interneto svetainės meta pavadinimas"
 
 #. module: website_sale
-#: model:ir.model.fields,field_description:website_sale.field_delivery_carrier_website_price
 #: model:ir.model.fields,field_description:website_sale.field_product_product_website_price
 #: model:ir.model.fields,field_description:website_sale.field_product_template_website_price
 msgid "Website price"
 msgstr ""
 
 #. module: website_sale
-#: model:ir.model.fields,field_description:website_sale.field_delivery_carrier_website_public_price
 #: model:ir.model.fields,field_description:website_sale.field_product_product_website_public_price
 #: model:ir.model.fields,field_description:website_sale.field_product_template_website_public_price
 msgid "Website public price"
@@ -2938,6 +2902,11 @@ msgid "or"
 msgstr "arba"
 
 #. module: website_sale
+#: model:ir.ui.view,arch_db:website_sale.products
+msgid "pagination form-inline o_website_sale_search"
+msgstr "pagination form-inline o_website_sale_search"
+
+#. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "product's availability (In Stock, Not Available, etc.)"
 msgstr ""
@@ -2975,7 +2944,7 @@ msgstr "naudoti Odoo API importuavimui per skriptus"
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_product_pricelist_website_id
 msgid "website"
-msgstr "tinklalapis"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.model,name:website_sale.model_website_config_settings

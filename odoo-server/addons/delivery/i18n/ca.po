@@ -74,9 +74,6 @@ msgid ""
 "                    Buy Odoo Enterprise now to get more providers.\n"
 "                </p>"
 msgstr ""
-"<p class=\"oe_view_nocontent\">\n"
-"                    Compri Odoo Enterprise ara per obtenir més proveïdors.\n"
-"                </p>"
 
 #. module: delivery
 #: model:ir.ui.view,arch_db:delivery.view_quant_package_form_save
@@ -87,13 +84,13 @@ msgstr "<span>kg</span>"
 #: model:ir.ui.view,arch_db:delivery.report_delivery_document2
 #: model:ir.ui.view,arch_db:delivery.report_shipping2
 msgid "<strong>Carrier</strong>"
-msgstr "<strong>Transport</strong>"
+msgstr ""
 
 #. module: delivery
 #: model:ir.ui.view,arch_db:delivery.report_delivery_document2
 #: model:ir.ui.view,arch_db:delivery.report_shipping2
 msgid "<strong>Weight</strong>"
-msgstr "<strong>Pes</strong>"
+msgstr ""
 
 #. module: delivery
 #: model:ir.model.fields,help:delivery.field_delivery_carrier_description_sale
@@ -148,7 +145,7 @@ msgstr "Cal fer alguna acció"
 #. module: delivery
 #: model:ir.model.fields,help:delivery.field_delivery_carrier_integration_level
 msgid "Action while validating Delivery Orders"
-msgstr "Acció al validar ordres d'entrega"
+msgstr ""
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier_active
@@ -236,7 +233,7 @@ msgstr ""
 #. module: delivery
 #: selection:delivery.carrier,delivery_type:0
 msgid "Based on Rules"
-msgstr "En base a regles"
+msgstr ""
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier_image
@@ -251,7 +248,7 @@ msgstr "Llista de materials (LdM)"
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_stock_picking_weight_bulk
 msgid "Bulk Weight"
-msgstr "Pes a granel"
+msgstr ""
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier_can_be_expensed
@@ -280,7 +277,6 @@ msgid ""
 "Can be changed during the 'put in pack' to adjust the weight of the "
 "shipping."
 msgstr ""
-"Es poden canviar durant 'l'empaquetat' per ajustar el pes de l'enviament."
 
 #. module: delivery
 #: model:ir.ui.view,arch_db:delivery.view_picking_withcarrier_out_form
@@ -323,7 +319,7 @@ msgstr "Clica si vols que aquest producte aparegui al TPV"
 #. module: delivery
 #: model:ir.actions.act_window,help:delivery.action_delivery_carrier_form
 msgid "Click to define a new delivery method."
-msgstr "Clic per definir un nou mètode d'entrega."
+msgstr ""
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier_color
@@ -387,8 +383,6 @@ msgid ""
 "Create a task under this project on sale order validation. This setting must"
 " be set for each company."
 msgstr ""
-"Crei una tasca sota aquest projecte en la validació de la comanda de venda. "
-"Aquesta configuració pot establir per cada empresa."
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier_create_uid
@@ -481,12 +475,12 @@ msgstr "Lliurament"
 #. module: delivery
 #: model:ir.ui.view,arch_db:delivery.view_delivery_carrier_search
 msgid "Delivery Carrier"
-msgstr "Transportista"
+msgstr ""
 
 #. module: delivery
 #: model:ir.ui.view,arch_db:delivery.view_picking_withcarrier_out_form
 msgid "Delivery Information"
-msgstr "Informació d'entrega"
+msgstr ""
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_res_partner_property_delivery_carrier_id
@@ -504,7 +498,7 @@ msgstr "Mètodes lliurament"
 #. module: delivery
 #: model:ir.model,name:delivery.model_delivery_price_rule
 msgid "Delivery Price Rules"
-msgstr "Producte d'enviament"
+msgstr ""
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier_product_id
@@ -541,8 +535,6 @@ msgid ""
 "Determine if a product needs to create automatically an event registration "
 "at the confirmation of a sales order line."
 msgstr ""
-"Determina si un producte crea automàticament una inscripció a un "
-"esdeveniment en la confirmació de la línia de la comanda de venda."
 
 #. module: delivery
 #: model:ir.model.fields,help:delivery.field_delivery_carrier_sequence
@@ -567,19 +559,16 @@ msgid ""
 "                UPS Express, UPS Standard) with a set of pricing rules attached\n"
 "                to each method."
 msgstr ""
-"Cada transportador (per exemple UPS) pot tenir múltiple mètodes de "
-"repartiment (per exemple, UPS Express, UPS normal) amb una sèrie de regles "
-"de preu adjunt a cada mètode."
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier_prod_environment
 msgid "Environment"
-msgstr "Entorn"
+msgstr ""
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_sale_order_delivery_price
 msgid "Estimated Delivery Price"
-msgstr "Preu estimat d'entrega"
+msgstr ""
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier_event_ok
@@ -589,7 +578,7 @@ msgstr "Registre esdeveniment"
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier_event_ticket_ids
 msgid "Event Tickets"
-msgstr "Tiquets d'esdeveniment"
+msgstr ""
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier_expected_margin
@@ -629,7 +618,7 @@ msgstr "Compte de despeses"
 #. module: delivery
 #: model:ir.model.fields,help:delivery.field_sale_order_carrier_id
 msgid "Fill this field if you plan to invoice the shipping based on picking."
-msgstr "Empleni aquest camp si facturarà l'enviament basat en la recol·lecció"
+msgstr ""
 
 #. module: delivery
 #: model:ir.ui.view,arch_db:delivery.view_delivery_carrier_form
@@ -637,8 +626,6 @@ msgid ""
 "Filling this form allows you to filter delivery carriers according to the "
 "delivery address of your customer."
 msgstr ""
-"Aquest formulari li permet filtrar els transportistes segons la direcció "
-"d'entrega del seu client."
 
 #. module: delivery
 #: selection:delivery.carrier,delivery_type:0
@@ -683,22 +670,22 @@ msgstr ""
 #: model:product.product,name:delivery.free_delivery_carrier_product_product
 #: model:product.template,name:delivery.free_delivery_carrier_product_template
 msgid "Free delivery charges"
-msgstr "Entrega gratuïta"
+msgstr ""
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier_free_if_more_than
 msgid "Free if Order total is more than"
-msgstr "Gratis si el total de la comanda és major que"
+msgstr ""
 
 #. module: delivery
 #: selection:delivery.carrier,integration_level:0
 msgid "Get Rate"
-msgstr "Obtenir tarifa"
+msgstr ""
 
 #. module: delivery
 #: selection:delivery.carrier,integration_level:0
 msgid "Get Rate and Create Shipment"
-msgstr "Obtenir tarifes i crear enviaments"
+msgstr ""
 
 #. module: delivery
 #: model:ir.model.fields,help:delivery.field_delivery_carrier_packaging_ids
@@ -714,7 +701,6 @@ msgstr ""
 #: model:ir.model.fields,help:delivery.field_delivery_price_rule_sequence
 msgid "Gives the sequence order when calculating delivery carrier."
 msgstr ""
-"Proporciona l'ordre de la seqüència quan es calcula el suport d'enviaments."
 
 #. module: delivery
 #: model:ir.ui.view,arch_db:delivery.view_delivery_carrier_search
@@ -725,7 +711,7 @@ msgstr "Agrupar per"
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier_hs_code
 #: model:ir.model.fields,field_description:delivery.field_product_template_hs_code
 msgid "HS Code"
-msgstr "Codi HS"
+msgstr ""
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_product_packaging_height
@@ -735,7 +721,7 @@ msgstr "Altura"
 #. module: delivery
 #: sql_constraint:product.packaging:0
 msgid "Height must be positive"
-msgstr "L'altura ha de ser positiva"
+msgstr ""
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier_id
@@ -763,12 +749,6 @@ msgid ""
 "value, and the stock input and stock output account will hold the "
 "counterpart moves for incoming and outgoing products."
 msgstr ""
-"Si la valoració perpètua s'activa per un producte, el sistema crearà "
-"automàticament assentaments comptables corresponents als moviments d'estoc, "
-"amb el preu de producte indicat segons el \"mètode de cost\". El compte de "
-"valoració d'inventari establerta en la categoria de producte representarà el"
-" compte d'inventari actual, i els comptes d'entrada i sortida de mercaderia "
-"contindrà les contrapartides de moviment pels productes entrants i sortints."
 
 #. module: delivery
 #: model:ir.model.fields,help:delivery.field_delivery_carrier_free_if_more_than
@@ -827,12 +807,12 @@ msgstr "Entrant"
 #. module: delivery
 #: model:ir.ui.view,arch_db:delivery.view_delivery_carrier_form
 msgid "Install more Providers"
-msgstr "Instal·lar més proveïdors"
+msgstr ""
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier_integration_level
 msgid "Integration Level"
-msgstr "Nivell d'integració"
+msgstr ""
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier_categ_id
@@ -864,7 +844,7 @@ msgstr "Valoració del inventari"
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_sale_order_invoice_shipping_on_delivery
 msgid "Invoice Shipping on Delivery"
-msgstr "Despeses d'enviament de factura del comprador"
+msgstr ""
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier_invoice_state
@@ -923,7 +903,7 @@ msgstr "Longitud"
 #. module: delivery
 #: sql_constraint:product.packaging:0
 msgid "Length must be positive"
-msgstr "La longitud ha de ser positiva"
+msgstr ""
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier_location_id
@@ -938,7 +918,7 @@ msgstr "Unitats de logística"
 #. module: delivery
 #: model:ir.ui.view,arch_db:delivery.view_picking_withcarrier_out_form
 msgid "Manage Package Type"
-msgstr "Gestionar tipus de paquet"
+msgstr ""
 
 #. module: delivery
 #: model:ir.model.fields,help:delivery.field_delivery_carrier_track_service
@@ -974,17 +954,17 @@ msgstr "Data fins al marge"
 #. module: delivery
 #: sql_constraint:delivery.carrier:0
 msgid "Margin cannot be lower than -100%"
-msgstr "El marge no pot ser inferior a -100%"
+msgstr ""
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_product_packaging_max_weight
 msgid "Max Weight"
-msgstr "Pes màxim"
+msgstr ""
 
 #. module: delivery
 #: sql_constraint:product.packaging:0
 msgid "Max Weight must be positive"
-msgstr "El pes màxim ha de ser positiu"
+msgstr ""
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_price_rule_max_value
@@ -994,7 +974,7 @@ msgstr "Valor màxim"
 #. module: delivery
 #: model:ir.model.fields,help:delivery.field_product_packaging_max_weight
 msgid "Maximum weight shippable in this packaging"
-msgstr "Pes màxim a enviar en aquest embalatge"
+msgstr ""
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier_image_medium
@@ -1046,19 +1026,19 @@ msgstr "Nom"
 #. module: delivery
 #: selection:product.packaging,package_carrier_type:0
 msgid "No carrier integration"
-msgstr "Sense integració de transportista"
+msgstr ""
 
 #. module: delivery
 #: code:addons/delivery/models/sale_order.py:63
 #, python-format
 msgid "No carrier matching."
-msgstr "Transportista no localitzat."
+msgstr ""
 
 #. module: delivery
 #: code:addons/delivery/models/sale_order.py:72
 #, python-format
 msgid "No carrier set for this order."
-msgstr "No hi ha transportista establert per aquesta ordre."
+msgstr ""
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier_normal_cost
@@ -1075,7 +1055,7 @@ msgstr "Cost normal - Cost total"
 #: model:product.product,name:delivery.normal_delivery_carrier_product_product
 #: model:product.template,name:delivery.normal_delivery_carrier_product_template
 msgid "Normal Delivery Charges"
-msgstr "Despeses d'entrega normals."
+msgstr ""
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier_message_needaction_counter
@@ -1133,14 +1113,14 @@ msgstr "Paquet"
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_product_packaging_shipper_package_code
 msgid "Package Code"
-msgstr "Codi de paquet"
+msgstr ""
 
 #. module: delivery
 #: code:addons/delivery/models/stock_picking.py:35
 #: code:addons/delivery/models/stock_picking.py:128
 #, python-format
 msgid "Package Details"
-msgstr "Detalls del paquet"
+msgstr ""
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_stock_picking_package_ids
@@ -1188,7 +1168,7 @@ msgstr "Compte diferencia de preu"
 #: model:ir.ui.view,arch_db:delivery.view_delivery_price_rule_form
 #: model:ir.ui.view,arch_db:delivery.view_delivery_price_rule_tree
 msgid "Price Rules"
-msgstr "Regles de preus"
+msgstr ""
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier_pricelist_id
@@ -1213,7 +1193,7 @@ msgstr "Fixar preu"
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier_price_rule_ids
 msgid "Pricing Rules"
-msgstr "Normes per posar preus."
+msgstr ""
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier_property_stock_procurement
@@ -1287,7 +1267,7 @@ msgstr "Projecte"
 #: model:ir.model.fields,field_description:delivery.field_stock_picking_delivery_type
 #: model:ir.ui.view,arch_db:delivery.view_delivery_carrier_search
 msgid "Provider"
-msgstr "Proveïdor"
+msgstr ""
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier_description_purchase
@@ -1386,7 +1366,7 @@ msgstr "Rutes"
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_price_rule_list_base_price
 msgid "Sale Base Price"
-msgstr "Preu de venda base"
+msgstr ""
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier_description_sale
@@ -1435,8 +1415,6 @@ msgid ""
 "Selected product in the delivery method doesn't fulfill any of the delivery "
 "carrier(s) criteria."
 msgstr ""
-"El producte seleccionat en el mètode d'entrega no compleix cap requisit del "
-"criteri del transportista."
 
 #. module: delivery
 #: model:ir.model.fields,help:delivery.field_delivery_carrier_purchase_line_warn
@@ -1454,7 +1432,7 @@ msgstr ""
 #. module: delivery
 #: model:ir.ui.view,arch_db:delivery.view_picking_withcarrier_out_form
 msgid "Send to Shipper"
-msgstr "Enviar al transportista"
+msgstr ""
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier_sequence
@@ -1465,14 +1443,12 @@ msgstr "Seqüència"
 #. module: delivery
 #: model:ir.ui.view,arch_db:delivery.view_order_form_with_carrier
 msgid "Set price"
-msgstr "Preu establert"
+msgstr ""
 
 #. module: delivery
 #: model:ir.model.fields,help:delivery.field_delivery_carrier_prod_environment
 msgid "Set to True if your credentials are certified for production."
 msgstr ""
-"Estableixi a verdader si les seves credencials estan certificades per la "
-"producció."
 
 #. module: delivery
 #: code:addons/delivery/models/stock_picking.py:147
@@ -1481,18 +1457,16 @@ msgid ""
 "Shipment sent to carrier %s for expedition with tracking number %s<br/>Cost:"
 " %.2f %s"
 msgstr ""
-"Enviament fet al transportista %s amb el número d'expedició %s <br/> Cost: "
-"%.2f %s"
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_stock_picking_carrier_price
 msgid "Shipping Cost"
-msgstr "Cost d'enviament"
+msgstr ""
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_stock_quant_package_shipping_weight
 msgid "Shipping Weight"
-msgstr "Pes de l'enviament"
+msgstr ""
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier_image_small
@@ -1519,19 +1493,12 @@ msgid ""
 "                Average Price: The cost price is recomputed at each incoming shipment and used for the product valuation.\n"
 "                Real Price: The cost price displayed is the price of the last outgoing product (will be use in case of inventory loss for example)."
 msgstr ""
-"Preu estàndard: el preu de cost s'actualitza manualment al final d'un "
-"període específic (generalment un cop a l'any).Preu mitjà: el preu de cost "
-"es recalcula amb cada enviament entrant i s'utilitza per a la valoració del "
-"producte.Preu Real: el preu de cost és el preu de l'últim producte sortint "
-"(s'utilitzarà en cas de pèrdua d'inventari, per exemple)."
 
 #. module: delivery
 #: model:ir.model.fields,help:delivery.field_delivery_carrier_hs_code
 #: model:ir.model.fields,help:delivery.field_product_template_hs_code
 msgid "Standardized code for international shipping and goods declaration"
 msgstr ""
-"Codi estandarditzat per l'enviament internacional i declaració de "
-"mercaderies"
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier_state_ids
@@ -1621,7 +1588,7 @@ msgstr "Tècnic: utilitzat per calcular les quantitats."
 #: model:product.product,name:delivery.delivery_carrier_product_product
 #: model:product.template,name:delivery.delivery_carrier_product_template
 msgid "The Poste"
-msgstr "The Poste"
+msgstr ""
 
 #. module: delivery
 #: model:ir.model.fields,help:delivery.field_delivery_carrier_sale_delay
@@ -1666,9 +1633,6 @@ msgid ""
 "                according to your settings; on the sales order (based on the\n"
 "                quotation) or the invoice (based on the delivery orders)."
 msgstr ""
-"Aquests mètodes permeten calcular automàticament el preu de l'entrega "
-"d'acord a la seva configuració; a la comanda de venda (basada en el "
-"pressupost) o la factura (basada en les ordres d'entrega)."
 
 #. module: delivery
 #: model:ir.model.fields,help:delivery.field_delivery_carrier_property_account_expense_id
@@ -1721,7 +1685,7 @@ msgstr "Aquesta és la suma dels preus extra de tots els atributs"
 #. module: delivery
 #: model:ir.model.fields,help:delivery.field_delivery_carrier_margin
 msgid "This percentage will be added to the shipping price."
-msgstr "Aquest percentatge s'agregarà al preu de l'enviament."
+msgstr ""
 
 #. module: delivery
 #: model:ir.model.fields,help:delivery.field_delivery_carrier_property_stock_production
@@ -1798,7 +1762,7 @@ msgstr "Seguiment"
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_stock_picking_carrier_tracking_ref
 msgid "Tracking Reference"
-msgstr "Referència del seguiment"
+msgstr ""
 
 #. module: delivery
 #: model:ir.model,name:delivery.model_stock_picking
@@ -1915,12 +1879,12 @@ msgstr "Pes * Volum"
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_stock_move_weight_uom_id
 msgid "Weight Unit of Measure"
-msgstr "UdM del pes"
+msgstr ""
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_stock_picking_shipping_weight
 msgid "Weight for Shipping"
-msgstr "Pes per enviament"
+msgstr ""
 
 #. module: delivery
 #: model:ir.model.fields,help:delivery.field_delivery_carrier_alert_time
@@ -1928,8 +1892,6 @@ msgid ""
 "When a new a Serial Number is issued, this is the number of days before an "
 "alert should be notified."
 msgstr ""
-"Quan un nou núm. de sèrie s'assigna, aquest és el nombre de dies abans que "
-"es notifiqui una alerta."
 
 #. module: delivery
 #: model:ir.model.fields,help:delivery.field_delivery_carrier_life_time
@@ -1937,8 +1899,6 @@ msgid ""
 "When a new a Serial Number is issued, this is the number of days before the "
 "goods may become dangerous and must not be consumed."
 msgstr ""
-"Quan un nou núm. de sèrie s'assigna, aquest és el nombre de dies abans que "
-"els béns es converteixin en perillosos i no hagin de ser consumit."
 
 #. module: delivery
 #: model:ir.model.fields,help:delivery.field_delivery_carrier_removal_time
@@ -1946,8 +1906,6 @@ msgid ""
 "When a new a Serial Number is issued, this is the number of days before the "
 "goods should be removed from the stock."
 msgstr ""
-"Quan un nou núm. de sèrie s'assigna, aquest és el nombre de dies abans que "
-"els béns s'hagin d'eliminar de l'estoc."
 
 #. module: delivery
 #: model:ir.model.fields,help:delivery.field_delivery_carrier_use_time
@@ -1955,8 +1913,6 @@ msgid ""
 "When a new a Serial Number is issued, this is the number of days before the "
 "goods starts deteriorating, without being dangerous yet."
 msgstr ""
-"Quan un nou núm. de sèrie s'assigna, aquest és el nombre de dies abans que "
-"els béns es comencin a deteriorar, sense ser perillós encara."
 
 #. module: delivery
 #: model:ir.model.fields,help:delivery.field_delivery_carrier_property_stock_account_input
@@ -1966,10 +1922,6 @@ msgid ""
 "specific valuation account set on the source location. When not set on the "
 "product, the one from the product category is used."
 msgstr ""
-"Quan es realitza una valoració d'inventari en temps real, la contrapartida "
-"per tots els moviments d'entrada seran imputats en aquest compte, a menys "
-"que s'hagi establert un compte de valoració especifica en l'ubicació font. "
-"Quan no s'estableixi al producte, s'utilitza l'establerta en la categoria."
 
 #. module: delivery
 #: model:ir.model.fields,help:delivery.field_delivery_carrier_property_stock_account_output
@@ -1979,11 +1931,6 @@ msgid ""
 "specific valuation account set on the destination location. When not set on "
 "the product, the one from the product category is used."
 msgstr ""
-"Quan es realitza una valoració d'inventari en temps real, la contrapartida "
-"per tots els moviments de sortida seran imputades en aquest compte, a menys "
-"que s'hagi establert un compte de valoració especifica en la ubicació de "
-"destí. Quan no s'estableixi en el producte, s'utilitza l'establerta en la "
-"categoria."
 
 #. module: delivery
 #: model:ir.model.fields,help:delivery.field_delivery_carrier_email_template_id
@@ -2004,7 +1951,7 @@ msgstr "Amplada"
 #. module: delivery
 #: sql_constraint:product.packaging:0
 msgid "Width must be positive"
-msgstr "L'ample ha de ser positiu"
+msgstr ""
 
 #. module: delivery
 #: code:addons/delivery/models/stock_picking.py:187
@@ -2013,8 +1960,6 @@ msgid ""
 "You are shipping different packaging types in the same shipment.\n"
 "Packaging Types: %s"
 msgstr ""
-"Està enviant diferents tipus de paquets al mateix enviament.\n"
-"Tipus de paquet: %s"
 
 #. module: delivery
 #: code:addons/delivery/models/stock_picking.py:163
@@ -2023,20 +1968,18 @@ msgid ""
 "Your delivery method has no redirect on courier provider's website to track "
 "this order."
 msgstr ""
-"El mètode d'entrega no té redirecció al lloc web del transportista per "
-"realitzar el seguiment d'aquesta comanda."
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier_zip_from
 msgid "Zip From"
-msgstr "Zip des de"
+msgstr ""
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier_zip_to
 msgid "Zip To"
-msgstr "Zip fins"
+msgstr ""
 
 #. module: delivery
 #: model:ir.ui.view,arch_db:delivery.view_delivery_carrier_form
 msgid "e.g. UPS Express"
-msgstr "p. ex., UPS Express"
+msgstr ""

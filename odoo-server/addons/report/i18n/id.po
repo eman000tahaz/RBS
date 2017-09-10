@@ -11,14 +11,13 @@
 # William Surya Permana <zarambie_game@yahoo.com>, 2016
 # Deddy Ddr <deddy.ddr@gmail.com>, 2016
 # Budi Iskandar <budiiskandar11@gmail.com>, 2016
-# Muhammad Syarif <mhdsyarif.ms@gmail.com>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-23 13:27+0000\n"
 "PO-Revision-Date: 2017-06-23 13:27+0000\n"
-"Last-Translator: Muhammad Syarif <mhdsyarif.ms@gmail.com>, 2017\n"
+"Last-Translator: Budi Iskandar <budiiskandar11@gmail.com>, 2016\n"
 "Language-Team: Indonesian (https://www.transifex.com/odoo/teams/41243/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -256,7 +255,6 @@ msgstr "Email:"
 #, python-format
 msgid "Error ! You cannot select a format AND specific page width/height."
 msgstr ""
-"Salah ! Anda tidak dapat memilih format DAN lebar/tinggi halaman tertentu. "
 
 #. module: report
 #: selection:report.paperformat,format:0
@@ -390,7 +388,7 @@ msgstr "Format kertas"
 #. module: report
 #: model:ir.model.fields,field_description:report.field_base_config_settings_paperformat_id
 msgid "Paper format *"
-msgstr "Format Kertas *"
+msgstr ""
 
 #. module: report
 #: model:ir.ui.view,arch_db:report.paperformat_view_form
@@ -435,12 +433,12 @@ msgstr "Cetak"
 #. module: report
 #: model:ir.model.fields,field_description:report.field_ir_act_report_xml_print_report_name
 msgid "Printed Report Name"
-msgstr "Nama Cetak Laporan"
+msgstr ""
 
 #. module: report
 #: model:ir.ui.view,arch_db:report.act_report_xml_view_inherit
 msgid "QWeb views"
-msgstr "Tampilan QWeb"
+msgstr ""
 
 #. module: report
 #. openerp-web
@@ -501,9 +499,6 @@ msgid ""
 "change the report filename. You can use a python expression with the object "
 "and time variables."
 msgstr ""
-"Ini adalah nama file laporan yang akan diunduh. Biarkan kosong supaya tidak "
-"mengubah nama file laporan. Anda bisa menggunakan ekspresi python dengan "
-"variabel objek dan waktu."
 
 #. module: report
 #: code:addons/report/models/report.py:273
@@ -533,7 +528,7 @@ msgstr ""
 #: code:addons/report/models/report.py:164
 #, python-format
 msgid "Unable to find Wkhtmltopdf on this system. The PDF can not be created."
-msgstr "Tidak dapat menemukan Wkhtmltopdf pada sistem. PDF tidak bisa dibuat."
+msgstr ""
 
 #. module: report
 #: model:ir.ui.view,arch_db:report.external_layout_footer
@@ -547,8 +542,6 @@ msgid ""
 "Wkhtmltopdf failed (error code: %s). Memory limit too low or maximum file "
 "number of subprocess reached. Message : %s"
 msgstr ""
-"Wkhtmltopdf gagal (kode kesalahan: %s). Batas memori terlalu rendah atau "
-"melebihi proses maksimum file. Pesan : %s"
 
 #. module: report
 #: code:addons/report/models/report.py:452
@@ -591,9 +584,6 @@ msgid ""
 "shown in html.<br><br><a href=\"http://wkhtmltopdf.org/\" "
 "target=\"_blank\">wkhtmltopdf.org</a>"
 msgstr ""
-"Pemasangan Wkhtmltopdf Anda sepertinya rusak. Laporan ini akan ditampilkan "
-"dalam bentuk html.<br><br><a href=\"http://wkhtmltopdf.org/\" "
-"target=\"_blank\">wkhtmltopdf.org</a>"
 
 #. module: report
 #: model:ir.model,name:report.model_base_config_settings
@@ -603,14 +593,14 @@ msgstr "base.config.settings"
 #. module: report
 #: model:ir.model,name:report.model_ir_actions_report_xml
 msgid "ir.actions.report.xml"
-msgstr "ir.actions.report.xml"
+msgstr ""
 
 #. module: report
 #: model:ir.model,name:report.model_ir_qweb_field_barcode
 msgid "ir.qweb.field.barcode"
-msgstr "ir.qweb.field.barcode"
+msgstr ""
 
 #. module: report
 #: model:ir.model,name:report.model_report_abstract_report
 msgid "report.abstract_report"
-msgstr "report.abstract_report"
+msgstr ""

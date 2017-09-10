@@ -95,11 +95,6 @@ msgid ""
 "                        Use this feature to store any files, like drawings or specifications.\n"
 "                    </p>"
 msgstr ""
-"<P class = \"oe_view_nocontent_create\">\n"
-"                        Dosyaları ürününüze yüklemek için tıklayın.\n"
-"                    </ P> <p>\n"
-"                        Çizimler veya özellikler gibi dosyaları saklamak için bu özelliği kullanın.\n"
-"                    </ P>"
 
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.mrp_production_form_view
@@ -120,7 +115,7 @@ msgstr "<span class=\"o_stat_text\">Kayıp</span>"
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.mrp_workcenter_view
 msgid "<span class=\"o_stat_text\">OEE</span>"
-msgstr "<span class=\"o_stat_text\">OEE</span>"
+msgstr ""
 
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.mrp_workcenter_view
@@ -196,7 +191,7 @@ msgstr "<strong>Adı</strong>"
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.report_mrporder
 msgid "<strong>No. Of Minutes</strong>"
-msgstr "<strong>Dakika Sayısı</strong>"
+msgstr ""
 
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.report_mrporder
@@ -323,8 +318,6 @@ msgid ""
 "An unbuild order will do a reverse bill of materials, unbuilding products\n"
 "            you produced, but you can also use it to unbuild products you purchased."
 msgstr ""
-"Üretim parçalama işlemi ürün ağacının tersine üretim yapmak içindir\n"
-"            Satın alınmış bir ürünü de ürün ağacı tanımlayarak parçalayabilirsiniz."
 
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.view_mrp_config
@@ -542,7 +535,7 @@ msgstr "BoM detayları"
 #: code:addons/mrp/models/mrp_bom.py:67
 #, python-format
 msgid "BoM line product %s should not be same as BoM product."
-msgstr "BoM satırındaki % s ürünü, BoM ana ürünüyle aynı olmamalıdır."
+msgstr ""
 
 #. module: mrp
 #: model:product.product,name:mrp.product_product_computer_desk_bolt
@@ -595,7 +588,7 @@ msgstr "Ürün Miktarını Değiştir"
 #. module: mrp
 #: model:ir.actions.act_window,name:mrp.action_change_production_qty
 msgid "Change Quantity To Produce"
-msgstr "Üretilecek Miktarı Değiştir"
+msgstr ""
 
 #. module: mrp
 #: model:ir.model,name:mrp.model_change_production_qty
@@ -648,7 +641,7 @@ msgstr "Yeni bir rota oluşturmak için tıklayın."
 #. module: mrp
 #: model:ir.actions.act_window,help:mrp.mrp_unbuild
 msgid "Click to start a new Unbuild Order"
-msgstr "Yeni bir Üretim Parçalama işlemi için tıklayın"
+msgstr ""
 
 #. module: mrp
 #: model:ir.actions.act_window,help:mrp.mrp_production_action_planning
@@ -730,7 +723,7 @@ msgstr "Onayda"
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_stock_move_consume_unbuild_id
 msgid "Consume Unbuild Order"
-msgstr "Üretim Parçalama Kullan"
+msgstr ""
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_unbuild_consume_line_ids
@@ -1236,7 +1229,7 @@ msgstr "Envanter Mesajı"
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.mrp_production_form_view
 msgid "Inventory Moves"
-msgstr "Envanter Hareketleri"
+msgstr ""
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production_post_visible
@@ -1282,14 +1275,11 @@ msgid ""
 "materials.Set a location if you produce at a fixed location. This can be a "
 "partner location if you subcontract the manufacturing operations."
 msgstr ""
-"Ham maddeleri bulabileceğiniz yerde üretirseniz boşaltın. Sabit bir yerde "
-"üretirseniz, bir yer ayarlayın. İmalat işlemlerini taşeronlara "
-"yaptırıyorsanız bu bir iş ortağı konumu olabilir."
 
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.view_mrp_bom_filter
 msgid "Kit"
-msgstr "Kit"
+msgstr ""
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_bom_type
@@ -1297,8 +1287,6 @@ msgid ""
 "Kit (Phantom): When processing a sales order for this product, the delivery "
 "order will contain the raw materials, instead of the finished product."
 msgstr ""
-"Kit (Phantom): Bu ürün için bir satış siparişi işlerken, teslimat emrinde, "
-"bitmiş ürün yerine alt bileşenler sevk edilir."
 
 #. module: mrp
 #: model:product.product,name:mrp.product_product_laptop_charger
@@ -1574,7 +1562,7 @@ msgstr "Onaylanmış durumdaki üretim emirleri."
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_stock_warehouse_manu_type_id
 msgid "Manufacturing Picking Type"
-msgstr "Üretim Toplama Türü"
+msgstr ""
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_bom_ready_to_produce
@@ -1596,8 +1584,6 @@ msgid ""
 "                on customer requirements or automated rules like the minimum\n"
 "                stock rule."
 msgstr ""
-"Üretim emirleri genellikle müşterinin gereksinimlerine veya minimum stok "
-"kuralı gibi otomatik kurallara göre önerilir."
 
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.mrp_production_form_view
@@ -1626,8 +1612,6 @@ msgid ""
 "Messages can be configured to appear during any operation: receptions, delivery orders,\n"
 "                manufacturing orders, work orders, etc."
 msgstr ""
-"Mesajlar, herhangi bir işlem sırasında görünecek şekilde yapılandırılabilir:"
-" alımlar, teslimat siparişleri, üretim emirleri, iş emirleri vb."
 
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.mrp_bom_form_view
@@ -1755,12 +1739,12 @@ msgstr "Verimlilik kaybı tanımlanmadı."
 #. module: mrp
 #: model:ir.actions.act_window,help:mrp.mrp_workcenter_productivity_report_blocked
 msgid "No productivity loss for this equipment."
-msgstr "Bu ekipmanda verimlilik kaybı yok"
+msgstr ""
 
 #. module: mrp
 #: selection:mrp.config.settings,module_quality_mrp:0
 msgid "No quality control"
-msgstr "Kalite kontrol yok"
+msgstr ""
 
 #. module: mrp
 #: selection:mrp.config.settings,group_product_variant:0
@@ -1772,8 +1756,6 @@ msgstr "Ürünlerde varyant özeliği olmadan (varyansız)"
 msgid ""
 "No workorder currently in progress. Click to mark work center as blocked."
 msgstr ""
-"Şu anda devam eden çalışma programı yok. İş merkezini engellenmiş olarak "
-"işaretlemek için tıklayın."
 
 #. module: mrp
 #: selection:mrp.production,availability:0
@@ -1812,17 +1794,17 @@ msgstr ""
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.mrp_workcenter_kanban
 msgid "OEE"
-msgstr "OEE"
+msgstr ""
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_workcenter_oee_target
 msgid "OEE Target"
-msgstr "OEE Hedefi"
+msgstr ""
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_workcenter_oee_target
 msgid "OEE Target in percentage"
-msgstr "OEE Hedefi (%)"
+msgstr ""
 
 #. module: mrp
 #: model:ir.actions.act_window,help:mrp.mrp_bom_form_action
@@ -1834,7 +1816,7 @@ msgstr ""
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_workcenter_oee
 msgid "Oee"
-msgstr "OEE"
+msgstr ""
 
 #. module: mrp
 #: model:product.product,description:mrp.product_product_19
@@ -1845,12 +1827,12 @@ msgstr "İstek üzerine gereksinimlere göre kapasiteye sahip hard disk."
 #. module: mrp
 #: selection:mrp.routing.workcenter,batch:0
 msgid "Once a minimum number of products is processed"
-msgstr "Minimum sayıda ürün işlendikten sonra"
+msgstr ""
 
 #. module: mrp
 #: selection:mrp.routing.workcenter,batch:0
 msgid "Once all products are processed"
-msgstr "Tüm ürünler işlendikten sonra"
+msgstr ""
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_routing_workcenter_name
@@ -1897,18 +1879,18 @@ msgstr "Genel Ekipman Etkinliği"
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_workcenter_oee
 msgid "Overall Equipment Effectiveness, based on the last month"
-msgstr "Toplam Ekipman Etkinliği (OEE), geçen aya göre"
+msgstr ""
 
 #. module: mrp
 #: model:ir.actions.act_window,help:mrp.mrp_workcenter_productivity_report
 #: model:ir.actions.act_window,help:mrp.mrp_workcenter_productivity_report_oee
 msgid "Overall Equipment Effectiveness: no working or blocked time."
-msgstr "Toplam Ekipman Etkinliği (OEE): Çalışılmayan veya engellenen süre yok"
+msgstr ""
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_config_settings_module_mrp_plm
 msgid "PLM"
-msgstr "PLM"
+msgstr ""
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_bom_line_bom_id
@@ -1952,7 +1934,7 @@ msgstr "Performans Kayıpları"
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_workcenter_performance
 msgid "Performance over the last month"
-msgstr "Son bir aydaki performans"
+msgstr ""
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_bom_picking_type_id
@@ -1985,8 +1967,6 @@ msgid ""
 "Please set the quantity you produced in the Current Qty field. It can not be"
 " 0!"
 msgstr ""
-"Lütfen ürettiğiniz Miktar Miktarını Geçerli Miktar alanına ayarlayın. 0 "
-"olamaz!"
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_stock_move_lots_plus_visible
@@ -2350,12 +2330,12 @@ msgstr "Bu üretim emri isteğinde oluşturulan belge referansı."
 #: code:addons/mrp/models/stock_move.py:284
 #, python-format
 msgid "Register Lots"
-msgstr "Lotları Kaydet"
+msgstr ""
 
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.mrp_production_form_view
 msgid "Register lots"
-msgstr "Lotları Kaydet"
+msgstr ""
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production_procurement_ids
@@ -2375,7 +2355,7 @@ msgstr "Raporlama"
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_product_produce_serial
 msgid "Requires Serial"
-msgstr "Seri No Gerekli"
+msgstr ""
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_workcenter_resource_id
@@ -2776,22 +2756,18 @@ msgid ""
 "mainly used to compute work center costs during operations and to plan "
 "future loads on work centers based on production planning."
 msgstr ""
-"Bitmiş ürünü üretmek için yapılan işlemlerin listesi. Yönlendirme, esas "
-"olarak operasyonlar sırasında iş merkezi maliyetlerini hesaplamak ve üretim "
-"planlamasına dayalı olarak iş merkezlerinde gelecekteki yükleri planlamak "
-"için kullanılır."
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_workorder_qty_produced
 msgid "The number of products already handled by this work order"
-msgstr "Bu iş emri tarafından halihazırda ele alınan ürünlerin sayısı"
+msgstr ""
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_bom_line_operation_id
 msgid ""
 "The operation where the components are consumed, or the finished products "
 "created."
-msgstr "Bileşenlerin tüketildiği veya bitmiş ürünler oluşturulduğu işlem."
+msgstr ""
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_bom_routing_id
@@ -2800,9 +2776,6 @@ msgid ""
 "production orders will  be executed through work orders, otherwise "
 "everything is processed in the production order itself. "
 msgstr ""
-"Bu BoM için üretim işlemleri. Bir rota belirtildiğinde, üretim emirleri iş "
-"emirleri vasıtasıyla yürütülecektir, aksi halde her şey üretim emrinde "
-"kendiliğinden işlenir."
 
 #. module: mrp
 #: model:ir.model,name:mrp.model_stock_picking_type
@@ -3006,7 +2979,7 @@ msgstr "Sipariş Kaldırın"
 #: code:addons/mrp/models/mrp_unbuild.py:76
 #, python-format
 msgid "Unbuild Order product quantity has to be strictly positive."
-msgstr "Parçalanacak ürün miktarının sıfırdan büyük olması gerekir"
+msgstr ""
 
 #. module: mrp
 #: model:ir.actions.act_window,name:mrp.mrp_unbuild
@@ -3085,9 +3058,6 @@ msgid ""
 "                products, process, or actions to take care of. (e.g; Warning, the bill of material changed,\n"
 "                check the details in new worksheet)"
 msgstr ""
-"Üretimde veya depoda çalışan kişileri üretim, süreçler veya dikkat edilmesi "
-"gereken şeyler hakkında uyarmak için mesajları kullanın. (Örnek: Uyarı! ürün"
-" ağacı değiştirildi, ayrıntıları yeni çalışma sayfasında kontrol edin)"
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_workcenter_productivity_user_id
@@ -3188,8 +3158,6 @@ msgid ""
 "Will determine if the next work order will be planned after the previous one"
 " or after the first Quantity To Process of the previous one."
 msgstr ""
-"Bir sonraki iş emirinin bir öncekinin sonrasında mı yoksa bir sonraki Emre "
-"İşlemeden Önce mi planlanacağını belirleyecektir."
 
 #. module: mrp
 #: model:ir.model,name:mrp.model_mrp_workcenter
@@ -3279,9 +3247,6 @@ msgid ""
 "produce a product. They are attached to bills of materials that will define "
 "the required raw materials."
 msgstr ""
-"İş Emri İşlemleri, bir ürün üretmek için iş merkezlerinizde izlenmesi "
-"gereken imalat operasyonlarını yaratmanıza ve yönetmenize izin verir. "
-"Gerekli hammaddeleri tanımlayacak malzeme faturalarına eklenirler."
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_stock_move_workorder_id
@@ -3485,9 +3450,6 @@ msgid ""
 "'Performance'. Create one from the Manufacturing app, menu: Configuration / "
 "Productivity Losses."
 msgstr ""
-"'Performans' kategorisinde en az bir verimlilik kaybı tanımlamanız gerekir. "
-"Üretim uygulamasından, menüden bir tane oluşturun: Yapılandırma / Verimlilik"
-" Kaybı."
 
 #. module: mrp
 #: code:addons/mrp/models/mrp_workorder.py:349
@@ -3497,9 +3459,6 @@ msgid ""
 "'Productivity'. Create one from the Manufacturing app, menu: Configuration /"
 " Productivity Losses."
 msgstr ""
-"'Verimlilik' kategorisinde en az bir verimlilik kaybı tanımlamanız gerekir. "
-"Üretim uygulamasından, menüden bir tane oluşturun: Yapılandırma / Verimlilik"
-" Kaybı."
 
 #. module: mrp
 #: code:addons/mrp/models/mrp_workorder.py:401
@@ -3509,9 +3468,6 @@ msgid ""
 "'Performance'. Create one from the Manufacturing app, menu: Configuration / "
 "Productivity Losses."
 msgstr ""
-"'Performans' kategorisinde en az bir etkin olmayan verimlilik kaybı "
-"tanımlamanız gerekir. Üretim uygulamasından, menüden bir tane oluşturun: "
-"Yapılandırma / Verimlilik Kaybı."
 
 #. module: mrp
 #: code:addons/mrp/wizard/mrp_product_produce.py:99

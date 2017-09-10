@@ -9,18 +9,18 @@
 # Bole <bole@dajmi5.com>, 2016
 # Đurđica Žarković <durdica.zarkovic@storm.hr>, 2016
 # Ivica Dimjašević <ivica.dimjasevic@storm.hr>, 2016
-# Tina Milas <tina@uvid.hr>, 2016
 # Mario Jureša <mario.juresa@uvid.hr>, 2016
 # Jasmina Otročak <jasmina@uvid.hr>, 2016
 # Davor Bojkić <davor.bojkic@storm.hr>, 2016
 # storm_mpildek <matija.pildek@storm.hr>, 2016
+# Tina Milas <tina@uvid.hr>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-23 13:27+0000\n"
 "PO-Revision-Date: 2017-06-23 13:27+0000\n"
-"Last-Translator: storm_mpildek <matija.pildek@storm.hr>, 2016\n"
+"Last-Translator: Tina Milas <tina@uvid.hr>, 2017\n"
 "Language-Team: Croatian (https://www.transifex.com/odoo/teams/41243/hr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -4900,7 +4900,7 @@ msgstr "Alžir"
 #. module: base
 #: model:ir.ui.view,arch_db:base.ir_cron_view_search
 msgid "All"
-msgstr "Svi"
+msgstr ""
 
 #. module: base
 #: model:ir.ui.view,arch_db:base.view_base_module_configuration_form
@@ -5476,7 +5476,7 @@ msgstr "Osnovni modul uvoza"
 #. module: base
 #: model:ir.model.fields,help:base.field_ir_act_server_model_id
 msgid "Base model on which the server action runs."
-msgstr "Osnovni model na kojem sepokreće serverska radnja"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,description:base.module_website_partner
@@ -5707,7 +5707,7 @@ msgstr "Kalendari"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_stock_calendar
 msgid "Calendars on Orderpoints"
-msgstr "Kalendar pravila nabave"
+msgstr "Kalendar pravila nabavke"
 
 #. module: base
 #: model:res.country,name:base.kh
@@ -6002,7 +6002,7 @@ msgstr "Podređene tvrtke"
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_ui_view_field_parent
 msgid "Child Field"
-msgstr "Podređeno polje"
+msgstr "POdređeno polje"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_ui_menu_child_id
@@ -6217,7 +6217,7 @@ msgid ""
 "'calendar', etc. (Default: tree,form)"
 msgstr ""
 "Zarezima odvojena lista vrsta pogleda , kao  'form', 'tree', 'calendar', "
-"itd. (Default: tree,form)"
+"etc. (Default: tree,form)"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_groups_comment
@@ -6323,7 +6323,7 @@ msgstr "Vrsta tvrtke"
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_company_company_registry
 msgid "Company registry"
-msgstr "Matični broj"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_partner_contact_address
@@ -6491,7 +6491,7 @@ msgstr "Kontakt / Adrese"
 #. module: base
 #: model:res.groups,name:base.group_partner_manager
 msgid "Contact Creation"
-msgstr "Stvaranje kontakta"
+msgstr "Stvaranje Kontakta"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_website_crm
@@ -6529,7 +6529,7 @@ msgstr "Kontakti"
 #. module: base
 #: model:ir.ui.view,arch_db:base.view_partner_form
 msgid "Contacts & Addresses"
-msgstr "Kontakti i adrese"
+msgstr "Kontakti & Adrese"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_contacts
@@ -6757,7 +6757,7 @@ msgstr "Kreiraj upitnik, prikupi odgovore i ispiši statistike"
 #. module: base
 #: model:ir.module.module,summary:base.module_board
 msgid "Create your custom dashboard"
-msgstr "Kreiraj svoju prilagođenu nadzornu ploču"
+msgstr "Kreiraj svoju prilagođenu kontrolnu ploču"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_act_server_crud_model_id
@@ -7111,8 +7111,8 @@ msgid ""
 "Customized views are used when users reorganize the content of their "
 "dashboard views (via web client)"
 msgstr ""
-"Prilagođeni pogledi se koriste kada korisnik reorganizira sadržaj nadzornih "
-"ploča (web klijent)"
+"Prilagođeni pogledi se koriste kada korisnik reorganizira sadržaj kontrolnih"
+" ploča (web klijent)"
 
 #. module: base
 #: model:res.country,name:base.cy
@@ -7129,7 +7129,7 @@ msgstr "Češka Republika"
 #: model:ir.ui.menu,name:base.menu_board_root
 #: model:ir.ui.menu,name:base.menu_reporting_dashboard
 msgid "Dashboards"
-msgstr "Nadzorne ploče"
+msgstr "Kontrolne ploče"
 
 #. module: base
 #: model:ir.module.module,description:base.module_test_convert
@@ -8014,7 +8014,7 @@ msgstr "Naziv izvoza"
 #. module: base
 #: model:ir.ui.view,arch_db:base.wizard_lang_export
 msgid "Export Settings"
-msgstr "Postavke izvoza"
+msgstr "Postave izvoza"
 
 #. module: base
 #: model:ir.actions.act_window,name:base.action_wizard_lang_export
@@ -8230,12 +8230,12 @@ msgstr "Polje \"Vrsta\" ne možete mijenjati u modelima."
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_model_fields_help
 msgid "Field Help"
-msgstr "Polje za pomoć"
+msgstr "Polje Pomoć"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_model_fields_field_description
 msgid "Field Label"
-msgstr "Oznaka polja"
+msgstr "Polje oznaka"
 
 #. module: base
 #: model:ir.ui.view,arch_db:base.view_server_action_form
@@ -8251,12 +8251,12 @@ msgstr "Mapiranje polja"
 #: model:ir.model.fields,field_description:base.field_ir_exports_line_name
 #: model:ir.model.fields,field_description:base.field_ir_model_fields_name
 msgid "Field Name"
-msgstr "Naziv polja"
+msgstr "Polje Naziv"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_model_fields_ttype
 msgid "Field Type"
-msgstr "Vrsta polja"
+msgstr "Polje vrsta"
 
 #. module: base
 #: code:addons/base/ir/ir_ui_view.py:895
@@ -8355,7 +8355,7 @@ msgstr "Filtar"
 #: model:ir.model.fields,field_description:base.field_ir_filters_name
 #: model:ir.ui.view,arch_db:base.ir_filters_view_search
 msgid "Filter Name"
-msgstr "Naziv filtera"
+msgstr "Filter Naziv"
 
 #. module: base
 #: sql_constraint:ir.filters:0
@@ -9610,7 +9610,7 @@ msgstr "U aplikacijama"
 #: model:ir.ui.view,arch_db:base.view_currency_search
 #: model:ir.ui.view,arch_db:base.view_view_search
 msgid "Inactive"
-msgstr "Neaktivan"
+msgstr "Neaktivno"
 
 #. module: base
 #: model:ir.ui.view,arch_db:base.view_users_search
@@ -9686,7 +9686,7 @@ msgstr "Informacija"
 #. module: base
 #: model:ir.ui.view,arch_db:base.view_view_search
 msgid "Inherit"
-msgstr "Naslijedi"
+msgstr "Nasljedi"
 
 #. module: base
 #: model:ir.ui.view,arch_db:base.view_groups_form
@@ -9696,17 +9696,17 @@ msgstr "Naslijeđeno"
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_ui_view_inherit_id
 msgid "Inherited View"
-msgstr "Naslijeđeni pogled"
+msgstr "Nasljeđeni pogled"
 
 #. module: base
 #: model:ir.ui.view,arch_db:base.view_view_form
 msgid "Inherited Views"
-msgstr "Naslijeđeni pogledi"
+msgstr "Nasljeđeni pogledi"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_model_inherited_model_ids
 msgid "Inherited models"
-msgstr "Naslijeđeni modeli"
+msgstr "Nasljeđeni modeli"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_groups_implied_ids
@@ -10009,13 +10009,13 @@ msgstr "je Tvrtka"
 #: model:ir.model.fields,field_description:base.field_res_partner_customer
 #: model:ir.model.fields,field_description:base.field_res_users_customer
 msgid "Is a Customer"
-msgstr "je kupac"
+msgstr "je Kupac"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_partner_supplier
 #: model:ir.model.fields,field_description:base.field_res_users_supplier
 msgid "Is a Vendor"
-msgstr "je dobavljač"
+msgstr "je Dobavljač"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_attachment_public
@@ -11043,7 +11043,7 @@ msgstr "Poruka"
 #. module: base
 #: model:ir.ui.view,arch_db:base.view_users_form
 msgid "Messaging and Social"
-msgstr "Poruke i društvene mreže"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_cron_function
@@ -11410,7 +11410,7 @@ msgstr "Gđa."
 #: model:ir.ui.view,arch_db:base.view_users_form
 #: model:res.groups,name:base.group_multi_company
 msgid "Multi Companies"
-msgstr "Više tvrtki"
+msgstr "Više Organizacija"
 
 #. module: base
 #: model:res.groups,name:base.group_multi_currency
@@ -11785,7 +11785,7 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_web_settings_dashboard
 msgid "Odoo Settings Dashboard"
-msgstr "Nadzorna ploča postavki Odoo"
+msgstr "Odoo postavke radne ploče"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_web_diagram
@@ -12800,7 +12800,7 @@ msgstr ""
 #: model:ir.module.category,name:base.module_category_purchase_management
 #: model:ir.module.category,name:base.module_category_purchases
 msgid "Purchases"
-msgstr "Nabava"
+msgstr "Nabavke"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_wkf_activity_action
@@ -12904,7 +12904,7 @@ msgstr "RML sxw (zastarjelo)"
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_currency_rate_rate
 msgid "Rate"
-msgstr "Omjer"
+msgstr "Stopa"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_currency_rate_ids
@@ -13022,7 +13022,7 @@ msgstr "Referentni zapis"
 #: model:ir.actions.act_window,name:base.res_request_link-act
 #: model:ir.ui.menu,name:base.menu_res_request_link_act
 msgid "Referenceable Models"
-msgstr "Referencirani modeli"
+msgstr ""
 
 #. module: base
 #: code:addons/base/res/res_company.py:219
@@ -13296,7 +13296,7 @@ msgstr "S desna na lijevo"
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_company_rml_header
 msgid "Rml header"
-msgstr "RML zaglavlje"
+msgstr "Rml zaglavlje"
 
 #. module: base
 #: model:res.country,name:base.ro
@@ -13824,7 +13824,7 @@ msgstr "Zaporka ne može ostati prazna."
 #: model:ir.ui.menu,name:base.menu_administration
 #: model:res.groups,name:base.group_system
 msgid "Settings"
-msgstr "Postavke"
+msgstr "Postave"
 
 #. module: base
 #: model:res.country,name:base.sc
@@ -13855,7 +13855,7 @@ msgstr "Podijeli i objavi Video, Prezentacije i Dokumente"
 #. module: base
 #: model:ir.ui.view,arch_db:base.ir_filters_view_search
 msgid "Shared"
-msgstr "Podijeljen"
+msgstr "Dijeljen"
 
 #. module: base
 #: selection:res.partner,type:0
@@ -13900,7 +13900,7 @@ msgstr "Potpis"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_auth_signup
 msgid "Signup"
-msgstr "Registriraj se"
+msgstr "Prijava"
 
 #. module: base
 #: model:res.partner.category,name:base.res_partner_category_5
@@ -14448,7 +14448,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:base.field_res_users_vat
 #, python-format
 msgid "TIN"
-msgstr "PDV ID / OIB"
+msgstr "OIB"
 
 #. module: base
 #: selection:ir.mail_server,smtp_encryption:0
@@ -14510,7 +14510,7 @@ msgstr "Odredišni ekran"
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_company_vat
 msgid "Tax ID"
-msgstr "PDV ID / OIB"
+msgstr "OIB"
 
 #. module: base
 #: model:ir.model.fields,help:base.field_res_company_vat
@@ -15129,7 +15129,7 @@ msgstr ""
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_lang_thousands_sep
 msgid "Thousands Separator"
-msgstr "Separator tisućica"
+msgstr "Separator Tisućica"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_lang_time_format
@@ -15199,7 +15199,7 @@ msgstr "Naslov već postoji !"
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_sequence_date_range_date_to
 msgid "To"
-msgstr "Do"
+msgstr "za"
 
 #. module: base
 #: selection:ir.actions.todo,state:0
@@ -15772,7 +15772,7 @@ msgstr ""
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_sequence_use_date_range
 msgid "Use subsequences per date_range"
-msgstr "Koristi sekvence po razdobljima"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,description:base.module_hr_gamification
@@ -15909,7 +15909,7 @@ msgstr "Uzbekistan"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_base_vat
 msgid "VAT Number Validation"
-msgstr "Provjera PDV ID-a"
+msgstr "Provjera OIB-a"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_config_parameter_value
@@ -16043,7 +16043,7 @@ msgstr "Naziv pogleda"
 #. module: base
 #: model:ir.ui.view,arch_db:base.view_currency_form
 msgid "View Rates"
-msgstr "Tečajevi"
+msgstr "Pogledaj cijene"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_act_window_view_id
@@ -16061,7 +16061,7 @@ msgstr "Tip Pogleda"
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_ui_view_mode
 msgid "View inheritance mode"
-msgstr "Prikaži mode nasljeđivanja"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_act_window_view_mode
@@ -16394,8 +16394,6 @@ msgid ""
 "When subsequences per date range are used, you can prefix variables with 'range_'\n"
 "                                to use the beginning of the range instead of the current date, e.g. %(range_year)s instead of %(year)s."
 msgstr ""
-"Kada koristite sekvence po razdobljima varijablama možete dodati prefiks 'range_'\n"
-"                                kako bi koristili datume iz razdoblja umjesto trenutnog datuma, npr. %(range_year)s umjesto %(year)s."
 
 #. module: base
 #: model:ir.model.fields,help:base.field_wkf_transition_signal
@@ -16809,7 +16807,7 @@ msgstr "_nepoznat"
 #. module: base
 #: model:ir.ui.view,arch_db:base.action_view_company_form_link_2_currencies
 msgid "a new currency before creating a new company."
-msgstr "novu valutu prije kreiranja nove tvrtke."
+msgstr "nova valuta prije kreiranja nove tvrtke."
 
 #. module: base
 #: model:ir.ui.view,arch_db:base.res_partner_kanban_view

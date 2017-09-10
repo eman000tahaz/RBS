@@ -7,7 +7,6 @@ odoo.define('website.website', function (require) {
     var Widget = require('web.Widget');
     var session = require('web.session');
     var base = require('web_editor.base');
-    var utils = require('web.utils');
 
     var qweb = core.qweb;
     var _t = core._t;
@@ -238,10 +237,6 @@ odoo.define('website.website', function (require) {
             $img.css('background-image', "url('" + $img.data('src') + "')");
         }
     });
-
-    /* Load localizations */
-    var lang = utils.get_cookie('website_lang') || $('html').attr('lang') || 'en_US';
-    ajax.loadJS('/web/webclient/locale/' + lang.replace('-', '_'));
 
     /**
      * Object who contains all method and bind for the top bar, the template is create server side.

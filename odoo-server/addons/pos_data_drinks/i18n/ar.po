@@ -4,7 +4,6 @@
 # 
 # Translators:
 # Martin Trigaux <mat@odoo.com>, 2016
-# Yihya Hugirat <hugirat@gmail.com>, 2016
 # Mustafa Rawi <mustafa@cubexco.com>, 2016
 msgid ""
 msgstr ""
@@ -159,7 +158,7 @@ msgstr ""
 #: model:product.product,name:pos_data_drinks.green_tea
 #: model:product.template,name:pos_data_drinks.green_tea_product_template
 msgid "Green Tea"
-msgstr "شاي أخضر"
+msgstr ""
 
 #. module: pos_data_drinks
 #: model:product.product,name:pos_data_drinks.guinness
@@ -170,18 +169,18 @@ msgstr ""
 #. module: pos_data_drinks
 #: model:pos.category,name:pos_data_drinks.hot
 msgid "Hot Drinks"
-msgstr "مشروبات حارة"
+msgstr ""
 
 #. module: pos_data_drinks
 #: model:product.product,name:pos_data_drinks.ice_tea
 #: model:product.template,name:pos_data_drinks.ice_tea_product_template
 msgid "Ice Tea"
-msgstr "شاي مثلج"
+msgstr ""
 
 #. module: pos_data_drinks
 #: model:pos.category,name:pos_data_drinks.alcohol
 msgid "Import Drinks"
-msgstr "مشروبات مستوردة"
+msgstr ""
 
 #. module: pos_data_drinks
 #: model:product.product,name:pos_data_drinks.irish_coffee
@@ -231,7 +230,7 @@ msgstr ""
 #: model:product.product,name:pos_data_drinks.milkshake_banana
 #: model:product.template,name:pos_data_drinks.milkshake_banana_product_template
 msgid "Milkshake Banana"
-msgstr "ميلكشيك الموز"
+msgstr ""
 
 #. module: pos_data_drinks
 #: model:product.product,name:pos_data_drinks.milkshake_cherry
@@ -284,7 +283,7 @@ msgstr ""
 #: model:product.product,name:pos_data_drinks.nescafe
 #: model:product.template,name:pos_data_drinks.nescafe_product_template
 msgid "Nescafe"
-msgstr "نسكافيه"
+msgstr ""
 
 #. module: pos_data_drinks
 #: model:product.product,name:pos_data_drinks.pina_colada
@@ -308,7 +307,7 @@ msgstr ""
 #: model:product.product,name:pos_data_drinks.redbull
 #: model:product.template,name:pos_data_drinks.redbull_product_template
 msgid "RedBull"
-msgstr "ردبول"
+msgstr ""
 
 #. module: pos_data_drinks
 #: model:product.product,name:pos_data_drinks.rose_wine
@@ -326,7 +325,7 @@ msgstr ""
 #: model:product.product,name:pos_data_drinks.schweppes
 #: model:product.template,name:pos_data_drinks.schweppes_product_template
 msgid "Schweppes"
-msgstr "شويبس"
+msgstr ""
 
 #. module: pos_data_drinks
 #: model:product.product,name:pos_data_drinks.smirnoff
@@ -337,13 +336,13 @@ msgstr ""
 #. module: pos_data_drinks
 #: model:pos.category,name:pos_data_drinks.soft
 msgid "Soft Drinks"
-msgstr "مشروبات خالية من الكحول"
+msgstr ""
 
 #. module: pos_data_drinks
 #: model:product.product,name:pos_data_drinks.sprite
 #: model:product.template,name:pos_data_drinks.sprite_product_template
 msgid "Sprite"
-msgstr "سبرايت"
+msgstr ""
 
 #. module: pos_data_drinks
 #: model:product.product,name:pos_data_drinks.stella_artois
@@ -367,7 +366,7 @@ msgstr ""
 #: model:product.product,name:pos_data_drinks.water
 #: model:product.template,name:pos_data_drinks.water_product_template
 msgid "Water"
-msgstr "ماء"
+msgstr "مياه"
 
 #. module: pos_data_drinks
 #: model:product.product,name:pos_data_drinks.white_russian
@@ -390,4 +389,4 @@ msgstr ""
 #: model:product.product,name:pos_data_drinks.tea
 #: model:product.template,name:pos_data_drinks.tea_product_template
 msgid "Yellow Tea"
-msgstr "شاي أصفر"
+msgstr ""

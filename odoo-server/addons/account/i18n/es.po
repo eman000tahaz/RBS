@@ -7,14 +7,14 @@
 # José Vicente <txusev@gmail.com>, 2016
 # Glen Sojo <inactive+glen.sojo@transifex.com>, 2016
 # Martin Trigaux <mat@odoo.com>, 2016
-# Gustavo Valverde <g.valverde02@gmail.com>, 2016
 # Daniel Santibáñez Polanco <dansanti@gmail.com>, 2016
+# Ivan Nieto <ivan.n.s@tuta.io>, 2016
 # Carles Antoli <carlesantoli@hotmail.com>, 2016
+# Antonio Trueba <atgayol@gmail.com>, 2016
 # Alejandro Santana <alejandrosantana@anubia.es>, 2016
 # Luis M. Triana <luis.triana@jarsa.com.mx>, 2016
 # Esteban Echeverry <tebanep@nubark.com>, 2016
 # Alejandro Die Sanchis <marketing@domatix.com>, 2016
-# Antonio Trueba <atgayol@gmail.com>, 2016
 # ulises aldana <rauleo88@hotmail.com>, 2016
 # Martin Mendoza del Solar <martin@mendozadelsolar.com>, 2016
 # Ana Juaristi <ajuaristio@gmail.com>, 2016
@@ -26,20 +26,21 @@
 # Iván Todorovich <ivan.todorovich@gmail.com>, 2016
 # oihane <oihanecruce@gmail.com>, 2016
 # Rick Hunter <rick_hunter_ec@yahoo.com>, 2016
+# José Antonio Cuello <inactive+Yopli2k@transifex.com>, 2016
+# Javier Ramirez <elbomba887@gmail.com>, 2016
 # Leonardo Chianea <noamixcontenidos@gmail.com>, 2016
 # Mateo Tibaquirá Palacios <nestormateo@gmail.com>, 2016
-# Javier Ramirez <elbomba887@gmail.com>, 2016
 # Cristóbal Martí Oliver <info@moblesmarti.com>, 2016
 # Jose Manuel <admin@jaboweb.com>, 2016
 # David Perez <david@closemarketing.es>, 2016
 # Denis Ledoux <dle@odoo.com>, 2016
-# Ivan Nieto <ivan.n.s@tuta.io>, 2016
 # Roberto Lizana <robertolizana@trey.es>, 2016
 # Hugo Adan <hugo@vauxoo.com>, 2016
 # Nhomar Hernández [Vauxoo] <nhomar@vauxoo.com>, 2016
+# Manuel Gómez <nuelgoz@gmail.com>, 2016
+# Gustavo Valverde <g.valverde02@gmail.com>, 2016
 # Miguel Mendez <migmen@virtuellhandel.no>, 2016
 # RGB Consulting <odoo@rgbconsulting.com>, 2016
-# Nicole Kist <nki@odoo.com>, 2016
 # Diego de la Torre <diego.delatorreh@gmail.com>, 2016
 # Bere Campbell <berenice_c7@hotmail.com>, 2016
 # Juan Fernando Cano González <jfcano@nanobytes.es>, 2016
@@ -47,7 +48,6 @@
 # Luis Miguel Limache leon <luislimache@gmail.com>, 2016
 # Gelo Joga Landoo <gj@landoo.es>, 2016
 # Cristian Salamea <ovnicraft@gmail.com>, 2017
-# José Antonio Cuello <inactive+Yopli2k@transifex.com>, 2017
 # David de León <leceda09@gmail.com>, 2017
 msgid ""
 msgstr ""
@@ -149,7 +149,7 @@ msgid ""
 " * The 'Paid' status is set automatically when the invoice is paid. Its related journal entries may or may not be reconciled.\n"
 " * The 'Cancelled' status is used when user cancel invoice."
 msgstr ""
-"* El estado de \"Borrador\" se usa cuando se codifica una nueva factura y no está confirmada.\n"
+"* El estado de \"Borrador\" se usa cuando se codifica un factura nueva y no confirmada.\n"
 "* El estado \"Pro-forma\" se usa cuando la factura no tiene un número definitivo.\n"
 "* El estado \"Abierto\" se usa cuando el usuario crea una factura, y se genera un número de factura. Este estado se mantiene hasta que el usuario paga la factura\n"
 "* El Estado \"Pagado\" se establece automáticamente cuando la factura se paga.  Sus entradas diarias relacionadas pueden estar o no conciliadas.\n"
@@ -166,7 +166,7 @@ msgstr "segundos"
 #: model:ir.model.fields,field_description:account.field_account_chart_template_code_digits
 #: model:ir.model.fields,field_description:account.field_wizard_multi_charts_accounts_code_digits
 msgid "# of Digits"
-msgstr "# de Dígitos"
+msgstr "Núm. de dígitos"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_config_settings_code_digits
@@ -176,12 +176,12 @@ msgstr "# de Dígitos *"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_invoice_report_nbr
 msgid "# of Lines"
-msgstr "# de Líneas"
+msgstr "# de líneas"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_move_line_reconcile_trans_nbr
 msgid "# of Transaction"
-msgstr "# de Transacción"
+msgstr "# de transacción"
 
 #. module: account
 #: model:mail.template,subject:account.email_template_edi_invoice
@@ -197,13 +197,13 @@ msgstr "${object.subject}"
 #: code:addons/account/models/account_bank_statement.py:467
 #, python-format
 msgid "%d transactions were automatically reconciled."
-msgstr "%d transacciones fueron conciliadas automáticamente."
+msgstr "%d transacciones se conciliaron automáticamente."
 
 #. module: account
 #: code:addons/account/models/account.py:610
 #, python-format
 msgid "%s (Copy)"
-msgstr "%s (Copia)"
+msgstr "%s (copia)"
 
 #. module: account
 #: code:addons/account/models/account.py:170
@@ -226,12 +226,12 @@ msgstr ", si los módulos de contabilidad o de compras están instalados"
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_account_form
 msgid "-> Reconcile"
-msgstr "-> Conciliar"
+msgstr "Conciliar"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_move_line_form
 msgid "-> View partially reconciled entries"
-msgstr "-> Ver entradas parcialmente conciliadas"
+msgstr "-> Ver entradas parcialmente reconciliadas"
 
 #. module: account
 #: code:addons/account/models/account_bank_statement.py:468
@@ -242,17 +242,17 @@ msgstr "1 transacción se concilió automáticamente."
 #. module: account
 #: model:account.payment.term,name:account.account_payment_term_15days
 msgid "15 Days"
-msgstr "15 Días"
+msgstr "15 días"
 
 #. module: account
 #: model:account.payment.term,name:account.account_payment_term_net
 msgid "30 Net Days"
-msgstr "30 Días Netos"
+msgstr "30 días netos"
 
 #. module: account
 #: model:account.payment.term,name:account.account_payment_term_advance
 msgid "30% Advance End of Following Month"
-msgstr "30% Adelanto A Fin del Mes Siguiente"
+msgstr "30% adelanto a fin de mes siguiente"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
@@ -262,7 +262,7 @@ msgstr "5) Para la configuración, necesitará la siguiente información:"
 #. module: account
 #: model:ir.ui.view,arch_db:account.report_generalledger
 msgid ": General ledger"
-msgstr ": Libro Mayor"
+msgstr ": Libro mayor"
 
 #. module: account
 #: code:addons/account/models/account.py:397
@@ -273,7 +273,7 @@ msgstr ": Reembolso"
 #. module: account
 #: model:ir.ui.view,arch_db:account.report_trialbalance
 msgid ": Trial Balance"
-msgstr ": Balance de Comprobación"
+msgstr ": Balance de sumas y saldos"
 
 #. module: account
 #: model:mail.template,body_html:account.mail_template_data_notification_email_account_invoice
@@ -427,12 +427,12 @@ msgstr ""
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid "<span class=\"fa fa-arrow-circle-o-down\"/> Install Now"
-msgstr "<span class=\"fa fa-arrow-circle-o-down\"/> Instalar Ahora"
+msgstr "<span class=\"fa fa-arrow-circle-o-down\"/> Instalar ahora"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid "<span class=\"fa\"/> Invite Your Users"
-msgstr "<span class=\"fa\"/>Invita tus Usuarios"
+msgstr "<span class=\"fa\"/>Invitar a usuarios"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.partner_view_buttons
@@ -540,7 +540,7 @@ msgid ""
 "                                    </span>"
 msgstr ""
 "<span class=\"panel-title\">\n"
-"<strong>Seguimiento de Cliente</strong>\n"
+"<strong>Seguimiento de cliente</strong>\n"
 "</span>"
 
 #. module: account
@@ -551,7 +551,7 @@ msgid ""
 "                                    </span>"
 msgstr ""
 "<span class=\"panel-title\">\n"
-"<strong>Pago de factura por Cheque</strong>\n"
+"<strong>Pago de factura por cheque</strong>\n"
 "</span>"
 
 #. module: account
@@ -562,7 +562,7 @@ msgid ""
 "                                    </span>"
 msgstr ""
 "<span class=\"panel-title\">\n"
-"<strong>Pago de factura por Transferencia Bancaria</strong>\n"
+"<strong>Pago de factura por transferencia bancaria</strong>\n"
 "</span>"
 
 #. module: account
@@ -584,7 +584,7 @@ msgid ""
 "                                    </span>"
 msgstr ""
 "<span class=\"panel-title\">\n"
-"<strong>Conciliar Extractos Bancarios</strong>\n"
+"<strong>Conciliar extractos bancarios</strong>\n"
 "</span>"
 
 #. module: account
@@ -601,12 +601,12 @@ msgstr ""
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
 msgid "<span title=\"Balance in Odoo\">Balance in GL</span>"
-msgstr "<span title=\"Balance in Odoo\">Balance en LM</span>"
+msgstr "<span title=\"Balance in Odoo\">Balance en PG</span>"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
 msgid "<span title=\"Latest Statement\">Latest Statement</span>"
-msgstr "<span title=\"Latest Statement\">Último Extracto</span>"
+msgstr "<span title=\"Latest Statement\">Último extracto</span>"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_account_position_form
@@ -685,12 +685,12 @@ msgstr "<strong>1. Registre facturas pendientes</strong>"
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid "<strong>2. Register Unmatched Payments</strong>"
-msgstr "<strong>2. Registre Pagos Sin Emparejar</strong>"
+msgstr "<strong>2. Registre pagos no casados</strong>"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid "<strong>Assets Management</strong>"
-msgstr "<strong>Gestión de Activos</strong>"
+msgstr "<strong>Gestión de activos</strong>"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
@@ -736,7 +736,7 @@ msgid ""
 "<strong>Check unpaid invoices</strong><br/>\n"
 "                                         Run an <i>Aged Receivable report</i> and check which customers still owe you money."
 msgstr ""
-"<strong>Verificar facturas no pagadas</strong><br/>\n"
+"<strong>Comprobar facturas no pagadas</strong><br/>\n"
 "Abre un <i>informe de deudas/saldos pendientes por fecha</i> y compruebe qué clientes le deben dinero."
 
 #. module: account
@@ -785,7 +785,7 @@ msgid ""
 "create the vendor if it doesnt' exist yet."
 msgstr ""
 "<strong>Crear la factura en Odoo</strong><br/> con la fecha de vencimiento "
-"adecuada y crear el proveedor si todavía no existe."
+"adecuada y crear el vendedor si todavía no existe."
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.report_invoice_document
@@ -831,7 +831,7 @@ msgstr "<strong>Ver cuenta</strong>"
 #. module: account
 #: model:ir.ui.view,arch_db:account.report_invoice_document
 msgid "<strong>Due Date:</strong>"
-msgstr "<strong>Fecha de Vencimiento:</strong>"
+msgstr "<strong>Fecha de vencimiento:</strong>"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.report_journal
@@ -851,12 +851,12 @@ msgstr "<strong>Posición fiscal:</strong>"
 #. module: account
 #: model:ir.ui.view,arch_db:account.report_invoice_document
 msgid "<strong>Invoice Date:</strong>"
-msgstr "<strong>Fecha Factura:</strong>"
+msgstr "<strong>Fecha factura:</strong>"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.report_journal
 msgid "<strong>Journal:</strong>"
-msgstr "<strong>Diario:</strong>"
+msgstr "<strong>Diarios:</strong>"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.report_generalledger
@@ -900,7 +900,7 @@ msgstr ""
 #. module: account
 #: model:ir.ui.view,arch_db:account.report_agedpartnerbalance
 msgid "<strong>Partner's:</strong>"
-msgstr "<strong>Contacto:</strong>"
+msgstr "<strong>Asociado:</strong>"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.report_agedpartnerbalance
@@ -1071,8 +1071,8 @@ msgstr ""
 "Un Registro de contado le permite gestionar entradas de dinero en sus "
 "diarios de contado. Esta caracter&#237;stica proporciona una manera "
 "f&#225;cil de comprobar los pagos al contado a diario. Puede introducir las "
-"monedas que hay en su caja y, posteriormente, contabilizar las entradas y "
-"salidas de la misma."
+"monedas que hay en su caja y, posteriormente, anotar las entradas y salidas "
+"de la misma."
 
 #. module: account
 #: code:addons/account/models/account_invoice.py:1399
@@ -1186,7 +1186,7 @@ msgstr ""
 #: code:addons/account/models/account_bank_statement.py:380
 #, python-format
 msgid "A transaction can't have a 0 amount."
-msgstr "Una transacción no puede tener un monto 0."
+msgstr "Una transacción no puede tener una cantidad 0."
 
 #. module: account
 #: model:ir.actions.act_window,help:account.action_account_journal_form
@@ -1232,7 +1232,7 @@ msgstr "Cuenta"
 #. module: account
 #: model:ir.model,name:account.model_account_aged_trial_balance
 msgid "Account Aged Trial balance Report"
-msgstr "Reporte Balance de Comprobación por Antiguedad"
+msgstr "Informe de balance de comprobación de vencimientos"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
@@ -1274,7 +1274,7 @@ msgstr "Contabilidad. Informe común"
 #: model:ir.model.fields,field_description:account.field_account_account_template_currency_id
 #: model:ir.model.fields,field_description:account.field_account_bank_accounts_wizard_currency_id
 msgid "Account Currency"
-msgstr "Moneda de la Cuenta"
+msgstr "Cuenta de la moneda"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_fiscal_position_account_template_account_dest_id
@@ -1325,7 +1325,7 @@ msgstr "Número de cuenta"
 #. module: account
 #: model:ir.model,name:account.model_account_report_partner_ledger
 msgid "Account Partner Ledger"
-msgstr "Libro de Contacto"
+msgstr "Contabilidad. Libro mayor empresa"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_res_partner_property_account_payable_id
@@ -1347,7 +1347,7 @@ msgstr "Propiedades de la cuenta"
 #: model:ir.model.fields,field_description:account.field_res_partner_property_account_receivable_id
 #: model:ir.model.fields,field_description:account.field_res_users_property_account_receivable_id
 msgid "Account Receivable"
-msgstr "Cuenta por Cobrar"
+msgstr "Cuenta a cobrar"
 
 #. module: account
 #: model:ir.model,name:account.model_account_financial_report
@@ -1763,7 +1763,7 @@ msgstr "Todos los asientos"
 #: model:ir.ui.view,arch_db:account.report_partnerledger
 #: model:ir.ui.view,arch_db:account.report_trialbalance
 msgid "All Posted Entries"
-msgstr "Todos los Asientos Contabilizados"
+msgstr "Todos los asientos asentados"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.report_trialbalance
@@ -1784,8 +1784,7 @@ msgid ""
 "All invoices and payments have been matched, your accounts' balances are "
 "clean."
 msgstr ""
-"Todas las facturas y pagos han sido emparejados, sus balances están "
-"cuadrados."
+"Todas las facturas y pagos han sido conciliados, sus saldos están cuadrados."
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_bank_statement_all_lines_reconciled
@@ -1802,10 +1801,10 @@ msgid ""
 "and will be created in 'Posted' status."
 msgstr ""
 "Todos los asientos creados manualmente suelen estar en el estado 'Sin "
-"Contabilizar', salvo cuando se establece la opción de saltar ese estado en "
-"el diario relacionado. En ese caso, se comportarán como los asientos creados"
-" automáticamente por el sistema en la validación de documentos (facturas, "
-"extractos bancarios...) y serán creados en el estado 'Contabilizado'."
+"asentar', salvo cuando se establece la opción de saltar ese estado en el "
+"diario relacionado. En ese caso, se comportarán como los asientos creados "
+"automáticamente por el sistema en la validación de documentos (facturas, "
+"extractos bancarios...) y serán creados en el estado 'Asentado'."
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.validate_account_move_view
@@ -1813,8 +1812,8 @@ msgid ""
 "All selected journal entries will be validated and posted. You won't be able"
 " to modify them afterwards."
 msgstr ""
-"Se validarán y contabilizarán todos los asientos contables seleccionados. No"
-" podrá modificarlos posteriormente."
+"Se validarán y asentarán todos los asientos contables seleccionados. No "
+"podrá modificarlos posteriormente."
 
 #. module: account
 #: code:addons/account/models/account_bank_statement.py:240
@@ -1829,7 +1828,7 @@ msgstr ""
 #. module: account
 #: selection:account.config.settings,group_warning_account:0
 msgid "All the partners can be used in invoices"
-msgstr "Todos los contactos pueden ser utilizados en la facturas"
+msgstr "Todos los socios pueden ser utilizados en la facturas"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_journal_update_posted
@@ -1859,7 +1858,7 @@ msgstr "Permitir la impresión de cheques y depósitos"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_config_settings_group_multi_currency
 msgid "Allow multi currencies"
-msgstr "Permitir multi monedas"
+msgstr "Permitir multi divisa"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_config_settings_group_proforma_invoices
@@ -1869,7 +1868,7 @@ msgstr "Permitir facturas pro-forma"
 #. module: account
 #: model:ir.model.fields,help:account.field_account_config_settings_group_multi_currency
 msgid "Allows to work in a multi currency environment"
-msgstr "Permite trabajar en un entorno multi moneda"
+msgstr "Permite trabajar en un entorno multidivisa"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_config_settings_group_proforma_invoices
@@ -1906,64 +1905,64 @@ msgstr "Le permite usar la contabilidad analítica"
 #: model:ir.ui.view,arch_db:account.view_move_line_form
 #, python-format
 msgid "Amount"
-msgstr "Monto"
+msgstr "Importe"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_analytic_line_analytic_amount_currency
 msgid "Amount Currency"
-msgstr "Monto en Moneda"
+msgstr "Moneda de importes"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_invoice_residual
 #: model:ir.ui.view,arch_db:account.invoice_tree
 msgid "Amount Due"
-msgstr "Monto Adeudado"
+msgstr "Importe adeudado"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_invoice_residual_company_signed
 msgid "Amount Due in Company Currency"
-msgstr "Monto Adeudado en Moneda de la Emrpesa"
+msgstr "Importe adeudado en la divisa de la empresa"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_invoice_residual_signed
 msgid "Amount Due in Invoice Currency"
-msgstr "Monto Adeudado en Moneda de la Factura"
+msgstr "Importe adeudado en la divisa de la factura"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_invoice_line_price_subtotal_signed
 msgid "Amount Signed"
-msgstr "Monto Fimado"
+msgstr "Cantidad Firmada"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_partial_reconcile_amount
 msgid "Amount concerned by this matching. Assumed to be always positive"
-msgstr "Monto implicado por este pareo. Se asume que siempre es positivo"
+msgstr "Importe implicado en este emparejamiento. Se asume siempre positivo"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_analytic_line_amount_currency
 #: model:ir.model.fields,field_description:account.field_account_bank_statement_line_amount_currency
 #: model:ir.model.fields,field_description:account.field_account_move_line_amount_currency
 msgid "Amount currency"
-msgstr "Monto moneda"
+msgstr "Importe divisa"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_partial_reconcile_amount_currency
 msgid "Amount in Currency"
-msgstr "Monto en Moneda"
+msgstr "Importe en moneda"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_reconcile_model_amount_type
 #: model:ir.model.fields,field_description:account.field_account_reconcile_model_template_amount_type
 #: model:ir.ui.view,arch_db:account.view_account_reconcile_model_form
 msgid "Amount type"
-msgstr "Tipo de Monto"
+msgstr "Tipo de importe"
 
 #. module: account
 #. openerp-web
 #: code:addons/account/static/src/xml/account_payment.xml:68
 #, python-format
 msgid "Amount:"
-msgstr "Monto:"
+msgstr "Importe:"
 
 #. module: account
 #: sql_constraint:account.fiscal.position.account:0
@@ -2007,7 +2006,7 @@ msgstr ""
 #: selection:account.config.settings,group_warning_account:0
 msgid "An informative or blocking warning can be set on a partner"
 msgstr ""
-"Una alerta informativa o de bloqueo se puede establecer sobre un contacto"
+"Una alerta informativa o de bloqueo se puede establecer sobre un socio"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_move_line_form
@@ -2141,7 +2140,7 @@ msgstr "Abril"
 #. module: account
 #: model:ir.ui.view,arch_db:account.invoice_supplier_form
 msgid "Ask Refund"
-msgstr "Hacer Nota de Crédito"
+msgstr "Pedir reembolso"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_config_settings_module_account_asset
@@ -2427,7 +2426,7 @@ msgstr "Base"
 #. module: account
 #: model:ir.ui.view,arch_db:account.report_journal
 msgid "Base Amount"
-msgstr "Monto Base"
+msgstr "Importe base"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
@@ -2821,7 +2820,7 @@ msgstr "Id plantilla plan contable"
 #. module: account
 #: model:ir.actions.act_window,name:account.action_view_account_bnk_stmt_check
 msgid "Check Closing Balance"
-msgstr "Comprobar Saldo de Cierre"
+msgstr "Comprobación saldo de cierre"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_bank_statement_is_difference_zero
@@ -3095,12 +3094,12 @@ msgstr "Compañía"
 #: model:ir.model.fields,field_description:account.field_account_invoice_line_company_currency_id
 #: model:ir.model.fields,field_description:account.field_account_move_line_company_currency_id
 msgid "Company Currency"
-msgstr "Moneda de la Compañía"
+msgstr "Moneda de la compañía"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_tax_adjustments_wizard_company_currency_id
 msgid "Company currency id"
-msgstr "Id Moneda Compañía"
+msgstr "Código de identificación de la moneda de la empresa"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_config_settings_has_chart_of_accounts
@@ -3185,7 +3184,7 @@ msgid ""
 "The currency of the journal should be the same than the default credit account."
 msgstr ""
 "¡Error de configuración!\n"
-"La moneda del diario debería ser la misama que la de la cuenta de crédito por defecto."
+"La divisa del diario debería ser la misama que la de la cuenta de crédito por defecto."
 
 #. module: account
 #: code:addons/account/models/account.py:303
@@ -3195,7 +3194,7 @@ msgid ""
 "The currency of the journal should be the same than the default debit account."
 msgstr ""
 "¡Error de configuración!\n"
-"La moneda del diario debería ser la misma que la de la cuenta de débito por defecto."
+"La divisa del diario debería ser la misma que la de la cuenta de débito por defecto."
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
@@ -3350,7 +3349,7 @@ msgstr "Crear una factura rectificativa borrador"
 #. module: account
 #: model:ir.ui.view,arch_db:account.tax_adjustments_wizard
 msgid "Create and post move"
-msgstr "Crear y contabilizar movimiento"
+msgstr "Crear y asentar asiento"
 
 #. module: account
 #: code:addons/account/models/account_journal_dashboard.py:248
@@ -3537,7 +3536,7 @@ msgstr "Cuenta de credito"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_move_line_reconcile_credit
 msgid "Credit amount"
-msgstr "Monto Haber"
+msgstr "Importe haber"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_move_line_credit_cash_basis
@@ -3592,19 +3591,19 @@ msgstr "Moneda"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_invoice_report_currency_rate
 msgid "Currency Rate"
-msgstr "Tasa Monetaria"
+msgstr "Tasa monetaria"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_wizard_multi_charts_accounts_currency_id
 msgid "Currency as per company's country."
-msgstr "Moneda del país de la compañía."
+msgstr "Moneda por país de la compañía"
 
 #. module: account
 #: code:addons/account/models/account_move.py:1329
 #: code:addons/account/models/account_move.py:1339
 #, python-format
 msgid "Currency exchange rate difference"
-msgstr "Diferencia en tasa cambiaria"
+msgstr "Diferencia en tasa de cambio de divisa"
 
 #. module: account
 #: model:account.account.type,name:account.data_account_type_current_assets
@@ -3768,7 +3767,7 @@ msgstr "Cuenta de debito"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_move_line_reconcile_debit
 msgid "Debit amount"
-msgstr "Monto Debe"
+msgstr "Importe debe"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_move_line_debit_cash_basis
@@ -3876,7 +3875,7 @@ msgstr "Descatalogado"
 #: model:account.account.type,name:account.data_account_type_depreciation
 #: model:ir.ui.view,arch_db:account.view_account_form
 msgid "Depreciation"
-msgstr "Depreciación"
+msgstr "Amortización"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.cash_box_out_form
@@ -4309,7 +4308,7 @@ msgstr "Apuntes"
 #: model:account.account.type,name:account.data_account_type_equity
 #: model:ir.ui.view,arch_db:account.view_account_form
 msgid "Equity"
-msgstr "Capital"
+msgstr "Valor neto"
 
 #. module: account
 #: code:addons/account/wizard/account_report_common.py:28
@@ -4331,7 +4330,7 @@ msgstr "Diferencia de cambio"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_res_company_currency_exchange_journal_id
 msgid "Exchange Gain or Loss Journal"
-msgstr "Diario de Ganancias o Pérdidas Diferencial Cambiario"
+msgstr "Diario de pérdidas y ganancias por cambio de divisa"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_full_reconcile_exchange_move_id
@@ -4562,7 +4561,7 @@ msgstr "Fijo"
 #. module: account
 #: selection:account.payment.term.line,value:0
 msgid "Fixed Amount"
-msgstr "Monto Fijo"
+msgstr "Importe fijo"
 
 #. module: account
 #: model:account.account.type,name:account.data_account_type_fixed_assets
@@ -4614,14 +4613,14 @@ msgstr ""
 #: model:ir.model.fields,help:account.field_account_account_currency_id
 msgid "Forces all moves for this account to have this account currency."
 msgstr ""
-"Obliga a todos los movimientos de esta cuenta a tener la moneda de la misma."
+"Fuerza a todos los movimientos de esta cuenta a tener la moneda de la misma."
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_account_template_currency_id
 #: model:ir.model.fields,help:account.field_account_bank_accounts_wizard_currency_id
 msgid "Forces all moves for this account to have this secondary currency."
 msgstr ""
-"Obliga a todos los movimientos de esta cuenta tener esta moneda secundaria."
+"Fuerza a todos los movimientos de esta cuenta tener esta moneda secundaria."
 
 #. module: account
 #: code:addons/account/models/account_invoice.py:81
@@ -4637,7 +4636,7 @@ msgstr "Desde cuentas por pagar"
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_account_move_line_filter
 msgid "From Receivable accounts"
-msgstr "Desde cuentas por Cobrar"
+msgstr "desde cuentas por cobrar"
 
 #. module: account
 #: model:ir.actions.act_window,help:account.action_account_invoice_report_all_supp
@@ -4705,12 +4704,12 @@ msgstr "Información General"
 #: model:ir.actions.report.xml,name:account.action_report_general_ledger
 #: model:ir.ui.menu,name:account.menu_general_ledger
 msgid "General Ledger"
-msgstr "Libro Mayor"
+msgstr "Libro mayor"
 
 #. module: account
 #: model:ir.model,name:account.model_account_report_general_ledger
 msgid "General Ledger Report"
-msgstr "Informe de Libro Mayor"
+msgstr "Informe del libro mayor"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_config_settings_module_account_tax_cash_basis
@@ -4972,7 +4971,7 @@ msgstr "INV"
 #, python-format
 msgid "If \"Amount Currency\" is specified, then \"Amount\" must be as well."
 msgstr ""
-"Si se especifica \"Monto en Moneda\", entonces el \"Monto\" debe estar "
+"Si se especifica \"Importe en moneda\", entonces el \"Importe\" debe estar "
 "también."
 
 #. module: account
@@ -5240,13 +5239,12 @@ msgstr ""
 msgid ""
 "In order to pay multiple invoices at once, they must use the same currency."
 msgstr ""
-"Para pagar múltiples facturas a la vez, tienen que utilizar la misma moneda."
+"Para pagar múltiples facturas a la vez tienen que utilizar la misma divisa."
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid "In your old accounting software, print a trial balance"
-msgstr ""
-"Imprima un balance de comprobación en su antiguo programa de contabilidad"
+msgstr "Imprima un balance de prueba en su antiguo programa de contabilidad"
 
 #. module: account
 #: selection:account.payment.method,payment_type:0
@@ -5617,8 +5615,8 @@ msgid ""
 "It adds the currency column on report if the currency differs from the "
 "company currency."
 msgstr ""
-"Añade la columna de la moneda en el informe si la moneda difiere de la "
-"moneda de la compañía."
+"Añade la columna de moneda en el informe si la moneda difiere de la moneda "
+"de la compañía."
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_invoice_reconciled
@@ -6259,13 +6257,13 @@ msgstr "Pérdidas"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_journal_loss_account_id
 msgid "Loss Account"
-msgstr "Cuenta de Pérdidas"
+msgstr "Cuenta de pérdidas"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_chart_template_expense_currency_exchange_account_id
 #: model:ir.model.fields,field_description:account.field_res_company_expense_currency_exchange_account_id
 msgid "Loss Exchange Rate Account"
-msgstr "Cuenta por Diferencia Cambiaria"
+msgstr "Pérdida por diferencia de cambio"
 
 #. module: account
 #: code:addons/account/models/chart_template.py:184
@@ -6276,7 +6274,7 @@ msgstr "Varios"
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid "Main Currency"
-msgstr "Moneda Principal"
+msgstr "Divisa principal"
 
 #. module: account
 #: selection:account.financial.report,style_overwrite:0
@@ -6286,7 +6284,7 @@ msgstr "Titulo 1 Principal (negrita, subrayado)"
 #. module: account
 #: model:ir.model.fields,help:account.field_account_config_settings_currency_id
 msgid "Main currency of the company."
-msgstr "Moneda principal de la compañía."
+msgstr "Divisa principal de la compañía."
 
 #. module: account
 #: model:ir.actions.act_window,name:account.tax_adjustments_form
@@ -6372,7 +6370,7 @@ msgstr "Marcar la factura como totalmente pagada"
 #: model:ir.model.fields,field_description:account.field_account_full_reconcile_reconciled_line_ids
 #: model:ir.ui.view,arch_db:account.view_full_reconcile_form
 msgid "Matched Journal Items"
-msgstr "Apuntes Contables Emparejados"
+msgstr "Apuntes contables conciliados"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_move_line_matched_credit_ids
@@ -6427,14 +6425,14 @@ msgstr ""
 #: model:ir.model.fields,field_description:account.field_account_payment_communication
 #: model:ir.model.fields,field_description:account.field_account_register_payments_communication
 msgid "Memo"
-msgstr "Concepto"
+msgstr "Circular"
 
 #. module: account
 #. openerp-web
 #: code:addons/account/static/src/xml/account_payment.xml:64
 #, python-format
 msgid "Memo:"
-msgstr "Concepto:"
+msgstr "Circular:"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_res_partner_invoice_warn_msg
@@ -6528,7 +6526,7 @@ msgid ""
 "                        to use some of them, you should check their <strong>Active</strong>\n"
 "                        field."
 msgstr ""
-"La mayoría de las monedas están creadas por defecto. Si planea\n"
+"La mayoría de divisas están creadas por defecto. Si planea\n"
 "utilizar algunas de ellas, debería comprobar su campo \n"
 "<strong>Activo</strong>."
 
@@ -6559,17 +6557,17 @@ msgstr "Nombre movimiento (id): %s (%s)"
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_account_config_settings
 msgid "Multi Currencies"
-msgstr "Multi Monedas"
+msgstr "Multi-divisa"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid "Multi Currency"
-msgstr "Multi Moneda"
+msgstr "Multi divisa"
 
 #. module: account
 #: model:ir.ui.menu,name:account.menu_config_multi_currency
 msgid "Multi-Currencies"
-msgstr "Multi-Monedas"
+msgstr "Multi-divisas"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_account_invoice_filter
@@ -6641,7 +6639,7 @@ msgstr "Nueva fecha de pago:"
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid "Next, register any unmatched payments:<br/>"
-msgstr "A continuación, registre cualquier pago no emparejado:<br/>"
+msgstr "Después, registre cualquier pago no conciliado:<br/>"
 
 #. module: account
 #: selection:accounting.report,filter_cmp:0
@@ -6933,8 +6931,8 @@ msgstr "Solo una plantilla de cuentas disponible"
 msgid ""
 "Only a draft payment can be posted. Trying to post a payment in state %s."
 msgstr ""
-"Solo un pago en borrador puede ser contabilizado. Está tratando de "
-"contabilizar un pago en estado %s."
+"Sólo se puede publicar un borrador de pagos. Tratando de publicar un pago en"
+" estado %s."
 
 #. module: account
 #: code:addons/account/models/chart_template.py:780
@@ -6971,7 +6969,7 @@ msgstr "Abierto"
 #: code:addons/account/static/src/xml/account_payment.xml:82
 #, python-format
 msgid "Open Payment"
-msgstr "Abrir Pago"
+msgstr "Pago abierto"
 
 #. module: account
 #. openerp-web
@@ -7016,8 +7014,8 @@ msgid ""
 "another selection before proceeding any further."
 msgstr ""
 "Operación no permitida. Solo puedes conciliar entradas que compartan la "
-"mimsa moneda secundaria o que no la tengan. Edita las entradas  al diario o "
-"realiza otra acción antes de proceder."
+"divisa o que no la tengan. Edita las entradas  al diario o realiza otra "
+"acción antes de proceder."
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_account_template_nocreate
@@ -7224,17 +7222,17 @@ msgstr "Empresa asociada"
 #: model:ir.ui.menu,name:account.menu_partner_ledger
 #: model:ir.ui.view,arch_db:account.report_partnerledger
 msgid "Partner Ledger"
-msgstr "Libro de Contacto"
+msgstr "Libro mayor de empresa"
 
 #. module: account
 #: model:ir.actions.act_window,name:account.act_account_partner_ledger_payable
 msgid "Partner Ledger: Payable"
-msgstr "Libro de Contacto: Por Pagar"
+msgstr "Libro Mayor: Por pagar"
 
 #. module: account
 #: model:ir.actions.act_window,name:account.act_account_partner_ledger_receivable
 msgid "Partner Ledger: Receivable"
-msgstr "Libro de Contacto: Por Cobrar"
+msgstr "Libro Mayor: Por Cobrar"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_bank_statement_line_partner_name
@@ -7496,7 +7494,7 @@ msgstr "Porcentaje"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_move_matched_percentage
 msgid "Percentage Matched"
-msgstr "Porcentaje emparejado"
+msgstr "Porcentaje conciliado"
 
 #. module: account
 #: selection:account.tax,amount_type:0
@@ -7514,7 +7512,7 @@ msgstr "Porcentaje sobre el precio, impuestos incluidos"
 #: selection:account.reconcile.model,second_amount_type:0
 #: selection:account.reconcile.model.template,second_amount_type:0
 msgid "Percentage of amount"
-msgstr "Percentaje del Monto"
+msgstr "Percentaje sobre el importe"
 
 #. module: account
 #: selection:account.reconcile.model,amount_type:0
@@ -7602,7 +7600,7 @@ msgstr "Más activos fijos"
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_account_form
 msgid "Plus Net Profit"
-msgstr "Más Beneficio Neto"
+msgstr "Más beneficio neto"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_account_form
@@ -7617,23 +7615,23 @@ msgstr "Más otros ingresos"
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_move_form
 msgid "Post"
-msgstr "Contabilizar"
+msgstr "Publicar"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
 msgid "Post All Entries"
-msgstr "Contabilizar todas las entradas"
+msgstr "Publicar todas las entradas"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_account_payment_invoice_form
 msgid "Post Difference In"
-msgstr "Contabilziar la diferencia en"
+msgstr "Publicar la diferencia en"
 
 #. module: account
 #: model:ir.actions.act_window,name:account.action_validate_account_move
 #: model:ir.ui.view,arch_db:account.validate_account_move_view
 msgid "Post Journal Entries"
-msgstr "Contabilizar asientos"
+msgstr "Publicar asientos"
 
 #. module: account
 #: selection:account.move,state:0 selection:account.payment,state:0
@@ -7641,17 +7639,17 @@ msgstr "Contabilizar asientos"
 #: model:ir.ui.view,arch_db:account.view_account_move_line_filter
 #: model:ir.ui.view,arch_db:account.view_account_payment_search
 msgid "Posted"
-msgstr "Contabilizado"
+msgstr "Publicado"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_account_move_filter
 msgid "Posted Journal Entries"
-msgstr "Asientos Contabilizados"
+msgstr "Asientos publicados"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_account_move_line_filter
 msgid "Posted Journal Items"
-msgstr "Apuntes Contabilizados"
+msgstr "Apuntes contables publicados"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_chart_template_bank_account_code_prefix
@@ -7760,12 +7758,12 @@ msgstr "Beneficio"
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_account_form
 msgid "Profit &amp; Loss"
-msgstr "Ganancias y Pérdidas"
+msgstr "Pérdidas y Ganancias"
 
 #. module: account
 #: model:account.financial.report,name:account.account_financial_report_profitloss_toreport0
 msgid "Profit (Loss) to report"
-msgstr "Ganancia (Pérdida) a reportar"
+msgstr "Beneficio (pérdida) para informe"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_journal_profit_account_id
@@ -7777,7 +7775,7 @@ msgstr "Cuenta de beneficios"
 #: model:ir.actions.act_window,name:account.action_account_report_pl
 #: model:ir.ui.menu,name:account.menu_account_report_pl
 msgid "Profit and Loss"
-msgstr "Ganancias y Pérdidas"
+msgstr "Pérdidas y ganancias"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_account_invoice_filter
@@ -7884,7 +7882,7 @@ msgstr "Motivo..."
 #: model:ir.ui.view,arch_db:account.view_account_move_line_filter
 #: model:ir.ui.view,arch_db:account.view_account_payment_search
 msgid "Receivable"
-msgstr "Por Cobrar"
+msgstr "Por cobrar"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_chart_template_property_account_receivable_id
@@ -8164,17 +8162,17 @@ msgstr "Regular"
 #. module: account
 #: model:ir.model.fields,help:account.field_account_invoice_residual_company_signed
 msgid "Remaining amount due in the currency of the company."
-msgstr "Monto restante adeudado en la moneda de la compañía."
+msgstr "Importe restante debido a la divisa de la compañía."
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_invoice_residual_signed
 msgid "Remaining amount due in the currency of the invoice."
-msgstr "Monto restante adeudado en la moneda de la factura."
+msgstr "Importe restante debido a la divisa de la factura."
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_invoice_residual
 msgid "Remaining amount due."
-msgstr "Monto adeudado."
+msgstr "Importe restante."
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_fiscal_position_tax_template_tax_dest_id
@@ -8229,12 +8227,12 @@ msgstr "Residual"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_move_line_amount_residual
 msgid "Residual Amount"
-msgstr "Monto Residual"
+msgstr "Importe residual"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_move_line_amount_residual_currency
 msgid "Residual Amount in Currency"
-msgstr "Monto Residual en Moneda"
+msgstr "Importe residual en divisa"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_bank_statement_user_id
@@ -8293,7 +8291,7 @@ msgstr "Revisar el Plan contable"
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid "Review the list of available currencies (from the"
-msgstr "Revise la lista de monedas disponibles (desde "
+msgstr "Revisar la lista de divisas disponibles (desde "
 
 #. module: account
 #: selection:res.company,tax_calculation_rounding_method:0
@@ -8425,13 +8423,13 @@ msgstr "Segunda cuenta"
 #: model:ir.model.fields,field_description:account.field_account_reconcile_model_second_amount
 #: model:ir.model.fields,field_description:account.field_account_reconcile_model_template_second_amount
 msgid "Second Amount"
-msgstr "Segundo Monto"
+msgstr "Segundo monto"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_reconcile_model_second_amount_type
 #: model:ir.model.fields,field_description:account.field_account_reconcile_model_template_second_amount_type
 msgid "Second Amount type"
-msgstr "Segundo Tipo Monto"
+msgstr "Segundo tipo de importe"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_reconcile_model_second_analytic_account_id
@@ -8793,7 +8791,7 @@ msgstr "ACTIVOS TOTALES"
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_account_form
 msgid "TOTAL EQUITY"
-msgstr "CAPITAL TOTAL"
+msgstr "EQUIDAD TOTAL"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_account_tag_ids
@@ -8868,7 +8866,7 @@ msgstr "Cuenta de impuestos en devoluciones"
 #. module: account
 #: model:ir.ui.view,arch_db:account.report_journal
 msgid "Tax Amount"
-msgstr "Monto Impuesto"
+msgstr "Importe impuesto"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_account_tax_search
@@ -9232,8 +9230,8 @@ msgid ""
 "The amount expressed in an optional other currency if it is a multi-currency"
 " entry."
 msgstr ""
-"El monto expresado en una moneda alternativa si se trata de un asiento "
-"multi-moneda."
+"La cantidad expresada en una divisa alternativa si se trata de un asiento "
+"multi-divisa."
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_analytic_line_amount_currency
@@ -9242,8 +9240,8 @@ msgid ""
 "The amount expressed in the related account currency if not equal to the "
 "company one."
 msgstr ""
-"El monto expresado en la moneda asociada a la cuenta si es distinta a la de "
-"la compañía."
+"La cantidad expresada en la divisa asociada a la cuenta si es distinta a la "
+"de la compañía."
 
 #. module: account
 #: code:addons/account/models/account_move.py:436
@@ -9252,8 +9250,8 @@ msgid ""
 "The amount expressed in the secondary currency must be positive when account"
 " is debited and negative when account is credited."
 msgstr ""
-"El monto expresado en la moneda secundaria tiene que ser positivo cuando la "
-"cuenta es debitada y negativo cuando la cuenta es acreditada."
+"La cantidad expresada en la divisa secundaria tiene que ser positiva cuando "
+"la cuenta es de débito y negativa cuando la cuenta es de crédito."
 
 #. module: account
 #: code:addons/account/models/account.py:605
@@ -9311,7 +9309,7 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,help:account.field_account_journal_currency_id
 msgid "The currency used to enter statement"
-msgstr "La moneda utilizada para introducir en los estados"
+msgstr "La divisa utilizada para introducir asientos."
 
 #. module: account
 #: model:ir.actions.act_window,help:account.action_invoice_tree1
@@ -9396,8 +9394,8 @@ msgid ""
 "                        in difference currencies, set up foreign bank accounts \n"
 "                        and run reports on your foreign financial activities."
 msgstr ""
-"La opción multi-moneda le permite enviar o recibir facturas\n"
-"en diferentes moneda, configurar cuentas de bancos extranjeros\n"
+"La opción multi-divisa le permite enviar o recibir facturas\n"
+"en diferentes divisas, configurar cuentas de bancos extranjeros\n"
 "y ver informes de sus actividades financieras en el extranjero."
 
 #. module: account
@@ -9409,7 +9407,7 @@ msgstr "El nombre que se utilizará en los apuntes contables"
 #: model:ir.model.fields,help:account.field_account_bank_statement_line_currency_id
 #: model:ir.model.fields,help:account.field_account_move_line_currency_id
 msgid "The optional other currency if it is a multi-currency entry."
-msgstr "La moneda alterna opcional si se trata de un apunte multi-moneda."
+msgstr "La divisa alternativa si se trata de un apunte multi-divisa."
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_move_line_quantity
@@ -9469,15 +9467,15 @@ msgid ""
 "The residual amount on a journal item expressed in its currency (possibly "
 "not the company currency)."
 msgstr ""
-"El monto residual en un apunte de diario expresado en su moneda "
-"(probablemente no la moneda de la compañía)."
+"La cantidad residual en un apunte de diario en esta divisa (probablemente "
+"diferente de la utilizada por la compañía)."
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_move_line_amount_residual
 msgid ""
 "The residual amount on a journal item expressed in the company currency."
 msgstr ""
-"El monto residual en un apunte de diario expresado en la moneda de la "
+"La cantidad residual en un apunte de diario expresada en la divisa de la "
 "compañía."
 
 #. module: account
@@ -9487,8 +9485,8 @@ msgid ""
 "The selected account of your Journal Entry forces to provide a secondary "
 "currency. You should remove the secondary currency on the account."
 msgstr ""
-"La cuenta seleccionada para su Asiento Contable obliga a proveer una moneda "
-"secundaria. Debería remover la moneda secundaria en la cuenta."
+"La cuenta seleccionada de su asiento fuerza a tener una moneda secundaria. "
+"Debería eliminar la moneda secundaria de la cuenta."
 
 #. module: account
 #: code:addons/account/models/account_invoice.py:1325
@@ -9539,7 +9537,7 @@ msgstr ""
 #: code:addons/account/wizard/account_validate_account_move.py:18
 #, python-format
 msgid "There is no journal items in draft state to post."
-msgstr "No hay apuntes de diario en modo borrador por contabilizar."
+msgstr "No hay apuntes de diario en modo borrador por publicar."
 
 #. module: account
 #. openerp-web
@@ -9986,7 +9984,7 @@ msgstr ""
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid "To use the <strong>multi-currency option:</strong>"
-msgstr "Para utilizar <strong>la opción multi-moneda:</strong>"
+msgstr "Para utilizar <strong>la opción multi-divisa:</strong>"
 
 #. module: account
 #. openerp-web
@@ -10003,7 +10001,7 @@ msgstr "Total"
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_move_tree
 msgid "Total Amount"
-msgstr "Monto Total"
+msgstr "Importe total"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_move_form
@@ -10053,35 +10051,36 @@ msgstr "Base total"
 msgid ""
 "Total amount in the currency of the company, negative for credit notes."
 msgstr ""
-"Monto total en la moneda de la compañía, negativo en notas de crédito."
+"Importe total en la divisa de la compañía, negativo en notas de crédito."
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_invoice_amount_total_signed
 msgid ""
 "Total amount in the currency of the invoice, negative for credit notes."
-msgstr "Monto total en la moneda de la factura, negativo en notas de crédito."
+msgstr ""
+"Importe total en la divisa de la factura, negativo en notas de crédito."
 
 #. module: account
 #: model:ir.model.fields,help:account.field_res_partner_credit
 #: model:ir.model.fields,help:account.field_res_users_credit
 msgid "Total amount this customer owes you."
-msgstr "Monto total que le debe el cliente."
+msgstr "Importe total que le debe el cliente."
 
 #. module: account
 #: model:ir.model.fields,help:account.field_res_partner_debit
 #: model:ir.model.fields,help:account.field_res_users_debit
 msgid "Total amount you have to pay to this vendor."
-msgstr "Monto total a pagar a este proveedor."
+msgstr "Importe total a pagar a este proveedor."
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_invoice_amount_total_company_signed
 msgid "Total in Company Currency"
-msgstr "Total en Moneda de la Compañía"
+msgstr "Total en moneda de la compañía"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_invoice_amount_total_signed
 msgid "Total in Invoice Currency"
-msgstr "Total en la Moneda de la Factura"
+msgstr "Total en la divisa de la factura"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_bank_statement_total_entry_encoding
@@ -10145,12 +10144,12 @@ msgstr "Transferencias"
 #: model:ir.actions.report.xml,name:account.action_report_trial_balance
 #: model:ir.ui.menu,name:account.menu_general_Balance_report
 msgid "Trial Balance"
-msgstr "Balance de Comprobación"
+msgstr "Balance de sumas y saldos"
 
 #. module: account
 #: model:ir.model,name:account.model_account_balance_report
 msgid "Trial Balance Report"
-msgstr "Reporte de Balance de Comprobación"
+msgstr "Informe de sumas y saldos"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_account_template_user_type_id
@@ -10170,7 +10169,7 @@ msgstr "Tipo"
 #: code:addons/account/models/chart_template.py:819
 #, python-format
 msgid "Undistributed Profits/Losses"
-msgstr "Ganancias/Pérdidas No Distribuidas"
+msgstr "Pérdidas/ganancias no distribuídas"
 
 #. module: account
 #. openerp-web
@@ -10202,7 +10201,7 @@ msgstr "Empresa desconocida"
 #: model:ir.actions.act_window,name:account.act_account_partner_ledger_payable_no_partner
 #: model:ir.actions.act_window,name:account.act_account_partner_ledger_receivable_no_partner
 msgid "Unknown Partner Ledger"
-msgstr "Libro  de Contacto Desonocido"
+msgstr "Libro mayor de empresa"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
@@ -10223,17 +10222,17 @@ msgstr "Facturas por pagar"
 #: model:ir.ui.view,arch_db:account.view_account_move_filter
 #: model:ir.ui.view,arch_db:account.view_account_move_line_filter
 msgid "Unposted"
-msgstr "Sin Contabilizar"
+msgstr "Sin asentar"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_account_move_filter
 msgid "Unposted Journal Entries"
-msgstr "Asientos No Contabilizados"
+msgstr "Asientos no publicados"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_account_move_line_filter
 msgid "Unposted Journal Items"
-msgstr "Apuntes No Contabilizados"
+msgstr "Apuntes no publicados"
 
 #. module: account
 #. openerp-web
@@ -10266,12 +10265,12 @@ msgstr "Apuntes no conciliados"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_invoice_amount_untaxed
 msgid "Untaxed Amount"
-msgstr "Monto Imponible"
+msgstr "Base imponible"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_invoice_amount_untaxed_signed
 msgid "Untaxed Amount in Company Currency"
-msgstr "Monto Imponible en Moneda Compañía"
+msgstr "Monto sin impuestos"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
@@ -10398,7 +10397,7 @@ msgstr ""
 #: model:ir.model.fields,help:account.field_res_partner_currency_id
 #: model:ir.model.fields,help:account.field_res_users_currency_id
 msgid "Utility field to express amount currency"
-msgstr "Campo utilitario para expresar monto en moneda."
+msgstr "Campo útil para expresar importe en divisa."
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_fiscal_position_vat_required
@@ -10614,7 +10613,7 @@ msgstr "¡Uf, ha sido rápido!"
 #: model:ir.model.fields,field_description:account.field_account_print_journal_amount_currency
 #: model:ir.model.fields,field_description:account.field_account_report_partner_ledger_amount_currency
 msgid "With Currency"
-msgstr "Con Moneda"
+msgstr "Con divisa"
 
 #. module: account
 #: selection:account.balance.report,display_account:0
@@ -10673,7 +10672,7 @@ msgstr "Cuenta de descuadre"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_move_line_reconcile_writeoff
 msgid "Write-Off amount"
-msgstr "Monto en Descuadre"
+msgstr "Importe de descuadre"
 
 #. module: account
 #: sql_constraint:account.move.line:0
@@ -10727,7 +10726,7 @@ msgstr ""
 #: code:addons/account/models/account_payment.py:320
 #, python-format
 msgid "You can not delete a payment that is already posted"
-msgstr "No puede borrar un pago que ya ha sido contabilizado."
+msgstr "No puede borrar un pago que ya ha sido publicado."
 
 #. module: account
 #: code:addons/account/models/account_invoice.py:1360
@@ -10801,8 +10800,8 @@ msgid ""
 "You cannot change the value of the reconciliation on this account as it "
 "already has some moves"
 msgstr ""
-"No puede cambiar el valor de la conciliación en una cuenta que ya contiene "
-"asientos"
+"No puede cambiar al propietario de la compañía en una cuenta que ya contiene"
+" asientos"
 
 #. module: account
 #: code:addons/account/models/account_move.py:418
@@ -10811,8 +10810,8 @@ msgid ""
 "You cannot create journal items with a secondary currency without filling "
 "both 'currency' and 'amount currency' field."
 msgstr ""
-"No puede crear apuntes de diario con una moneda secundaria sin rellenar "
-"antes los campos 'Moneda' y 'Monto en Moneda'."
+"No puede crear apuntes de diario con una divisa secundaria sin rellenar "
+"antes los campos 'divisa' e 'importe divisa'."
 
 #. module: account
 #: code:addons/account/models/account_invoice.py:451
@@ -10849,7 +10848,7 @@ msgid ""
 "You cannot do this modification on a posted journal entry, you can just change some non legal fields. You must revert the journal entry to cancel it.\n"
 "%s."
 msgstr ""
-"No puede hacer esta modificación en un asiento de diario contabilizado, sólo puede cambiar algunos campos no lelgales. Tiene que revertir el asiento de diario para cancelarlo.\n"
+"No puede hacer esta modificación en un asiento de diario publicado, sólo puede cambiar algunos campos no lelgales. Tiene que revertir el asiento de diario para cancelarlo.\n"
 "%s."
 
 #. module: account
@@ -10904,7 +10903,7 @@ msgid ""
 "You cannot modify a posted entry of this journal.\n"
 "First you should set the journal to allow cancelling entries."
 msgstr ""
-"No puede modificar un asiento contabilizado de este diario.\n"
+"No puede modificar un asiento publicado de este diario.\n"
 "Antes tendrá que configurar el diario para que permita cancelar asientos."
 
 #. module: account
@@ -11070,7 +11069,7 @@ msgstr "Tus productos"
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid "Your Trial Balance (list of accounts and their balances)."
-msgstr "Su Balance de Comprobación (lista de cuentas y sus balances)."
+msgstr "Su Balance de comprobación (lista de cuentas y sus saldos)."
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner

@@ -118,7 +118,7 @@ msgstr "Plasser ditt innhold her."
 
 #. module: website_portal
 #: model:ir.ui.view,arch_db:website_portal.contact
-msgid "Salesman"
+msgid "Saleman"
 msgstr ""
 
 #. module: website_portal

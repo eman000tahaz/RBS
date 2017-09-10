@@ -15,7 +15,7 @@ from werkzeug import url_encode, unescape
 from odoo import models, fields, api, _
 from odoo.tools import ustr
 
-URL_REGEX = r'(\bhref=[\'"](?!mailto:|tel:|sms:)([^\'"]+)[\'"])'
+URL_REGEX = r'(\bhref=[\'"](?!mailto:)([^\'"]+)[\'"])'
 
 def VALIDATE_URL(url):
     if urlparse(url).scheme not in ('http', 'https', 'ftp', 'ftps'):

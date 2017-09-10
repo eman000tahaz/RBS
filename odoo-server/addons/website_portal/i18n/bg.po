@@ -116,8 +116,8 @@ msgstr "Поставате вашето съдържание тук."
 
 #. module: website_portal
 #: model:ir.ui.view,arch_db:website_portal.contact
-msgid "Salesman"
-msgstr ""
+msgid "Saleman"
+msgstr "Продавач"
 
 #. module: website_portal
 #: code:addons/website_portal/controllers/main.py:120

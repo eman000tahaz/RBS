@@ -862,7 +862,7 @@ msgstr ""
 #. module: account
 #: model:ir.ui.view,arch_db:account.report_agedpartnerbalance
 msgid "<strong>Partner's:</strong>"
-msgstr "Relaties.:</strong>"
+msgstr "<strong>Partners.:</strong>"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.report_agedpartnerbalance
@@ -1664,7 +1664,7 @@ msgstr "Beïnvloed opvolgende BTW"
 #: model:ir.ui.view,arch_db:account.account_aged_balance_view
 #: model:ir.ui.view,arch_db:account.report_agedpartnerbalance
 msgid "Aged Partner Balance"
-msgstr "Ouderdom per relatie"
+msgstr "Ouderdomsanalyse per relatie"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_aged_balance_view
@@ -3291,7 +3291,7 @@ msgstr "Landengroep"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_invoice_report_country_id
 msgid "Country of the Partner Company"
-msgstr "Land van relatie"
+msgstr "Land van partner bedrijf"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
@@ -7088,7 +7088,7 @@ msgstr "Widget voor debet/credit"
 #: code:addons/account/models/account_invoice.py:119
 #, python-format
 msgid "Outstanding debits"
-msgstr "Openstaande debet bedragen"
+msgstr "Uitstaande uitgaven"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_account_invoice_filter
@@ -7505,7 +7505,7 @@ msgstr "Percentage van aantal"
 #: selection:account.reconcile.model,amount_type:0
 #: selection:account.reconcile.model.template,amount_type:0
 msgid "Percentage of balance"
-msgstr "Percentage van saldo"
+msgstr "Percentage van balans"
 
 #. module: account
 #: code:addons/account/models/account_invoice.py:1470
@@ -11199,7 +11199,7 @@ msgstr "of"
 #. module: account
 #: model:ir.ui.view,arch_db:account.invoice_supplier_form
 msgid "outstanding debits"
-msgstr "openstaande debet bedragen"
+msgstr "uitstaande uitgaven"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.invoice_form

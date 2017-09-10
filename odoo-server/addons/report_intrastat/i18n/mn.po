@@ -31,17 +31,12 @@ msgstr "<strong>Cэтгэгдэл:</strong>"
 #. module: report_intrastat
 #: model:ir.ui.view,arch_db:report_intrastat.report_intrastatinvoice_document
 msgid "<strong>Document:</strong>"
-msgstr "<strong>Баримт:</strong>"
-
-#. module: report_intrastat
-#: model:ir.ui.view,arch_db:report_intrastat.report_intrastatinvoice_document
-msgid "<strong>Fiscal Position Remark:</strong>"
-msgstr "<strong> Санхүүгийн Харгалзааны Тэмдэглэл:</strong>"
+msgstr ""
 
 #. module: report_intrastat
 #: model:ir.ui.view,arch_db:report_intrastat.report_intrastatinvoice_document
 msgid "<strong>Fiscal Position:</strong>"
-msgstr "<strong> Санхүүгийн Харгалзаа:</strong>"
+msgstr ""
 
 #. module: report_intrastat
 #: model:ir.ui.view,arch_db:report_intrastat.report_intrastatinvoice_document
@@ -51,7 +46,7 @@ msgstr "<strong>Нэхэмжилсэн огноо:</strong>"
 #. module: report_intrastat
 #: model:ir.ui.view,arch_db:report_intrastat.report_intrastatinvoice_document
 msgid "<strong>Partner Ref.:</strong>"
-msgstr "<strong>Түншийн Лавл.:</strong>"
+msgstr ""
 
 #. module: report_intrastat
 #: model:ir.ui.view,arch_db:report_intrastat.report_intrastatinvoice_document
@@ -158,25 +153,25 @@ msgstr "Импортлох"
 #: model:ir.ui.menu,name:report_intrastat.menu_report_intrastat_all
 #: model:ir.ui.view,arch_db:report_intrastat.report_intrastatinvoice_document
 msgid "Intrastat"
-msgstr "Intrastat"
+msgstr ""
 
 #. module: report_intrastat
 #: model:ir.actions.act_window,name:report_intrastat.action_report_intrastat_code_tree
 #: model:ir.ui.menu,name:report_intrastat.menu_report_intrastat_code
 #: model:ir.ui.view,arch_db:report_intrastat.view_report_intrastat_code_form
 msgid "Intrastat Code"
-msgstr "Intrastat Код"
+msgstr ""
 
 #. module: report_intrastat
 #: model:ir.ui.view,arch_db:report_intrastat.view_report_intrastat_search
 #: model:ir.ui.view,arch_db:report_intrastat.view_report_intrastat_tree
 msgid "Intrastat Data"
-msgstr "Intrastat Өгөгдөл"
+msgstr ""
 
 #. module: report_intrastat
 #: model:ir.actions.report.xml,name:report_intrastat.account_intrastatinvoices
 msgid "Intrastat Invoices"
-msgstr "Intrastat Нэхэмжлэлүүд"
+msgstr ""
 
 #. module: report_intrastat
 #: model:ir.model,name:report_intrastat.model_report_intrastat_code
@@ -189,12 +184,12 @@ msgstr "Дотоод статистик код"
 #. module: report_intrastat
 #: model:ir.model.fields,field_description:report_intrastat.field_res_country_intrastat
 msgid "Intrastat member"
-msgstr "Intrastat гишүүн"
+msgstr ""
 
 #. module: report_intrastat
 #: model:ir.model,name:report_intrastat.model_report_intrastat
 msgid "Intrastat report"
-msgstr "Intrastat тайлан"
+msgstr ""
 
 #. module: report_intrastat
 #: model:ir.ui.view,arch_db:report_intrastat.report_intrastatinvoice_document
@@ -274,12 +269,12 @@ msgstr "9-р сар"
 #. module: report_intrastat
 #: model:ir.model.fields,field_description:report_intrastat.field_report_intrastat_ref
 msgid "Source document"
-msgstr "Эх баримт"
+msgstr ""
 
 #. module: report_intrastat
 #: model:ir.model.fields,field_description:report_intrastat.field_report_intrastat_supply_units
 msgid "Supply Units"
-msgstr "Хангамжийн нэгжүүд"
+msgstr ""
 
 #. module: report_intrastat
 #: model:ir.ui.view,arch_db:report_intrastat.report_intrastatinvoice_document
@@ -304,7 +299,7 @@ msgstr "Нэгж үнэ"
 #. module: report_intrastat
 #: model:ir.ui.view,arch_db:report_intrastat.report_intrastatinvoice_document
 msgid "Unit of measure"
-msgstr "Хэмжих нэгж"
+msgstr ""
 
 #. module: report_intrastat
 #: model:ir.model.fields,field_description:report_intrastat.field_report_intrastat_value

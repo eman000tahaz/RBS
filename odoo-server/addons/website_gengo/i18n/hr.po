@@ -139,7 +139,7 @@ msgstr ""
 #: code:addons/website_gengo/static/src/xml/website.gengo.xml:96
 #, python-format
 msgid "Gengo Dashboard"
-msgstr "Gengo nadzorna ploča"
+msgstr "Gengo kontrolna ploča"
 
 #. module: website_gengo
 #. openerp-web

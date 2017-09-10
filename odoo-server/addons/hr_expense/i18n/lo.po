@@ -2,15 +2,12 @@
 # This file contains the translation of the following modules:
 # * hr_expense
 # 
-# Translators:
-# ສີສຸວັນ ສັງບົວບຸລົມ <sisouvan@gmail.com>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-23 13:27+0000\n"
 "PO-Revision-Date: 2017-06-23 13:27+0000\n"
-"Last-Translator: ສີສຸວັນ ສັງບົວບຸລົມ <sisouvan@gmail.com>, 2017\n"
 "Language-Team: Lao (https://www.transifex.com/odoo/teams/41243/lo/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -72,7 +69,7 @@ msgstr ""
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.report_expense_sheet
 msgid "<strong>Date:</strong>"
-msgstr "<strong>ວັນທີ:</strong>"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.report_expense_sheet
@@ -153,7 +150,7 @@ msgstr ""
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_config_settings_alias_domain
 msgid "Alias Domain"
-msgstr "ໂດເມນສຳຮອງ"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.actions.act_window,name:hr_expense.action_hr_expense_sheet_all_all
@@ -171,11 +168,6 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_analytic_account_id
 #: model:ir.ui.view,arch_db:hr_expense.view_hr_expense_filter
 msgid "Analytic Account"
-msgstr "ບັນຊີວິເຄາະ"
-
-#. module: hr_expense
-#: model:ir.model.fields,help:hr_expense.field_hr_expense_account_id
-msgid "An expense account is expected"
 msgstr ""
 
 #. module: hr_expense
@@ -220,7 +212,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_register_payment_view_form
 #: model:ir.ui.view,arch_db:hr_expense.view_hr_expense_configuration
 msgid "Cancel"
-msgstr "ຍົກເລີກ"
+msgstr ""
 
 #. module: hr_expense
 #: model:product.product,name:hr_expense.car_travel
@@ -277,7 +269,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:hr_expense.view_hr_expense_filter
 #: model:ir.ui.view,arch_db:hr_expense.view_hr_expense_sheet_filter
 msgid "Company"
-msgstr "ບໍລິສັດ"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.model.fields,help:hr_expense.field_hr_expense_register_payment_wizard_company_id
@@ -287,7 +279,7 @@ msgstr ""
 #. module: hr_expense
 #: model:ir.ui.menu,name:hr_expense.menu_hr_expense_configuration
 msgid "Configuration"
-msgstr "ການກຳນົດຄ່າ"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.actions.act_window,name:hr_expense.action_hr_expense_configuration
@@ -303,7 +295,7 @@ msgstr ""
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
 msgid "Congratulations, you're done!"
-msgstr "ຊົມເຊີຍ! ທ່ານເຮັດສຳເລັດແລ້ວ!"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.actions.act_window,help:hr_expense.hr_expense_actions_all
@@ -317,7 +309,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_register_payment_wizard_create_uid
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet_create_uid
 msgid "Created by"
-msgstr "ສ້າງ ໂດຍ"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_config_settings_create_date
@@ -326,20 +318,20 @@ msgstr "ສ້າງ ໂດຍ"
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_register_payment_wizard_create_date
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet_create_date
 msgid "Created on"
-msgstr "ສ້າງ ເມື່ອ"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_currency_id
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_register_payment_wizard_currency_id
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet_currency_id
 msgid "Currency"
-msgstr "ສະກຸນເງິນ"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_date
 #: model:ir.ui.view,arch_db:hr_expense.report_expense_sheet
 msgid "Date"
-msgstr "ວັນທີ"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_config_settings_alias_prefix
@@ -355,7 +347,7 @@ msgstr ""
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_description
 msgid "Description"
-msgstr "ຄຳອະທິບາຍ"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_config_settings_display_name
@@ -364,7 +356,7 @@ msgstr "ຄຳອະທິບາຍ"
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_register_payment_wizard_display_name
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet_display_name
 msgid "Display Name"
-msgstr "ຊື່ທີ່ສະແດງອອກ"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_form_view
@@ -375,7 +367,7 @@ msgstr ""
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
 msgid "Don't hesitate to"
-msgstr "ກະລຸນາຢ່າລັງເລໃຈ ທີ່ຈະ"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_register_payment_view_form
@@ -403,7 +395,7 @@ msgstr ""
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
 msgid "End"
-msgstr "ສິ້ນສຸດ"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.model,name:hr_expense.model_hr_expense
@@ -644,7 +636,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:hr_expense.view_hr_expense_filter
 #: model:ir.ui.view,arch_db:hr_expense.view_hr_expense_sheet_filter
 msgid "Group By"
-msgstr "ຈັດກຸ່ມ ໂດຍ"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
@@ -684,7 +676,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_register_payment_wizard_id
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet_id_8893
 msgid "ID"
-msgstr "ເລກລຳດັບ"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet_account_move_id
@@ -703,7 +695,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_register_payment_wizard___last_update
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet___last_update
 msgid "Last Modified on"
-msgstr "ແກ້ໄຂລ້າສຸດ ເມື່ອ"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_config_settings_write_uid
@@ -712,7 +704,7 @@ msgstr "ແກ້ໄຂລ້າສຸດ ເມື່ອ"
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet_write_uid
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_write_uid
 msgid "Last Updated by"
-msgstr "ປັບປຸງລ້າສຸດ ໂດຍ"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_config_settings_write_date
@@ -721,7 +713,7 @@ msgstr "ປັບປຸງລ້າສຸດ ໂດຍ"
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet_write_date
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_write_date
 msgid "Last Updated on"
-msgstr "ປັບປຸງລ້າສຸດ ເມື່ອ"
+msgstr ""
 
 #. module: hr_expense
 #: model:res.groups,name:hr_expense.group_hr_expense_manager
@@ -770,7 +762,7 @@ msgstr ""
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.report_expense_sheet
 msgid "Name"
-msgstr "ຊື່"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.view_hr_expense_filter
@@ -865,7 +857,7 @@ msgstr ""
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_register_payment_wizard_partner_id
 msgid "Partner"
-msgstr "ພາຄີ"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_register_payment_wizard_amount
@@ -903,7 +895,7 @@ msgstr ""
 #. module: hr_expense
 #: model:ir.model,name:hr_expense.model_web_planner
 msgid "Planner"
-msgstr "ຜູ້​ວາງ​ແຜນ"
+msgstr ""
 
 #. module: hr_expense
 #: code:addons/hr_expense/models/hr_expense.py:255
@@ -932,7 +924,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_product_id
 #: model:ir.ui.view,arch_db:hr_expense.view_hr_expense_filter
 msgid "Product"
-msgstr "ຜະລິດຕະພັນ"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.product_product_expense_form_view
@@ -942,7 +934,7 @@ msgstr ""
 #. module: hr_expense
 #: model:ir.model,name:hr_expense.model_product_template
 msgid "Product Template"
-msgstr "ຮ່າງແບບຜະລິດຕະພັນ"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.report_expense_sheet
@@ -1072,7 +1064,7 @@ msgstr ""
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.view_hr_expense_configuration
 msgid "Setup your domain alias"
-msgstr "ຕິດຕັ້ງ ຊື່ແທນໃຫ້ກັບໂດເມນຂອງທ່ານ"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.model.fields,help:hr_expense.field_product_product_can_be_expensed
@@ -1083,7 +1075,7 @@ msgstr ""
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.view_hr_expense_sheet_filter
 msgid "State"
-msgstr "ແຂວງ"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet_state
@@ -1398,7 +1390,7 @@ msgstr ""
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_refuse_wizard_view_form
 msgid "or"
-msgstr "ຫຼື"
+msgstr ""
 
 #. module: hr_expense
 #: code:addons/hr_expense/models/hr_expense.py:305
@@ -1409,9 +1401,9 @@ msgstr ""
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
 msgid "send us an email"
-msgstr "ສົ່ງ ອີເມວລ໌ ຫາ ພວກເຮົາ"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
 msgid "to describe<br/> your experience or to suggest improvements!"
-msgstr "ເພື່ອອະທິບາຍ<br/> ປະສົບການຂອງທ່ານ ຫຼື ແນະນຳການປັບປຸງແກ້ໄຂ!"
+msgstr ""

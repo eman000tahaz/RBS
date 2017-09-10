@@ -103,7 +103,7 @@ msgstr ""
 #. module: rating_project
 #: model:mail.template,subject:rating_project.rating_project_request_email_template
 msgid "${object.project_id.company_id.name}: Service Rating Request"
-msgstr "${object.project_id.company_id.name}: Hizmet Değerlendirme Talebi"
+msgstr ""
 
 #. module: rating_project
 #: model:ir.ui.view,arch_db:rating_project.view_project_project_rating_form
@@ -113,7 +113,7 @@ msgstr ""
 #. module: rating_project
 #: model:ir.model.fields,field_description:rating_project.field_project_task_type_auto_validation_kanban_state
 msgid "Automatic kanban status"
-msgstr "Otomatik Kanban Durumu"
+msgstr ""
 
 #. module: rating_project
 #: model:ir.model.fields,help:rating_project.field_project_task_type_auto_validation_kanban_state
@@ -137,8 +137,6 @@ msgid ""
 "Customer ratings on tasks. If you have no rating, change your project "
 "Settings to activate it."
 msgstr ""
-"Görevlerdeki müşteri değerlendirmeleri. Değerlendirme yoksa, etkinleştirmek "
-"için proje ayarlarınızı değiştirin."
 
 #. module: rating_project
 #: model:ir.actions.act_window,help:rating_project.rating_rating_action_project
@@ -146,13 +144,11 @@ msgid ""
 "Customer ratings on tasks/issues. If you have no rating, change your project"
 " Settings to activate it."
 msgstr ""
-"Görev ve olay kayıtlarındaki müşteri değerlendirmeleri. Değerlendirme yoksa,"
-" etkinleştirmek için proje ayarlarınızı değiştirin."
 
 #. module: rating_project
 #: model:ir.model.fields,field_description:rating_project.field_project_project_rating_status
 msgid "Customer(s) Ratings"
-msgstr "Müşteri Değerlendirmeleri"
+msgstr ""
 
 #. module: rating_project
 #: selection:project.project,rating_status_period:0
@@ -204,17 +200,17 @@ msgstr "Son Değerlendirme: Memnun"
 #. module: rating_project
 #: selection:project.project,rating_status:0
 msgid "No rating"
-msgstr "Değerlendirme Yok"
+msgstr ""
 
 #. module: rating_project
 #: model:ir.ui.view,arch_db:rating_project.view_project_project_rating_kanban
 msgid "No rating yet"
-msgstr "Henüz Değerlendirme Yok"
+msgstr ""
 
 #. module: rating_project
 #: selection:project.project,rating_status_period:0
 msgid "Once a Month"
-msgstr "Ayda Bir"
+msgstr ""
 
 #. module: rating_project
 #: model:ir.ui.view,arch_db:rating_project.view_project_project_rating_kanban
@@ -226,7 +222,7 @@ msgstr ""
 #. module: rating_project
 #: selection:project.project,rating_status:0
 msgid "Periodical Rating"
-msgstr "Periyodik Değerlendirme"
+msgstr ""
 
 #. module: rating_project
 #: model:ir.model,name:rating_project.model_project_project
@@ -246,12 +242,12 @@ msgstr "Derecelendirme"
 #. module: rating_project
 #: model:ir.model.fields,field_description:rating_project.field_project_task_type_rating_template_id
 msgid "Rating Email Template"
-msgstr "Değerlendirme E-posta Şablonu"
+msgstr ""
 
 #. module: rating_project
 #: model:ir.model.fields,field_description:rating_project.field_project_project_rating_status_period
 msgid "Rating Frequency"
-msgstr "Rating Frekansı"
+msgstr ""
 
 #. module: rating_project
 #: model:ir.model.fields,field_description:rating_project.field_project_project_rating_request_deadline
@@ -261,7 +257,7 @@ msgstr ""
 #. module: rating_project
 #: selection:project.project,rating_status:0
 msgid "Rating when changing stage"
-msgstr "Aşama değişirken değerlendirme yapın"
+msgstr ""
 
 #. module: rating_project
 #: model:mail.message.subtype,description:rating_project.mt_task_rating
@@ -284,7 +280,7 @@ msgstr "Görevler"
 #: model:mail.message.subtype,name:rating_project.mt_project_task_rating
 #: model:mail.message.subtype,name:rating_project.mt_task_rating
 msgid "Task Rating"
-msgstr "Görev Değerlendirme"
+msgstr ""
 
 #. module: rating_project
 #: model:ir.model,name:rating_project.model_project_task_type
@@ -294,7 +290,7 @@ msgstr "Görev Aşama"
 #. module: rating_project
 #: selection:project.project,rating_status_period:0
 msgid "Twice a Month"
-msgstr "Ayda 2 Kez"
+msgstr ""
 
 #. module: rating_project
 #: selection:project.project,rating_status_period:0

@@ -26,7 +26,7 @@ msgstr ""
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.portal_my_invoices
 msgid "<i class=\"fa fa-arrow-circle-right\"/> Pay Now"
-msgstr "<i class=\"fa fa-arrow-circle-right\"/> Одоо төлөх"
+msgstr ""
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.portal_my_orders
@@ -34,8 +34,6 @@ msgid ""
 "<span class=\"label label-danger\"><i class=\"fa fa-fw fa-warning\"/> "
 "Problem</span>"
 msgstr ""
-"<span class=\"label label-danger\"><i class=\"fa fa-fw fa-warning\"/> "
-"Асуудал</span>"
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.portal_my_orders
@@ -43,8 +41,6 @@ msgid ""
 "<span class=\"label label-default\"><i class=\"fa fa-fw fa-check\"/> "
 "Done</span>"
 msgstr ""
-"<span class=\"label label-default\"><i class=\"fa fa-fw fa-check\"/> "
-"Хийгдсэн</span>"
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.portal_my_invoices
@@ -52,8 +48,6 @@ msgid ""
 "<span class=\"label label-default\"><i class=\"fa fa-fw fa-check\"/> "
 "Paid</span>"
 msgstr ""
-"<span class=\"label label-default\"><i class=\"fa fa-fw fa-check\"/> "
-"Төлсөн</span>"
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.portal_my_quotations
@@ -61,8 +55,6 @@ msgid ""
 "<span class=\"label label-default\"><i class=\"fa fa-fw fa-clock-o\"/> "
 "Expired</span>"
 msgstr ""
-"<span class=\"label label-default\"><i class=\"fa fa-fw fa-clock-o\"/> "
-"Хугацаа дууссан</span>"
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.portal_my_invoices
@@ -71,8 +63,6 @@ msgid ""
 "<span class=\"label label-default\"><i class=\"fa fa-fw fa-remove\"/> "
 "Cancelled</span>"
 msgstr ""
-"<span class=\"label label-default\"><i class=\"fa fa-fw fa-remove\"/> "
-"Цуцласан</span>"
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.orders_followup
@@ -80,8 +70,6 @@ msgid ""
 "<span class=\"label label-info orders_label_text_align\"><i class=\"fa fa-fw"
 " fa-clock-o\"/> Waiting</span>"
 msgstr ""
-"<span class=\"label label-info orders_label_text_align\"><i class=\"fa fa-fw"
-" fa-clock-o\"/> Хүлээж буй</span>"
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.portal_my_orders
@@ -89,8 +77,6 @@ msgid ""
 "<span class=\"label label-info\"><i class=\"fa fa-fw fa-clock-o\"/> "
 "Invoiced</span>"
 msgstr ""
-"<span class=\"label label-info\"><i class=\"fa fa-fw fa-clock-o\"/> "
-"Нэхэмжилсэн</span>"
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.portal_my_invoices
@@ -98,8 +84,6 @@ msgid ""
 "<span class=\"label label-info\"><i class=\"fa fa-fw fa-clock-o\"/> Waiting "
 "for Payment</span>"
 msgstr ""
-"<span class=\"label label-info\"><i class=\"fa fa-fw fa-clock-o\"/> "
-"Төлбөрийг хүлээж байна</span>"
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.orders_followup
@@ -107,13 +91,11 @@ msgid ""
 "<span class=\"label label-success orders_label_text_align\"><i class=\"fa "
 "fa-fw fa-check\"/> Paid</span>"
 msgstr ""
-"<span class=\"label label-success orders_label_text_align\"><i class=\"fa "
-"fa-fw fa-check\"/> Төлсөн</span>"
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.orders_followup
 msgid "<strong>Contact</strong>"
-msgstr "<strong>Холбогч</strong>"
+msgstr ""
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.orders_followup
@@ -123,12 +105,12 @@ msgstr "<strong>Огноо:</strong>"
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.orders_followup
 msgid "<strong>Invoices</strong>"
-msgstr "<strong>Нэхэмжлэлүүд</strong>"
+msgstr ""
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.orders_followup
 msgid "<strong>Invoicing Address</strong>"
-msgstr "<strong>Нэхэмжлэх Хаяг</strong>"
+msgstr ""
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.orders_followup
@@ -143,7 +125,7 @@ msgstr "<strong>Тоо хэмжээ</strong>"
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.orders_followup
 msgid "<strong>Shipping Address</strong>"
-msgstr "<strong>Хүргэх Хаяг</strong>"
+msgstr ""
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.orders_followup
@@ -172,8 +154,6 @@ msgid ""
 "Changing VAT number is not allowed once invoices have been issued for your "
 "account. Please contact us directly for this operation."
 msgstr ""
-"Нэхэмжлэлүүдийг таны данс руу илгээсний дараа та НӨАТ -н дугаарыг өөрчлөх "
-"боломжгүй. Үүний тулд бидэнтэй шууд холбогдоно уу."
 
 #. module: website_portal_sale
 #: code:addons/website_portal_sale/controllers/main.py:184
@@ -182,8 +162,6 @@ msgid ""
 "Changing your name is not allowed once invoices have been issued for your "
 "account. Please contact us directly for this operation."
 msgstr ""
-"Нэхэмжлэлүүдийг таны данс руу илгээсний дараа та нэрээ өөрчлөх боломжгүй. "
-"Үүний тулд бидэнтэй шууд холбогдоно уу."
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.portal_my_invoices
@@ -198,7 +176,7 @@ msgstr "Нэхэмжлэл"
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.portal_my_invoices
 msgid "Invoice #"
-msgstr "Нэхэмжлэл #"
+msgstr ""
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.portal_my_invoices
@@ -218,7 +196,7 @@ msgstr "Миний захиалга"
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.orders_followup
 msgid "My Quotes"
-msgstr "Миний Үнийн саналууд"
+msgstr ""
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.orders_followup
@@ -258,7 +236,7 @@ msgstr "Үнийн саналын #"
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.portal_my_home_menu_sale
 msgid "Quotes"
-msgstr "Үнийн саналууд"
+msgstr ""
 
 #. module: website_portal_sale
 #: model:ir.model.fields,field_description:website_portal_sale.field_payment_transaction_sale_order_id
@@ -268,7 +246,7 @@ msgstr "Борлуулах захиалга"
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.portal_my_orders
 msgid "Sale Order #"
-msgstr "Борлуулалтын захиалга #"
+msgstr ""
 
 #. module: website_portal_sale
 #: model:ir.model,name:website_portal_sale.model_sale_order
@@ -284,19 +262,19 @@ msgstr "Татвар:"
 #: model:ir.ui.view,arch_db:website_portal_sale.portal_my_home_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.portal_my_invoices
 msgid "There are currently no invoices for your account."
-msgstr "Одоогоор таны бүртгэлд нэхэмжлэл алга."
+msgstr ""
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.portal_my_home_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.portal_my_orders
 msgid "There are currently no orders for your account."
-msgstr "Одоогоор таны бүртгэлд захиалга алга."
+msgstr ""
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.portal_my_home_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.portal_my_quotations
 msgid "There are currently no quotes for your account."
-msgstr "Одоогоор таны бүртгэлд үнийн санал алга."
+msgstr ""
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.portal_my_orders
@@ -307,7 +285,7 @@ msgstr "Дүн"
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.orders_followup
 msgid "Untaxed Amount:"
-msgstr "Татваргүй дүн:"
+msgstr ""
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.portal_my_quotations
@@ -318,7 +296,7 @@ msgstr "Хүртэл хүчинтэй"
 #: model:ir.ui.view,arch_db:website_portal_sale.portal_my_home_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.portal_my_invoices
 msgid "Your Invoices and Payments"
-msgstr "Таны Нэхэмжлэл ба Төлбөрүүд"
+msgstr ""
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.portal_my_home_sale
@@ -330,4 +308,4 @@ msgstr "Таны захиалгууд"
 #: model:ir.ui.view,arch_db:website_portal_sale.portal_my_home_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.portal_my_quotations
 msgid "Your Quotes"
-msgstr "Таны Үнийн саналууд"
+msgstr ""

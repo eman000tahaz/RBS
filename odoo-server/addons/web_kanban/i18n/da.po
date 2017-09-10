@@ -4,14 +4,13 @@
 # 
 # Translators:
 # Martin Trigaux <mat@odoo.com>, 2016
-# Sanne Kristensen <sanne@vkdata.dk>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-23 13:28+0000\n"
 "PO-Revision-Date: 2017-06-23 13:28+0000\n"
-"Last-Translator: Sanne Kristensen <sanne@vkdata.dk>, 2016\n"
+"Last-Translator: Martin Trigaux <mat@odoo.com>, 2016\n"
 "Language-Team: Danish (https://www.transifex.com/odoo/teams/41243/da/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -25,7 +24,7 @@ msgstr ""
 #: code:addons/web_kanban/static/src/js/kanban_column.js:178
 #, python-format
 msgid " records"
-msgstr "poster"
+msgstr ""
 
 #. module: web_kanban
 #. openerp-web
@@ -42,7 +41,7 @@ msgstr "Tilføj"
 #: code:addons/web_kanban/static/src/xml/web_kanban.xml:48
 #, python-format
 msgid "Add new Column"
-msgstr "Tilføj ny kolonne"
+msgstr ""
 
 #. module: web_kanban
 #. openerp-web
@@ -56,14 +55,14 @@ msgstr "Tilføj: "
 #: code:addons/web_kanban/static/src/xml/web_kanban.xml:25
 #, python-format
 msgid "Archive Records"
-msgstr "Arkivér post"
+msgstr ""
 
 #. module: web_kanban
 #. openerp-web
 #: code:addons/web_kanban/static/src/js/kanban_column.js:222
 #, python-format
 msgid "Are you sure that you want to remove this column ?"
-msgstr "Er du sikker på, at du vil fjerne denne kolonne?"
+msgstr ""
 
 #. module: web_kanban
 #. openerp-web
@@ -84,7 +83,7 @@ msgstr "Annuller"
 #: code:addons/web_kanban/static/src/js/kanban_view.js:725
 #, python-format
 msgid "Create"
-msgstr "Opret"
+msgstr ""
 
 #. module: web_kanban
 #. openerp-web
@@ -106,21 +105,21 @@ msgstr "Slet"
 #: code:addons/web_kanban/static/src/xml/web_kanban.xml:66
 #, python-format
 msgid "Discard"
-msgstr "Kassér"
+msgstr "Kasser"
 
 #. module: web_kanban
 #. openerp-web
 #: code:addons/web_kanban/static/src/js/kanban_column.js:224
 #, python-format
 msgid "Edit Column"
-msgstr "Redigér kolonne"
+msgstr ""
 
 #. module: web_kanban
 #. openerp-web
 #: code:addons/web_kanban/static/src/xml/web_kanban.xml:21
 #, python-format
 msgid "Edit Stage"
-msgstr "Redigér fase"
+msgstr ""
 
 #. module: web_kanban
 #. openerp-web
@@ -141,7 +140,7 @@ msgstr "Kanban"
 #: code:addons/web_kanban/static/src/xml/web_kanban.xml:41
 #, python-format
 msgid "Load more... ("
-msgstr "Indlæs mere ... ("
+msgstr ""
 
 #. module: web_kanban
 #. openerp-web
@@ -162,7 +161,7 @@ msgstr "Åbn: "
 #: code:addons/web_kanban/static/src/xml/web_kanban.xml:26
 #, python-format
 msgid "Unarchive Records"
-msgstr "Annuller arkivering af poster"
+msgstr ""
 
 #. module: web_kanban
 #. openerp-web

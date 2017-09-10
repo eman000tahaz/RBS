@@ -438,8 +438,7 @@ class IrModelFields(models.Model):
             if field.state == 'manual' and field.ttype == 'many2many':
                 rel_name = field.relation_table or model._fields[field.name].relation
                 tables_to_drop.add(rel_name)
-            if field.state == 'manual':
-                model._pop_field(field.name)
+            model._pop_field(field.name)
 
         if tables_to_drop:
             # drop the relation tables that are not used by other fields
@@ -1318,9 +1317,7 @@ class IrModelData(models.Model):
                 if model == 'ir.model.fields':
                     # Don't remove the LOG_ACCESS_COLUMNS unless _log_access
                     # has been turned off on the model.
-                    field = self.env[model].browse(res_id).with_context(
-                        prefetch_fields=False,
-                    )
+                    field = self.env[model].browse(res_id)
                     if not field.exists():
                         _logger.info('Deleting orphan external_ids %s', external_ids)
                         external_ids.unlink()

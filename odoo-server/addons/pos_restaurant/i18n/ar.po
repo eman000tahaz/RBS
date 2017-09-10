@@ -8,7 +8,6 @@
 # hoxhe Aits <hoxhe0@gmail.com>, 2016
 # Osama Ahmaro <osamaahmaro@gmail.com>, 2016
 # Fahad Alqahtani <fahad@cloudland.sa>, 2016
-# Yihya Hugirat <hugirat@gmail.com>, 2016
 # amrnegm <amrnegm.01@gmail.com>, 2016
 # Ali zuaby <ali@zuaby.net>, 2016
 # Shaima Safar <shaima.safar@open-inside.com>, 2017
@@ -50,7 +49,7 @@ msgstr "نشط"
 #: code:addons/pos_restaurant/static/src/js/notes.js:54
 #, python-format
 msgid "Add Note"
-msgstr "أضف ملاحظة"
+msgstr ""
 
 #. module: pos_restaurant
 #: model:ir.model.fields,help:pos_restaurant.field_pos_config_iface_orderline_notes
@@ -65,7 +64,7 @@ msgstr "السماح بطباعة الفاتورة قبل سدادها"
 #. module: pos_restaurant
 #: model:ir.model.fields,help:pos_restaurant.field_restaurant_table_name
 msgid "An internal identification of a table"
-msgstr "معرف داخلي للطاولة"
+msgstr ""
 
 #. module: pos_restaurant
 #: model:ir.model.fields,help:pos_restaurant.field_restaurant_printer_name
@@ -75,19 +74,19 @@ msgstr "معرف داخلي للطابعة"
 #. module: pos_restaurant
 #: model:ir.model.fields,help:pos_restaurant.field_restaurant_floor_name
 msgid "An internal identification of the restaurant floor"
-msgstr "معرف داخلي للمطعم"
+msgstr ""
 
 #. module: pos_restaurant
 #: model:ir.ui.view,arch_db:pos_restaurant.view_restaurant_table_form
 msgid "Appearance"
-msgstr "مظهر"
+msgstr ""
 
 #. module: pos_restaurant
 #. openerp-web
 #: code:addons/pos_restaurant/static/src/js/floors.js:550
 #, python-format
 msgid "Are you sure ?"
-msgstr "هل أنت متأكد؟"
+msgstr ""
 
 #. module: pos_restaurant
 #. openerp-web
@@ -149,17 +148,17 @@ msgstr "ملغى"
 #: code:addons/pos_restaurant/static/src/js/floors.js:411
 #, python-format
 msgid "Changes could not be saved"
-msgstr "تعذر حفظ التغييرات"
+msgstr ""
 
 #. module: pos_restaurant
 #: model:ir.actions.act_window,help:pos_restaurant.action_restaurant_floor_form
 msgid "Click to add a Restaurant Floor."
-msgstr "أنقر لإضافة طابق مطعم"
+msgstr ""
 
 #. module: pos_restaurant
 #: model:ir.actions.act_window,help:pos_restaurant.action_restaurant_printer_form
 msgid "Click to add a Restaurant Order Printer."
-msgstr "أنقر لإضافة طابعة طلبات للمطعم"
+msgstr ""
 
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_table_color
@@ -218,18 +217,18 @@ msgstr "السماح بتقسيم الفاتورة في نقاط البيع"
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_table_floor_id
 msgid "Floor"
-msgstr "طابق"
+msgstr ""
 
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_floor_name
 msgid "Floor Name"
-msgstr "أسم الطابق"
+msgstr ""
 
 #. module: pos_restaurant
 #: model:ir.actions.act_window,name:pos_restaurant.action_restaurant_floor_form
 #: model:ir.ui.menu,name:pos_restaurant.menu_restaurant_floor_all
 msgid "Floor Plans"
-msgstr "تخطيط الطابق"
+msgstr ""
 
 #. module: pos_restaurant
 #. openerp-web
@@ -237,14 +236,14 @@ msgstr "تخطيط الطابق"
 #: model:ir.model.fields,field_description:pos_restaurant.field_pos_order_customer_count
 #, python-format
 msgid "Guests"
-msgstr "ضيوف"
+msgstr ""
 
 #. module: pos_restaurant
 #. openerp-web
 #: code:addons/pos_restaurant/static/src/js/floors.js:925
 #, python-format
 msgid "Guests ?"
-msgstr "ضيوف؟"
+msgstr ""
 
 #. module: pos_restaurant
 #. openerp-web
@@ -252,7 +251,7 @@ msgstr "ضيوف؟"
 #: code:addons/pos_restaurant/static/src/xml/floors.xml:21
 #, python-format
 msgid "Guests:"
-msgstr "ضيوف:"
+msgstr ""
 
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_table_height
@@ -262,7 +261,7 @@ msgstr "الإرتفاع"
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_table_position_h
 msgid "Horizontal Position"
-msgstr "الوضع الأفقي"
+msgstr ""
 
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_floor_id
@@ -312,7 +311,7 @@ msgstr "جديد"
 #: code:addons/pos_restaurant/static/src/xml/multiprint.xml:62
 #, python-format
 msgid "NOTE"
-msgstr "الملاحظة"
+msgstr ""
 
 #. module: pos_restaurant
 #. openerp-web
@@ -326,7 +325,7 @@ msgstr "الملاحظة"
 #: code:addons/pos_restaurant/static/src/js/floors.js:483
 #, python-format
 msgid "Number of Seats ?"
-msgstr "عدد المقاعد؟"
+msgstr ""
 
 #. module: pos_restaurant
 #. openerp-web
@@ -381,7 +380,7 @@ msgstr "نقطة البيع"
 #. module: pos_restaurant
 #: model:ir.model,name:pos_restaurant.model_pos_order
 msgid "Point of Sale Orders"
-msgstr "طلبات نقطة البيع"
+msgstr ""
 
 #. module: pos_restaurant
 #. openerp-web
@@ -410,18 +409,18 @@ msgstr "عنوان IP للبروكسي"
 #: code:addons/pos_restaurant/static/src/js/floors.js:551
 #, python-format
 msgid "Removing a table cannot be undone"
-msgstr "لا يمكن إعادة طاولة حذفت"
+msgstr ""
 
 #. module: pos_restaurant
 #: model:ir.ui.view,arch_db:pos_restaurant.view_restaurant_floor_form
 msgid "Restaurant Floor"
-msgstr "طابق مطعم"
+msgstr ""
 
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_pos_config_floor_ids
 #: model:ir.ui.view,arch_db:pos_restaurant.view_restaurant_floor_tree
 msgid "Restaurant Floors"
-msgstr "طوابق المطعم"
+msgstr ""
 
 #. module: pos_restaurant
 #: model:ir.ui.view,arch_db:pos_restaurant.view_restaurant_printer
@@ -431,17 +430,17 @@ msgstr "طابعات طلبيات المطعم"
 #. module: pos_restaurant
 #: model:ir.ui.view,arch_db:pos_restaurant.view_restaurant_table_form
 msgid "Restaurant Table"
-msgstr "طاولة مطعم"
+msgstr ""
 
 #. module: pos_restaurant
 #: selection:restaurant.table,shape:0
 msgid "Round"
-msgstr "مستدير"
+msgstr ""
 
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_table_seats
 msgid "Seats"
-msgstr "مقاعد"
+msgstr ""
 
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_floor_sequence
@@ -458,7 +457,7 @@ msgstr "خدم بواسطة"
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_table_shape
 msgid "Shape"
-msgstr "شكل"
+msgstr ""
 
 #. module: pos_restaurant
 #. openerp-web
@@ -470,7 +469,7 @@ msgstr "تجزئة"
 #. module: pos_restaurant
 #: selection:restaurant.table,shape:0
 msgid "Square"
-msgstr "مربع"
+msgstr ""
 
 #. module: pos_restaurant
 #. openerp-web
@@ -489,25 +488,25 @@ msgstr "الإجمالي"
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_pos_order_table_id
 msgid "Table"
-msgstr "طاولة"
+msgstr "جدول"
 
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_table_name
 msgid "Table Name"
-msgstr "اسم الطاولة"
+msgstr ""
 
 #. module: pos_restaurant
 #. openerp-web
 #: code:addons/pos_restaurant/static/src/js/floors.js:471
 #, python-format
 msgid "Table Name ?"
-msgstr "اسم الطاولة؟"
+msgstr ""
 
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_floor_table_ids
 #: model:ir.ui.view,arch_db:pos_restaurant.view_restaurant_floor_form
 msgid "Tables"
-msgstr "الطاولات"
+msgstr "الجداول"
 
 #. module: pos_restaurant
 #. openerp-web
@@ -611,7 +610,7 @@ msgstr "ضريبة القيمة المضافة:"
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_table_position_v
 msgid "Vertical Position"
-msgstr "الوضع العامودي"
+msgstr ""
 
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_table_width
@@ -632,7 +631,7 @@ msgstr "مع "
 #: code:addons/pos_restaurant/static/src/js/floors.js:412
 #, python-format
 msgid "You must be connected to the internet to save your changes."
-msgstr "يجب أن تكون متصلا بالإنترنت لحفظ التغييرات."
+msgstr ""
 
 #. module: pos_restaurant
 #. openerp-web
@@ -647,7 +646,7 @@ msgstr "في"
 #: code:addons/pos_restaurant/static/src/xml/floors.xml:17
 #, python-format
 msgid "at table"
-msgstr "في الطاولة"
+msgstr ""
 
 #. module: pos_restaurant
 #. openerp-web

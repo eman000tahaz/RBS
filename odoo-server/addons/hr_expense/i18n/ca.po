@@ -180,11 +180,6 @@ msgid "Analytic Account"
 msgstr "Compte analític"
 
 #. module: hr_expense
-#: model:ir.model.fields,help:hr_expense.field_hr_expense_account_id
-msgid "An expense account is expected"
-msgstr ""
-
-#. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.view_hr_expense_configuration
 msgid "Apply"
 msgstr "Aplicar"
@@ -213,7 +208,7 @@ msgstr "Diari del banc"
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_reference
 msgid "Bill Reference"
-msgstr "Referència de factura"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_product_product_can_be_expensed

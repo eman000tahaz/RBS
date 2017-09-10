@@ -6,17 +6,17 @@
 # Martin Trigaux <mat@odoo.com>, 2016
 # Reza Royaei <mr.royaei@gmail.com>, 2016
 # Zahed Alfak <tamass4116@gmail.com>, 2016
-# ifaraz ir <ifarazir@gmail.com>, 2016
+# Faraz Sadri <ifarazir@gmail.com>, 2016
 # Hamid Darabi <hamid.darabi@gmail.com>, 2016
-# Maziar Niaki <maziarmn@gmail.com>, 2016
-# arya sadeghy <aryasadeghy@gmail.com>, 2016
+# amirnano <amir.oskuy@gmail.com>, 2016
+# aryasadeghy <aryasadeghy@gmail.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.0c\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-09-07 08:56+0000\n"
 "PO-Revision-Date: 2016-09-07 08:56+0000\n"
-"Last-Translator: arya sadeghy <aryasadeghy@gmail.com>, 2016\n"
+"Last-Translator: aryasadeghy <aryasadeghy@gmail.com>, 2016\n"
 "Language-Team: Persian (https://www.transifex.com/odoo/teams/41243/fa/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -27,17 +27,17 @@ msgstr ""
 #. module: project_issue
 #: model:ir.model.fields,field_description:project_issue.field_project_issue_report_email
 msgid "# Emails"
-msgstr "تعداد ایمیلها"
+msgstr ""
 
 #. module: project_issue
 #: model:ir.model.fields,field_description:project_issue.field_res_partner_issue_count
 msgid "# Issues"
-msgstr "تعداد موارد کاری"
+msgstr ""
 
 #. module: project_issue
 #: model:ir.model.fields,field_description:project_issue.field_project_issue_report_nbr_issues
 msgid "# of Issues"
-msgstr "تعداد موارد کاری"
+msgstr ""
 
 #. module: project_issue
 #: code:addons/project_issue/models/project_issue.py:156
@@ -48,22 +48,22 @@ msgstr "%s (کپی)"
 #. module: project_issue
 #: model:ir.ui.view,arch_db:project_issue.project_issue_kanban_view
 msgid "<b>Category:</b>"
-msgstr "<b>دسته‌بندی:</b>"
+msgstr "<b>دسته‌بندی</b>"
 
 #. module: project_issue
 #: model:ir.ui.view,arch_db:project_issue.project_issue_kanban_view
 msgid "<b>Project:</b>"
-msgstr "<b>پروژه:</b>"
+msgstr ""
 
 #. module: project_issue
 #: model:ir.ui.view,arch_db:project_issue.view_project_form_inherited
 msgid "<span attrs=\"{'invisible':[('use_issues', '=', False)]}\">as </span>"
-msgstr "<span attrs=\"{'invisible':[('use_issues', '=', False)]}\">بعنوان </span>"
+msgstr ""
 
 #. module: project_issue
 #: selection:project.config.settings,module_project_issue_sheet:0
 msgid "Activate timesheets on issues"
-msgstr "فعالسازی برگه کارکرد روی مورد کاری"
+msgstr ""
 
 #. module: project_issue
 #: model:ir.model.fields,field_description:project_issue.field_project_issue_active
@@ -86,13 +86,6 @@ msgid ""
 "\n"
 "                                           * Ready for next stage indicates the issue is ready to be pulled to the next stage"
 msgstr ""
-"حالت کانبان یک مورد کاری، وضعیت خاصی که تحت تاثیر آن قرار دارد را نشان می دهد:\n"
-"\n"
-"                                           * عادی وضعیت پیش فرض است\n"
-"\n"
-"                                           * مسدود شده نشان می دهد که چیزی از پیشرفت این مورد جلوگیری می کند\n"
-"\n"
-"                                           * آماده برای مرحله بعد نشان می دهد مورد آماده کشیده شدن به مرحله بعدی است "
 
 #. module: project_issue
 #: model:ir.model,name:project_issue.model_account_analytic_account
@@ -120,22 +113,22 @@ msgstr "محول شد به "
 #. module: project_issue
 #: model:ir.model.fields,field_description:project_issue.field_project_issue_report_delay_close
 msgid "Avg. Delay to Close"
-msgstr "متوسط دیرکرد تا بسته شدن"
+msgstr ""
 
 #. module: project_issue
 #: model:ir.model.fields,field_description:project_issue.field_project_issue_report_delay_open
 msgid "Avg. Delay to Open"
-msgstr "متوسط دیرکرد تا باز شدن"
+msgstr ""
 
 #. module: project_issue
 #: model:ir.model.fields,field_description:project_issue.field_project_issue_report_working_hours_close
 msgid "Avg. Working Hours to Close"
-msgstr "متوسط ساعات کاری تا بسته شدن"
+msgstr ""
 
 #. module: project_issue
 #: model:ir.model.fields,field_description:project_issue.field_project_issue_report_working_hours_open
 msgid "Avg. Working Hours to Open"
-msgstr "متوسط ساعات کاری تا باز شدن"
+msgstr ""
 
 #. module: project_issue
 #: selection:project.issue,kanban_state:0
@@ -152,12 +145,12 @@ msgstr "مسدود شد"
 #: model:project.issue,legend_done:project_issue.crm_case_patcheserrorinprogram0
 #: model:project.issue,legend_done:project_issue.crm_case_programnotgivingproperoutput0
 msgid "Buzz or set as done"
-msgstr "زنگ یا تنظیم بعنوان انجام شده"
+msgstr ""
 
 #. module: project_issue
 #: model:ir.filters,name:project_issue.filter_issue_report_responsible
 msgid "By Responsible"
-msgstr "با مسئولیت"
+msgstr ""
 
 #. module: project_issue
 #: model:ir.model.fields,field_description:project_issue.field_project_issue_channel
@@ -168,12 +161,12 @@ msgstr "کانال"
 #: model:ir.model.fields,help:project_issue.field_account_analytic_account_use_issues
 #: model:ir.model.fields,help:project_issue.field_project_project_use_issues
 msgid "Check this box to manage customer activities through this project"
-msgstr "برای مدیریت فعالیتهای مشتری از طریق این پروژه این کادر را انتخاب کنید"
+msgstr ""
 
 #. module: project_issue
 #: model:ir.model.fields,field_description:project_issue.field_project_issue_date_closed
 msgid "Closed"
-msgstr "بسته شد"
+msgstr "بسته"
 
 #. module: project_issue
 #: model:ir.model.fields,field_description:project_issue.field_project_issue_color
@@ -183,7 +176,7 @@ msgstr "رنگ پس زمینه"
 #. module: project_issue
 #: model:ir.model.fields,help:project_issue.field_project_issue_channel
 msgid "Communication channel."
-msgstr "کانال ارتباطی"
+msgstr ""
 
 #. module: project_issue
 #: model:ir.model.fields,field_description:project_issue.field_project_issue_company_id
@@ -210,7 +203,7 @@ msgstr "ایجاد تاریخ"
 #: model:ir.ui.view,arch_db:project_issue.view_project_issue_filter
 #: model:ir.ui.view,arch_db:project_issue.view_project_issue_report_filter
 msgid "Create Day"
-msgstr "تاریخ ایجاد"
+msgstr ""
 
 #. module: project_issue
 #: model:ir.model.fields,field_description:project_issue.field_project_issue_create_uid
@@ -243,7 +236,6 @@ msgstr "ایمیل مشتری"
 #: model:ir.model.fields,help:project_issue.field_project_project_label_issues
 msgid "Customize the issues label, for example to call them cases."
 msgstr ""
-"برچسب موارد را سفارشی کنید، برای مثال با آنها برای مواردشان تماس بگیرید."
 
 #. module: project_issue
 #: model:ir.model.fields,field_description:project_issue.field_project_issue_date
@@ -253,32 +245,32 @@ msgstr "تاریخ"
 #. module: project_issue
 #: model:ir.model.fields,field_description:project_issue.field_project_issue_report_date_closed
 msgid "Date of Closing"
-msgstr "تاریخ بستن"
+msgstr ""
 
 #. module: project_issue
 #: model:ir.model.fields,field_description:project_issue.field_project_issue_report_opening_date
 msgid "Date of Opening"
-msgstr "تاریخ گشایش"
+msgstr ""
 
 #. module: project_issue
 #: model:ir.model.fields,field_description:project_issue.field_project_issue_days_since_creation
 msgid "Days since creation date"
-msgstr "روزها از تاریخ ایجاد"
+msgstr ""
 
 #. module: project_issue
 #: model:ir.model.fields,field_description:project_issue.field_project_issue_inactivity_days
 msgid "Days since last action"
-msgstr "رزوهای از آخرین اقدام"
+msgstr ""
 
 #. module: project_issue
 #: model:ir.model.fields,field_description:project_issue.field_project_issue_day_open
 msgid "Days to Assign"
-msgstr "روزهای تا اختصاص دادن"
+msgstr ""
 
 #. module: project_issue
 #: model:ir.model.fields,field_description:project_issue.field_project_issue_day_close
 msgid "Days to Close"
-msgstr "روزهای تا بسته شدن"
+msgstr ""
 
 #. module: project_issue
 #: model:ir.model.fields,field_description:project_issue.field_project_issue_date_deadline
@@ -303,12 +295,12 @@ msgstr "توصیف"
 #. module: project_issue
 #: model:ir.model.fields,help:project_issue.field_project_issue_days_since_creation
 msgid "Difference in days between creation date and current date"
-msgstr "فاصله روزها بین تاریخ ایجاد و تاریخ فعلی"
+msgstr ""
 
 #. module: project_issue
 #: model:ir.model.fields,help:project_issue.field_project_issue_inactivity_days
 msgid "Difference in days between last action and current date"
-msgstr "فاصله روزها بین تاریخ آخرین اقدام و تاریخ فعلی"
+msgstr ""
 
 #. module: project_issue
 #: model:ir.model.fields,field_description:project_issue.field_project_issue_display_name
@@ -319,7 +311,7 @@ msgstr "نام نمایشی"
 #. module: project_issue
 #: selection:project.config.settings,module_project_issue_sheet:0
 msgid "Do not track working hours on issues"
-msgstr "ساعات کاری را در موارد ردیابی نکنید"
+msgstr ""
 
 #. module: project_issue
 #: model:ir.model.fields,field_description:project_issue.field_project_issue_duration
@@ -329,7 +321,7 @@ msgstr "مدت"
 #. module: project_issue
 #: model:ir.ui.view,arch_db:project_issue.project_issue_kanban_view
 msgid "Edit Issue"
-msgstr "ویرایش مورد کاری"
+msgstr ""
 
 #. module: project_issue
 #: model:ir.model.fields,field_description:project_issue.field_project_issue_email_from
@@ -344,12 +336,12 @@ msgstr "اطلاعات بیشتر"
 #. module: project_issue
 #: model:ir.ui.view,arch_db:project_issue.project_feature_tree_view
 msgid "Feature Tracker Tree"
-msgstr "درخت ردیاب ویژگیها"
+msgstr ""
 
 #. module: project_issue
 #: model:ir.ui.view,arch_db:project_issue.project_feature_tree_view
 msgid "Feature description"
-msgstr "شرح ویژگی"
+msgstr ""
 
 #. module: project_issue
 #: model:ir.ui.view,arch_db:project_issue.view_project_issue_filter
@@ -360,7 +352,7 @@ msgstr "گروه‌بندی برمبنای"
 #. module: project_issue
 #: model:ir.ui.view,arch_db:project_issue.project_config_settings_view_form_inherit_project_issue
 msgid "Helpdesk & Support"
-msgstr "راهنمایی و پشتیبانی"
+msgstr ""
 
 #. module: project_issue
 #: selection:project.issue,priority:0
@@ -372,7 +364,7 @@ msgstr "بالا"
 #: code:addons/project_issue/models/project_issue.py:271
 #, python-format
 msgid "I take it"
-msgstr "می گیرمش"
+msgstr ""
 
 #. module: project_issue
 #: model:ir.model.fields,field_description:project_issue.field_project_issue_id
@@ -385,60 +377,60 @@ msgstr "شناسه"
 #: model:ir.ui.view,arch_db:project_issue.project_issue_form_view
 #: model:ir.ui.view,arch_db:project_issue.view_project_issue_filter
 msgid "Issue"
-msgstr "مورد کاری"
+msgstr ""
 
 #. module: project_issue
 #: model:mail.message.subtype,name:project_issue.mt_issue_blocked
 #: model:mail.message.subtype,name:project_issue.mt_project_issue_blocked
 msgid "Issue Blocked"
-msgstr "مورد کاری مسدود شده"
+msgstr ""
 
 #. module: project_issue
 #: model:mail.message.subtype,name:project_issue.mt_issue_new
 #: model:mail.message.subtype,name:project_issue.mt_project_issue_new
 msgid "Issue Opened"
-msgstr "مورد کاری باز"
+msgstr ""
 
 #. module: project_issue
 #: model:mail.message.subtype,name:project_issue.mt_issue_ready
 #: model:mail.message.subtype,name:project_issue.mt_project_issue_ready
 msgid "Issue Ready"
-msgstr "مورد کاری آماده"
+msgstr ""
 
 #. module: project_issue
 #: model:mail.message.subtype,name:project_issue.mt_project_issue_stage
 msgid "Issue Stage Changed"
-msgstr "مرحله مورد تغییر کرده"
+msgstr ""
 
 #. module: project_issue
 #: model:ir.ui.view,arch_db:project_issue.project_issue_form_view
 msgid "Issue Summary..."
-msgstr "خلاصه مورد کاری..."
+msgstr ""
 
 #. module: project_issue
 #: model:ir.ui.view,arch_db:project_issue.view_project_issue_filter
 msgid "Issue Tracker Search"
-msgstr "جستجوی ردیاب موارد کاری"
+msgstr ""
 
 #. module: project_issue
 #: model:ir.ui.view,arch_db:project_issue.project_issue_tree_view
 msgid "Issue Tracker Tree"
-msgstr "درخت ردیاب موارد کاری"
+msgstr ""
 
 #. module: project_issue
 #: model:mail.message.subtype,description:project_issue.mt_issue_blocked
 msgid "Issue blocked"
-msgstr "مورد کاری مسدود شده"
+msgstr ""
 
 #. module: project_issue
 #: model:mail.message.subtype,description:project_issue.mt_issue_new
 msgid "Issue opened"
-msgstr "مورد کاری باز"
+msgstr ""
 
 #. module: project_issue
 #: model:mail.message.subtype,description:project_issue.mt_issue_ready
 msgid "Issue ready for next stage"
-msgstr "مورد کاری آماده مرحله بعد"
+msgstr ""
 
 #. module: project_issue
 #: model:ir.actions.act_window,name:project_issue.act_project_project_2_project_issue_all
@@ -453,34 +445,34 @@ msgstr "مورد کاری آماده مرحله بعد"
 #: model:ir.ui.view,arch_db:project_issue.view_project_form_inherited
 #: model:ir.ui.view,arch_db:project_issue.view_project_kanban_inherited
 msgid "Issues"
-msgstr "موارد کاری"
+msgstr "مسئله"
 
 #. module: project_issue
 #: model:ir.actions.act_window,name:project_issue.action_project_issue_report
 #: model:ir.actions.act_window,name:project_issue.action_project_issue_report_filtered
 #: model:ir.ui.menu,name:project_issue.menu_project_issue_report_tree
 msgid "Issues Analysis"
-msgstr "تحلیل موارد کاری"
+msgstr ""
 
 #. module: project_issue
 #: model:ir.model.fields,field_description:project_issue.field_project_issue_legend_blocked
 msgid "Kanban Blocked Explanation"
-msgstr "کانبان توضیح مسدود شده"
+msgstr ""
 
 #. module: project_issue
 #: model:ir.model.fields,field_description:project_issue.field_project_issue_legend_normal
 msgid "Kanban Ongoing Explanation"
-msgstr "کانبان توضیح در دست اقدام"
+msgstr ""
 
 #. module: project_issue
 #: model:ir.model.fields,field_description:project_issue.field_project_issue_kanban_state
 msgid "Kanban State"
-msgstr "وضعیت کانبان"
+msgstr ""
 
 #. module: project_issue
 #: model:ir.model.fields,field_description:project_issue.field_project_issue_legend_done
 msgid "Kanban Valid Explanation"
-msgstr "کانبان توضیح معتبر"
+msgstr ""
 
 #. module: project_issue
 #: model:ir.model.fields,field_description:project_issue.field_project_issue_date_action_last
@@ -502,7 +494,7 @@ msgstr "آخرین به‌روزرسانی در تاریخ "
 #: model:ir.model.fields,field_description:project_issue.field_project_issue_date_last_stage_update
 #: model:ir.model.fields,field_description:project_issue.field_project_issue_report_date_last_stage_update
 msgid "Last Stage Update"
-msgstr "به روز رسانی آخرین مرحله"
+msgstr ""
 
 #. module: project_issue
 #: model:ir.model.fields,field_description:project_issue.field_project_issue_write_uid
@@ -523,7 +515,7 @@ msgstr "پایین"
 #. module: project_issue
 #: model:ir.ui.view,arch_db:project_issue.view_project_issue_filter
 msgid "My Issues"
-msgstr "موارد کاری من"
+msgstr ""
 
 #. module: project_issue
 #: model:project.issue,legend_blocked:project_issue.crm_case_buginaccountsmodule0
@@ -535,7 +527,7 @@ msgstr "موارد کاری من"
 #: model:project.issue,legend_blocked:project_issue.crm_case_patcheserrorinprogram0
 #: model:project.issue,legend_blocked:project_issue.crm_case_programnotgivingproperoutput0
 msgid "Need functional or technical help"
-msgstr "نیاز به کمک فنی یا عملی"
+msgstr ""
 
 #. module: project_issue
 #: model:ir.ui.view,arch_db:project_issue.view_project_issue_filter
@@ -546,7 +538,7 @@ msgstr "جدید"
 #: code:addons/project_issue/models/project_issue.py:275
 #, python-format
 msgid "New Issue"
-msgstr "مورد کاری جدید"
+msgstr ""
 
 #. module: project_issue
 #: model:ir.model.fields,field_description:project_issue.field_project_issue_date_action_next
@@ -562,7 +554,7 @@ msgstr "بدون موضوع"
 #. module: project_issue
 #: selection:project.config.settings,module_rating_project_issue:0
 msgid "No customer rating"
-msgstr "بدون امتیازدهی مشتری"
+msgstr ""
 
 #. module: project_issue
 #: selection:project.issue,kanban_state:0 selection:project.issue,priority:0
@@ -576,17 +568,17 @@ msgstr "عادی"
 #: model:project.issue,legend_blocked:project_issue.crm_case_problemloadingpage0
 #: model:project.issue,legend_blocked:project_issue.crm_case_programmingerror0
 msgid "Not validated"
-msgstr "معتبر نیست"
+msgstr ""
 
 #. module: project_issue
 #: model:ir.model.fields,help:project_issue.field_project_issue_report_delay_close
 msgid "Number of Days to close the project issue"
-msgstr "تعداد روزهای تا بستن پروژه مورد کاری"
+msgstr ""
 
 #. module: project_issue
 #: model:ir.model.fields,help:project_issue.field_project_issue_report_delay_open
 msgid "Number of Days to open the project issue."
-msgstr "تعداد روزهای تا بازگشایی پروژه مورد کاری"
+msgstr ""
 
 #. module: project_issue
 #: model:ir.model.fields,help:project_issue.field_project_issue_legend_blocked
@@ -594,8 +586,6 @@ msgid ""
 "Override the default value displayed for the blocked state for kanban "
 "selection, when the task or issue is in that stage."
 msgstr ""
-"برای انتخاب کانبان، مقدار پیش فرض نمایش داده شده برای حالت مسدود شده نادیده "
-"گرفته شود، هنگامی که وظیفه یا مورد در آن مرحله است."
 
 #. module: project_issue
 #: model:ir.model.fields,help:project_issue.field_project_issue_legend_done
@@ -603,8 +593,6 @@ msgid ""
 "Override the default value displayed for the done state for kanban "
 "selection, when the task or issue is in that stage."
 msgstr ""
-"برای انتخاب کانبان، مقدار پیش فرض نمایش داده شده برای حالت انجام شده نادیده "
-"گرفته شود، هنگامی که وظیفه یا مورد در آن مرحله است."
 
 #. module: project_issue
 #: model:ir.model.fields,help:project_issue.field_project_issue_legend_normal
@@ -612,8 +600,6 @@ msgid ""
 "Override the default value displayed for the normal state for kanban "
 "selection, when the task or issue is in that stage."
 msgstr ""
-"برای انتخاب کانبان، مقدار پیش فرض نمایش داده شده برای حالت عادی نادیده گرفته"
-" شود، هنگامی که وظیفه یا مورد در آن مرحله است."
 
 #. module: project_issue
 #: model:ir.model,name:project_issue.model_res_partner
@@ -627,8 +613,6 @@ msgid ""
 "Please remove existing issues in the project linked to the accounts you want"
 " to delete."
 msgstr ""
-"لطفاً موارد موجودی را در پروژه حذف کنید که مرتبط است به حسابهایی که می "
-"خواهید پاک کنید."
 
 #. module: project_issue
 #: model:ir.model.fields,field_description:project_issue.field_project_issue_priority
@@ -643,7 +627,7 @@ msgstr "اولویت"
 #. module: project_issue
 #: model:ir.model.fields,field_description:project_issue.field_project_issue_description
 msgid "Private Note"
-msgstr "یادداشت خصوصی"
+msgstr ""
 
 #. module: project_issue
 #: model:ir.model,name:project_issue.model_project_project
@@ -659,13 +643,13 @@ msgstr "پروژه"
 #: model:ir.ui.view,arch_db:project_issue.view_project_issue_report_graph
 #: model:ir.ui.view,arch_db:project_issue.view_project_issue_report_pivot
 msgid "Project Issue"
-msgstr "پروژه مورد کاری"
+msgstr ""
 
 #. module: project_issue
 #: model:ir.ui.view,arch_db:project_issue.project_issue_graph_view
 #: model:ir.ui.view,arch_db:project_issue.project_issue_pivot_view
 msgid "Project Issues"
-msgstr "پروژه موارد کاری"
+msgstr ""
 
 #. module: project_issue
 #: model:ir.model.fields,help:project_issue.field_project_config_settings_module_project_issue_sheet
@@ -677,17 +661,17 @@ msgstr ""
 #. module: project_issue
 #: model:ir.model.fields,field_description:project_issue.field_project_config_settings_module_rating_project_issue
 msgid "Rating on issue"
-msgstr "امتیازدهی مورد کاری"
+msgstr ""
 
 #. module: project_issue
 #: selection:project.issue,kanban_state:0
 msgid "Ready for next stage"
-msgstr "آماده برای مرحله بعد"
+msgstr ""
 
 #. module: project_issue
 #: model:project.issue,legend_done:project_issue.crm_case_logicalerrorinprogram0
 msgid "Ready to reopen"
-msgstr "آماده بازشدن مجدد"
+msgstr ""
 
 #. module: project_issue
 #: model:ir.ui.view,arch_db:project_issue.view_project_issue_report_filter
@@ -727,7 +711,7 @@ msgstr "وظیفه"
 #. module: project_issue
 #: model:ir.model,name:project_issue.model_project_task_type
 msgid "Task Stage"
-msgstr "مرحله وظیفه"
+msgstr ""
 
 #. module: project_issue
 #: model:ir.actions.act_window,help:project_issue.act_project_project_2_project_issue_all
@@ -749,12 +733,12 @@ msgstr ""
 #. module: project_issue
 #: model:ir.model.fields,help:project_issue.field_project_issue_email_from
 msgid "These people will receive email."
-msgstr "این افراد ایمیل را دریافت خواهند کرد."
+msgstr ""
 
 #. module: project_issue
 #: model:ir.model.fields,help:project_issue.field_project_config_settings_module_rating_project_issue
 msgid "This allows customers to give rating on issue"
-msgstr "این به مشتریان اجازه می دهد تا به مورد کاری امتیاز بدهند"
+msgstr ""
 
 #. module: project_issue
 #: model:ir.actions.act_window,help:project_issue.action_project_issue_report
@@ -769,17 +753,17 @@ msgstr ""
 #. module: project_issue
 #: model:ir.ui.view,arch_db:project_issue.project_config_settings_view_form_inherit_project_issue
 msgid "Timesheets"
-msgstr "برگه ساعات کارکرد"
+msgstr ""
 
 #. module: project_issue
 #: model:ir.model.fields,field_description:project_issue.field_project_config_settings_module_project_issue_sheet
 msgid "Timesheets on Issues"
-msgstr "برگه کارکرد روی موارد کاری"
+msgstr ""
 
 #. module: project_issue
 #: selection:project.config.settings,module_rating_project_issue:0
 msgid "Track customer satisfaction on issues"
-msgstr "ردیابی خشنودی مشتری روی موارد کاری"
+msgstr ""
 
 #. module: project_issue
 #: model:ir.ui.view,arch_db:project_issue.view_project_issue_filter
@@ -797,12 +781,12 @@ msgstr "پیام های ناخوانده"
 #: model:ir.model.fields,field_description:project_issue.field_account_analytic_account_use_issues
 #: model:ir.model.fields,field_description:project_issue.field_project_project_use_issues
 msgid "Use Issues"
-msgstr "بکارگیری موارد کاری"
+msgstr ""
 
 #. module: project_issue
 #: model:ir.model.fields,field_description:project_issue.field_project_project_label_issues
 msgid "Use Issues as"
-msgstr "بکارگیری موارد کاری بعنوان"
+msgstr ""
 
 #. module: project_issue
 #: model:ir.model.fields,field_description:project_issue.field_project_issue_user_email
@@ -812,17 +796,17 @@ msgstr "ایمیل کاربر"
 #. module: project_issue
 #: model:ir.model.fields,field_description:project_issue.field_project_issue_email_cc
 msgid "Watchers Emails"
-msgstr "ایمیل بازدیدکنندگان"
+msgstr ""
 
 #. module: project_issue
 #: model:ir.model.fields,field_description:project_issue.field_project_issue_working_hours_open
 msgid "Working Hours to assign the Issue"
-msgstr "ساعات کاری برای اختصاص مورد کاری"
+msgstr ""
 
 #. module: project_issue
 #: model:ir.model.fields,field_description:project_issue.field_project_issue_working_hours_close
 msgid "Working Hours to close the Issue"
-msgstr "ساعات کاری برای بستن مورد کاری"
+msgstr ""
 
 #. module: project_issue
 #: model:ir.model.fields,help:project_issue.field_project_issue_task_id
@@ -830,14 +814,12 @@ msgid ""
 "You can link this issue to an existing task or directly create a new one "
 "from here"
 msgstr ""
-"می توانید یک مورد کاری را به یک وظیفه موجود مرتبط کنید یا بطور مستقیم یک "
-"وظیفه جدید را از اینجا بسازید."
 
 #. module: project_issue
 #: code:addons/project_issue/models/project_issue.py:191
 #, python-format
 msgid "issues"
-msgstr "موارد کاری"
+msgstr ""
 
 #. module: project_issue
 #: model:ir.model,name:project_issue.model_project_config_settings

@@ -7,15 +7,13 @@
 # Morten Schou <ms@msteknik.dk>, 2016
 # Hans Henrik Gabelgaard <hhg@gabelgaard.org>, 2016
 # jonas jensen <j.jensen@tcomp.dk>, 2016
-# Ejner Sønniksen <ejner@vkdata.dk>, 2017
-# Sanne Kristensen <sanne@vkdata.dk>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.0c\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-09-07 08:57+0000\n"
 "PO-Revision-Date: 2016-09-07 08:57+0000\n"
-"Last-Translator: Sanne Kristensen <sanne@vkdata.dk>, 2017\n"
+"Last-Translator: jonas jensen <j.jensen@tcomp.dk>, 2016\n"
 "Language-Team: Danish (https://www.transifex.com/odoo/teams/41243/da/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -111,7 +109,7 @@ msgstr ""
 #. module: website_mail_channel
 #: model:ir.model,name:website_mail_channel.model_mail_channel
 msgid "Discussion channel"
-msgstr "Diskussionskanal"
+msgstr ""
 
 #. module: website_mail_channel
 #: model:ir.ui.view,arch_db:website_mail_channel.group_message
@@ -126,7 +124,7 @@ msgstr ""
 #. module: website_mail_channel
 #: model:ir.ui.view,arch_db:website_mail_channel.footer_mailing_list
 msgid "Mailing List"
-msgstr "Mailliste"
+msgstr ""
 
 #. module: website_mail_channel
 #: model:ir.ui.view,arch_db:website_mail_channel.group_message
@@ -144,7 +142,6 @@ msgstr ""
 #: model:ir.model.fields,help:website_mail_channel.field_mail_mail_description
 msgid "Message description: either the subject, or the beginning of the body"
 msgstr ""
-"Beskedbeskrivelse: enten af emnet eller til begyndelsen af beskrivelsen"
 
 #. module: website_mail_channel
 #: model:ir.ui.view,arch_db:website_mail_channel.mail_channels
@@ -177,7 +174,7 @@ msgstr "Send til"
 #. module: website_mail_channel
 #: model:ir.model.fields,field_description:website_mail_channel.field_mail_mail_website_published
 msgid "Published"
-msgstr "Udgivet"
+msgstr ""
 
 #. module: website_mail_channel
 #: model:ir.ui.view,arch_db:website_mail_channel.group_message
@@ -211,7 +208,7 @@ msgstr ""
 #. module: website_mail_channel
 #: model:ir.model.fields,help:website_mail_channel.field_mail_mail_website_published
 msgid "Visible on the website as a comment"
-msgstr "Synlig på hjemmesiden som en kommentar"
+msgstr ""
 
 #. module: website_mail_channel
 #: model:ir.ui.view,arch_db:website_mail_channel.confirmation_subscription
@@ -304,4 +301,4 @@ msgstr ""
 #: model:ir.ui.view,arch_db:website_mail_channel.mail_channels
 #: model:ir.ui.view,arch_db:website_mail_channel.subscribe
 msgid "your email..."
-msgstr "din e-mail..."
+msgstr ""

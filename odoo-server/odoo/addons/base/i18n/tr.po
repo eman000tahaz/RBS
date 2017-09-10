@@ -21,15 +21,13 @@
 # Saban Yildiz <sabany@projetgrup.com>, 2016
 # Güven YILMAZ <guvenyilmaz@outlook.com.tr>, 2016
 # UNIBRAVO SOFTWARE <unibravo@gmail.com>, 2016
-# İlknur Püskül <ilknurpuskull@gmail.com>, 2017
-# Levent Karakaş <levent@mektup.at>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-23 13:27+0000\n"
 "PO-Revision-Date: 2017-06-23 13:27+0000\n"
-"Last-Translator: Levent Karakaş <levent@mektup.at>, 2017\n"
+"Last-Translator: UNIBRAVO SOFTWARE <unibravo@gmail.com>, 2016\n"
 "Language-Team: Turkish (https://www.transifex.com/odoo/teams/41243/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -4671,7 +4669,7 @@ msgstr "Cezayir"
 #. module: base
 #: model:ir.ui.view,arch_db:base.ir_cron_view_search
 msgid "All"
-msgstr "Hepsi"
+msgstr ""
 
 #. module: base
 #: model:ir.ui.view,arch_db:base.view_base_module_configuration_form
@@ -11576,8 +11574,6 @@ msgid ""
 "                a customer: discussions, history of business opportunities,\n"
 "                documents, etc."
 msgstr ""
-"Odoo müşteri ile ilgili tüm etkinlikleri kolayca takip etmenizi sağlar: "
-"yapılan görüşmeler, tüm fırsat geçmişleri, dokümanlar, vb."
 
 #. module: base
 #: model:ir.actions.act_window,help:base.action_partner_supplier_form
@@ -11586,8 +11582,6 @@ msgid ""
 "                a supplier: discussions, history of purchases,\n"
 "                documents, etc."
 msgstr ""
-"Odoo, tedarikçileriniz ile ilgili tüm faaliyetleri kolayca izlemenize "
-"yardımcı olur: görüşmeler, satın alma geçmişi, belgeler vb."
 
 #. module: base
 #: model:ir.model.fields,help:base.field_ir_sequence_padding
@@ -13624,7 +13618,7 @@ msgstr "Paylaşım Grubu"
 #: model:ir.model.fields,field_description:base.field_res_partner_partner_share
 #: model:ir.model.fields,field_description:base.field_res_users_partner_share
 msgid "Share Partner"
-msgstr "Paylaşım İş Ortağı"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_users_share
@@ -14882,7 +14876,7 @@ msgstr ""
 #. module: base
 #: model:ir.ui.view,arch_db:base.view_base_module_upgrade
 msgid "This module will trigger the uninstallation of below modules."
-msgstr "Bu modül aşağıdaki modüllerin de kaldırılmasını tetikleyecek."
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,description:base.module_theme_bootswatch
@@ -16597,17 +16591,17 @@ msgstr "temel"
 #. module: base
 #: model:ir.model,name:base.model_base_language_export
 msgid "base.language.export"
-msgstr "base.language.export"
+msgstr ""
 
 #. module: base
 #: model:ir.model,name:base.model_base_module_configuration
 msgid "base.module.configuration"
-msgstr "baz.modül.biçim"
+msgstr ""
 
 #. module: base
 #: model:ir.model,name:base.model_base_update_translations
 msgid "base.update.translations"
-msgstr "baz.güncelleştirme.çeviriler"
+msgstr ""
 
 #. module: base
 #: selection:base.language.export,state:0
@@ -16766,17 +16760,17 @@ msgstr "ir.actions.act_window"
 #. module: base
 #: model:ir.model,name:base.model_ir_actions_act_window_view
 msgid "ir.actions.act_window.view"
-msgstr "ir.eylemler.act_pencere.görünüm"
+msgstr ""
 
 #. module: base
 #: model:ir.model,name:base.model_ir_actions_act_window_close
 msgid "ir.actions.act_window_close"
-msgstr "ir.eylemler.act_pencere_kapat"
+msgstr ""
 
 #. module: base
 #: model:ir.model,name:base.model_ir_actions_actions
 msgid "ir.actions.actions"
-msgstr "ir.eylemler.eylemler"
+msgstr ""
 
 #. module: base
 #: model:ir.model,name:base.model_ir_actions_client
@@ -16814,92 +16808,92 @@ msgstr "ir.config_parameter"
 #. module: base
 #: model:ir.model,name:base.model_ir_cron
 msgid "ir.cron"
-msgstr "ir.cron"
+msgstr ""
 
 #. module: base
 #: model:ir.model,name:base.model_ir_exports
 msgid "ir.exports"
-msgstr "ir.ihracat"
+msgstr ""
 
 #. module: base
 #: model:ir.model,name:base.model_ir_exports_line
 msgid "ir.exports.line"
-msgstr "ir.ihracat.hat"
+msgstr ""
 
 #. module: base
 #: model:ir.model,name:base.model_ir_fields_converter
 msgid "ir.fields.converter"
-msgstr "ir.alanlar.dönüştürücü"
+msgstr ""
 
 #. module: base
 #: model:ir.model,name:base.model_ir_logging
 msgid "ir.logging"
-msgstr "ir.günlüğü"
+msgstr ""
 
 #. module: base
 #: model:ir.model,name:base.model_ir_mail_server
 msgid "ir.mail_server"
-msgstr "ir.posta_sunucu"
+msgstr ""
 
 #. module: base
 #: model:ir.model,name:base.model_ir_model_access
 msgid "ir.model.access"
-msgstr "ir.model.erişim"
+msgstr ""
 
 #. module: base
 #: model:ir.model,name:base.model_ir_model_constraint
 msgid "ir.model.constraint"
-msgstr "ir.model.kısıtlama"
+msgstr ""
 
 #. module: base
 #: model:ir.model,name:base.model_ir_model_data
 msgid "ir.model.data"
-msgstr "ir.model.veri"
+msgstr ""
 
 #. module: base
 #: model:ir.model,name:base.model_ir_model_relation
 msgid "ir.model.relation"
-msgstr "ir.model.ilişki"
+msgstr ""
 
 #. module: base
 #: model:ir.model,name:base.model_ir_needaction_mixin
 msgid "ir.needaction_mixin"
-msgstr "ir.hareketegeçmek_karışmak"
+msgstr ""
 
 #. module: base
 #: model:ir.model,name:base.model_ir_property
 msgid "ir.property"
-msgstr "ir.özellik"
+msgstr ""
 
 #. module: base
 #: model:ir.model,name:base.model_ir_qweb
 msgid "ir.qweb"
-msgstr "ir.qweb"
+msgstr ""
 
 #. module: base
 #: model:ir.model,name:base.model_ir_qweb_field
 msgid "ir.qweb.field"
-msgstr "ir.qweb.field"
+msgstr ""
 
 #. module: base
 #: model:ir.model,name:base.model_ir_qweb_field_contact
 msgid "ir.qweb.field.contact"
-msgstr "ir.qweb.alan.bağlantı"
+msgstr ""
 
 #. module: base
 #: model:ir.model,name:base.model_ir_qweb_field_date
 msgid "ir.qweb.field.date"
-msgstr "ir.qweb.alan.tarih"
+msgstr ""
 
 #. module: base
 #: model:ir.model,name:base.model_ir_qweb_field_datetime
 msgid "ir.qweb.field.datetime"
-msgstr "ir.qweb.alan.tarihsaati"
+msgstr ""
 
 #. module: base
 #: model:ir.model,name:base.model_ir_qweb_field_duration
 msgid "ir.qweb.field.duration"
-msgstr "ir.qweb.alan.süre"
+msgstr ""
 
 #. module: base
 #: model:ir.model,name:base.model_ir_qweb_field_float
@@ -16909,62 +16903,62 @@ msgstr "ir.qweb.field.float"
 #. module: base
 #: model:ir.model,name:base.model_ir_qweb_field_html
 msgid "ir.qweb.field.html"
-msgstr "ir.qweb.alan.html"
+msgstr ""
 
 #. module: base
 #: model:ir.model,name:base.model_ir_qweb_field_image
 msgid "ir.qweb.field.image"
-msgstr "ir.qweb.alan.resim"
+msgstr ""
 
 #. module: base
 #: model:ir.model,name:base.model_ir_qweb_field_integer
 msgid "ir.qweb.field.integer"
-msgstr "ir.qweb.alan.tamsayı"
+msgstr ""
 
 #. module: base
 #: model:ir.model,name:base.model_ir_qweb_field_many2one
 msgid "ir.qweb.field.many2one"
-msgstr "ir.qweb.alan.many2one"
+msgstr ""
 
 #. module: base
 #: model:ir.model,name:base.model_ir_qweb_field_monetary
 msgid "ir.qweb.field.monetary"
-msgstr "ir.qweb.alan.parasal"
+msgstr ""
 
 #. module: base
 #: model:ir.model,name:base.model_ir_qweb_field_qweb
 msgid "ir.qweb.field.qweb"
-msgstr "ir.qweb.alan.qweb"
+msgstr ""
 
 #. module: base
 #: model:ir.model,name:base.model_ir_qweb_field_relative
 msgid "ir.qweb.field.relative"
-msgstr "ir.qweb.alan.bağı"
+msgstr ""
 
 #. module: base
 #: model:ir.model,name:base.model_ir_qweb_field_selection
 msgid "ir.qweb.field.selection"
-msgstr "ir.qweb.alan.seçim"
+msgstr ""
 
 #. module: base
 #: model:ir.model,name:base.model_ir_qweb_field_text
 msgid "ir.qweb.field.text"
-msgstr "ir.qweb.alan.yazı"
+msgstr ""
 
 #. module: base
 #: model:ir.model,name:base.model_ir_rule
 msgid "ir.rule"
-msgstr "ir.kural"
+msgstr ""
 
 #. module: base
 #: model:ir.model,name:base.model_ir_sequence
 msgid "ir.sequence"
-msgstr "ir.sıra"
+msgstr ""
 
 #. module: base
 #: model:ir.model,name:base.model_ir_sequence_date_range
 msgid "ir.sequence.date_range"
-msgstr "ir.sıra.tarih_dizi"
+msgstr ""
 
 #. module: base
 #: model:ir.model,name:base.model_ir_translation
@@ -16974,7 +16968,7 @@ msgstr "ir.translation"
 #. module: base
 #: model:ir.model,name:base.model_ir_ui_menu
 msgid "ir.ui.menu"
-msgstr "ir.ui.menu"
+msgstr ""
 
 #. module: base
 #: model:ir.model,name:base.model_ir_ui_view
@@ -16984,7 +16978,7 @@ msgstr "ir.ui.view"
 #. module: base
 #: model:ir.model,name:base.model_ir_ui_view_custom
 msgid "ir.ui.view.custom"
-msgstr "ir.ui.görünüm.görenek"
+msgstr ""
 
 #. module: base
 #: model:ir.model,name:base.model_ir_values
@@ -17043,32 +17037,32 @@ msgstr ""
 #. module: base
 #: model:ir.model,name:base.model_report_base_report_irmodulereference
 msgid "report.base.report_irmodulereference"
-msgstr "rapor.baz.rapor_irmodülreferansı"
+msgstr ""
 
 #. module: base
 #: model:ir.model,name:base.model_res_config
 msgid "res.config"
-msgstr "res.yapılandırma"
+msgstr ""
 
 #. module: base
 #: model:ir.model,name:base.model_res_config_installer
 msgid "res.config.installer"
-msgstr "res.yapılandırma.yükleyici"
+msgstr ""
 
 #. module: base
 #: model:ir.model,name:base.model_res_config_settings
 msgid "res.config.settings"
-msgstr "res.yapılandırma.ayarlar"
+msgstr ""
 
 #. module: base
 #: model:ir.model,name:base.model_res_partner_title
 msgid "res.partner.title"
-msgstr "res.ortak.başlık"
+msgstr ""
 
 #. module: base
 #: model:ir.model,name:base.model_res_request_link
 msgid "res.request.link"
-msgstr "res.istek.bağlantı"
+msgstr ""
 
 #. module: base
 #: model:ir.model,name:base.model_res_users_log

@@ -5,8 +5,6 @@
 # Translators:
 # Jonathan Stein <cgs@image.dk>, 2016
 # Morten Schou <ms@msteknik.dk>, 2016
-# Sanne Kristensen <sanne@vkdata.dk>, 2016
-# Ejner Sønniksen <ejner@vkdata.dk>, 2016
 # Martin Trigaux <mat@odoo.com>, 2016
 msgid ""
 msgstr ""
@@ -38,21 +36,21 @@ msgstr ""
 #: code:addons/web_settings_dashboard/static/src/xml/dashboard.xml:149
 #, python-format
 msgid "(Community Edition)"
-msgstr "(Community version)"
+msgstr ""
 
 #. module: web_settings_dashboard
 #. openerp-web
 #: code:addons/web_settings_dashboard/static/src/xml/dashboard.xml:165
 #, python-format
 msgid "Activate the developer mode"
-msgstr "Aktivér udviklertilstand"
+msgstr "Aktiver udvikler tilstand"
 
 #. module: web_settings_dashboard
 #. openerp-web
 #: code:addons/web_settings_dashboard/static/src/xml/dashboard.xml:167
 #, python-format
 msgid "Activate the developer mode (with assets)"
-msgstr "Aktivér udviklertilstand (med aktiver)"
+msgstr ""
 
 #. module: web_settings_dashboard
 #. openerp-web
@@ -94,41 +92,41 @@ msgstr "Gennemse dokumentation."
 #: code:addons/web_settings_dashboard/static/src/xml/dashboard.xml:156
 #, python-format
 msgid "Copyright © 2004-2016"
-msgstr "Copyright © 2004-2016"
+msgstr ""
 
 #. module: web_settings_dashboard
 #: model:ir.actions.client,name:web_settings_dashboard.web_settings_dashboard_action
 #: model:ir.ui.menu,name:web_settings_dashboard.web_dashboard_menu
 msgid "Dashboard"
-msgstr "Dashboard"
+msgstr "Instrumentbræt"
 
 #. module: web_settings_dashboard
 #. openerp-web
 #: code:addons/web_settings_dashboard/static/src/xml/dashboard.xml:169
 #, python-format
 msgid "Deactivate the developer mode"
-msgstr "Deaktivér udviklertilstand"
+msgstr ""
 
 #. module: web_settings_dashboard
 #. openerp-web
 #: code:addons/web_settings_dashboard/static/src/xml/dashboard.xml:66
 #, python-format
 msgid "Enter e-mail addresses (one per line)"
-msgstr "Indtast e-mailadresser (en pr. linje)"
+msgstr "Indtast e-mail adresser (en pr. linje)"
 
 #. module: web_settings_dashboard
 #. openerp-web
 #: code:addons/web_settings_dashboard/static/src/xml/dashboard.xml:94
 #, python-format
 msgid "Follow these implementation guides to get the most out of Odoo."
-msgstr "Følg disse implementeringsguides for at få det bedste ud af Odoo."
+msgstr "Følg disse implementerings guides for at få det bedste ud af Odoo."
 
 #. module: web_settings_dashboard
 #. openerp-web
 #: code:addons/web_settings_dashboard/static/src/xml/dashboard.xml:156
 #, python-format
 msgid "GNU LGPL Licenced"
-msgstr "GNU LGPL licenceret"
+msgstr ""
 
 #. module: web_settings_dashboard
 #. openerp-web
@@ -177,7 +175,7 @@ msgstr "Inviter nye brugere:"
 #: code:addons/web_settings_dashboard/static/src/xml/dashboard.xml:61
 #, python-format
 msgid "Manage access rights"
-msgstr "Administrer adgangsrettigheder"
+msgstr "Administrerer acces rettigheder"
 
 #. module: web_settings_dashboard
 #. openerp-web
@@ -212,7 +210,7 @@ msgstr "Odoo Enterprise"
 #: code:addons/web_settings_dashboard/static/src/xml/dashboard.xml:156
 #, python-format
 msgid "Odoo S.A."
-msgstr "Odoo S.A."
+msgstr ""
 
 #. module: web_settings_dashboard
 #. openerp-web
@@ -226,21 +224,21 @@ msgstr "Afventende invitationer:"
 #: code:addons/web_settings_dashboard/static/src/js/dashboard.js:107
 #, python-format
 msgid "Please provide valid email addresses"
-msgstr "Angiv venligst gyldig e-mailadresse"
+msgstr "Angiv venligst gyldig email adresse"
 
 #. module: web_settings_dashboard
 #. openerp-web
 #: code:addons/web_settings_dashboard/static/src/xml/dashboard.xml:131
 #, python-format
 msgid "Share the Love"
-msgstr "Del kærligheden"
+msgstr ""
 
 #. module: web_settings_dashboard
 #. openerp-web
 #: code:addons/web_settings_dashboard/static/src/xml/dashboard.xml:43
 #, python-format
 msgid "Theme store"
-msgstr "Theme store"
+msgstr "Thema butik"
 
 #. module: web_settings_dashboard
 #. openerp-web
@@ -266,4 +264,4 @@ msgstr "Du skal installere apps først."
 #: code:addons/web_settings_dashboard/static/src/xml/dashboard.xml:79
 #, python-format
 msgid "more"
-msgstr "flere"
+msgstr "mere"

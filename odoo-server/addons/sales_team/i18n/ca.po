@@ -29,28 +29,28 @@ msgstr ""
 #: code:addons/sales_team/static/src/xml/sales_team_dashboard.xml:91
 #, python-format
 msgid "3 exp. closing"
-msgstr "3 esp. tancament"
+msgstr ""
 
 #. module: sales_team
 #. openerp-web
 #: code:addons/sales_team/static/src/xml/sales_team_dashboard.xml:137
 #, python-format
 msgid "35,029.39€"
-msgstr "35,029.39€"
+msgstr ""
 
 #. module: sales_team
 #. openerp-web
 #: code:addons/sales_team/static/src/xml/sales_team_dashboard.xml:124
 #, python-format
 msgid "78,140.03€"
-msgstr "78,140.03€"
+msgstr ""
 
 #. module: sales_team
 #. openerp-web
 #: code:addons/sales_team/static/src/xml/sales_team_dashboard.xml:169
 #, python-format
 msgid "80.000€"
-msgstr "80.000€"
+msgstr ""
 
 #. module: sales_team
 #: model:ir.ui.view,arch_db:sales_team.crm_team_salesteams_view_kanban
@@ -77,7 +77,7 @@ msgstr "Actiu"
 #: code:addons/sales_team/static/src/xml/sales_team_dashboard.xml:114
 #, python-format
 msgid "Activities Done"
-msgstr "Activitats fetes"
+msgstr ""
 
 #. module: sales_team
 #: model:ir.ui.view,arch_db:sales_team.view_sale_config_settings
@@ -110,7 +110,7 @@ msgstr "Cancel·la"
 #: model:ir.actions.act_window,help:sales_team.crm_team_salesteams_act
 #: model:ir.actions.act_window,help:sales_team.sales_team_config_action
 msgid "Click here to define a new sales team."
-msgstr "Faci clic aquí per definir un nou equip de vendes."
+msgstr ""
 
 #. module: sales_team
 #. openerp-web
@@ -123,7 +123,7 @@ msgstr "Faci clic aquí per definir un nou equip de vendes."
 #: code:addons/sales_team/static/src/xml/sales_team_dashboard.xml:182
 #, python-format
 msgid "Click to set"
-msgstr "Faci clic per ajustar"
+msgstr ""
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team_color
@@ -177,7 +177,7 @@ msgstr "Grup de paisos "
 #: code:addons/sales_team/static/src/xml/sales_team_dashboard.xml:215
 #, python-format
 msgid "Create a few opportunities in it."
-msgstr "Creeu algunes oportunitats en ell."
+msgstr ""
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team_create_uid
@@ -240,7 +240,7 @@ msgstr ""
 #: code:addons/sales_team/static/src/xml/sales_team_dashboard.xml:214
 #, python-format
 msgid "Great sales journeys start with a clean pipeline."
-msgstr "Grans vendes comencen amb un embut organitzat."
+msgstr ""
 
 #. module: sales_team
 #: model:ir.ui.view,arch_db:sales_team.crm_team_salesteams_search
@@ -267,8 +267,6 @@ msgid ""
 "If set, sale team used notably for sales and assignations related to this "
 "partner"
 msgstr ""
-"Si està habilitat, representa l'equip de vendes utilitzat per vendes i "
-"assignacions relacionats amb aquest tercer."
 
 #. module: sales_team
 #: model:ir.model.fields,help:sales_team.field_crm_team_active
@@ -276,8 +274,6 @@ msgid ""
 "If the active field is set to false, it will allow you to hide the sales "
 "team without removing it."
 msgstr ""
-"Si el camp \"actiu\" s'estableix a falç, li permet amagar l'equip de vendes "
-"sense eliminar-lo."
 
 #. module: sales_team
 #: model:crm.team,name:sales_team.crm_team_1
@@ -302,7 +298,7 @@ msgstr "Última modificació el "
 #: code:addons/sales_team/static/src/xml/sales_team_dashboard.xml:188
 #, python-format
 msgid "Last Month"
-msgstr "Últim mes"
+msgstr ""
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team_write_uid
@@ -362,7 +358,7 @@ msgstr "Els meus equips de vendes"
 #: code:addons/sales_team/static/src/xml/sales_team_dashboard.xml:50
 #, python-format
 msgid "Next 7 days"
-msgstr "Pròxims 7 dies"
+msgstr ""
 
 #. module: sales_team
 #. openerp-web
@@ -428,8 +424,6 @@ msgid ""
 "Sales Team the user is member of. Used to compute the members of a sales "
 "team through the inverse one2many"
 msgstr ""
-"Equip de venda del qual l'usuari és membre. Utilitzat per reconstruir els "
-"membres d'un equip de vendes a través del camp invers one2many"
 
 #. module: sales_team
 #: model:ir.actions.act_window,name:sales_team.crm_team_act
@@ -446,7 +440,7 @@ msgstr "Equips de vendes"
 #. module: sales_team
 #: model:ir.ui.view,arch_db:sales_team.crm_team_view_form
 msgid "Salesteam name..."
-msgstr "Nom de l'equip de vendes"
+msgstr ""
 
 #. module: sales_team
 #: model:ir.ui.view,arch_db:sales_team.crm_team_salesteams_search
@@ -464,7 +458,7 @@ msgstr "Configuració"
 #: code:addons/sales_team/static/src/xml/sales_team_dashboard.xml:146
 #, python-format
 msgid "Target"
-msgstr "Objectiu"
+msgstr ""
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team_user_id
@@ -481,7 +475,7 @@ msgstr "Membres de l'equip"
 #. module: sales_team
 #: model:ir.model.fields,help:sales_team.field_crm_team_color
 msgid "The color of the team"
-msgstr "el color de l'equip"
+msgstr ""
 
 #. module: sales_team
 #: model:ir.model.fields,help:sales_team.field_crm_team_reply_to
@@ -515,7 +509,7 @@ msgstr ""
 #: code:addons/sales_team/static/src/xml/sales_team_dashboard.xml:76
 #, python-format
 msgid "To Activities"
-msgstr "a accions"
+msgstr ""
 
 #. module: sales_team
 #. openerp-web
@@ -523,7 +517,7 @@ msgstr "a accions"
 #: code:addons/sales_team/static/src/xml/sales_team_dashboard.xml:189
 #, python-format
 msgid "To Activity Report"
-msgstr "a informe d'accions"
+msgstr ""
 
 #. module: sales_team
 #. openerp-web
@@ -531,7 +525,7 @@ msgstr "a informe d'accions"
 #: code:addons/sales_team/static/src/xml/sales_team_dashboard.xml:51
 #, python-format
 msgid "To Calendar"
-msgstr "al calendari"
+msgstr ""
 
 #. module: sales_team
 #. openerp-web
@@ -539,14 +533,14 @@ msgstr "al calendari"
 #: code:addons/sales_team/static/src/xml/sales_team_dashboard.xml:199
 #, python-format
 msgid "To Invoice Report"
-msgstr "a informe de factures"
+msgstr ""
 
 #. module: sales_team
 #. openerp-web
 #: code:addons/sales_team/static/src/xml/sales_team_dashboard.xml:86
 #, python-format
 msgid "To Opportunities"
-msgstr "a Oportunitats"
+msgstr ""
 
 #. module: sales_team
 #. openerp-web
@@ -554,7 +548,7 @@ msgstr "a Oportunitats"
 #: code:addons/sales_team/static/src/xml/sales_team_dashboard.xml:194
 #, python-format
 msgid "To Opportunity Report"
-msgstr "a Informe d'oportunitat"
+msgstr ""
 
 #. module: sales_team
 #. openerp-web
@@ -579,19 +573,16 @@ msgid ""
 "                    departments into separate teams. Each team will work in\n"
 "                    its own list of opportunities."
 msgstr ""
-"Utilitzi equips de vendes per organitzar als seus comercials o departaments "
-"en diferents equips. Cada equip treballarà la seva propia llista "
-"d'oportunitats."
 
 #. module: sales_team
 #: model:res.groups,name:sales_team.group_sale_salesman_all_leads
 msgid "User: All Documents"
-msgstr "Usuari: Tots els documents"
+msgstr ""
 
 #. module: sales_team
 #: model:res.groups,name:sales_team.group_sale_salesman
 msgid "User: Own Documents Only"
-msgstr "Usuari: només mostrar documents propis"
+msgstr ""
 
 #. module: sales_team
 #: model:ir.model,name:sales_team.model_res_users
@@ -608,7 +599,7 @@ msgstr "Vendes del lloc web"
 #: code:addons/sales_team/static/src/xml/sales_team_dashboard.xml:127
 #, python-format
 msgid "Won in Opportunities"
-msgstr "Guanyat en oportunitats"
+msgstr ""
 
 #. module: sales_team
 #. openerp-web
@@ -622,7 +613,7 @@ msgstr "Valor introduït incorrecte!"
 #: code:addons/sales_team/static/src/xml/sales_team_dashboard.xml:89
 #, python-format
 msgid "exp. closing"
-msgstr "tancament esp."
+msgstr ""
 
 #. module: sales_team
 #: model:ir.model,name:sales_team.model_ir_ui_view
@@ -634,7 +625,7 @@ msgstr "ir.ui.view"
 #: code:addons/sales_team/static/src/xml/sales_team_dashboard.xml:79
 #, python-format
 msgid "overdue"
-msgstr "vençut"
+msgstr ""
 
 #. module: sales_team
 #: model:ir.model,name:sales_team.model_sale_config_settings
@@ -647,14 +638,11 @@ msgid ""
 "the user will have access to all records of everyone in the sales "
 "application."
 msgstr ""
-"l'usuari tindrà accés a tots els registres de tots de l'aplicació de vendes."
 
 #. module: sales_team
 #: model:res.groups,comment:sales_team.group_sale_salesman
 msgid "the user will have access to his own data in the sales application."
 msgstr ""
-"l'usuari tindrà accés a la configuració de vendes així com als informes "
-"estadístics."
 
 #. module: sales_team
 #: model:res.groups,comment:sales_team.group_sale_manager

@@ -3,15 +3,23 @@
 # * report
 # 
 # Translators:
+# Martin Trigaux <mat@odoo.com>, 2016
+# Ediz Duman <neps1192@gmail.com>, 2016
+# gezgin biri <gezginbiri@hotmail.com>, 2016
+# Saban Yildiz <sabany@projetgrup.com>, 2016
+# Ahmet Altinisik <aaltinisik@altinkaya.com.tr>, 2016
+# Ayhan KIZILTAN <akiziltan76@hotmail.com>, 2016
+# Gökhan Erdoğdu <gokhan.erdogdu@mechsoft.com.tr>, 2016
 # Murat Kaplan <muratk@projetgrup.com>, 2016
-# Levent Karakaş <levent@mektup.at>, 2016
+# Ramiz Deniz Öner <deniz@denizoner.com>, 2016
+# Azar Huseynli <azerbay1984@gmail.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-23 13:27+0000\n"
 "PO-Revision-Date: 2017-06-23 13:27+0000\n"
-"Last-Translator: Levent Karakaş <levent@mektup.at>, 2016\n"
+"Last-Translator: Azar Huseynli <azerbay1984@gmail.com>, 2016\n"
 "Language-Team: Turkish (https://www.transifex.com/odoo/teams/41243/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -57,7 +65,7 @@ msgstr "A3  8   297 x 420 mm"
 #. module: report
 #: selection:report.paperformat,format:0
 msgid "A4  0   210 x 297 mm, 8.26 x 11.69 inches"
-msgstr "A4 0 210 x 297 mm, 8.26 x 11.69 inç"
+msgstr "Copy text \t A4 0 210 x 297 mm, 8.26 x 11.69 inches"
 
 #. module: report
 #: selection:report.paperformat,format:0
@@ -87,12 +95,12 @@ msgstr "A9  13  37 x 52 mm"
 #. module: report
 #: model:ir.model,name:report.model_report_paperformat
 msgid "Allows customization of a report."
-msgstr "Bir çıktının özelleştirmesi sağlar."
+msgstr "Bir rapor özelleştirme sağlar."
 
 #. module: report
 #: model:ir.model.fields,field_description:report.field_report_paperformat_report_ids
 msgid "Associated reports"
-msgstr "İlişkili çıktılar"
+msgstr "İlişkili raporlar"
 
 #. module: report
 #: selection:report.paperformat,format:0
@@ -122,7 +130,7 @@ msgstr "B4  19  250 x 353 mm"
 #. module: report
 #: selection:report.paperformat,format:0
 msgid "B5  1   176 x 250 mm, 6.93 x 9.84 inches"
-msgstr "B5  1   176 x 250 mm, 6.93 x 9.84 inç"
+msgstr "B5  1   176 x 250 mm, 6.93 x 9.84 inches"
 
 #. module: report
 #: selection:report.paperformat,format:0
@@ -148,7 +156,7 @@ msgstr "B9  23  33 x 62 mm"
 #: code:addons/report/models/report.py:273
 #, python-format
 msgid "Bad Report Reference"
-msgstr "Kötü Çıktı Referansı"
+msgstr "Kötü Rapor Referans"
 
 #. module: report
 #: model:ir.model.fields,field_description:report.field_report_paperformat_margin_bottom
@@ -168,7 +176,7 @@ msgstr "Comm10E 25  105 x 241 mm, U.S. Common 10 Envelope"
 #. module: report
 #: model:ir.model,name:report.model_res_company
 msgid "Companies"
-msgstr "Firmalar"
+msgstr "Şirketler"
 
 #. module: report
 #: model:ir.model.fields,field_description:report.field_report_create_uid
@@ -180,7 +188,7 @@ msgstr "Oluşturan"
 #: model:ir.model.fields,field_description:report.field_report_create_date
 #: model:ir.model.fields,field_description:report.field_report_paperformat_create_date
 msgid "Created on"
-msgstr "Oluşturulma zamanı"
+msgstr "Oluşturulma"
 
 #. module: report
 #: selection:report.paperformat,format:0
@@ -210,7 +218,7 @@ msgstr "Vazgeç"
 #: model:ir.model.fields,field_description:report.field_report_display_name
 #: model:ir.model.fields,field_description:report.field_report_paperformat_display_name
 msgid "Display Name"
-msgstr "Ad Görünümü"
+msgstr "Adı Göstermek"
 
 #. module: report
 #: model:ir.model.fields,field_description:report.field_report_paperformat_header_line
@@ -258,7 +266,7 @@ msgstr "Executive 4 7.5 x 10 inç, 190.5 x 254 mm"
 #. module: report
 #: model:ir.model.fields,help:report.field_report_paperformat_report_ids
 msgid "Explicitly associated reports"
-msgstr "Açık bir şekilde ilişkili çıktılar"
+msgstr "Açık bir şekilde ilişkili raporları"
 
 #. module: report
 #: model:ir.ui.view,arch_db:report.external_layout_footer
@@ -326,17 +334,17 @@ msgstr "Sol Marjı (mm)"
 #. module: report
 #: selection:report.paperformat,format:0
 msgid "Legal    3   8.5 x 14 inches, 215.9 x 355.6 mm"
-msgstr "Legal 3 8.5 x 14 inç, 215.9 x 355.6 mm"
+msgstr "Legal 3 8.5 x 14 inches, 215.9 x 355.6 mm"
 
 #. module: report
 #: selection:report.paperformat,format:0
 msgid "Letter 2 8.5 x 11 inches, 215.9 x 279.4 mm"
-msgstr "Letter 2 8.5 x 11 inç, 215.9 x 279.4 mm"
+msgstr "Letter 2 8.5 x 11 inches, 215.9 x 279.4 mm"
 
 #. module: report
 #: model:ir.model.fields,field_description:report.field_report_paperformat_name
 msgid "Name"
-msgstr "İsim"
+msgstr "Adı"
 
 #. module: report
 #: model:ir.model.fields,field_description:report.field_report_paperformat_orientation
@@ -346,7 +354,7 @@ msgstr "Sayfa Yönü"
 #. module: report
 #: model:ir.model.fields,field_description:report.field_report_paperformat_dpi
 msgid "Output DPI"
-msgstr "DPI Çıkış"
+msgstr "Dpı Çıkış"
 
 #. module: report
 #: model:ir.model.fields,field_description:report.field_report_paperformat_page_height
@@ -382,7 +390,7 @@ msgstr "Kağıt biçimi"
 #. module: report
 #: model:ir.model.fields,field_description:report.field_base_config_settings_paperformat_id
 msgid "Paper format *"
-msgstr "Kağıt Biçimi *"
+msgstr ""
 
 #. module: report
 #: model:ir.ui.view,arch_db:report.paperformat_view_form
@@ -432,7 +440,7 @@ msgstr ""
 #. module: report
 #: model:ir.ui.view,arch_db:report.act_report_xml_view_inherit
 msgid "QWeb views"
-msgstr "QWeb Görünümleri"
+msgstr ""
 
 #. module: report
 #. openerp-web
@@ -440,14 +448,14 @@ msgstr "QWeb Görünümleri"
 #: model:ir.model,name:report.model_report
 #, python-format
 msgid "Report"
-msgstr "Çıktı"
+msgstr "Rapor"
 
 #. module: report
 #: model:ir.actions.act_window,name:report.reports_action
 #: model:ir.ui.menu,name:report.reporting_menuitem
 #: model:ir.ui.menu,name:report.reports_menuitem
 msgid "Reports"
-msgstr "Çıktılar"
+msgstr "Raporlar"
 
 #. module: report
 #: model:ir.model.fields,field_description:report.field_report_paperformat_margin_right
@@ -469,7 +477,12 @@ msgstr "Uygun Sayfa Boyutu Seçin"
 #. module: report
 #: model:ir.ui.view,arch_db:report.external_layout_footer
 msgid "TIN:"
-msgstr "VKN:"
+msgstr ""
+"Sayın Yetkili,\n"
+"\n"
+"Kayıtlarımıza göre halen yapılmamış olan ödemeleriniz bulunmaktadır. Lütfen detayları için aşağıya bakınız. Eğer ödeme yapıldı ise, lütfen bu bildirimi dikkate almayınız. Aksi durumda aşağıda belirtilen miktarı gönderiniz. Hesabınız ile ilgili sorularınız var ise, lütfen bizimle iletişime geçiniz, İşbirliğiniz için şimdiden teşekkür ederiz.\n"
+"\n"
+"İyi dileklerimizle"
 
 #. module: report
 #: selection:report.paperformat,format:0
@@ -498,7 +511,7 @@ msgstr ""
 #: code:addons/report/models/report.py:273
 #, python-format
 msgid "This report is not loaded into the database: %s."
-msgstr "Bu çıktı veritabanına yüklenemedi: %s."
+msgstr "Bu rapor veritabanına yüklenemedi: %s."
 
 #. module: report
 #: model:ir.model.fields,field_description:report.field_report_paperformat_margin_top
@@ -551,8 +564,8 @@ msgid ""
 "You need to start OpenERP with at least two \n"
 "workers to print a pdf version of the reports."
 msgstr ""
-"Çıktıların pdf versiyonunu bastırmak için Odoo'yu en az iki çalışanla "
-"başlatmalısınız."
+"Raporların pdf versiyonunu bastırmak için OpenERP'yi\n"
+"en az iki çalışanla başlatmalısınız."
 
 #. module: report
 #. openerp-web
@@ -587,14 +600,14 @@ msgstr "base.config.settings"
 #. module: report
 #: model:ir.model,name:report.model_ir_actions_report_xml
 msgid "ir.actions.report.xml"
-msgstr "ir.actions.report.xml"
+msgstr ""
 
 #. module: report
 #: model:ir.model,name:report.model_ir_qweb_field_barcode
 msgid "ir.qweb.field.barcode"
-msgstr "ir.qweb.field.barcode"
+msgstr ""
 
 #. module: report
 #: model:ir.model,name:report.model_report_abstract_report
 msgid "report.abstract_report"
-msgstr "report.abstract_report"
+msgstr ""

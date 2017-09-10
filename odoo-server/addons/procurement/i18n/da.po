@@ -5,7 +5,6 @@
 # Translators:
 # Martin Trigaux <mat@odoo.com>, 2016
 # Jesper Carstensen <jc@danodoo.dk>, 2016
-# Sanne Kristensen <sanne@vkdata.dk>, 2016
 # Morten Schou <ms@msteknik.dk>, 2016
 # Pernille Kristensen <pernillekristensen1994@gmail.com>, 2017
 msgid ""
@@ -121,7 +120,7 @@ msgstr "Beregn alle indkøb i baggrunden."
 #. module: procurement
 #: model:ir.model,name:procurement.model_procurement_order_compute_all
 msgid "Compute all schedulers"
-msgstr "Beregn al planlægning"
+msgstr "Beregn alle planlægning"
 
 #. module: procurement
 #: selection:procurement.order,state:0
@@ -147,7 +146,7 @@ msgstr "Oprettet den"
 #. module: procurement
 #: model:ir.model.fields,field_description:procurement.field_procurement_group_move_type
 msgid "Delivery Type"
-msgstr "Leveringstype"
+msgstr ""
 
 #. module: procurement
 #: model:ir.model.fields,field_description:procurement.field_procurement_order_name
@@ -195,7 +194,7 @@ msgstr "Fast"
 #. module: procurement
 #: model:ir.model.fields,field_description:procurement.field_procurement_rule_group_id
 msgid "Fixed Procurement Group"
-msgstr "Fast indkøbsgruppe"
+msgstr "Fast indkøbs gruppe"
 
 #. module: procurement
 #: model:ir.ui.view,arch_db:procurement.view_procurement_rule_filter
@@ -274,9 +273,6 @@ msgid ""
 "                having a vendor defined on the product, and products to\n"
 "                manufacture without having a bill of materials."
 msgstr ""
-"Mest almindelige undtagelser er produkter, der købes uden\n"
-"                at have en leverandør defineret på produktet og produkter til\n"
-"                fremstilling uden at have en faktura."
 
 #. module: procurement
 #: model:ir.model.fields,field_description:procurement.field_procurement_rule_name
@@ -287,7 +283,7 @@ msgstr "Navn"
 #: code:addons/procurement/models/procurement.py:189
 #, python-format
 msgid "No rule matching this procurement"
-msgstr "Ingen regel matcher dette indkøb"
+msgstr "Ingen regel matcher denne indkøb"
 
 #. module: procurement
 #: selection:procurement.order,priority:0
@@ -326,45 +322,45 @@ msgstr "Indkøb"
 #: model:ir.actions.act_window,name:procurement.procurement_order_action_exceptions
 #: model:ir.ui.view,arch_db:procurement.view_procurement_filter
 msgid "Procurement Exceptions"
-msgstr "Indkøbsundtagelser"
+msgstr "Vare mangler"
 
 #. module: procurement
 #: model:ir.model.fields,field_description:procurement.field_procurement_order_group_id
 msgid "Procurement Group"
-msgstr "Indkøbsgruppe"
+msgstr "Indkøbs gruppe"
 
 #. module: procurement
 #: model:ir.ui.view,arch_db:procurement.procurement_tree_view
 msgid "Procurement Lines"
-msgstr "Indkøbslinjer"
+msgstr "Indkøbs linier"
 
 #. module: procurement
 #: model:ir.actions.act_window,name:procurement.procurement_action
 #: model:ir.actions.act_window,name:procurement.procurement_order_action_product_product_stat
 #: model:ir.actions.act_window,name:procurement.procurement_order_action_product_template_stat
 msgid "Procurement Orders"
-msgstr "Indkøbsordre"
+msgstr "Indkøbs ordre"
 
 #. module: procurement
 #: model:ir.model,name:procurement.model_procurement_group
 msgid "Procurement Requisition"
-msgstr "Indkøbsrekvisition"
+msgstr "Indkøbs rekvisition"
 
 #. module: procurement
 #: model:ir.model,name:procurement.model_procurement_rule
 #: model:ir.ui.view,arch_db:procurement.view_procurement_rule_form
 msgid "Procurement Rule"
-msgstr "Købsregler"
+msgstr "Købs regler"
 
 #. module: procurement
 #: model:ir.ui.view,arch_db:procurement.view_procurement_rule_tree
 msgid "Procurement Rules"
-msgstr "Genanskaffelsesregler"
+msgstr "Genanskaffelses regler"
 
 #. module: procurement
 #: model:ir.ui.view,arch_db:procurement.procurement_group_form_view
 msgid "Procurement group"
-msgstr "Indkøbsgruppe"
+msgstr "Indkøbs gruppe"
 
 #. module: procurement
 #: model:ir.ui.view,arch_db:procurement.view_procurement_filter
@@ -388,27 +384,27 @@ msgstr "Vare"
 #. module: procurement
 #: model:ir.model.fields,field_description:procurement.field_procurement_order_product_uom
 msgid "Product Unit of Measure"
-msgstr "Vareenhed"
+msgstr "Vare enhed"
 
 #. module: procurement
 #: selection:procurement.rule,group_propagation_option:0
 msgid "Propagate"
-msgstr "Udvide"
+msgstr "Udbrede"
 
 #. module: procurement
 #: model:ir.ui.view,arch_db:procurement.view_procurement_rule_form
 msgid "Propagation Options"
-msgstr "Udvidelsesmuligheder"
+msgstr ""
 
 #. module: procurement
 #: model:ir.model.fields,field_description:procurement.field_procurement_rule_group_propagation_option
 msgid "Propagation of Procurement Group"
-msgstr "Udvidelse af indkøbsgruppen"
+msgstr ""
 
 #. module: procurement
 #: model:ir.model.fields,field_description:procurement.field_procurement_order_product_qty
 msgid "Quantity"
-msgstr "Antal"
+msgstr "Mængde"
 
 #. module: procurement
 #: model:ir.ui.view,arch_db:procurement.procurement_form_view
@@ -426,8 +422,6 @@ msgid ""
 "Reference of the document that created this Procurement. This is "
 "automatically completed by Odoo."
 msgstr ""
-"Henvisning til det dokument, der oprettede dette indkøb. Dette udfyldes "
-"automatisk af Odoo."
 
 #. module: procurement
 #: model:ir.model.fields,field_description:procurement.field_procurement_order_rule_id
@@ -448,7 +442,7 @@ msgstr "Igangsæt indkøb"
 #: model:ir.actions.act_window,name:procurement.action_compute_schedulers
 #: model:ir.ui.view,arch_db:procurement.view_compute_schedulers_wizard
 msgid "Run Schedulers"
-msgstr "Kør behovsberegning"
+msgstr "Kør Behovsberegning"
 
 #. module: procurement
 #: selection:procurement.order,state:0
@@ -500,8 +494,7 @@ msgstr "Status"
 #. module: procurement
 #: model:ir.model.fields,help:procurement.field_procurement_rule_name
 msgid "This field will fill the packing origin and the name of its moves"
-msgstr ""
-"Dette felt vil udfylde pakning oprindelse og navnet på dets bevægelser"
+msgstr "Dette felt vil fylde pakning oprindelse og navnet på dets bevægelser"
 
 #. module: procurement
 #: model:ir.ui.view,arch_db:procurement.procurement_tree_view
@@ -527,22 +520,19 @@ msgid ""
 "                creates the necessary operations to fulfill the need: purchase\n"
 "                order proposition, manufacturing order, etc."
 msgstr ""
-"Når indkøbsordren er bekræftet, oprettes der\n"
-"                de nødvendige operationer der vil opfylde behovet: køb\n"
-"                ordreforslag, produktionsordre mv."
 
 #. module: procurement
 #: code:addons/procurement/models/procurement.py:144
 #, python-format
 msgid "You cannot delete procurements that are in cancel state."
-msgstr "Du kan ikke slette indkøb, der er i annulleringstilstand."
+msgstr ""
 
 #. module: procurement
 #: model:ir.ui.view,arch_db:procurement.view_procurement_rule_form
 msgid "e.g. Buy"
-msgstr "f.eks. Køb"
+msgstr ""
 
 #. module: procurement
 #: model:ir.ui.view,arch_db:procurement.procurement_form_view
 msgid "e.g. SO005"
-msgstr "f.eks. S005"
+msgstr "Eksempelvis S005"

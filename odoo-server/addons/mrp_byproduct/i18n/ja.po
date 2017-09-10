@@ -100,7 +100,7 @@ msgstr "製品数量"
 #. module: mrp_byproduct
 #: model:ir.model,name:mrp_byproduct.model_mrp_production
 msgid "Production"
-msgstr "製造"
+msgstr "本番"
 
 #. module: mrp_byproduct
 #: model:ir.model,name:mrp_byproduct.model_stock_move

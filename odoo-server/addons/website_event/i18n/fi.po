@@ -30,7 +30,7 @@ msgstr ""
 #. module: website_event
 #: model:ir.ui.view,arch_db:website_event.registration_attendee_details
 msgid "(Free)"
-msgstr "(Ilmainen)"
+msgstr ""
 
 #. module: website_event
 #: model:ir.ui.view,arch_db:website_event.country_events_list
@@ -110,7 +110,7 @@ msgstr "<strong>Puh</strong> <span class=\"text-muted\">(Vapaaehtoinen)</span>"
 #. module: website_event
 #: model:ir.ui.view,arch_db:website_event.event_description_full
 msgid "<strong>Use this tag:</strong>"
-msgstr "<strong>Käytä tätä tunnistetta:</strong>"
+msgstr ""
 
 #. module: website_event
 #: code:addons/website_event/controllers/main.py:96
@@ -180,7 +180,6 @@ msgid ""
 "Create a name for your new event and click <em>\"Continue\"</em>. e.g: "
 "Technical Training"
 msgstr ""
-"Luo nimi tapahtumalle ja klikkaa <em>\"Jatka\"</em>. esim. Tekninen kouluts"
 
 #. module: website_event
 #: model:ir.model.fields,help:website_event.field_event_event_show_menu
@@ -192,14 +191,14 @@ msgstr "Luo Esittely, Paikka ja Rekisteröidy-valikot tapahtuman sivulle."
 #. module: website_event
 #: model:ir.model.fields,field_description:website_event.field_event_event_show_menu
 msgid "Dedicated Menu"
-msgstr "Oma valikko"
+msgstr ""
 
 #. module: website_event
 #. openerp-web
 #: code:addons/website_event/static/src/js/website.tour.event.js:28
 #, python-format
 msgid "Drag this block and drop it in your page."
-msgstr "Raahaa tämä lohko ja pudota sivustolle"
+msgstr ""
 
 #. module: website_event
 #: model:ir.ui.view,arch_db:website_event.registration_complete
@@ -214,7 +213,7 @@ msgstr "Muokkaa nimilappuja"
 #. module: website_event
 #: model:ir.ui.view,arch_db:website_event.registration_template
 msgid "End of Registration"
-msgstr "Rekisteröinnin päättyminen"
+msgstr ""
 
 #. module: website_event
 #: model:ir.model,name:website_event.model_event_event
@@ -317,7 +316,7 @@ msgstr "Esittely"
 #. module: website_event
 #: model:ir.model.fields,field_description:website_event.field_event_event_is_participating
 msgid "Is Participating"
-msgstr "Osallistuu"
+msgstr ""
 
 #. module: website_event
 #: code:addons/website_event/models/event.py:55
@@ -508,12 +507,12 @@ msgstr "Tänään"
 #. module: website_event
 #: model:ir.model.fields,field_description:website_event.field_event_event_twitter_hashtag
 msgid "Twitter Hashtag"
-msgstr "Twitter Hashtag"
+msgstr ""
 
 #. module: website_event
 #: model:ir.ui.view,arch_db:website_event.index
 msgid "Use the top menu <i>'Content'</i> to create your first event."
-msgstr "Käytä ylävalikkoa <i>'Sisältö'</i> luodaksesi ensimmäisen tapahtuman."
+msgstr ""
 
 #. module: website_event
 #: model:ir.model.fields,field_description:website_event.field_event_event_website_published
@@ -523,12 +522,12 @@ msgstr "Näkyvillä verkkosivustolla"
 #. module: website_event
 #: model:ir.ui.view,arch_db:website_event.event_description_full
 msgid "Visualize on Google Maps"
-msgstr "Näytä Google Mapsissa"
+msgstr ""
 
 #. module: website_event
 #: model:ir.ui.view,arch_db:website_event.registration_complete
 msgid "We are glad to confirm your registration to our event"
-msgstr "Rekisteröitymisesi tapahtumaan on nyt vahvistettu"
+msgstr ""
 
 #. module: website_event
 #: model:ir.actions.act_url,name:website_event.action_open_website
@@ -568,7 +567,7 @@ msgstr ""
 #. module: website_event
 #: model:ir.ui.view,arch_db:website_event.registration_complete
 msgid "Your registration"
-msgstr "Rekisteröitymisesi"
+msgstr ""
 
 #. module: website_event
 #: model:ir.ui.view,arch_db:website_event.registration_attendee_details

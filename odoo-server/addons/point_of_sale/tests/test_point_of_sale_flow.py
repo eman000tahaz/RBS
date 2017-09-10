@@ -356,13 +356,12 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
         self.assertFalse(self.pos_order_pos1.invoice_id, 'Invoice should not be attached to order.')
 
         # I generate an invoice from the order
-        res = self.pos_order_pos1.action_pos_order_invoice()
-        self.assertIn('res_id', res, "No invoice created")
+        self.invoice = self.pos_order_pos1.action_pos_order_invoice()
 
         # I test that the total of the attached invoice is correct
-        invoice = self.env['account.invoice'].browse(res['res_id'])
+        self.amount_total = self.pos_order_pos1.amount_total
         self.assertEqual(
-            float_compare(invoice.amount_total, 1752.75, precision_digits=2), 0, "Invoice not correct")
+            float_compare(self.amount_total, 1752.75, precision_digits=2), 0, "Invoice not correct")
 
         """In order to test the reports on Bank Statement defined in point_of_sale module, I create a bank statement line, confirm it and print the reports"""
 

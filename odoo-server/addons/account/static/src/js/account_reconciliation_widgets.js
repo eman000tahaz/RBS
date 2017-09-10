@@ -763,9 +763,7 @@ var abstractReconciliationLine = Widget.extend({
             else if (preset_line.amount_type === "percentage") {
                 self.amount_field.set_value(0);
                 self.updateBalance();
-                var currency_dict = session.get_currency(self.get("currency_id"));
-                var preset_amount = utils.round_currency(currency_dict, -1 * self.get("balance") * preset_line.amount / 100);
-                self.amount_field.set_value(preset_amount);
+                self.amount_field.set_value(-1 * self.get("balance") * preset_line.amount / 100);
             }
         }
     },

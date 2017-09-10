@@ -56,11 +56,6 @@ msgid ""
 "country, GeoIP must be install on your server, otherwise, the countries of "
 "the rule will not be taken into account.</span>"
 msgstr ""
-"<span>Шууд дэмжлэгийн сувагт дүрэм тодорхойлно уу. Та өгөгдсөн холбоост улс "
-"бүрээр үйлдэл (дэмжлэгийг идэвхигүйжүүлэх, дэмжлэгийг автоматаар нээх, эсвэл"
-" зөвхөн товчлуурыг боломжтой болгох) хийх боломжтой.<br/>Улсыг тодорхойлохын"
-" тулд таны сервер дээр GeoIP суулгагдсан байх ёстой, үгүй бол дүрмийн улсууд"
-" харгалзагдахгүй.</span>"
 
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_channel_rule_action
@@ -70,7 +65,7 @@ msgstr "Үйлдэл"
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_mail_channel_anonymous_name
 msgid "Anonymous Name"
-msgstr "Тодорхойгүй Нэр"
+msgstr ""
 
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_channel_are_you_inside
@@ -82,7 +77,7 @@ msgstr "Та матриц дотор байна уу?"
 #: code:addons/im_livechat/static/src/js/im_livechat.js:27
 #, python-format
 msgid "Ask something ..."
-msgstr "Юм асуух ..."
+msgstr ""
 
 #. module: im_livechat
 #: model:ir.ui.view,arch_db:im_livechat.mail_channel_view_form
@@ -93,41 +88,41 @@ msgstr "Оролцогчид"
 #. module: im_livechat
 #: selection:im_livechat.channel.rule,action:0
 msgid "Auto popup"
-msgstr "Авто попап"
+msgstr ""
 
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_channel_rule_auto_popup_timer
 msgid "Auto popup timer"
-msgstr "Авто попап цаг хэмжигч"
+msgstr ""
 
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_report_channel_duration
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_report_operator_duration
 msgid "Average duration"
-msgstr "Дундаж үргэлжлэх хугацаа"
+msgstr ""
 
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_report_channel_nbr_message
 msgid "Average message"
-msgstr "Дундаж зурвас"
+msgstr ""
 
 #. module: im_livechat
 #: model:ir.model.fields,help:im_livechat.field_im_livechat_report_operator_time_to_answer
 msgid "Average time to give the first answer to the visitor"
-msgstr "Зочинд анхны хариулт өгөх дундаж хугацаа"
+msgstr ""
 
 #. module: im_livechat
 #. openerp-web
 #: code:addons/im_livechat/static/src/xml/im_livechat.xml:13
 #, python-format
 msgid "Bad"
-msgstr "Муу"
+msgstr ""
 
 #. module: im_livechat
 #: model:ir.actions.act_window,name:im_livechat.im_livechat_canned_response_action
 #: model:ir.ui.menu,name:im_livechat.canned_responses
 msgid "Canned Responses"
-msgstr "Бэлдсэн Хариултууд"
+msgstr ""
 
 #. module: im_livechat
 #: model:ir.actions.act_window,help:im_livechat.im_livechat_canned_response_action
@@ -137,9 +132,6 @@ msgid ""
 "                replaced directly in your message, so that you can still edit\n"
 "                it before sending."
 msgstr ""
-"Бэлдсэн Хариултыг зурваст нэмэхийн тулд <i>:shortcut</i> гэж бичээрэй. \n"
-"Энэхүү товчлол нь зурваст шууд нэмэгдсэнээр та илгээхээс өмнө үүнийг \n"
-"засварлах боломжтой."
 
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_channel_rule_channel_id
@@ -160,13 +152,13 @@ msgstr "Сувгийн нэр"
 #. module: im_livechat
 #: model:ir.ui.view,arch_db:im_livechat.im_livechat_channel_rule_view_form
 msgid "Channel Rule"
-msgstr "Сувгийн Дүрэм"
+msgstr ""
 
 #. module: im_livechat
 #: model:ir.model,name:im_livechat.model_im_livechat_channel_rule
 #: model:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_form
 msgid "Channel Rules"
-msgstr "Сувгийн Дүрмүүд"
+msgstr ""
 
 #. module: im_livechat
 #: model:ir.ui.menu,name:im_livechat.support_channels
@@ -176,24 +168,24 @@ msgstr "Сувгууд"
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_channel_input_placeholder
 msgid "Chat Input Placeholder"
-msgstr "Чат оролтын анхны утга"
+msgstr ""
 
 #. module: im_livechat
 #. openerp-web
 #: code:addons/im_livechat/static/src/js/im_livechat.js:29
 #, python-format
 msgid "Chat with one of our collaborators"
-msgstr "Манай хамтран ажиллагсдын нэгтэй хөөрөлдөх"
+msgstr ""
 
 #. module: im_livechat
 #: model:ir.actions.act_window,help:im_livechat.im_livechat_canned_response_action
 msgid "Click to create a new canned response."
-msgstr "Шинэ бэлдсэн хариулт үүсгэх бол дарна уу."
+msgstr ""
 
 #. module: im_livechat
 #: model:ir.actions.act_window,help:im_livechat.im_livechat_channel_action
 msgid "Click to define a new website live chat channel."
-msgstr "Шинэ вэбсайт шууд чат суваг тодорхойлох бол дарна уу."
+msgstr ""
 
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_report_channel_technical_name
@@ -210,13 +202,13 @@ msgstr "Тохиргоо"
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_report_channel_channel_id
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_report_operator_channel_id
 msgid "Conversation"
-msgstr "Хөөрөлдөөн"
+msgstr ""
 
 #. module: im_livechat
 #: model:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_form
 msgid ""
 "Copy and paste this code into your website, within the &lt;head&gt; tag:"
-msgstr "Энэ кодыг вэбсайт дээрээ &lt;head&gt; дотор хуулж тавина уу:"
+msgstr ""
 
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_channel_rule_country_ids
@@ -240,39 +232,39 @@ msgstr "Үүсгэсэн"
 #: model:ir.ui.view,arch_db:im_livechat.im_livechat_report_operator_view_search
 #: model:ir.ui.view,arch_db:im_livechat.mail_channel_view_search
 msgid "Creation date (day)"
-msgstr "Үүсгэсэн огноо (өдөр)"
+msgstr ""
 
 #. module: im_livechat
 #: model:ir.ui.view,arch_db:im_livechat.im_livechat_report_channel_view_search
 #: model:ir.ui.view,arch_db:im_livechat.im_livechat_report_operator_view_search
 msgid "Creation date (hour)"
-msgstr "Үүсгэсэн огноо (цаг)"
+msgstr ""
 
 #. module: im_livechat
 #: model:ir.ui.view,arch_db:im_livechat.im_livechat_report_channel_view_search
 #: model:ir.ui.view,arch_db:im_livechat.im_livechat_report_operator_view_search
 #: model:ir.ui.view,arch_db:im_livechat.mail_channel_view_search
 msgid "Creation date (month)"
-msgstr "Үүсгэсэн огноо (сар)"
+msgstr ""
 
 #. module: im_livechat
 #: model:ir.ui.view,arch_db:im_livechat.im_livechat_report_channel_view_search
 #: model:ir.ui.view,arch_db:im_livechat.im_livechat_report_operator_view_search
 #: model:ir.ui.view,arch_db:im_livechat.mail_channel_view_search
 msgid "Creation date (week)"
-msgstr "Үүсгэсэн огноо (7 хоног)"
+msgstr ""
 
 #. module: im_livechat
 #: model:ir.ui.view,arch_db:im_livechat.im_livechat_report_channel_view_search
 #: model:ir.ui.view,arch_db:im_livechat.im_livechat_report_operator_view_search
 #: model:ir.ui.view,arch_db:im_livechat.mail_channel_view_search
 msgid "Creation date (year)"
-msgstr "Үүсгэсэн огноо (жил)"
+msgstr ""
 
 #. module: im_livechat
 #: model:ir.model.fields,help:im_livechat.field_im_livechat_channel_button_text
 msgid "Default text displayed on the Livechat Support Button"
-msgstr "Шууд чат Дэмжлэгийн Товчлуур дээр гарах үндсэн текст"
+msgstr ""
 
 #. module: im_livechat
 #: model:ir.model.fields,help:im_livechat.field_im_livechat_channel_rule_auto_popup_timer
@@ -281,16 +273,13 @@ msgid ""
 "selected action must be 'Auto popup' otherwise this parameter will not be "
 "taken into account."
 msgstr ""
-"Хөөрөлдөөний цонхыг автоматаар нээх хүртэлх хугацаа (секундээр). Жич: "
-"сонгосон үйлдэл нь 'Авто попап' байх ёстой, үгүй бол энэ параметрыг "
-"хэрэгсэхгүй."
 
 #. module: im_livechat
 #. openerp-web
 #: code:addons/im_livechat/static/src/xml/im_livechat.xml:7
 #, python-format
 msgid "Did we correctly answer your question ?"
-msgstr "Бид таны асуултанд зөв хариулсан уу ?"
+msgstr ""
 
 #. module: im_livechat
 #: model:ir.model,name:im_livechat.model_mail_channel
@@ -308,13 +297,13 @@ msgstr "Дэлгэцийн Нэр"
 #. module: im_livechat
 #: selection:im_livechat.channel.rule,action:0
 msgid "Display the button"
-msgstr "Товчлуурыг харуулах"
+msgstr ""
 
 #. module: im_livechat
 #: model:ir.model.fields,help:im_livechat.field_im_livechat_report_channel_duration
 #: model:ir.model.fields,help:im_livechat.field_im_livechat_report_operator_duration
 msgid "Duration of the conversation (in seconds)"
-msgstr "Хөөрөлдөөний үргэлжлэх хугацаа (секундээр)"
+msgstr ""
 
 #. module: im_livechat
 #: model:ir.actions.act_window,help:im_livechat.im_livechat_channel_action
@@ -322,15 +311,13 @@ msgid ""
 "Each channel has it's own URL that you can send by email to\n"
 "                your customers in order to start chatting with you."
 msgstr ""
-"Суваг бүрт өөрийн гэсэн URL байх бөгөөд хөөрөлдөөнийг \n"
-"эхлүүлэхийн тулд захиалагч руу имэйлдэх боломжтой."
 
 #. module: im_livechat
 #. openerp-web
 #: code:addons/im_livechat/static/src/xml/im_livechat.xml:19
 #, python-format
 msgid "Explain your note"
-msgstr "Тэмдэглэлийг тайлбарлах"
+msgstr ""
 
 #. module: im_livechat
 #: model:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_form
@@ -339,9 +326,6 @@ msgid ""
 " Then go to Settings &gt; Website Settings and select the Website Live Chat "
 "Channel you want to add on your website."
 msgstr ""
-"Odoo CMS - ээр хийсэн вэбсайт бол website_livechat модулийг суулгана уу. "
-"Дараа нь Тохиргоо &gt; Вэбсайт Тохиргоо руу орж вэбсайт дээр нэмэх хүсэлтэй "
-"байгаа Вэбсайт Шууд Чат Сувгийг сонгоно уу."
 
 #. module: im_livechat
 #: model:ir.model.fields,help:im_livechat.field_im_livechat_channel_rule_sequence
@@ -349,8 +333,6 @@ msgid ""
 "Given the order to find a matching rule. If 2 rules are matching for the "
 "given url/country, the one with the lowest sequence will be chosen."
 msgstr ""
-"Тохирох дүрмийг олох захиалга өгөгдсөн. Хэрэв өгөгдсөн холбоос/улстай "
-"тохирох 2 дүрэм байгаа бол хамгийн бага дараалалтайг нь сонгоно."
 
 #. module: im_livechat
 #. openerp-web
@@ -369,12 +351,12 @@ msgstr "Бүлэглэх..."
 #. module: im_livechat
 #: model:ir.ui.view,arch_db:im_livechat.mail_channel_view_tree
 msgid "Has a Rating"
-msgstr "Үнэлгээтэй"
+msgstr ""
 
 #. module: im_livechat
 #: selection:im_livechat.channel.rule,action:0
 msgid "Hide the button"
-msgstr "Товчлуурыг нуух"
+msgstr ""
 
 #. module: im_livechat
 #: model:ir.actions.act_window,name:im_livechat.mail_channel_action
@@ -386,26 +368,26 @@ msgstr "Түүх"
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_report_channel_start_date_hour
 msgid "Hour of start Date of session"
-msgstr "Сэшний эхлэх Огнооны цаг"
+msgstr ""
 
 #. module: im_livechat
 #. openerp-web
 #: code:addons/im_livechat/static/src/js/im_livechat.js:30
 #, python-format
 msgid "How may I help you?"
-msgstr "Би танд хэрхэн туслах вэ?"
+msgstr ""
 
 #. module: im_livechat
 #: model:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_form
 msgid "How to use the Website Live Chat widget?"
-msgstr "Вэбсайт Шууд Чат виджетыг хэрхэн ашиглах вэ?"
+msgstr ""
 
 #. module: im_livechat
 #. openerp-web
 #: code:addons/im_livechat/static/src/xml/im_livechat.xml:15
 #, python-format
 msgid "I don't want to rate this conversation"
-msgstr "Би энэ хөөрөлдөөнд үнэлгээ өгмөөргүй байна"
+msgstr ""
 
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_channel_id
@@ -428,13 +410,13 @@ msgstr "Холбогдох"
 #. module: im_livechat
 #: model:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_form
 msgid "Join Channel"
-msgstr "Сувагт нэгдэх"
+msgstr ""
 
 #. module: im_livechat
 #: model:ir.ui.view,arch_db:im_livechat.im_livechat_report_channel_view_search
 #: model:ir.ui.view,arch_db:im_livechat.im_livechat_report_operator_view_search
 msgid "Last 24h"
-msgstr "Сүүлийн 24ц"
+msgstr ""
 
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_channel___last_update
@@ -475,7 +457,7 @@ msgstr "Амралт, чөлөө"
 #. module: im_livechat
 #: model:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_form
 msgid "Leave Channel"
-msgstr "Сувгаас гарах"
+msgstr ""
 
 #. module: im_livechat
 #: model:ir.ui.menu,name:im_livechat.menu_livechat_root
@@ -485,19 +467,19 @@ msgstr "Амьд Хөөрөлдөөн"
 #. module: im_livechat
 #: model:ir.module.category,name:im_livechat.module_category_im_livechat
 msgid "Live Support"
-msgstr "Шууд Дэмжлэг"
+msgstr ""
 
 #. module: im_livechat
 #. openerp-web
 #: code:addons/im_livechat/static/src/xml/im_livechat_backend.xml:9
 #, python-format
 msgid "Livechat"
-msgstr "Шууд чат"
+msgstr ""
 
 #. module: im_livechat
 #: model:ir.model,name:im_livechat.model_im_livechat_channel
 msgid "Livechat Channel"
-msgstr "Шууд чат Суваг"
+msgstr ""
 
 #. module: im_livechat
 #: model:ir.actions.act_window,help:im_livechat.im_livechat_report_channel_action
@@ -507,21 +489,18 @@ msgid ""
 "your company livechat session performance. Extract information about the "
 "missed sessions, the audiance, the duration of a session, etc."
 msgstr ""
-"Шууд чат Дэмжлэгийн Сувгийн Статистик нь компаний шууд чат сэшн гүйцэтгэлийг"
-" хялбархан шалгаж, шинжлэх боломжийг олгоно. Аваагүй сэшн, үзэгч, сэшний "
-"хугацаа зэрэг мэдээллийг гаргаж авах боломжтой."
 
 #. module: im_livechat
 #: model:ir.model,name:im_livechat.model_im_livechat_report_channel
 #: model:ir.model,name:im_livechat.model_im_livechat_report_operator
 msgid "Livechat Support Report"
-msgstr "Шууд чат Дэмжлэгийн Тайлан"
+msgstr ""
 
 #. module: im_livechat
 #: model:ir.actions.act_window,name:im_livechat.im_livechat_report_channel_action
 #: model:ir.actions.act_window,name:im_livechat.im_livechat_report_operator_action
 msgid "Livechat Support Report Channel"
-msgstr "Шууд чат Дэмжлэгийн Тайлан Суваг"
+msgstr ""
 
 #. module: im_livechat
 #: model:ir.ui.view,arch_db:im_livechat.im_livechat_report_channel_view_graph
@@ -529,7 +508,7 @@ msgstr "Шууд чат Дэмжлэгийн Тайлан Суваг"
 #: model:ir.ui.view,arch_db:im_livechat.im_livechat_report_operator_view_graph
 #: model:ir.ui.view,arch_db:im_livechat.im_livechat_report_operator_view_pivot
 msgid "Livechat Support Statistics"
-msgstr "Шууд чат Дэмжлэгийн Статистик"
+msgstr ""
 
 #. module: im_livechat
 #: model:res.groups,name:im_livechat.im_livechat_group_manager
@@ -539,7 +518,7 @@ msgstr "Менежер"
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_channel_rule_sequence
 msgid "Matching order"
-msgstr "Тохирох дараалал"
+msgstr ""
 
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_channel_image_medium
@@ -560,7 +539,7 @@ msgstr ""
 #. module: im_livechat
 #: model:ir.ui.view,arch_db:im_livechat.im_livechat_report_channel_view_search
 msgid "Missed sessions"
-msgstr "Аваагүй сэшнүүд"
+msgstr ""
 
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_channel_name
@@ -574,24 +553,22 @@ msgstr "Нэр"
 msgid ""
 "None of our collaborators seems to be available, please try again later."
 msgstr ""
-"Манай хамтран ажиллагсдаас нэг нь ч боломжгүй байх шиг байна, дараа дахин "
-"оролдоно уу."
 
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_channel_nbr_channel
 #: model:ir.model.fields,help:im_livechat.field_im_livechat_report_operator_nbr_channel
 msgid "Number of conversation"
-msgstr "Хөөрөлдөөний тоо"
+msgstr ""
 
 #. module: im_livechat
 #: model:ir.model.fields,help:im_livechat.field_im_livechat_report_channel_nbr_speaker
 msgid "Number of different speakers"
-msgstr "Ялгаатай харилцагчдын тоо"
+msgstr ""
 
 #. module: im_livechat
 #: model:ir.model.fields,help:im_livechat.field_im_livechat_report_channel_nbr_message
 msgid "Number of message in the conversation"
-msgstr "Хөөрөлдөөн дэхь зурвасын тоо"
+msgstr ""
 
 #. module: im_livechat
 #. openerp-web
@@ -611,13 +588,13 @@ msgstr "Оператор"
 #. module: im_livechat
 #: model:ir.ui.menu,name:im_livechat.menu_reporting_livechat_operator
 msgid "Operator Analysis"
-msgstr "Операторын Шинжилгээ"
+msgstr ""
 
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_channel_user_ids
 #: model:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_form
 msgid "Operators"
-msgstr "Операторууд"
+msgstr ""
 
 #. module: im_livechat
 #: model:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_kanban
@@ -626,9 +603,6 @@ msgid ""
 "                                            <br/>\n"
 "                                            <i class=\"fa fa-comments\"/>"
 msgstr ""
-"Операторууд\n"
-"                                            <br/>\n"
-"                                            <i class=\"fa fa-comments\"/>"
 
 #. module: im_livechat
 #: model:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_form
@@ -636,8 +610,6 @@ msgid ""
 "Operators that do not show any activity In Odoo for more than 30 minutes "
 "will be considered as disconnected."
 msgstr ""
-"Odoo дотор 30 минутаас илүү хугацаанд ямар ч үйлдэл гаргахгүй байгаа "
-"операторуудыг салгагдсан гэж үзнэ."
 
 #. module: im_livechat
 #: model:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_form
@@ -647,7 +619,7 @@ msgstr "Сонголт"
 #. module: im_livechat
 #: model:ir.model.fields,help:im_livechat.field_im_livechat_channel_rating_percentage_satisfaction
 msgid "Percentage of happy ratings over the past 7 days"
-msgstr "Өнгөрөгч 7 хоногийн баяртай үнэлгээний хувь"
+msgstr ""
 
 #. module: im_livechat
 #: model:ir.model,name:im_livechat.model_rating_rating
@@ -659,13 +631,13 @@ msgstr "Үнэлгээ"
 #: code:addons/im_livechat/static/src/js/im_livechat.js:309
 #, python-format
 msgid "Rating: :rating_%d"
-msgstr "Үнэлгээ: :rating_%d"
+msgstr ""
 
 #. module: im_livechat
 #: model:ir.model.fields,help:im_livechat.field_im_livechat_channel_rule_regex_url
 msgid ""
 "Regular expression specifying the web pages this rule will be applied on."
-msgstr "Энэ дүрмийг ашиглах вэб хуудсуудыг тодорхойлох энгийн илэрхийлэл."
+msgstr ""
 
 #. module: im_livechat
 #: model:ir.ui.menu,name:im_livechat.menu_reporting_livechat
@@ -681,34 +653,34 @@ msgstr "Дүрэм"
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_channel_script_external
 msgid "Script (external)"
-msgstr "Script (гадаад)"
+msgstr ""
 
 #. module: im_livechat
 #: model:ir.ui.view,arch_db:im_livechat.mail_channel_view_search
 msgid "Search history"
-msgstr "Хайлтын түүх"
+msgstr ""
 
 #. module: im_livechat
 #: model:ir.ui.view,arch_db:im_livechat.im_livechat_report_channel_view_search
 #: model:ir.ui.view,arch_db:im_livechat.im_livechat_report_operator_view_search
 msgid "Search report"
-msgstr "Хайлтын тайлан"
+msgstr ""
 
 #. module: im_livechat
 #: model:ir.ui.view,arch_db:im_livechat.mail_channel_view_form
 #: model:ir.ui.view,arch_db:im_livechat.mail_channel_view_tree
 msgid "Session Date"
-msgstr "Сэшний Огноо"
+msgstr ""
 
 #. module: im_livechat
 #: model:ir.ui.view,arch_db:im_livechat.mail_channel_view_form
 msgid "Session Form"
-msgstr "Сэшний Форм"
+msgstr ""
 
 #. module: im_livechat
 #: model:ir.ui.menu,name:im_livechat.menu_reporting_livechat_channel
 msgid "Session Statistics"
-msgstr "Сэшний Статистик"
+msgstr ""
 
 #. module: im_livechat
 #: model:ir.actions.act_window,name:im_livechat.mail_channel_action_from_livechat_channel
@@ -721,7 +693,7 @@ msgstr "Сэшнүүд"
 #. module: im_livechat
 #: model:ir.ui.menu,name:im_livechat.session_history
 msgid "Sessions History"
-msgstr "Сэшний Түүх"
+msgstr ""
 
 #. module: im_livechat
 #: model:ir.model.fields,help:im_livechat.field_im_livechat_channel_image_small
@@ -737,28 +709,28 @@ msgstr ""
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_report_channel_start_date
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_report_operator_start_date
 msgid "Start Date of session"
-msgstr "Сэшний эхлэх Огноо"
+msgstr ""
 
 #. module: im_livechat
 #: model:ir.model.fields,help:im_livechat.field_im_livechat_report_channel_start_date
 #: model:ir.model.fields,help:im_livechat.field_im_livechat_report_operator_start_date
 msgid "Start date of the conversation"
-msgstr "Хөөрөлдөөний эхлэх огноо"
+msgstr ""
 
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_channel_button_text
 msgid "Text of the Button"
-msgstr "Товчлуурын текст"
+msgstr ""
 
 #. module: im_livechat
 #: model:ir.model.fields,help:im_livechat.field_im_livechat_channel_rule_channel_id
 msgid "The channel of the rule"
-msgstr "Дүрмийн суваг"
+msgstr ""
 
 #. module: im_livechat
 #: model:ir.model.fields,help:im_livechat.field_im_livechat_channel_name
 msgid "The name of the channel"
-msgstr "Сувгийн нэр"
+msgstr ""
 
 #. module: im_livechat
 #: model:ir.model.fields,help:im_livechat.field_im_livechat_channel_rule_country_ids
@@ -769,20 +741,16 @@ msgid ""
 "located in these 2 countries. This feature requires GeoIP installed on your "
 "server."
 msgstr ""
-"Дүрмийг зөвхөн эдгээр улсуудад ашиглана. Жишээ нь: хэрэв та 'Белги', 'АНУ' -"
-" г сонгоод үйлдлийг 'Товчлуурыг нуух' дээр тохируулвал эдгээр 2 улсад "
-"байрласан зочдын URL дээр чатын товчлуурыг нуух болно. Энэ боломжийг "
-"ашиглахын тулд та сервер дээрээ GeoIP - г суулгасан байх хэрэгтэй."
 
 #. module: im_livechat
 #: model:res.groups,comment:im_livechat.im_livechat_group_manager
 msgid "The user will be able to delete support channels."
-msgstr "Хэрэглэгч нь дэмжлэгийн сувгуудыг устгах боломжтой болно."
+msgstr ""
 
 #. module: im_livechat
 #: model:res.groups,comment:im_livechat.im_livechat_group_user
 msgid "The user will be able to join support channels."
-msgstr "Хэрэглэгч нь дэмжлэгийн сувгуудад нэгдэх боломжтой болно."
+msgstr ""
 
 #. module: im_livechat
 #: model:ir.model.fields,help:im_livechat.field_im_livechat_channel_image
@@ -799,28 +767,26 @@ msgid ""
 "This is an automated 'welcome' message that your visitor will see when they "
 "initiate a new conversation."
 msgstr ""
-"Энэ бол зочид шинэ хөөрөлдөөн эхлүүлэх үед тэдэнд харагдах автомат 'угтах' "
-"зурвас юм."
 
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_channel_image_small
 msgid "Thumbnail"
-msgstr "Хураангуй"
+msgstr ""
 
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_report_operator_time_to_answer
 msgid "Time to answer"
-msgstr "Хариулах хугацаа"
+msgstr ""
 
 #. module: im_livechat
 #: model:ir.ui.view,arch_db:im_livechat.im_livechat_report_channel_view_search
 msgid "Treated sessions"
-msgstr "Шийдвэрлэсэн сэшнүүд"
+msgstr ""
 
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_channel_rule_regex_url
 msgid "URL Regex"
-msgstr "URL Regex"
+msgstr ""
 
 #. module: im_livechat
 #: model:ir.model.fields,help:im_livechat.field_im_livechat_channel_web_page
@@ -828,7 +794,6 @@ msgid ""
 "URL to a static page where you client can discuss with the operator of the "
 "channel."
 msgstr ""
-"Үйлчлүүлэгч сувгийн оператортой хэлэлцэх боломжтой статик хуудсын холбоос."
 
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_report_channel_uuid
@@ -851,17 +816,17 @@ msgstr "Зочин"
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_channel_web_page
 msgid "Web Page"
-msgstr "Вэб Хуудас"
+msgstr ""
 
 #. module: im_livechat
 #: model:ir.actions.act_window,name:im_livechat.im_livechat_channel_action
 msgid "Website Live Chat Channels"
-msgstr "Вэбсайт Шууд Чат Сувгууд"
+msgstr ""
 
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_channel_default_message
 msgid "Welcome Message"
-msgstr "Угтах Зурвас"
+msgstr ""
 
 #. module: im_livechat
 #: model:ir.actions.act_window,help:im_livechat.im_livechat_channel_action
@@ -870,9 +835,6 @@ msgid ""
 "                to integrate the website live chat widget, allowing your website\n"
 "                visitors to talk in real time with your operators."
 msgstr ""
-"Та вэбсайт шууд чат виджеттэй холбохыг хүсч буй вэбсайт \n"
-"бүрт суваг үүсгэх боломжтой. Энэ нь вэбсайт зочдыг \n"
-"операторуудтай бодит цагт харилцах боломжийг олгоно."
 
 #. module: im_livechat
 #: model:ir.actions.act_window,help:im_livechat.mail_channel_action
@@ -880,17 +842,16 @@ msgid ""
 "Your chatter history is empty. Create a channel and start chatting to fill "
 "up your history."
 msgstr ""
-"Таны чаттер түүх хоосон байна. Суваг үүсгэн чаатлаж түүхээ дүүргээрэй."
 
 #. module: im_livechat
 #: model:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_form
 msgid "e.g. Hello, how may I help you?"
-msgstr "ж.нь. Сайн байна уу, би танд хэрхэн туслах вэ?"
+msgstr ""
 
 #. module: im_livechat
 #: model:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_form
 msgid "e.g. YourWebsite.com"
-msgstr "ж.нь. ТаныВэбсайт.com"
+msgstr ""
 
 #. module: im_livechat
 #: model:ir.model,name:im_livechat.model_ir_autovacuum
@@ -901,9 +862,8 @@ msgstr "ir.autovacuum"
 #: model:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_form
 msgid "or copy this url and send it by email to your customers or suppliers:"
 msgstr ""
-"эсвэл энэ холбоосыг хуулаад захиалагч эсвэл нийлүүлэгчид рүү имэйлээр илгээ:"
 
 #. module: im_livechat
 #: model:ir.ui.view,arch_db:im_livechat.im_livechat_channel_rule_view_form
 msgid "seconds"
-msgstr "секунд"
+msgstr ""

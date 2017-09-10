@@ -18,14 +18,13 @@
 # Xavier Symons <xsy@openerp.com>, 2016
 # Florian Hatat <mininet@wanadoo.fr>, 2016
 # Olivier Dony <odo@odoo.com>, 2016
-# Eloïse Stilmant <est@odoo.com>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-23 13:28+0000\n"
 "PO-Revision-Date: 2017-06-23 13:28+0000\n"
-"Last-Translator: Eloïse Stilmant <est@odoo.com>, 2017\n"
+"Last-Translator: Olivier Dony <odo@odoo.com>, 2016\n"
 "Language-Team: French (https://www.transifex.com/odoo/teams/41243/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -97,15 +96,13 @@ msgid ""
 "(Un)archiving a blog automatically (un)archives its posts. Do you want to "
 "proceed?"
 msgstr ""
-"(Dés)archiver un blog (dés)archive automatiquement ses publications. Voulez-"
-"vous continuer?"
 
 #. module: website_blog
 #. openerp-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:53
 #, python-format
 msgid "<b>Click on Save</b> to record your changes."
-msgstr "<b>Cliquez sur Sauvegarder</b> pour enregistrer vos changements."
+msgstr ""
 
 #. module: website_blog
 #. openerp-web
@@ -113,8 +110,6 @@ msgstr "<b>Cliquez sur Sauvegarder</b> pour enregistrer vos changements."
 #, python-format
 msgid "<b>Publish your blog post</b> to make it visible to your visitors."
 msgstr ""
-"<b>Publier votre publication</b> pour la rendre visible auprès de vos "
-"visiteurs."
 
 #. module: website_blog
 #. openerp-web
@@ -124,8 +119,6 @@ msgid ""
 "<b>That's it, your blog post is published!</b> Discover more features "
 "through the <i>Customize</i> menu."
 msgstr ""
-"<b>Ca y est, c'est publié!</b> Découvrez plus de fonctionnalités à travers "
-"le menu <i>Personnaliser</i>."
 
 #. module: website_blog
 #. openerp-web
@@ -148,7 +141,7 @@ msgstr ""
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.blog_post_template_new_post
 msgid "A new post"
-msgstr "Un nouvel article"
+msgstr ""
 
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.opt_blog_rc_about_us
@@ -330,8 +323,6 @@ msgstr ""
 msgid ""
 "Click on \"New Page\" in the top-right corner to write your first blog post."
 msgstr ""
-"Cliquez sur \"Nouvelle Page\" dans le coin supérieur droit pour écrire votre"
-" première publication sur votre Blog! "
 
 #. module: website_blog
 #. openerp-web
@@ -339,8 +330,6 @@ msgstr ""
 #, python-format
 msgid "Click on <b>Save</b> to set the picture as cover."
 msgstr ""
-"Cliquez sur <b>Sauvegarder</b>pour définir la photo comme photo de "
-"couverture."
 
 #. module: website_blog
 #: model:ir.actions.act_window,help:website_blog.action_blog_post
@@ -409,12 +398,12 @@ msgstr ""
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.website_blog
 msgid "Filter Color"
-msgstr "Couleur du filtre"
+msgstr ""
 
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.website_blog
 msgid "Filter Intensity"
-msgstr "Intensité du filtre"
+msgstr ""
 
 #. module: website_blog
 #: model:blog.post,content:website_blog.blog_post_1
@@ -672,8 +661,6 @@ msgstr "Odoo, courriel"
 #, python-format
 msgid "Once you have reviewed the content on mobile, close the preview."
 msgstr ""
-"Une fois que vous avez passe en revue le contenu sur mobile, fermez la "
-"prévisualisation. "
 
 #. module: website_blog
 #: model:blog.blog,name:website_blog.blog_blog_1
@@ -931,8 +918,6 @@ msgstr "Article sans titre"
 #, python-format
 msgid "Use this icon to preview your blog post on <b>mobile devices</b>."
 msgstr ""
-"Utilisez cette icône pour prévisualiser vos publications sur <b>un appareil "
-"mobile</b>."
 
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.blog_tag_form

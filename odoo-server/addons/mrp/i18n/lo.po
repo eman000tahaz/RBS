@@ -2,15 +2,12 @@
 # This file contains the translation of the following modules:
 # * mrp
 # 
-# Translators:
-# ສີສຸວັນ ສັງບົວບຸລົມ <sisouvan@gmail.com>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-23 13:27+0000\n"
 "PO-Revision-Date: 2017-06-23 13:27+0000\n"
-"Last-Translator: ສີສຸວັນ ສັງບົວບຸລົມ <sisouvan@gmail.com>, 2017\n"
 "Language-Team: Lao (https://www.transifex.com/odoo/teams/41243/lo/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -256,7 +253,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:mrp.field_mrp_workcenter_active
 #: model:ir.ui.view,arch_db:mrp.mrp_message_view_search
 msgid "Active"
-msgstr "ໃຊ້ຢູ່"
+msgstr ""
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_workorder_active_move_lot_ids
@@ -271,7 +268,7 @@ msgstr ""
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.stock_production_type_kanban
 msgid "All"
-msgstr "ທັງໝົດ"
+msgstr ""
 
 #. module: mrp
 #: selection:mrp.bom,ready_to_produce:0
@@ -307,7 +304,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:mrp.view_mrp_bom_filter
 #: model:ir.ui.view,arch_db:mrp.view_mrp_workcenter_search
 msgid "Archived"
-msgstr "ສຳເນົາໄວ້ແລ້ວ"
+msgstr ""
 
 #. module: mrp
 #: model:product.product,name:mrp.product_assembly
@@ -530,7 +527,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:mrp.view_mrp_config
 #: model:ir.ui.view,arch_db:mrp.view_mrp_product_produce_wizard
 msgid "Cancel"
-msgstr "ຍົກເລີກ"
+msgstr ""
 
 #. module: mrp
 #: selection:mrp.production,state:0 selection:mrp.workorder,state:0
@@ -640,7 +637,7 @@ msgstr ""
 #. module: mrp
 #: model:ir.model,name:mrp.model_res_company
 msgid "Companies"
-msgstr "ບໍລິສັດ"
+msgstr ""
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_bom_company_id
@@ -651,7 +648,7 @@ msgstr "ບໍລິສັດ"
 #: model:ir.model.fields,field_description:mrp.field_mrp_workcenter_company_id
 #: model:ir.ui.view,arch_db:mrp.view_mrp_workcenter_search
 msgid "Company"
-msgstr "ບໍລິສັດ"
+msgstr ""
 
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.mrp_bom_component_tree_view
@@ -675,7 +672,7 @@ msgstr ""
 #. module: mrp
 #: model:ir.ui.menu,name:mrp.menu_mrp_configuration
 msgid "Configuration"
-msgstr "ການກຳນົດຄ່າ"
+msgstr ""
 
 #. module: mrp
 #: model:ir.actions.act_window,name:mrp.action_mrp_configuration
@@ -766,7 +763,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:mrp.field_mrp_workorder_create_uid
 #: model:ir.model.fields,field_description:mrp.field_stock_move_lots_create_uid
 msgid "Created by"
-msgstr "ສ້າງ ໂດຍ"
+msgstr ""
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_change_production_qty_create_date
@@ -785,7 +782,7 @@ msgstr "ສ້າງ ໂດຍ"
 #: model:ir.model.fields,field_description:mrp.field_mrp_workorder_create_date
 #: model:ir.model.fields,field_description:mrp.field_stock_move_lots_create_date
 msgid "Created on"
-msgstr "ສ້າງ ເມື່ອ"
+msgstr ""
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_workorder_final_lot_id
@@ -815,7 +812,7 @@ msgstr ""
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.oee_search_view
 msgid "Date"
-msgstr "ວັນທີ"
+msgstr ""
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production_date_planned_finished
@@ -851,7 +848,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:mrp.mrp_routing_workcenter_form_view
 #: model:ir.ui.view,arch_db:mrp.mrp_workcenter_view
 msgid "Description"
-msgstr "ຄຳອະທິບາຍ"
+msgstr ""
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_workcenter_note
@@ -873,7 +870,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:mrp.mrp_message_view_form_embedded_product
 #: model:ir.ui.view,arch_db:mrp.view_stock_move_lots
 msgid "Discard"
-msgstr "ປະລະ"
+msgstr ""
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_change_production_qty_display_name
@@ -894,7 +891,7 @@ msgstr "ປະລະ"
 #: model:ir.model.fields,field_description:mrp.field_report_mrp_report_mrpbomstructure_display_name
 #: model:ir.model.fields,field_description:mrp.field_stock_move_lots_display_name
 msgid "Display Name"
-msgstr "ຊື່ທີ່ສະແດງອອກ"
+msgstr ""
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_stock_move_is_done
@@ -923,7 +920,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:mrp.field_mrp_workcenter_productivity_duration
 #: model:ir.ui.view,arch_db:mrp.oee_tree_view
 msgid "Duration"
-msgstr "ກຳນົດເວລາ"
+msgstr ""
 
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.oee_tree_view
@@ -980,7 +977,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:mrp.field_mrp_production_date_finished
 #: model:ir.model.fields,field_description:mrp.field_mrp_workcenter_productivity_date_end
 msgid "End Date"
-msgstr "ວັນທີສິ້ນສຸດ"
+msgstr ""
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_workorder_duration_expected
@@ -1011,7 +1008,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:mrp.view_mrp_production_workcenter_form_view_filter
 #: selection:mrp.workorder,state:0
 msgid "Finished"
-msgstr "ສຳເລັດແລ້ວ"
+msgstr ""
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_stock_move_lots_lot_produced_id
@@ -1068,7 +1065,7 @@ msgstr ""
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.view_mrp_production_workcenter_form_view_filter
 msgid "Group By"
-msgstr "ຈັດກຸ່ມ ໂດຍ"
+msgstr ""
 
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.mrp_routing_search_view
@@ -1104,7 +1101,7 @@ msgstr ""
 #. module: mrp
 #: selection:ir.attachment,priority:0
 msgid "High"
-msgstr "ສູງ"
+msgstr ""
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_change_production_qty_id
@@ -1125,7 +1122,7 @@ msgstr "ສູງ"
 #: model:ir.model.fields,field_description:mrp.field_report_mrp_report_mrpbomstructure_id
 #: model:ir.model.fields,field_description:mrp.field_stock_move_lots_id
 msgid "ID"
-msgstr "ເລກລຳດັບ"
+msgstr ""
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_bom_product_id
@@ -1286,7 +1283,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:mrp.field_report_mrp_report_mrpbomstructure___last_update
 #: model:ir.model.fields,field_description:mrp.field_stock_move_lots___last_update
 msgid "Last Modified on"
-msgstr "ແກ້ໄຂລ້າສຸດ ເມື່ອ"
+msgstr ""
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_change_production_qty_write_uid
@@ -1305,7 +1302,7 @@ msgstr "ແກ້ໄຂລ້າສຸດ ເມື່ອ"
 #: model:ir.model.fields,field_description:mrp.field_mrp_workorder_write_uid
 #: model:ir.model.fields,field_description:mrp.field_stock_move_lots_write_uid
 msgid "Last Updated by"
-msgstr "ປັບປຸງລ້າສຸດ ໂດຍ"
+msgstr ""
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_change_production_qty_write_date
@@ -1324,7 +1321,7 @@ msgstr "ປັບປຸງລ້າສຸດ ໂດຍ"
 #: model:ir.model.fields,field_description:mrp.field_mrp_workorder_write_date
 #: model:ir.model.fields,field_description:mrp.field_stock_move_lots_write_date
 msgid "Last Updated on"
-msgstr "ປັບປຸງລ້າສຸດ ເມື່ອ"
+msgstr ""
 
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.mrp_workcenter_kanban
@@ -1386,7 +1383,7 @@ msgstr ""
 #. module: mrp
 #: selection:ir.attachment,priority:0
 msgid "Low"
-msgstr "ຕໍ່າ"
+msgstr ""
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_config_settings_module_mrp_maintenance
@@ -1620,7 +1617,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:mrp.field_mrp_message_name
 #: model:ir.model.fields,field_description:mrp.field_mrp_workcenter_name
 msgid "Name"
-msgstr "ຊື່"
+msgstr ""
 
 #. module: mrp
 #: code:addons/mrp/models/mrp_production.py:46
@@ -1632,7 +1629,7 @@ msgstr "ຊື່"
 #: code:addons/mrp/models/mrp_unbuild.py:81
 #, python-format
 msgid "New"
-msgstr "ສ້າງໃໝ່"
+msgstr ""
 
 #. module: mrp
 #: model:product.product,description:mrp.product_product_laptop_keypad
@@ -1727,7 +1724,7 @@ msgstr ""
 #: selection:mrp.production,priority:0
 #: selection:mrp.workcenter,working_state:0
 msgid "Normal"
-msgstr "ທຳມະດາ"
+msgstr ""
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_stock_scrap_workorder_id
@@ -1742,7 +1739,7 @@ msgstr ""
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.mrp_routing_form_view
 msgid "Notes"
-msgstr "ໝາຍເຫດ"
+msgstr ""
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_workcenter_capacity
@@ -1946,7 +1943,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:mrp.field_ir_attachment_priority
 #: model:ir.model.fields,field_description:mrp.field_mrp_production_priority
 msgid "Priority"
-msgstr "ບຸລິມະສິດ"
+msgstr ""
 
 #. module: mrp
 #: model:ir.model,name:mrp.model_procurement_order
@@ -2001,7 +1998,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:mrp.view_mrp_bom_line_filter
 #: model:ir.ui.view,arch_db:mrp.view_mrp_production_filter
 msgid "Product"
-msgstr "ຜະລິດຕະພັນ"
+msgstr ""
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_bom_line_product_qty
@@ -2013,7 +2010,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:mrp.field_mrp_message_product_tmpl_id
 #: model:ir.model.fields,field_description:mrp.field_mrp_production_product_tmpl_id
 msgid "Product Template"
-msgstr "ຮ່າງແບບຜະລິດຕະພັນ"
+msgstr ""
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_bom_line_product_uom_id
@@ -2130,7 +2127,7 @@ msgstr ""
 #: model:ir.actions.act_window,name:mrp.product_template_action
 #: model:ir.ui.menu,name:mrp.menu_mrp_product_form
 msgid "Products"
-msgstr "ຜະລິດຕະພັນ"
+msgstr ""
 
 #. module: mrp
 #: selection:mrp.config.settings,group_product_variant:0
@@ -2309,7 +2306,7 @@ msgstr ""
 #. module: mrp
 #: model:ir.ui.menu,name:mrp.menu_mrp_reporting
 msgid "Reporting"
-msgstr "ການລາຍງານ"
+msgstr ""
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_product_produce_serial
@@ -2339,7 +2336,7 @@ msgstr ""
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production_user_id
 msgid "Responsible"
-msgstr "ຮັບຜິດຊອບ"
+msgstr ""
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_bom_line_routing_id
@@ -2511,7 +2508,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:mrp.field_mrp_workcenter_productivity_loss_sequence
 #: model:ir.model.fields,field_description:mrp.field_mrp_workcenter_sequence
 msgid "Sequence"
-msgstr "ລຳດັບ"
+msgstr ""
 
 #. module: mrp
 #: selection:mrp.routing.workcenter,time_mode:0
@@ -2551,7 +2548,7 @@ msgstr ""
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production_origin
 msgid "Source"
-msgstr "ແຫຼ່ງ"
+msgstr ""
 
 #. module: mrp
 #: model:product.product,description:mrp.product_product_computer_desk_bolt
@@ -2563,7 +2560,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:mrp.field_mrp_production_date_start
 #: model:ir.model.fields,field_description:mrp.field_mrp_workcenter_productivity_date_start
 msgid "Start Date"
-msgstr "ວັນທີເລີ່ມ"
+msgstr ""
 
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.mrp_production_workcenter_form_view_inherit
@@ -2574,7 +2571,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:mrp.field_mrp_production_state
 #: model:ir.model.fields,field_description:mrp.field_mrp_workorder_production_state
 msgid "State"
-msgstr "ແຂວງ"
+msgstr ""
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_unbuild_state
@@ -2898,7 +2895,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:mrp.field_mrp_unbuild_has_tracking
 #: model:ir.model.fields,field_description:mrp.field_mrp_workorder_product_tracking
 msgid "Tracking"
-msgstr "ການຕິດຕາມ"
+msgstr ""
 
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.mrp_production_workcenter_form_view_inherit
@@ -3006,7 +3003,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:mrp.oee_search_view
 #: model:res.groups,name:mrp.group_mrp_user
 msgid "User"
-msgstr "ຜູ້ໃຊ້"
+msgstr ""
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_message_valid_until
@@ -3027,7 +3024,7 @@ msgstr ""
 #. module: mrp
 #: selection:ir.attachment,priority:0
 msgid "Very High"
-msgstr "ສູງຫຼາຍ"
+msgstr ""
 
 #. module: mrp
 #: selection:mrp.production,priority:0
@@ -3293,7 +3290,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:mrp.field_mrp_workcenter_calendar_id
 #: model:ir.ui.menu,name:mrp.menu_view_resource_calendar_search_mrp
 msgid "Working Time"
-msgstr "ເວລາເຮັດວຽກ"
+msgstr ""
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_workorder_production_messages

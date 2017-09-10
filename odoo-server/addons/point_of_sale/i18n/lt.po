@@ -10,15 +10,14 @@
 # Šarūnas Ažna <sarunas.azna@gmail.com>, 2016
 # Arminas Grigonis <arminas@versada.lt>, 2016
 # Valdemar St <vaalds@gmail.com>, 2016
-# digitouch UAB <digitouchagencyeur@gmail.com>, 2017
-# Aleksandr Jadov <a.jadov@tata.lt>, 2017
+# Aiste Sutkute <digitouchagencyeur@gmail.com>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-23 13:27+0000\n"
 "PO-Revision-Date: 2017-06-23 13:27+0000\n"
-"Last-Translator: Aleksandr Jadov <a.jadov@tata.lt>, 2017\n"
+"Last-Translator: Aiste Sutkute <digitouchagencyeur@gmail.com>, 2017\n"
 "Language-Team: Lithuanian (https://www.transifex.com/odoo/teams/41243/lt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -161,7 +160,7 @@ msgstr "<strong>Suma</strong>"
 #. module: point_of_sale
 #: model:ir.ui.view,arch_db:point_of_sale.report_statement
 msgid "<strong>User</strong>:<br/>"
-msgstr "<strong>Vartotojas</strong>:<br/>"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.ui.view,arch_db:point_of_sale.view_pos_session_form
@@ -472,7 +471,7 @@ msgstr "Gėrimai"
 #: model:product.product,name:point_of_sale.raisins_noir
 #: model:product.template,name:point_of_sale.raisins_noir_product_template
 msgid "Black Grapes"
-msgstr "Juodosios vynuogės"
+msgstr ""
 
 #. module: point_of_sale
 #: model:product.product,name:point_of_sale.boni_orange
@@ -533,7 +532,7 @@ msgstr "Negalima duoti grąžos, jei apmokėjimos būdas ne grynieji pinigai"
 #: model:product.product,name:point_of_sale.carotte
 #: model:product.template,name:point_of_sale.carotte_product_template
 msgid "Carrots"
-msgstr "Morkos"
+msgstr ""
 
 #. module: point_of_sale
 #: code:addons/point_of_sale/models/pos_session.py:285
@@ -891,7 +890,7 @@ msgstr "Valdymo skydas"
 #: model:product.product,name:point_of_sale.partner_product_7
 #: model:product.template,name:point_of_sale.partner_product_7_product_template
 msgid "Datalp.com"
-msgstr "Datalp.com"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_report_pos_order_date
@@ -1021,7 +1020,7 @@ msgstr "Nuolaidos pastaba"
 #: code:addons/point_of_sale/static/src/xml/pos.xml:1452
 #, python-format
 msgid "Discount:"
-msgstr "Nuolaida:"
+msgstr ""
 
 #. module: point_of_sale
 #: code:addons/point_of_sale/models/barcode_rule.py:14
@@ -1109,13 +1108,13 @@ msgstr ""
 #: model:product.product,name:point_of_sale.partner_product_3
 #: model:product.template,name:point_of_sale.partner_product_3_product_template
 msgid "Eezee-It"
-msgstr "Eezee-It"
+msgstr ""
 
 #. module: point_of_sale
 #: model:product.product,name:point_of_sale.partner_product_4
 #: model:product.template,name:point_of_sale.partner_product_4_product_template
 msgid "Ekomurz.nl"
-msgstr "Ekomurz.nl"
+msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
@@ -1484,7 +1483,7 @@ msgstr "Veikia kaip numatyta sąskaita debeto sumai"
 #: model:product.product,name:point_of_sale.pomme_jonagold
 #: model:product.template,name:point_of_sale.pomme_jonagold_product_template
 msgid "Jonagold apples"
-msgstr "Jonagold obuoliai"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.model,name:point_of_sale.model_account_journal
@@ -1852,7 +1851,7 @@ msgstr ""
 #: model:product.product,name:point_of_sale.Onions
 #: model:product.template,name:point_of_sale.Onions_product_template
 msgid "Onions"
-msgstr "Svogūnai"
+msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
@@ -2086,7 +2085,7 @@ msgstr ""
 #: code:addons/point_of_sale/static/src/js/gui.js:263
 #, python-format
 msgid "Password ?"
-msgstr "Slaptažodis ?"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.ui.view,arch_db:point_of_sale.view_pos_payment
@@ -2157,7 +2156,7 @@ msgstr ""
 #: model:product.product,name:point_of_sale.peche
 #: model:product.template,name:point_of_sale.peche_product_template
 msgid "Peaches"
-msgstr "Persikai"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.filters,name:point_of_sale.filter_orders_per_session
@@ -2380,7 +2379,7 @@ msgstr "Paskelbtas"
 #: model:product.product,name:point_of_sale.pomme_de_terre
 #: model:product.template,name:point_of_sale.pomme_de_terre_product_template
 msgid "Potatoes"
-msgstr "Bulvės"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config_iface_precompute_cash
@@ -2770,7 +2769,7 @@ msgstr ""
 #: code:addons/point_of_sale/static/src/js/screens.js:1945
 #, python-format
 msgid "Server Error"
-msgstr "Serverio klaida"
+msgstr ""
 
 #. module: point_of_sale
 #: code:addons/point_of_sale/models/pos_config.py:270
@@ -2956,14 +2955,14 @@ msgstr "Tarpinė suma:"
 #: code:addons/point_of_sale/static/src/xml/pos.xml:1173
 #, python-format
 msgid "Successfully  imported"
-msgstr "Sekmingai importuota"
+msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:1172
 #, python-format
 msgid "Successfully imported"
-msgstr "Sekmingai importuota"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_session_cash_register_balance_end
@@ -3567,7 +3566,7 @@ msgstr "Patvirtinti uždarymą ir paskelbti įrašus"
 #: model:product.product,name:point_of_sale.partner_product_6
 #: model:product.template,name:point_of_sale.partner_product_6_product_template
 msgid "Vauxoo.com"
-msgstr "Vauxoo.com"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config_iface_vkeyboard
@@ -3789,7 +3788,7 @@ msgstr "Pašto kodas"
 #: model:product.product,name:point_of_sale.courgette
 #: model:product.template,name:point_of_sale.courgette_product_template
 msgid "Zucchini"
-msgstr "Zucchini"
+msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
@@ -3814,7 +3813,7 @@ msgstr ""
 #: model:product.product,name:point_of_sale.partner_product_8
 #: model:product.template,name:point_of_sale.partner_product_8_product_template
 msgid "camptocamp.com"
-msgstr "camptocamp.com"
+msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
