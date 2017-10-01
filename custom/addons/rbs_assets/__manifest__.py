@@ -8,7 +8,6 @@
     'depends': [
         'asset',
         'mro',
-        'maintenance',
     ],
     'data': [
         'views/asset_views.xml',
